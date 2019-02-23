@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="-62.23" y1="24.13" x2="-62.23" y2="67.31" x3="-5.08" y3="45.72" textsize="1.778" layer="1" unit="mil"/>
+</plain>
+<libraries>
+<library name="0885001.DR">
+<description>&lt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC10948X488N">
+<description>&lt;b&gt;0885001.DR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<smd name="2" x="4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.15" y1="2.705" x2="6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="2.705" x2="6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="-2.705" x2="-6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="-6.15" y1="-2.705" x2="-6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="-5.43" y1="2.39" x2="5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="2.39" x2="5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="-2.39" x2="-5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="-5.43" y1="-2.39" x2="-5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="0" y1="2.29" x2="0" y2="-2.29" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5566-20" urn="urn:adsk.eagle:footprint:8078198/1" library_version="3">
+<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 20 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281203_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-21.5" y1="4.5" x2="21.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="21.5" y1="4.5" x2="21.5" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="21.5" y1="-3.3" x2="21.5" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="21.5" y1="-4.9" x2="-21.5" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-21.5" y1="-4.9" x2="-21.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-25" y1="3.2" x2="-22.2" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="-25" y1="1.4" x2="-22.2" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="-25" y1="3.2" x2="-25" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-22.3" y1="3.3" x2="-21.6" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-22.3" y1="1.3" x2="-21.6" y2="1.3" width="0.254" layer="21"/>
+<wire x1="22.2" y1="1.4" x2="25" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="22.2" y1="3.2" x2="25" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="25" y1="1.4" x2="25" y2="3.2" width="0.254" layer="21"/>
+<wire x1="22.3" y1="1.3" x2="21.6" y2="1.3" width="0.254" layer="21"/>
+<wire x1="22.3" y1="3.3" x2="21.6" y2="3.3" width="0.254" layer="21"/>
+<wire x1="21.5" y1="-2.2" x2="21.5" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<pad name="1" x="18.9" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="14.7" y="-2.75" drill="1.4" shape="square"/>
+<pad name="3" x="10.5" y="-2.75" drill="1.4" shape="square"/>
+<pad name="4" x="6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="5" x="2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="6" x="-2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="7" x="-6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="8" x="-10.5" y="-2.75" drill="1.4" shape="square"/>
+<pad name="9" x="-14.7" y="-2.75" drill="1.4" shape="square"/>
+<pad name="10" x="-18.9" y="-2.75" drill="1.4" shape="square"/>
+<pad name="11" x="18.9" y="2.75" drill="1.4" shape="square"/>
+<pad name="12" x="14.7" y="2.75" drill="1.4" shape="square"/>
+<pad name="13" x="10.5" y="2.75" drill="1.4" shape="square"/>
+<pad name="14" x="6.3" y="2.75" drill="1.4" shape="square"/>
+<pad name="15" x="2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="16" x="-2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="17" x="-6.3" y="2.75" drill="1.4" shape="square"/>
+<pad name="18" x="-10.5" y="2.75" drill="1.4" shape="square"/>
+<pad name="19" x="-14.7" y="2.75" drill="1.4" shape="square"/>
+<pad name="20" x="-18.9" y="2.75" drill="1.4" shape="square"/>
+<text x="16.51" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-20.32" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="23.6" y="2.29" drill="3"/>
+<hole x="-23.6" y="2.29" drill="3"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="5566-20" urn="urn:adsk.eagle:package:8078572/1" type="box" library_version="3">
+<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 20 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281203_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="5566-20"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="con-tyco" urn="urn:adsk.eagle:library:192">
+<description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="D1200D-20" urn="urn:adsk.eagle:footprint:10615/1" library_version="1">
+<description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<pad name="B1" x="11.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A1" x="11.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B2" x="8.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A2" x="8.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B3" x="6.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A3" x="6.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B4" x="3.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A4" x="3.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B5" x="1.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A5" x="1.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B6" x="-1.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A6" x="-1.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B7" x="-3.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A7" x="-3.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B8" x="-6.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A8" x="-6.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B9" x="-8.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A9" x="-8.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="B10" x="-11.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="A10" x="-11.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
+<pad name="M1" x="11.25" y="-4.5" drill="1.5" diameter="2"/>
+<pad name="M2" x="-11.25" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-13.7" y1="5.85" x2="13.7" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="13.7" y1="5.85" x2="13.7" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="13.7" y1="-5.25" x2="-13.7" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-13.7" y1="-5.25" x2="-13.7" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="13.7" y1="-5.25" x2="12.5" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="10" y1="-5.25" x2="-10" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-12.5" y1="-5.25" x2="-13.7" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-12.7" y1="4.85" x2="-10" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-10" y1="4.85" x2="-10" y2="5" width="0.2032" layer="21"/>
+<wire x1="-10" y1="5" x2="10" y2="5" width="0.2032" layer="21"/>
+<wire x1="10" y1="5" x2="10" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="10" y1="4.85" x2="12.7" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-12.7" y1="-4.25" x2="-12.7" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-12.5" y1="-4.25" x2="-12.7" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="12.7" y1="-4.25" x2="12.5" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="12.7" y1="4.85" x2="12.7" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="10" y1="-4.25" x2="9" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="9" y1="-4.25" x2="9" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="9" y1="-3.5" x2="8" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="8" y1="-3.5" x2="8" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="8" y1="-4.25" x2="7" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="7" y1="-4.25" x2="7" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="7" y1="-3.5" x2="6" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="6" y1="-3.5" x2="6" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="6" y1="-4.25" x2="6" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="6" y1="-4.5" x2="-6" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-6" y1="-4.5" x2="-6" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-6" y1="-4.25" x2="-6" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-6" y1="-3.5" x2="-7" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-3.5" x2="-7" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-4.25" x2="-8" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-8" y1="-4.25" x2="-8" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-8" y1="-3.5" x2="-9" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-9" y1="-3.5" x2="-9" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-9" y1="-4.25" x2="-10" y2="-4.25" width="0.2032" layer="21"/>
+<text x="-13.8016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
+<text x="-13.8016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="D1200D-20" urn="urn:adsk.eagle:package:10622/1" type="box" library_version="1">
+<description>DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="D1200D-20"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="178328-2">
+<description>&lt;TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="178328-2">
+<description>&lt;b&gt;178328-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="A1" x="17.145" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B1" x="17.145" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A2" x="13.335" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B2" x="13.335" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A3" x="9.525" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B3" x="9.525" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A4" x="5.715" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B4" x="5.715" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A5" x="1.905" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B5" x="1.905" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A6" x="-1.905" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B6" x="-1.905" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A7" x="-5.715" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B7" x="-5.715" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A8" x="-9.525" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B8" x="-9.525" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A9" x="-13.335" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B9" x="-13.335" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="A10" x="-17.145" y="2.54" drill="1.2" diameter="1.8"/>
+<pad name="B10" x="-17.145" y="-2.54" drill="1.2" diameter="1.8"/>
+<pad name="MH1" x="-20.32" y="1.27" drill="2.1" diameter="3"/>
+<pad name="MH2" x="20.32" y="1.27" drill="2.1" diameter="3"/>
+<text x="-0.603" y="0.062" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.603" y="0.062" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-24.145" y1="7.215" x2="24.145" y2="7.215" width="0.2" layer="51"/>
+<wire x1="24.145" y1="7.215" x2="24.145" y2="-7.215" width="0.2" layer="51"/>
+<wire x1="24.145" y1="-7.215" x2="-24.145" y2="-7.215" width="0.2" layer="51"/>
+<wire x1="-24.145" y1="-7.215" x2="-24.145" y2="7.215" width="0.2" layer="51"/>
+<wire x1="-24.145" y1="-7.215" x2="-24.145" y2="7.215" width="0.2" layer="21"/>
+<wire x1="-24.145" y1="7.215" x2="24.145" y2="7.215" width="0.2" layer="21"/>
+<wire x1="24.145" y1="7.215" x2="24.145" y2="-7.215" width="0.2" layer="21"/>
+<wire x1="24.145" y1="-7.215" x2="-24.145" y2="-7.215" width="0.2" layer="21"/>
+<circle x="17.103" y="8.303" radius="0.161" width="0.4" layer="25"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="F1" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="35.56" y="69.85" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.37" y="64.77" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="35.56" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="-58.42" y="45.72" smashed="yes" rot="R90">
+<attribute name="MF" value="MOLEX" x="-58.42" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-58.42" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-51.435" y="62.23" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="-58.42" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-58.42" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-51.435" y="25.4" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="F2" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="46.99" y="69.85" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="50.8" y="73.66" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="46.99" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="F3" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-25.4" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-25.4" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-25.4" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F4" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-31.75" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-31.75" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-31.75" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F5" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-38.1" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-38.1" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-38.1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F6" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-44.45" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-44.45" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-44.45" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F7" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-50.8" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-50.8" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-50.8" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F8" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-57.15" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-57.15" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-57.15" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F9" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-63.5" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-63.5" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-63.5" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F10" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-69.85" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-69.85" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-69.85" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F11" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-76.2" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-76.2" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-76.2" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F12" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-76.2" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-76.2" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-76.2" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F13" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-82.55" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-82.55" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-82.55" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F14" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-82.55" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-82.55" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-95.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-82.55" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F15" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-88.9" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-88.9" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-101.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-88.9" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F16" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-88.9" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-88.9" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-88.9" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F17" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-95.25" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-95.25" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-95.25" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F18" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-95.25" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-95.25" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-95.25" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F19" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-101.6" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-101.6" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F20" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-101.6" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-101.6" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="186.69" y="58.42" smashed="yes" rot="R90">
+<attribute name="MF" value="MOLEX" x="186.69" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="186.69" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="193.675" y="74.93" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="186.69" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="186.69" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="193.675" y="38.1" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-111.76" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-111.76" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-111.76" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-118.745" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-111.76" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-111.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-118.745" size="1.27" layer="27"/>
+</element>
+<element name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-125.73" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-132.715" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-132.715" size="1.27" layer="27"/>
+</element>
+<element name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-139.7" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-139.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-139.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-146.685" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-139.7" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-139.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-146.685" size="1.27" layer="27"/>
+</element>
+<element name="X6" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-153.67" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-153.67" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-153.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-160.655" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-153.67" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-153.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-160.655" size="1.27" layer="27"/>
+</element>
+<element name="X7" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-167.64" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-167.64" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-167.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-174.625" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-167.64" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-167.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-174.625" size="1.27" layer="27"/>
+</element>
+<element name="X8" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-20" package3d_urn="urn:adsk.eagle:package:8078572/1" value="5566-20" x="25.4" y="-181.61" smashed="yes">
+<attribute name="MF" value="MOLEX" x="25.4" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="-188.595" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.08" y="-188.595" size="1.27" layer="27"/>
+</element>
+<element name="F21" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-193.04" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-193.04" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-193.04" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-193.04" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F22" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-193.04" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-193.04" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-199.39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-193.04" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F23" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-193.04" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-193.04" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-193.04" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F24" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-199.39" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-199.39" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-212.09" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-199.39" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F25" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-199.39" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-199.39" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-199.39" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F26" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-199.39" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-199.39" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-224.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-199.39" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F27" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-205.74" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-205.74" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-231.14" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-205.74" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F28" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-205.74" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-205.74" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-205.74" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F29" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-205.74" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-205.74" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-205.74" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F30" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-212.09" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-212.09" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-212.09" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F31" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-212.09" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-212.09" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-212.09" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F32" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-212.09" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-212.09" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-212.09" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F33" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-218.44" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-218.44" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-218.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F34" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-218.44" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-218.44" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-218.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F35" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-218.44" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-218.44" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-218.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F36" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-224.79" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-224.79" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-224.79" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F37" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-224.79" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-224.79" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-224.79" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F38" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-224.79" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-224.79" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-224.79" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F39" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-231.14" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-231.14" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-231.14" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F40" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-231.14" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-231.14" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-231.14" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F41" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-237.49" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-237.49" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-237.49" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-237.49" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F42" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-237.49" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-237.49" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-243.84" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-237.49" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F43" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-237.49" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-237.49" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-250.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-237.49" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F44" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-243.84" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-243.84" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-243.84" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F45" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-243.84" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-243.84" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-243.84" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F46" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-243.84" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-243.84" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-269.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-243.84" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F47" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-250.19" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-250.19" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-275.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-250.19" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F48" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-250.19" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-250.19" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-281.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-250.19" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F49" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-250.19" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-250.19" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-288.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-250.19" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F50" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-256.54" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-256.54" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-294.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-256.54" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F51" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-256.54" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-256.54" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-300.99" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-256.54" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F52" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-256.54" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-256.54" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-256.54" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F53" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-262.89" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-262.89" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-313.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-262.89" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F54" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-262.89" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-262.89" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-262.89" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F55" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-262.89" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-262.89" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-326.39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-262.89" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F56" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-269.24" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-269.24" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-269.24" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F57" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-269.24" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-269.24" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-269.24" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F58" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="31.75" y="-269.24" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-269.24" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-345.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="-269.24" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F59" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="6.35" y="-275.59" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.35" y="-275.59" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-351.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="-275.59" size="1.27" layer="27" align="center"/>
+</element>
+<element name="F60" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="19.05" y="-275.59" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.05" y="-275.59" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="-358.14" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="-275.59" size="1.27" layer="27" align="center"/>
+</element>
+<element name="X9" library="con-tyco" library_urn="urn:adsk.eagle:library:192" package="D1200D-20" package3d_urn="urn:adsk.eagle:package:10622/1" value="D1200D-20" x="194.31" y="10.16" smashed="yes">
+<attribute name="NAME" x="180.5084" y="16.2386" size="1.27" layer="25"/>
+<attribute name="VALUE" x="180.5084" y="2.6534" size="1.27" layer="27"/>
+</element>
+<element name="J1" library="178328-2" package="178328-2" value="178328-2" x="27.94" y="90.17" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="27.337" y="90.232" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="27.94" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="27.337" y="90.232" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J2" library="178328-2" package="178328-2" value="178328-2" x="134.62" y="90.17" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="134.017" y="90.232" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="134.62" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="134.017" y="90.232" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J3" library="178328-2" package="178328-2" value="178328-2" x="81.28" y="90.17" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.677" y="90.232" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="81.28" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.677" y="90.232" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J4" library="178328-2" package="178328-2" value="178328-2" x="11.43" y="55.88" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="11.368" y="55.277" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="11.43" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="11.368" y="55.277" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="J5" library="178328-2" package="178328-2" value="178328-2" x="27.94" y="11.43" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="28.543" y="11.492" size="1.27" layer="26" rot="MR0" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="27.94" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="28.543" y="11.492" size="1.27" layer="28" rot="MR0" align="center"/>
+</element>
+<element name="J6" library="178328-2" package="178328-2" value="178328-2" x="81.28" y="11.43" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.677" y="11.492" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="81.28" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.677" y="11.492" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J7" library="178328-2" package="178328-2" value="178328-2" x="133.35" y="11.43" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="132.747" y="11.492" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="133.35" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="132.747" y="11.492" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J8" library="178328-2" package="178328-2" value="178328-2" x="149.86" y="48.26" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="TE Connectivity D-3000 Series, 3.81mm Pitch 20 Way Straight PCB Header, Solder Termination" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="178328-2" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-178328-2" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-178328-2" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="149.798" y="47.657" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6803460" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6803460" x="149.86" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="149.798" y="47.657" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+</elements>
+<signals>
+<signal name="INPUT1">
+<contactref element="F1" pad="1"/>
+<contactref element="X1" pad="1"/>
+<contactref element="X3" pad="1"/>
+<contactref element="X4" pad="1"/>
+<contactref element="X5" pad="1"/>
+<contactref element="F21" pad="1"/>
+<contactref element="F41" pad="1"/>
+<wire x1="2.155" y1="-193.04" x2="2.155" y2="-237.49" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-142.45" x2="2.155" y2="-193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-128.48" x2="44.3" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-114.51" x2="44.3" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="64.62" x2="44.3" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="65.655" x2="-55.67" y2="64.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT2">
+<contactref element="F2" pad="1"/>
+<contactref element="X1" pad="2"/>
+<contactref element="X3" pad="2"/>
+<contactref element="X4" pad="2"/>
+<contactref element="X5" pad="2"/>
+<contactref element="F22" pad="1"/>
+<contactref element="F42" pad="1"/>
+<wire x1="14.855" y1="-193.04" x2="14.855" y2="-237.49" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-142.45" x2="14.855" y2="-193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-128.48" x2="40.1" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-114.51" x2="40.1" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="65.655" x2="40.1" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="60.42" x2="46.99" y2="65.655" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT3">
+<contactref element="F3" pad="1"/>
+<contactref element="X1" pad="3"/>
+<contactref element="X3" pad="3"/>
+<contactref element="X4" pad="3"/>
+<contactref element="X5" pad="3"/>
+<contactref element="F23" pad="1"/>
+<contactref element="F43" pad="1"/>
+<wire x1="27.555" y1="-193.04" x2="27.555" y2="-237.49" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-142.45" x2="27.555" y2="-193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-128.48" x2="35.9" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-114.51" x2="35.9" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-25.4" x2="35.9" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="56.22" x2="2.155" y2="-25.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT4">
+<contactref element="F4" pad="1"/>
+<contactref element="X1" pad="4"/>
+<contactref element="X3" pad="4"/>
+<contactref element="X4" pad="4"/>
+<contactref element="X5" pad="4"/>
+<contactref element="F24" pad="1"/>
+<contactref element="F44" pad="1"/>
+<wire x1="2.155" y1="-199.39" x2="2.155" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-142.45" x2="2.155" y2="-199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-128.48" x2="31.7" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-114.51" x2="31.7" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-31.75" x2="31.7" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="52.02" x2="2.155" y2="-31.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT5">
+<contactref element="F5" pad="1"/>
+<contactref element="X1" pad="5"/>
+<contactref element="X3" pad="5"/>
+<contactref element="X4" pad="5"/>
+<contactref element="X5" pad="5"/>
+<contactref element="F25" pad="1"/>
+<contactref element="F45" pad="1"/>
+<wire x1="14.855" y1="-199.39" x2="14.855" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="-142.45" x2="14.855" y2="-199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="-128.48" x2="27.5" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="-114.51" x2="27.5" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-38.1" x2="27.5" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="47.82" x2="2.155" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT6">
+<contactref element="F6" pad="1"/>
+<contactref element="X1" pad="6"/>
+<contactref element="X3" pad="6"/>
+<contactref element="X4" pad="6"/>
+<contactref element="X5" pad="6"/>
+<contactref element="F26" pad="1"/>
+<contactref element="F46" pad="1"/>
+<wire x1="27.555" y1="-199.39" x2="27.555" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="-142.45" x2="27.555" y2="-199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="-128.48" x2="23.3" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="-114.51" x2="23.3" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-44.45" x2="23.3" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="43.62" x2="2.155" y2="-44.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT7">
+<contactref element="F7" pad="1"/>
+<contactref element="X1" pad="7"/>
+<contactref element="X3" pad="7"/>
+<contactref element="X4" pad="7"/>
+<contactref element="X5" pad="7"/>
+<contactref element="F27" pad="1"/>
+<contactref element="F47" pad="1"/>
+<wire x1="2.155" y1="-205.74" x2="2.155" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="-142.45" x2="2.155" y2="-205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="-128.48" x2="19.1" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="-114.51" x2="19.1" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-50.8" x2="19.1" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="39.42" x2="2.155" y2="-50.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT8">
+<contactref element="F8" pad="1"/>
+<contactref element="X1" pad="8"/>
+<contactref element="X3" pad="8"/>
+<contactref element="X4" pad="8"/>
+<contactref element="X5" pad="8"/>
+<contactref element="F28" pad="1"/>
+<contactref element="F48" pad="1"/>
+<wire x1="14.855" y1="-205.74" x2="14.855" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9" y1="-142.45" x2="14.855" y2="-205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9" y1="-128.48" x2="14.9" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9" y1="-114.51" x2="14.9" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-57.15" x2="14.9" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="35.22" x2="2.155" y2="-57.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT9">
+<contactref element="F9" pad="1"/>
+<contactref element="X1" pad="9"/>
+<contactref element="X3" pad="9"/>
+<contactref element="X4" pad="9"/>
+<contactref element="X5" pad="9"/>
+<contactref element="F29" pad="1"/>
+<contactref element="F49" pad="1"/>
+<wire x1="27.555" y1="-205.74" x2="27.555" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="-142.45" x2="27.555" y2="-205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="-128.48" x2="10.7" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="-114.51" x2="10.7" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-63.5" x2="10.7" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="31.02" x2="2.155" y2="-63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT10">
+<contactref element="F10" pad="1"/>
+<contactref element="X1" pad="10"/>
+<contactref element="X3" pad="10"/>
+<contactref element="X4" pad="10"/>
+<contactref element="X5" pad="10"/>
+<contactref element="F30" pad="1"/>
+<contactref element="F50" pad="1"/>
+<wire x1="2.155" y1="-256.54" x2="2.155" y2="-212.09" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5" y1="-142.45" x2="2.155" y2="-212.09" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5" y1="-128.48" x2="6.5" y2="-142.45" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5" y1="-114.51" x2="6.5" y2="-128.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.155" y1="-69.85" x2="6.5" y2="-114.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.67" y1="26.82" x2="2.155" y2="-69.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="F11" pad="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="F12" pad="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="F13" pad="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="F14" pad="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="F15" pad="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="F16" pad="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="F17" pad="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="F18" pad="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="F19" pad="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="F20" pad="1"/>
+</signal>
+<signal name="INPUT11">
+<contactref element="X1" pad="11"/>
+<contactref element="X3" pad="11"/>
+<contactref element="X4" pad="11"/>
+<contactref element="X5" pad="11"/>
+<wire x1="44.3" y1="-122.98" x2="44.3" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-109.01" x2="44.3" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="64.62" x2="44.3" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT12">
+<contactref element="X1" pad="12"/>
+<contactref element="X3" pad="12"/>
+<contactref element="X4" pad="12"/>
+<contactref element="X5" pad="12"/>
+<wire x1="40.1" y1="-122.98" x2="40.1" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-109.01" x2="40.1" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="60.42" x2="40.1" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT14">
+<contactref element="X1" pad="14"/>
+<contactref element="X3" pad="14"/>
+<contactref element="X4" pad="14"/>
+<contactref element="X5" pad="14"/>
+<wire x1="31.7" y1="-122.98" x2="31.7" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-109.01" x2="31.7" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="52.02" x2="31.7" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT16">
+<contactref element="X1" pad="16"/>
+<contactref element="X3" pad="16"/>
+<contactref element="X4" pad="16"/>
+<contactref element="X5" pad="16"/>
+<wire x1="23.3" y1="-122.98" x2="23.3" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="-109.01" x2="23.3" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="43.62" x2="23.3" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT17">
+<contactref element="X1" pad="17"/>
+<contactref element="X3" pad="17"/>
+<contactref element="X4" pad="17"/>
+<contactref element="X5" pad="17"/>
+<wire x1="19.1" y1="-122.98" x2="19.1" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="-109.01" x2="19.1" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="39.42" x2="19.1" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT18">
+<contactref element="X1" pad="18"/>
+<contactref element="X3" pad="18"/>
+<contactref element="X4" pad="18"/>
+<contactref element="X5" pad="18"/>
+<wire x1="14.9" y1="-122.98" x2="14.9" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9" y1="-109.01" x2="14.9" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="35.22" x2="14.9" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$48">
+<contactref element="X2" pad="5"/>
+</signal>
+<signal name="N$49">
+<contactref element="X2" pad="6"/>
+</signal>
+<signal name="N$50">
+<contactref element="X2" pad="7"/>
+</signal>
+<signal name="N$53">
+<contactref element="X2" pad="9"/>
+</signal>
+<signal name="N$54">
+<contactref element="X2" pad="10"/>
+</signal>
+<signal name="N$55">
+<contactref element="X2" pad="11"/>
+</signal>
+<signal name="N$56">
+<contactref element="X2" pad="12"/>
+</signal>
+<signal name="N$59">
+<contactref element="X2" pad="14"/>
+</signal>
+<signal name="N$62">
+<contactref element="X2" pad="16"/>
+</signal>
+<signal name="N$63">
+<contactref element="X2" pad="17"/>
+</signal>
+<signal name="N$64">
+<contactref element="X2" pad="18"/>
+</signal>
+<signal name="N$67">
+<contactref element="X2" pad="20"/>
+</signal>
+<signal name="INPUT20">
+<contactref element="X1" pad="20"/>
+<contactref element="X3" pad="20"/>
+<contactref element="X4" pad="20"/>
+<contactref element="X5" pad="20"/>
+<wire x1="6.5" y1="-122.98" x2="6.5" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5" y1="-109.01" x2="6.5" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="26.82" x2="6.5" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT13">
+<contactref element="X1" pad="13"/>
+<contactref element="X3" pad="13"/>
+<contactref element="X4" pad="13"/>
+<contactref element="X5" pad="13"/>
+<wire x1="35.9" y1="-122.98" x2="35.9" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-109.01" x2="35.9" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="56.22" x2="35.9" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT15">
+<contactref element="X1" pad="15"/>
+<contactref element="X3" pad="15"/>
+<contactref element="X4" pad="15"/>
+<contactref element="X5" pad="15"/>
+<wire x1="27.5" y1="-122.98" x2="27.5" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="-109.01" x2="27.5" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="47.82" x2="27.5" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT19">
+<contactref element="X1" pad="19"/>
+<contactref element="X3" pad="19"/>
+<contactref element="X4" pad="19"/>
+<contactref element="X5" pad="19"/>
+<wire x1="10.7" y1="-122.98" x2="10.7" y2="-136.95" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="-109.01" x2="10.7" y2="-122.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.17" y1="31.02" x2="10.7" y2="-109.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT1">
+<contactref element="F1" pad="2"/>
+<contactref element="X2" pad="1"/>
+<contactref element="X6" pad="1"/>
+<contactref element="X7" pad="1"/>
+<contactref element="X8" pad="1"/>
+<contactref element="F21" pad="2"/>
+<contactref element="F41" pad="2"/>
+<wire x1="35.56" y1="74.045" x2="189.44" y2="77.32" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-156.42" x2="35.56" y2="74.045" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-170.39" x2="44.3" y2="-156.42" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="-184.36" x2="44.3" y2="-170.39" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-193.04" x2="44.3" y2="-184.36" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-237.49" x2="10.545" y2="-193.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT2">
+<contactref element="F2" pad="2"/>
+<contactref element="X2" pad="2"/>
+<contactref element="X6" pad="2"/>
+<contactref element="X7" pad="2"/>
+<contactref element="X8" pad="2"/>
+<contactref element="F22" pad="2"/>
+<contactref element="F42" pad="2"/>
+<wire x1="46.99" y1="74.045" x2="189.44" y2="73.12" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-156.42" x2="46.99" y2="74.045" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-170.39" x2="40.1" y2="-156.42" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="-184.36" x2="40.1" y2="-170.39" width="0" layer="19" extent="1-1"/>
+<wire x1="23.245" y1="-193.04" x2="40.1" y2="-184.36" width="0" layer="19" extent="1-1"/>
+<wire x1="23.245" y1="-237.49" x2="23.245" y2="-193.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT3">
+<contactref element="F3" pad="2"/>
+<contactref element="X2" pad="3"/>
+<contactref element="X6" pad="3"/>
+<contactref element="X7" pad="3"/>
+<contactref element="X8" pad="3"/>
+<contactref element="F23" pad="2"/>
+<contactref element="F43" pad="2"/>
+<wire x1="10.545" y1="-25.4" x2="189.44" y2="68.92" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-156.42" x2="10.545" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-170.39" x2="35.9" y2="-156.42" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="-184.36" x2="35.9" y2="-170.39" width="0" layer="19" extent="1-1"/>
+<wire x1="35.945" y1="-193.04" x2="35.9" y2="-184.36" width="0" layer="19" extent="1-1"/>
+<wire x1="35.945" y1="-237.49" x2="35.945" y2="-193.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT4">
+<contactref element="F4" pad="2"/>
+<contactref element="X2" pad="4"/>
+<contactref element="X6" pad="4"/>
+<contactref element="X7" pad="4"/>
+<contactref element="X8" pad="4"/>
+<contactref element="F24" pad="2"/>
+<contactref element="F44" pad="2"/>
+<wire x1="10.545" y1="-199.39" x2="10.545" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-184.36" x2="10.545" y2="-199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-170.39" x2="31.7" y2="-184.36" width="0" layer="19" extent="1-1"/>
+<wire x1="31.7" y1="-156.42" x2="31.7" y2="-170.39" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-31.75" x2="31.7" y2="-156.42" width="0" layer="19" extent="1-1"/>
+<wire x1="189.44" y1="64.72" x2="10.545" y2="-31.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT5">
+<contactref element="F5" pad="2"/>
+<contactref element="F25" pad="2"/>
+<contactref element="F45" pad="2"/>
+<wire x1="23.245" y1="-199.39" x2="23.245" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-38.1" x2="23.245" y2="-199.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT6">
+<contactref element="F6" pad="2"/>
+<contactref element="F26" pad="2"/>
+<contactref element="F46" pad="2"/>
+<wire x1="35.945" y1="-199.39" x2="35.945" y2="-243.84" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-44.45" x2="35.945" y2="-199.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT7">
+<contactref element="F7" pad="2"/>
+<contactref element="F27" pad="2"/>
+<contactref element="F47" pad="2"/>
+<wire x1="10.545" y1="-205.74" x2="10.545" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-50.8" x2="10.545" y2="-205.74" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT8">
+<contactref element="F8" pad="2"/>
+<contactref element="F28" pad="2"/>
+<contactref element="F48" pad="2"/>
+<wire x1="23.245" y1="-205.74" x2="23.245" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-57.15" x2="23.245" y2="-205.74" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT9">
+<contactref element="F9" pad="2"/>
+<contactref element="F29" pad="2"/>
+<contactref element="F49" pad="2"/>
+<wire x1="35.945" y1="-205.74" x2="35.945" y2="-250.19" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-63.5" x2="35.945" y2="-205.74" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OUTPUT10">
+<contactref element="F10" pad="2"/>
+<contactref element="F30" pad="2"/>
+<contactref element="F50" pad="2"/>
+<wire x1="10.545" y1="-212.09" x2="10.545" y2="-256.54" width="0" layer="19" extent="1-1"/>
+<wire x1="10.545" y1="-69.85" x2="10.545" y2="-212.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="F11" pad="2"/>
+</signal>
+<signal name="N$22">
+<contactref element="F12" pad="2"/>
+</signal>
+<signal name="N$23">
+<contactref element="F13" pad="2"/>
+</signal>
+<signal name="N$24">
+<contactref element="F14" pad="2"/>
+</signal>
+<signal name="N$25">
+<contactref element="F15" pad="2"/>
+</signal>
+<signal name="N$26">
+<contactref element="F16" pad="2"/>
+</signal>
+<signal name="N$27">
+<contactref element="F17" pad="2"/>
+</signal>
+<signal name="N$28">
+<contactref element="F18" pad="2"/>
+</signal>
+<signal name="N$29">
+<contactref element="F19" pad="2"/>
+</signal>
+<signal name="N$30">
+<contactref element="F20" pad="2"/>
+</signal>
+<signal name="N$52">
+<contactref element="X2" pad="8"/>
+</signal>
+<signal name="N$58">
+<contactref element="X2" pad="13"/>
+</signal>
+<signal name="N$61">
+<contactref element="X2" pad="15"/>
+</signal>
+<signal name="N$66">
+<contactref element="X2" pad="19"/>
+</signal>
+<signal name="N$1">
+<contactref element="X6" pad="5"/>
+</signal>
+<signal name="N$2">
+<contactref element="X6" pad="6"/>
+</signal>
+<signal name="N$3">
+<contactref element="X6" pad="7"/>
+</signal>
+<signal name="N$4">
+<contactref element="X6" pad="8"/>
+</signal>
+<signal name="N$5">
+<contactref element="X6" pad="9"/>
+</signal>
+<signal name="N$6">
+<contactref element="X6" pad="10"/>
+</signal>
+<signal name="N$7">
+<contactref element="X6" pad="11"/>
+</signal>
+<signal name="N$8">
+<contactref element="X6" pad="12"/>
+</signal>
+<signal name="N$9">
+<contactref element="X6" pad="13"/>
+</signal>
+<signal name="N$10">
+<contactref element="X6" pad="14"/>
+</signal>
+<signal name="N$31">
+<contactref element="X6" pad="15"/>
+</signal>
+<signal name="N$32">
+<contactref element="X6" pad="16"/>
+</signal>
+<signal name="N$33">
+<contactref element="X6" pad="17"/>
+</signal>
+<signal name="N$34">
+<contactref element="X6" pad="18"/>
+</signal>
+<signal name="N$35">
+<contactref element="X6" pad="19"/>
+</signal>
+<signal name="N$36">
+<contactref element="X6" pad="20"/>
+</signal>
+<signal name="N$37">
+<contactref element="X7" pad="5"/>
+</signal>
+<signal name="N$38">
+<contactref element="X7" pad="6"/>
+</signal>
+<signal name="N$39">
+<contactref element="X7" pad="7"/>
+</signal>
+<signal name="N$40">
+<contactref element="X7" pad="8"/>
+</signal>
+<signal name="N$41">
+<contactref element="X7" pad="9"/>
+</signal>
+<signal name="N$42">
+<contactref element="X7" pad="10"/>
+</signal>
+<signal name="N$43">
+<contactref element="X7" pad="11"/>
+</signal>
+<signal name="N$44">
+<contactref element="X7" pad="12"/>
+</signal>
+<signal name="N$45">
+<contactref element="X7" pad="13"/>
+</signal>
+<signal name="N$46">
+<contactref element="X7" pad="14"/>
+</signal>
+<signal name="N$47">
+<contactref element="X7" pad="15"/>
+</signal>
+<signal name="N$51">
+<contactref element="X7" pad="16"/>
+</signal>
+<signal name="N$57">
+<contactref element="X7" pad="17"/>
+</signal>
+<signal name="N$60">
+<contactref element="X7" pad="18"/>
+</signal>
+<signal name="N$65">
+<contactref element="X7" pad="19"/>
+</signal>
+<signal name="N$68">
+<contactref element="X7" pad="20"/>
+</signal>
+<signal name="N$69">
+<contactref element="X8" pad="5"/>
+</signal>
+<signal name="N$70">
+<contactref element="X8" pad="6"/>
+</signal>
+<signal name="N$71">
+<contactref element="X8" pad="7"/>
+</signal>
+<signal name="N$72">
+<contactref element="X8" pad="8"/>
+</signal>
+<signal name="N$73">
+<contactref element="X8" pad="9"/>
+</signal>
+<signal name="N$74">
+<contactref element="X8" pad="10"/>
+</signal>
+<signal name="N$75">
+<contactref element="X8" pad="11"/>
+</signal>
+<signal name="N$76">
+<contactref element="X8" pad="12"/>
+</signal>
+<signal name="N$77">
+<contactref element="X8" pad="13"/>
+</signal>
+<signal name="N$78">
+<contactref element="X8" pad="14"/>
+</signal>
+<signal name="N$79">
+<contactref element="X8" pad="15"/>
+</signal>
+<signal name="N$80">
+<contactref element="X8" pad="16"/>
+</signal>
+<signal name="N$81">
+<contactref element="X8" pad="17"/>
+</signal>
+<signal name="N$82">
+<contactref element="X8" pad="18"/>
+</signal>
+<signal name="N$83">
+<contactref element="X8" pad="19"/>
+</signal>
+<signal name="N$84">
+<contactref element="X8" pad="20"/>
+</signal>
+<signal name="N$85">
+<contactref element="F31" pad="1"/>
+</signal>
+<signal name="N$86">
+<contactref element="F32" pad="1"/>
+</signal>
+<signal name="N$87">
+<contactref element="F33" pad="1"/>
+</signal>
+<signal name="N$88">
+<contactref element="F34" pad="1"/>
+</signal>
+<signal name="N$89">
+<contactref element="F35" pad="1"/>
+</signal>
+<signal name="N$90">
+<contactref element="F36" pad="1"/>
+</signal>
+<signal name="N$91">
+<contactref element="F37" pad="1"/>
+</signal>
+<signal name="N$92">
+<contactref element="F38" pad="1"/>
+</signal>
+<signal name="N$93">
+<contactref element="F39" pad="1"/>
+</signal>
+<signal name="N$94">
+<contactref element="F40" pad="1"/>
+</signal>
+<signal name="N$95">
+<contactref element="F31" pad="2"/>
+</signal>
+<signal name="N$96">
+<contactref element="F32" pad="2"/>
+</signal>
+<signal name="N$97">
+<contactref element="F33" pad="2"/>
+</signal>
+<signal name="N$98">
+<contactref element="F34" pad="2"/>
+</signal>
+<signal name="N$99">
+<contactref element="F35" pad="2"/>
+</signal>
+<signal name="N$100">
+<contactref element="F36" pad="2"/>
+</signal>
+<signal name="N$101">
+<contactref element="F37" pad="2"/>
+</signal>
+<signal name="N$102">
+<contactref element="F38" pad="2"/>
+</signal>
+<signal name="N$103">
+<contactref element="F39" pad="2"/>
+</signal>
+<signal name="N$104">
+<contactref element="F40" pad="2"/>
+</signal>
+<signal name="N$105">
+<contactref element="F51" pad="1"/>
+</signal>
+<signal name="N$106">
+<contactref element="F52" pad="1"/>
+</signal>
+<signal name="N$107">
+<contactref element="F53" pad="1"/>
+</signal>
+<signal name="N$108">
+<contactref element="F54" pad="1"/>
+</signal>
+<signal name="N$109">
+<contactref element="F55" pad="1"/>
+</signal>
+<signal name="N$110">
+<contactref element="F56" pad="1"/>
+</signal>
+<signal name="N$111">
+<contactref element="F57" pad="1"/>
+</signal>
+<signal name="N$112">
+<contactref element="F58" pad="1"/>
+</signal>
+<signal name="N$113">
+<contactref element="F59" pad="1"/>
+</signal>
+<signal name="N$114">
+<contactref element="F60" pad="1"/>
+</signal>
+<signal name="N$115">
+<contactref element="F51" pad="2"/>
+</signal>
+<signal name="N$116">
+<contactref element="F52" pad="2"/>
+</signal>
+<signal name="N$117">
+<contactref element="F53" pad="2"/>
+</signal>
+<signal name="N$118">
+<contactref element="F54" pad="2"/>
+</signal>
+<signal name="N$119">
+<contactref element="F55" pad="2"/>
+</signal>
+<signal name="N$120">
+<contactref element="F56" pad="2"/>
+</signal>
+<signal name="N$121">
+<contactref element="F57" pad="2"/>
+</signal>
+<signal name="N$122">
+<contactref element="F58" pad="2"/>
+</signal>
+<signal name="N$123">
+<contactref element="F59" pad="2"/>
+</signal>
+<signal name="N$124">
+<contactref element="F60" pad="2"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
