@@ -8868,9 +8868,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="BUF1" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
 <part name="BUF2" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
-<part name="IC6" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*32" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC4" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*32" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="NOR1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="OR1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*32" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="OR2" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*32" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -8965,14 +8965,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC8" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="LVC"/>
-<part name="IC5" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC9" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC10" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC12" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
-<part name="IC7" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
-<part name="IC11" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
-<part name="IC13" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
+<part name="AND1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="LVC"/>
+<part name="NOR2" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="NOR3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="NOR4" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="NOR5" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
+<part name="BUF3" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
+<part name="BUF5" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
+<part name="BUF4" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-12" device="" package3d_urn="urn:adsk.eagle:package:8078578/1"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
 </parts>
@@ -9073,32 +9073,32 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <attribute name="NAME" x="125.73" y="31.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="A" x="370.84" y="43.18" smashed="yes">
+<instance part="NOR1" gate="A" x="370.84" y="43.18" smashed="yes">
 <attribute name="NAME" x="363.22" y="48.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="B" x="370.84" y="17.78" smashed="yes">
+<instance part="NOR1" gate="B" x="370.84" y="17.78" smashed="yes">
 <attribute name="NAME" x="363.22" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="A" x="236.22" y="241.3" smashed="yes">
+<instance part="OR1" gate="A" x="236.22" y="241.3" smashed="yes">
 <attribute name="NAME" x="228.6" y="247.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="B" x="236.22" y="210.82" smashed="yes">
+<instance part="OR1" gate="B" x="236.22" y="210.82" smashed="yes">
 <attribute name="NAME" x="228.6" y="216.535" size="1.778" layer="95"/>
 </instance>
-<instance part="IC3" gate="C" x="236.22" y="180.34" smashed="yes">
+<instance part="OR1" gate="C" x="236.22" y="180.34" smashed="yes">
 <attribute name="NAME" x="228.6" y="186.055" size="1.778" layer="95"/>
 </instance>
-<instance part="IC3" gate="D" x="236.22" y="149.86" smashed="yes">
+<instance part="OR1" gate="D" x="236.22" y="149.86" smashed="yes">
 <attribute name="NAME" x="228.6" y="155.575" size="1.778" layer="95"/>
 </instance>
-<instance part="IC4" gate="A" x="236.22" y="121.92" smashed="yes">
+<instance part="OR2" gate="A" x="236.22" y="121.92" smashed="yes">
 <attribute name="NAME" x="228.6" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="B" x="236.22" y="96.52" smashed="yes">
+<instance part="OR2" gate="B" x="236.22" y="96.52" smashed="yes">
 <attribute name="NAME" x="228.6" y="102.235" size="1.778" layer="95"/>
 </instance>
 <instance part="R10" gate="G$1" x="256.54" y="233.68" smashed="yes" rot="R90">
@@ -9184,11 +9184,11 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <attribute name="VALUE" x="167.64" y="80.01" size="1.778" layer="96" rot="MR90"/>
 <attribute name="NAME" x="181.102" y="80.01" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="IC4" gate="C" x="236.22" y="63.5" smashed="yes">
+<instance part="OR2" gate="C" x="236.22" y="63.5" smashed="yes">
 <attribute name="NAME" x="228.6" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="D" x="236.22" y="30.48" smashed="yes">
+<instance part="OR2" gate="D" x="236.22" y="30.48" smashed="yes">
 <attribute name="NAME" x="228.6" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="22.86" size="1.778" layer="96"/>
 </instance>
@@ -9435,79 +9435,79 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <instance part="GND42" gate="1" x="647.7" y="91.44" smashed="yes">
 <attribute name="VALUE" x="645.16" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="IC8" gate="A" x="474.98" y="20.32" smashed="yes">
+<instance part="AND1" gate="A" x="474.98" y="20.32" smashed="yes">
 <attribute name="NAME" x="467.36" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="467.36" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="C" x="370.84" y="254" smashed="yes">
+<instance part="NOR1" gate="C" x="370.84" y="254" smashed="yes">
 <attribute name="NAME" x="363.22" y="259.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="D" x="370.84" y="231.14" smashed="yes">
+<instance part="NOR1" gate="D" x="370.84" y="231.14" smashed="yes">
 <attribute name="NAME" x="363.22" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="A" x="370.84" y="187.96" smashed="yes">
+<instance part="NOR2" gate="A" x="370.84" y="187.96" smashed="yes">
 <attribute name="NAME" x="363.22" y="193.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="B" x="370.84" y="165.1" smashed="yes">
+<instance part="NOR2" gate="B" x="370.84" y="165.1" smashed="yes">
 <attribute name="NAME" x="363.22" y="170.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="C" x="370.84" y="121.92" smashed="yes">
+<instance part="NOR2" gate="C" x="370.84" y="121.92" smashed="yes">
 <attribute name="NAME" x="363.22" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="D" x="370.84" y="99.06" smashed="yes">
+<instance part="NOR2" gate="D" x="370.84" y="99.06" smashed="yes">
 <attribute name="NAME" x="363.22" y="104.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="A" x="543.56" y="254" smashed="yes">
+<instance part="NOR3" gate="A" x="543.56" y="254" smashed="yes">
 <attribute name="NAME" x="535.94" y="259.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="B" x="543.56" y="231.14" smashed="yes">
+<instance part="NOR3" gate="B" x="543.56" y="231.14" smashed="yes">
 <attribute name="NAME" x="535.94" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="C" x="543.56" y="185.42" smashed="yes">
+<instance part="NOR3" gate="C" x="543.56" y="185.42" smashed="yes">
 <attribute name="NAME" x="535.94" y="191.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="D" x="543.56" y="162.56" smashed="yes">
+<instance part="NOR3" gate="D" x="543.56" y="162.56" smashed="yes">
 <attribute name="NAME" x="535.94" y="168.275" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="A" x="543.56" y="119.38" smashed="yes">
+<instance part="NOR4" gate="A" x="543.56" y="119.38" smashed="yes">
 <attribute name="NAME" x="535.94" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="B" x="543.56" y="96.52" smashed="yes">
+<instance part="NOR4" gate="B" x="543.56" y="96.52" smashed="yes">
 <attribute name="NAME" x="535.94" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="C" x="713.74" y="254" smashed="yes">
+<instance part="NOR4" gate="C" x="713.74" y="254" smashed="yes">
 <attribute name="NAME" x="706.12" y="259.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="D" x="713.74" y="231.14" smashed="yes">
+<instance part="NOR4" gate="D" x="713.74" y="231.14" smashed="yes">
 <attribute name="NAME" x="706.12" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="IC12" gate="A" x="713.74" y="185.42" smashed="yes">
+<instance part="NOR5" gate="A" x="713.74" y="185.42" smashed="yes">
 <attribute name="NAME" x="706.12" y="191.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC12" gate="B" x="713.74" y="162.56" smashed="yes">
+<instance part="NOR5" gate="B" x="713.74" y="162.56" smashed="yes">
 <attribute name="NAME" x="706.12" y="168.275" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="IC12" gate="C" x="713.74" y="119.38" smashed="yes">
+<instance part="NOR5" gate="C" x="713.74" y="119.38" smashed="yes">
 <attribute name="NAME" x="706.12" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="IC12" gate="D" x="713.74" y="96.52" smashed="yes">
+<instance part="NOR5" gate="D" x="713.74" y="96.52" smashed="yes">
 <attribute name="NAME" x="706.12" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="706.12" y="88.9" size="1.778" layer="96"/>
 </instance>
@@ -9523,71 +9523,71 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <attribute name="NAME" x="328.93" y="180.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="328.93" y="172.72" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="A" x="398.78" y="172.72" smashed="yes">
+<instance part="BUF3" gate="A" x="398.78" y="172.72" smashed="yes">
 <attribute name="NAME" x="400.05" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="400.05" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="B" x="327.66" y="111.76" smashed="yes">
+<instance part="BUF3" gate="B" x="327.66" y="111.76" smashed="yes">
 <attribute name="NAME" x="328.93" y="114.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="328.93" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="C" x="398.78" y="106.68" smashed="yes">
+<instance part="BUF3" gate="C" x="398.78" y="106.68" smashed="yes">
 <attribute name="NAME" x="400.05" y="109.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="400.05" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="D" x="500.38" y="243.84" smashed="yes">
+<instance part="BUF3" gate="D" x="500.38" y="243.84" smashed="yes">
 <attribute name="NAME" x="501.65" y="247.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="501.65" y="238.76" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="E" x="571.5" y="238.76" smashed="yes">
+<instance part="BUF3" gate="E" x="571.5" y="238.76" smashed="yes">
 <attribute name="NAME" x="572.77" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="572.77" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="F" x="500.38" y="175.26" smashed="yes">
+<instance part="BUF3" gate="F" x="500.38" y="175.26" smashed="yes">
 <attribute name="NAME" x="501.65" y="178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="501.65" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="A" x="571.5" y="170.18" smashed="yes">
+<instance part="BUF5" gate="A" x="571.5" y="170.18" smashed="yes">
 <attribute name="NAME" x="572.77" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="572.77" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="B" x="500.38" y="109.22" smashed="yes">
+<instance part="BUF5" gate="B" x="500.38" y="109.22" smashed="yes">
 <attribute name="NAME" x="501.65" y="112.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="501.65" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="C" x="571.5" y="104.14" smashed="yes">
+<instance part="BUF5" gate="C" x="571.5" y="104.14" smashed="yes">
 <attribute name="NAME" x="572.77" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="572.77" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="D" x="670.56" y="243.84" smashed="yes">
+<instance part="BUF5" gate="D" x="670.56" y="243.84" smashed="yes">
 <attribute name="NAME" x="671.83" y="247.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="671.83" y="238.76" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="E" x="741.68" y="238.76" smashed="yes">
+<instance part="BUF5" gate="E" x="741.68" y="238.76" smashed="yes">
 <attribute name="NAME" x="742.95" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="742.95" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="F" x="670.56" y="175.26" smashed="yes">
+<instance part="BUF5" gate="F" x="670.56" y="175.26" smashed="yes">
 <attribute name="NAME" x="671.83" y="178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="671.83" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="A" x="741.68" y="170.18" smashed="yes">
+<instance part="BUF4" gate="A" x="741.68" y="170.18" smashed="yes">
 <attribute name="NAME" x="742.95" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="742.95" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="B" x="670.56" y="109.22" smashed="yes">
+<instance part="BUF4" gate="B" x="670.56" y="109.22" smashed="yes">
 <attribute name="NAME" x="671.83" y="112.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="671.83" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="C" x="741.68" y="104.14" smashed="yes">
+<instance part="BUF4" gate="C" x="741.68" y="104.14" smashed="yes">
 <attribute name="NAME" x="742.95" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="742.95" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="D" x="314.96" y="30.48" smashed="yes">
+<instance part="BUF4" gate="D" x="314.96" y="30.48" smashed="yes">
 <attribute name="NAME" x="316.23" y="33.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="316.23" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC13" gate="E" x="424.18" y="17.78" smashed="yes">
+<instance part="BUF4" gate="E" x="424.18" y="17.78" smashed="yes">
 <attribute name="NAME" x="425.45" y="20.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="425.45" y="12.7" size="1.778" layer="96"/>
 </instance>
@@ -9671,7 +9671,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="289.56" y1="30.48" x2="289.56" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="30.48" x2="304.8" y2="30.48" width="0.1524" layer="91"/>
 <junction x="289.56" y="30.48"/>
-<pinref part="IC13" gate="D" pin="I"/>
+<pinref part="BUF4" gate="D" pin="I"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9948,10 +9948,10 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <label x="403.86" y="35.56" size="1.778" layer="97" xref="yes"/>
 <junction x="393.7" y="35.56"/>
 <wire x1="393.7" y1="35.56" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="O"/>
+<pinref part="NOR1" gate="A" pin="O"/>
 <wire x1="393.7" y1="43.18" x2="383.54" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="25.4" x2="353.06" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="B" pin="I0"/>
+<pinref part="NOR1" gate="B" pin="I0"/>
 <wire x1="353.06" y1="20.32" x2="358.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9959,18 +9959,18 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="353.06" y1="30.48" x2="360.68" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="30.48" x2="393.7" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="I1"/>
+<pinref part="NOR1" gate="A" pin="I1"/>
 <wire x1="353.06" y1="30.48" x2="353.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="40.64" x2="358.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="25.4" x2="393.7" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="B" pin="O"/>
+<pinref part="NOR1" gate="B" pin="O"/>
 <wire x1="393.7" y1="17.78" x2="383.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="393.7" y="25.4"/>
 <wire x1="393.7" y1="25.4" x2="403.86" y2="25.4" width="0.1524" layer="91"/>
 <label x="403.86" y="25.4" size="1.778" layer="95" xref="yes"/>
 <wire x1="393.7" y1="17.78" x2="414.02" y2="17.78" width="0.1524" layer="91"/>
 <junction x="393.7" y="17.78"/>
-<pinref part="IC13" gate="E" pin="I"/>
+<pinref part="BUF4" gate="E" pin="I"/>
 </segment>
 </net>
 <net name="SCU_CONTROL" class="0">
@@ -9982,7 +9982,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="459.74" y1="15.24" x2="459.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="459.74" y="22.86"/>
-<pinref part="IC8" gate="A" pin="I0"/>
+<pinref part="AND1" gate="A" pin="I0"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-10" pin="S"/>
@@ -9997,8 +9997,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="449.58" y1="17.78" x2="462.28" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="449.58" y1="17.78" x2="449.58" y2="15.24" width="0.1524" layer="91"/>
 <junction x="449.58" y="17.78"/>
-<pinref part="IC8" gate="A" pin="I1"/>
-<pinref part="IC13" gate="E" pin="O"/>
+<pinref part="AND1" gate="A" pin="I1"/>
+<pinref part="BUF4" gate="E" pin="O"/>
 </segment>
 </net>
 <net name="BSPDFAULT_B" class="0">
@@ -10048,7 +10048,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="TEMPFAULT_O" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="I1"/>
+<pinref part="OR2" gate="A" pin="I1"/>
 <wire x1="223.52" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="119.38" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
@@ -10139,10 +10139,10 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <net name="N$3" class="0">
 <segment>
 <wire x1="251.46" y1="231.14" x2="220.98" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="B" pin="I0"/>
+<pinref part="OR1" gate="B" pin="I0"/>
 <wire x1="220.98" y1="231.14" x2="220.98" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="213.36" x2="223.52" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="O"/>
+<pinref part="OR1" gate="A" pin="O"/>
 <wire x1="248.92" y1="241.3" x2="251.46" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="241.3" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="241.3" x2="256.54" y2="241.3" width="0.1524" layer="91"/>
@@ -10153,11 +10153,11 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="IC3" gate="B" pin="O"/>
+<pinref part="OR1" gate="B" pin="O"/>
 <wire x1="248.92" y1="210.82" x2="251.46" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="210.82" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="203.2" x2="220.98" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="C" pin="I0"/>
+<pinref part="OR1" gate="C" pin="I0"/>
 <wire x1="220.98" y1="203.2" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="182.88" x2="223.52" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="210.82" x2="256.54" y2="210.82" width="0.1524" layer="91"/>
@@ -10168,12 +10168,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC3" gate="C" pin="O"/>
+<pinref part="OR1" gate="C" pin="O"/>
 <wire x1="248.92" y1="180.34" x2="251.46" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="180.34" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="172.72" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="D" pin="I0"/>
+<pinref part="OR1" gate="D" pin="I0"/>
 <wire x1="220.98" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 <junction x="251.46" y="180.34"/>
@@ -10183,12 +10183,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC3" gate="D" pin="O"/>
+<pinref part="OR1" gate="D" pin="O"/>
 <wire x1="248.92" y1="149.86" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="149.86" x2="251.46" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="142.24" x2="220.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="142.24" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="I0"/>
+<pinref part="OR2" gate="A" pin="I0"/>
 <wire x1="220.98" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="149.86" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
 <junction x="251.46" y="149.86"/>
@@ -10198,12 +10198,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="O"/>
+<pinref part="OR2" gate="A" pin="O"/>
 <wire x1="248.92" y1="121.92" x2="251.46" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="121.92" x2="251.46" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="111.76" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="I0"/>
+<pinref part="OR2" gate="B" pin="I0"/>
 <wire x1="220.98" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
 <junction x="251.46" y="121.92"/>
@@ -10213,7 +10213,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="FUSEFAULT_O" class="0">
 <segment>
-<pinref part="IC4" gate="B" pin="I1"/>
+<pinref part="OR2" gate="B" pin="I1"/>
 <wire x1="223.52" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="91.44" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
@@ -10231,7 +10231,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC4" gate="B" pin="O"/>
+<pinref part="OR2" gate="B" pin="O"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="96.52" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
@@ -10239,7 +10239,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="220.98" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="88.9" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <junction x="251.46" y="96.52"/>
-<pinref part="IC4" gate="C" pin="I0"/>
+<pinref part="OR2" gate="C" pin="I0"/>
 <wire x1="223.52" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="66.04" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -10255,7 +10255,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="BSPDFAULT_O" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="I0"/>
+<pinref part="OR1" gate="A" pin="I0"/>
 <wire x1="223.52" y1="243.84" x2="215.9" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="243.84" x2="215.9" y2="236.22" width="0.1524" layer="91"/>
@@ -10273,7 +10273,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="BSPDPLAUS1_O" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="I1"/>
+<pinref part="OR1" gate="A" pin="I1"/>
 <wire x1="223.52" y1="238.76" x2="205.74" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="238.76" x2="205.74" y2="236.22" width="0.1524" layer="91"/>
@@ -10291,7 +10291,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="BSPDPLAUS2_O" class="0">
 <segment>
-<pinref part="IC3" gate="B" pin="I1"/>
+<pinref part="OR1" gate="B" pin="I1"/>
 <wire x1="223.52" y1="208.28" x2="215.9" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="205.74" x2="215.9" y2="208.28" width="0.1524" layer="91"/>
@@ -10309,7 +10309,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="IMDFAULT_O" class="0">
 <segment>
-<pinref part="IC3" gate="C" pin="I1"/>
+<pinref part="OR1" gate="C" pin="I1"/>
 <wire x1="223.52" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
@@ -10329,7 +10329,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="58.42" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="I1"/>
+<pinref part="OR2" gate="C" pin="I1"/>
 <wire x1="215.9" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <junction x="215.9" y="60.96"/>
@@ -10345,7 +10345,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC4" gate="C" pin="O"/>
+<pinref part="OR2" gate="C" pin="O"/>
 <wire x1="248.92" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="63.5" x2="256.54" y2="63.5" width="0.1524" layer="91"/>
@@ -10354,7 +10354,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <junction x="251.46" y="63.5"/>
 <wire x1="251.46" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="53.34" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="I0"/>
+<pinref part="OR2" gate="D" pin="I0"/>
 <wire x1="220.98" y1="33.02" x2="223.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10371,7 +10371,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="25.4" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="I1"/>
+<pinref part="OR2" gate="D" pin="I1"/>
 <wire x1="215.9" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
 <junction x="215.9" y="27.94"/>
@@ -10390,7 +10390,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="30.48" x2="256.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="O"/>
+<pinref part="OR2" gate="D" pin="O"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="30.48" x2="276.86" y2="30.48" width="0.1524" layer="91"/>
 <junction x="256.54" y="30.48"/>
@@ -10443,7 +10443,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </net>
 <net name="AIR_CONTROL" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="O"/>
+<pinref part="AND1" gate="A" pin="O"/>
 <wire x1="487.68" y1="20.32" x2="502.92" y2="20.32" width="0.1524" layer="91"/>
 <label x="502.92" y="20.32" size="1.778" layer="95" xref="yes"/>
 <label x="502.92" y="20.32" size="1.778" layer="95" xref="yes"/>
@@ -10458,14 +10458,14 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="345.44" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="327.66" y="45.72" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC6" gate="A" pin="I0"/>
+<pinref part="NOR1" gate="A" pin="I0"/>
 <wire x1="345.44" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="45.72" x2="345.44" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="30.48" x2="345.44" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="30.48" x2="345.44" y2="30.48" width="0.1524" layer="91"/>
 <junction x="345.44" y="30.48"/>
-<pinref part="IC13" gate="D" pin="O"/>
+<pinref part="BUF4" gate="D" pin="O"/>
 <junction x="345.44" y="45.72"/>
 </segment>
 </net>
@@ -10475,29 +10475,29 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="355.6" y1="12.7" x2="355.6" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="15.24" x2="332.74" y2="15.24" width="0.1524" layer="91"/>
 <label x="332.74" y="15.24" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC6" gate="B" pin="I1"/>
+<pinref part="NOR1" gate="B" pin="I1"/>
 <wire x1="355.6" y1="15.24" x2="358.14" y2="15.24" width="0.1524" layer="91"/>
 <junction x="355.6" y="15.24"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="228.6" x2="342.9" y2="228.6" width="0.1524" layer="91"/>
 <label x="342.9" y="228.6" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC6" gate="D" pin="I1"/>
+<pinref part="NOR1" gate="D" pin="I1"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="162.56" x2="342.9" y2="162.56" width="0.1524" layer="91"/>
 <label x="342.9" y="162.56" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC5" gate="B" pin="I1"/>
+<pinref part="NOR2" gate="B" pin="I1"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
 <label x="342.9" y="96.52" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC5" gate="D" pin="I1"/>
+<pinref part="NOR2" gate="D" pin="I1"/>
 </segment>
 <segment>
 <wire x1="530.86" y1="228.6" x2="515.62" y2="228.6" width="0.1524" layer="91"/>
 <label x="515.62" y="228.6" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC9" gate="B" pin="I1"/>
+<pinref part="NOR3" gate="B" pin="I1"/>
 </segment>
 <segment>
 <wire x1="528.32" y1="152.4" x2="528.32" y2="160.02" width="0.1524" layer="91"/>
@@ -10505,27 +10505,27 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <label x="515.62" y="160.02" size="1.778" layer="97" rot="R180" xref="yes"/>
 <wire x1="528.32" y1="160.02" x2="530.86" y2="160.02" width="0.1524" layer="91"/>
 <junction x="528.32" y="160.02"/>
-<pinref part="IC9" gate="D" pin="I1"/>
+<pinref part="NOR3" gate="D" pin="I1"/>
 </segment>
 <segment>
 <wire x1="530.86" y1="93.98" x2="520.7" y2="93.98" width="0.1524" layer="91"/>
 <label x="520.7" y="93.98" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC10" gate="B" pin="I1"/>
+<pinref part="NOR4" gate="B" pin="I1"/>
 </segment>
 <segment>
 <wire x1="701.04" y1="228.6" x2="685.8" y2="228.6" width="0.1524" layer="91"/>
 <label x="685.8" y="228.6" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC10" gate="D" pin="I1"/>
+<pinref part="NOR4" gate="D" pin="I1"/>
 </segment>
 <segment>
 <wire x1="701.04" y1="160.02" x2="685.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="685.8" y="160.02" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC12" gate="B" pin="I1"/>
+<pinref part="NOR5" gate="B" pin="I1"/>
 </segment>
 <segment>
 <wire x1="701.04" y1="93.98" x2="685.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="685.8" y="93.98" size="1.778" layer="97" rot="R180" xref="yes"/>
-<pinref part="IC12" gate="D" pin="I1"/>
+<pinref part="NOR5" gate="D" pin="I1"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-11" pin="S"/>
@@ -10552,8 +10552,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="254" x2="383.54" y2="254" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="238.76" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="233.68" x2="358.14" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="C" pin="O"/>
-<pinref part="IC6" gate="D" pin="I0"/>
+<pinref part="NOR1" gate="C" pin="O"/>
+<pinref part="NOR1" gate="D" pin="I0"/>
 </segment>
 </net>
 <net name="Q_BSPDFAULT" class="0">
@@ -10565,8 +10565,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="238.76" x2="386.08" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="231.14" x2="383.54" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="238.76" x2="388.62" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="C" pin="I1"/>
-<pinref part="IC6" gate="D" pin="O"/>
+<pinref part="NOR1" gate="C" pin="I1"/>
+<pinref part="NOR1" gate="D" pin="O"/>
 <pinref part="BUF2" gate="E" pin="I"/>
 <junction x="386.08" y="238.76"/>
 </segment>
@@ -10581,7 +10581,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="337.82" y1="177.8" x2="345.44" y2="177.8" width="0.1524" layer="91"/>
 <junction x="345.44" y="177.8"/>
 <label x="350.52" y="193.04" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC5" gate="A" pin="I0"/>
+<pinref part="NOR2" gate="A" pin="I0"/>
 <pinref part="BUF2" gate="F" pin="O"/>
 <junction x="345.44" y="190.5"/>
 </segment>
@@ -10590,7 +10590,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="408.94" y1="172.72" x2="414.02" y2="172.72" width="0.1524" layer="91"/>
 <label x="414.02" y="172.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC7" gate="A" pin="O"/>
+<pinref part="BUF3" gate="A" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="177.8" x2="71.12" y2="177.8" width="0.1524" layer="91"/>
@@ -10617,8 +10617,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="187.96" x2="383.54" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="172.72" x2="353.06" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="167.64" x2="358.14" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="O"/>
-<pinref part="IC5" gate="B" pin="I0"/>
+<pinref part="NOR2" gate="A" pin="O"/>
+<pinref part="NOR2" gate="B" pin="I0"/>
 </segment>
 </net>
 <net name="Q_BSPDPLAUS1" class="0">
@@ -10630,9 +10630,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="172.72" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="165.1" x2="383.54" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="172.72" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="I1"/>
-<pinref part="IC5" gate="B" pin="O"/>
-<pinref part="IC7" gate="A" pin="I"/>
+<pinref part="NOR2" gate="A" pin="I1"/>
+<pinref part="NOR2" gate="B" pin="O"/>
+<pinref part="BUF3" gate="A" pin="I"/>
 <junction x="386.08" y="172.72"/>
 </segment>
 </net>
@@ -10644,7 +10644,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="304.8" y1="111.76" x2="304.8" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="111.76" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
 <junction x="304.8" y="111.76"/>
-<pinref part="IC7" gate="B" pin="I"/>
+<pinref part="BUF3" gate="B" pin="I"/>
 </segment>
 </net>
 <net name="~Q_BSPDPLAUS2" class="0">
@@ -10655,8 +10655,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="121.92" x2="383.54" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="106.68" x2="353.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="101.6" x2="358.14" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="C" pin="O"/>
-<pinref part="IC5" gate="D" pin="I0"/>
+<pinref part="NOR2" gate="C" pin="O"/>
+<pinref part="NOR2" gate="D" pin="I0"/>
 </segment>
 </net>
 <net name="Q_BSPDPLAUS2" class="0">
@@ -10668,9 +10668,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="386.08" y1="106.68" x2="386.08" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="99.06" x2="383.54" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="106.68" x2="388.62" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="C" pin="I1"/>
-<pinref part="IC5" gate="D" pin="O"/>
-<pinref part="IC7" gate="C" pin="I"/>
+<pinref part="NOR2" gate="C" pin="I1"/>
+<pinref part="NOR2" gate="D" pin="O"/>
+<pinref part="BUF3" gate="C" pin="I"/>
 <junction x="386.08" y="106.68"/>
 </segment>
 </net>
@@ -10682,7 +10682,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="477.52" y1="243.84" x2="477.52" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="243.84" x2="490.22" y2="243.84" width="0.1524" layer="91"/>
 <junction x="477.52" y="243.84"/>
-<pinref part="IC7" gate="D" pin="I"/>
+<pinref part="BUF3" gate="D" pin="I"/>
 </segment>
 </net>
 <net name="~Q_IMDFAULT" class="0">
@@ -10693,8 +10693,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="254" x2="556.26" y2="254" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="238.76" x2="525.78" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="233.68" x2="530.86" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="O"/>
-<pinref part="IC9" gate="B" pin="I0"/>
+<pinref part="NOR3" gate="A" pin="O"/>
+<pinref part="NOR3" gate="B" pin="I0"/>
 </segment>
 </net>
 <net name="Q_IMDFAULT" class="0">
@@ -10706,9 +10706,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="238.76" x2="558.8" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="231.14" x2="556.26" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="238.76" x2="561.34" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="I1"/>
-<pinref part="IC9" gate="B" pin="O"/>
-<pinref part="IC7" gate="E" pin="I"/>
+<pinref part="NOR3" gate="A" pin="I1"/>
+<pinref part="NOR3" gate="B" pin="O"/>
+<pinref part="BUF3" gate="E" pin="I"/>
 <junction x="558.8" y="238.76"/>
 </segment>
 </net>
@@ -10720,7 +10720,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="477.52" y1="175.26" x2="477.52" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="175.26" x2="490.22" y2="175.26" width="0.1524" layer="91"/>
 <junction x="477.52" y="175.26"/>
-<pinref part="IC7" gate="F" pin="I"/>
+<pinref part="BUF3" gate="F" pin="I"/>
 </segment>
 </net>
 <net name="~Q_BMSFAULT" class="0">
@@ -10731,8 +10731,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="185.42" x2="556.26" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="170.18" x2="525.78" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="165.1" x2="530.86" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="O"/>
-<pinref part="IC9" gate="D" pin="I0"/>
+<pinref part="NOR3" gate="C" pin="O"/>
+<pinref part="NOR3" gate="D" pin="I0"/>
 </segment>
 </net>
 <net name="Q_BMSFAULT" class="0">
@@ -10744,9 +10744,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="170.18" x2="558.8" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="162.56" x2="556.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="170.18" x2="561.34" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="I1"/>
-<pinref part="IC9" gate="D" pin="O"/>
-<pinref part="IC11" gate="A" pin="I"/>
+<pinref part="NOR3" gate="C" pin="I1"/>
+<pinref part="NOR3" gate="D" pin="O"/>
+<pinref part="BUF5" gate="A" pin="I"/>
 <junction x="558.8" y="170.18"/>
 </segment>
 </net>
@@ -10758,7 +10758,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="477.52" y1="109.22" x2="477.52" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="109.22" x2="490.22" y2="109.22" width="0.1524" layer="91"/>
 <junction x="477.52" y="109.22"/>
-<pinref part="IC11" gate="B" pin="I"/>
+<pinref part="BUF5" gate="B" pin="I"/>
 </segment>
 </net>
 <net name="~Q_TEMPFAULT" class="0">
@@ -10769,8 +10769,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="119.38" x2="556.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="104.14" x2="528.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="99.06" x2="530.86" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="O"/>
-<pinref part="IC10" gate="B" pin="I0"/>
+<pinref part="NOR4" gate="A" pin="O"/>
+<pinref part="NOR4" gate="B" pin="I0"/>
 </segment>
 </net>
 <net name="Q_TEMPFAULT" class="0">
@@ -10782,9 +10782,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="558.8" y1="104.14" x2="558.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="96.52" x2="556.26" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="104.14" x2="561.34" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="I1"/>
-<pinref part="IC10" gate="B" pin="O"/>
-<pinref part="IC11" gate="C" pin="I"/>
+<pinref part="NOR4" gate="A" pin="I1"/>
+<pinref part="NOR4" gate="B" pin="O"/>
+<pinref part="BUF5" gate="C" pin="I"/>
 <junction x="558.8" y="104.14"/>
 </segment>
 </net>
@@ -10796,7 +10796,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="647.7" y1="243.84" x2="647.7" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="647.7" y1="243.84" x2="660.4" y2="243.84" width="0.1524" layer="91"/>
 <junction x="647.7" y="243.84"/>
-<pinref part="IC11" gate="D" pin="I"/>
+<pinref part="BUF5" gate="D" pin="I"/>
 </segment>
 </net>
 <net name="~Q_FUSEFAULT" class="0">
@@ -10807,8 +10807,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="254" x2="726.44" y2="254" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="238.76" x2="695.96" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="233.68" x2="701.04" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="C" pin="O"/>
-<pinref part="IC10" gate="D" pin="I0"/>
+<pinref part="NOR4" gate="C" pin="O"/>
+<pinref part="NOR4" gate="D" pin="I0"/>
 </segment>
 </net>
 <net name="Q_FUSEFAULT" class="0">
@@ -10820,9 +10820,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="238.76" x2="728.98" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="231.14" x2="726.44" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="238.76" x2="731.52" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="C" pin="I1"/>
-<pinref part="IC10" gate="D" pin="O"/>
-<pinref part="IC11" gate="E" pin="I"/>
+<pinref part="NOR4" gate="C" pin="I1"/>
+<pinref part="NOR4" gate="D" pin="O"/>
+<pinref part="BUF5" gate="E" pin="I"/>
 <junction x="728.98" y="238.76"/>
 </segment>
 </net>
@@ -10834,7 +10834,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="647.7" y1="175.26" x2="647.7" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="647.7" y1="175.26" x2="660.4" y2="175.26" width="0.1524" layer="91"/>
 <junction x="647.7" y="175.26"/>
-<pinref part="IC11" gate="F" pin="I"/>
+<pinref part="BUF5" gate="F" pin="I"/>
 </segment>
 </net>
 <net name="~Q_AUX1" class="0">
@@ -10845,8 +10845,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="185.42" x2="726.44" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="170.18" x2="695.96" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="165.1" x2="701.04" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="O"/>
-<pinref part="IC12" gate="B" pin="I0"/>
+<pinref part="NOR5" gate="A" pin="O"/>
+<pinref part="NOR5" gate="B" pin="I0"/>
 </segment>
 </net>
 <net name="Q_AUX1" class="0">
@@ -10858,9 +10858,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="170.18" x2="728.98" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="162.56" x2="726.44" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="170.18" x2="731.52" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="I1"/>
-<pinref part="IC12" gate="B" pin="O"/>
-<pinref part="IC13" gate="A" pin="I"/>
+<pinref part="NOR5" gate="A" pin="I1"/>
+<pinref part="NOR5" gate="B" pin="O"/>
+<pinref part="BUF4" gate="A" pin="I"/>
 <junction x="728.98" y="170.18"/>
 </segment>
 </net>
@@ -10872,7 +10872,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="647.7" y1="109.22" x2="647.7" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="647.7" y1="109.22" x2="660.4" y2="109.22" width="0.1524" layer="91"/>
 <junction x="647.7" y="109.22"/>
-<pinref part="IC13" gate="B" pin="I"/>
+<pinref part="BUF4" gate="B" pin="I"/>
 </segment>
 </net>
 <net name="~Q_AUX2" class="0">
@@ -10883,8 +10883,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="119.38" x2="726.44" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="104.14" x2="695.96" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="99.06" x2="701.04" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="C" pin="O"/>
-<pinref part="IC12" gate="D" pin="I0"/>
+<pinref part="NOR5" gate="C" pin="O"/>
+<pinref part="NOR5" gate="D" pin="I0"/>
 </segment>
 </net>
 <net name="Q_AUX2" class="0">
@@ -10896,9 +10896,9 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="728.98" y1="104.14" x2="728.98" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="96.52" x2="726.44" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="728.98" y1="104.14" x2="731.52" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="C" pin="I1"/>
-<pinref part="IC12" gate="D" pin="O"/>
-<pinref part="IC13" gate="C" pin="I"/>
+<pinref part="NOR5" gate="C" pin="I1"/>
+<pinref part="NOR5" gate="D" pin="O"/>
+<pinref part="BUF4" gate="C" pin="I"/>
 <junction x="728.98" y="104.14"/>
 </segment>
 </net>
@@ -10912,8 +10912,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="337.82" y1="111.76" x2="345.44" y2="111.76" width="0.1524" layer="91"/>
 <junction x="345.44" y="111.76"/>
 <label x="350.52" y="127" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC5" gate="C" pin="I0"/>
-<pinref part="IC7" gate="B" pin="O"/>
+<pinref part="NOR2" gate="C" pin="I0"/>
+<pinref part="BUF3" gate="B" pin="O"/>
 <junction x="345.44" y="124.46"/>
 </segment>
 </net>
@@ -10933,7 +10933,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="408.94" y1="106.68" x2="414.02" y2="106.68" width="0.1524" layer="91"/>
 <label x="414.02" y="106.68" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC7" gate="C" pin="O"/>
+<pinref part="BUF3" gate="C" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
@@ -10951,7 +10951,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="337.82" y1="243.84" x2="345.44" y2="243.84" width="0.1524" layer="91"/>
 <junction x="345.44" y="243.84"/>
 <label x="350.52" y="259.08" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC6" gate="C" pin="I0"/>
+<pinref part="NOR1" gate="C" pin="I0"/>
 <pinref part="BUF2" gate="D" pin="O"/>
 <junction x="345.44" y="256.54"/>
 </segment>
@@ -10966,8 +10966,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="510.54" y1="243.84" x2="518.16" y2="243.84" width="0.1524" layer="91"/>
 <junction x="518.16" y="243.84"/>
 <label x="523.24" y="259.08" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC9" gate="A" pin="I0"/>
-<pinref part="IC7" gate="D" pin="O"/>
+<pinref part="NOR3" gate="A" pin="I0"/>
+<pinref part="BUF3" gate="D" pin="O"/>
 <junction x="518.16" y="256.54"/>
 </segment>
 </net>
@@ -10975,7 +10975,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="581.66" y1="238.76" x2="586.74" y2="238.76" width="0.1524" layer="91"/>
 <label x="586.74" y="238.76" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC7" gate="E" pin="O"/>
+<pinref part="BUF3" gate="E" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="172.72" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
@@ -10990,7 +10990,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <label x="444.5" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="D" pin="I1"/>
+<pinref part="OR1" gate="D" pin="I1"/>
 <wire x1="223.52" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="147.32" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
@@ -11011,8 +11011,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="510.54" y1="175.26" x2="518.16" y2="175.26" width="0.1524" layer="91"/>
 <junction x="518.16" y="175.26"/>
 <label x="523.24" y="190.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC9" gate="C" pin="I0"/>
-<pinref part="IC7" gate="F" pin="O"/>
+<pinref part="NOR3" gate="C" pin="I0"/>
+<pinref part="BUF3" gate="F" pin="O"/>
 <junction x="518.16" y="187.96"/>
 </segment>
 </net>
@@ -11026,8 +11026,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="510.54" y1="109.22" x2="523.24" y2="109.22" width="0.1524" layer="91"/>
 <junction x="523.24" y="109.22"/>
 <label x="525.78" y="124.46" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC10" gate="A" pin="I0"/>
-<pinref part="IC11" gate="B" pin="O"/>
+<pinref part="NOR4" gate="A" pin="I0"/>
+<pinref part="BUF5" gate="B" pin="O"/>
 <junction x="523.24" y="121.92"/>
 </segment>
 </net>
@@ -11035,7 +11035,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="581.66" y1="104.14" x2="586.74" y2="104.14" width="0.1524" layer="91"/>
 <label x="586.74" y="104.14" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC11" gate="C" pin="O"/>
+<pinref part="BUF5" gate="C" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
@@ -11053,8 +11053,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="680.72" y1="243.84" x2="688.34" y2="243.84" width="0.1524" layer="91"/>
 <junction x="688.34" y="243.84"/>
 <label x="693.42" y="259.08" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC10" gate="C" pin="I0"/>
-<pinref part="IC11" gate="D" pin="O"/>
+<pinref part="NOR4" gate="C" pin="I0"/>
+<pinref part="BUF5" gate="D" pin="O"/>
 <junction x="688.34" y="256.54"/>
 </segment>
 </net>
@@ -11062,7 +11062,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="751.84" y1="238.76" x2="756.92" y2="238.76" width="0.1524" layer="91"/>
 <label x="756.92" y="238.76" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC11" gate="E" pin="O"/>
+<pinref part="BUF5" gate="E" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
@@ -11080,8 +11080,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="680.72" y1="175.26" x2="688.34" y2="175.26" width="0.1524" layer="91"/>
 <junction x="688.34" y="175.26"/>
 <label x="693.42" y="190.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC12" gate="A" pin="I0"/>
-<pinref part="IC11" gate="F" pin="O"/>
+<pinref part="NOR5" gate="A" pin="I0"/>
+<pinref part="BUF5" gate="F" pin="O"/>
 <junction x="688.34" y="187.96"/>
 </segment>
 </net>
@@ -11089,7 +11089,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="751.84" y1="170.18" x2="756.92" y2="170.18" width="0.1524" layer="91"/>
 <label x="756.92" y="170.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC13" gate="A" pin="O"/>
+<pinref part="BUF4" gate="A" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
@@ -11107,8 +11107,8 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="680.72" y1="109.22" x2="688.34" y2="109.22" width="0.1524" layer="91"/>
 <junction x="688.34" y="109.22"/>
 <label x="693.42" y="124.46" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC12" gate="C" pin="I0"/>
-<pinref part="IC13" gate="B" pin="O"/>
+<pinref part="NOR5" gate="C" pin="I0"/>
+<pinref part="BUF4" gate="B" pin="O"/>
 <junction x="688.34" y="121.92"/>
 </segment>
 </net>
@@ -11116,7 +11116,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="751.84" y1="104.14" x2="756.92" y2="104.14" width="0.1524" layer="91"/>
 <label x="756.92" y="104.14" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC13" gate="C" pin="O"/>
+<pinref part="BUF4" gate="C" pin="O"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
@@ -11149,7 +11149,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="581.66" y1="170.18" x2="586.74" y2="170.18" width="0.1524" layer="91"/>
 <label x="586.74" y="170.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC11" gate="A" pin="O"/>
+<pinref part="BUF5" gate="A" pin="O"/>
 </segment>
 </net>
 </nets>
