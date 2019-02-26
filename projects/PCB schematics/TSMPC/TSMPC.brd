@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1411,7 +1411,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="2.54" y="-49.53" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="1.905" y="-52.07" size="1.27" layer="27"/>
 </element>
-<element name="U$1" library="con-banana" package="BANANA-PRINT" value="BANANA-JACK" x="-5.08" y="-71.12" smashed="yes"/>
 <element name="U$3" library="con-banana" package="BANANA-PRINT" value="BANANA-JACK" x="-5.08" y="-99.06" smashed="yes"/>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="2.54" y="-107.95" smashed="yes">
 <attribute name="NAME" x="1.905" y="-106.68" size="1.27" layer="25"/>
@@ -1463,7 +1462,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-7.62" y="-165.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.905" y="-137.16" size="1.27" layer="27"/>
 </element>
-<element name="U$4" library="con-banana" package="BANANA-PRINT" value="BANANA-JACK" x="-5.08" y="-113.03" smashed="yes"/>
 </elements>
 <signals>
 <signal name="V+">
@@ -1516,8 +1514,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="HV+_MEASURE_POINT">
 <contactref element="R10" pad="1"/>
-<contactref element="U$1" pad="P$1"/>
-<wire x1="1.59" y1="-49.53" x2="-5.08" y2="-71.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIRECT_CHASSIS_GND_MEASURE_POINT">
 <contactref element="U$3" pad="P$1"/>
@@ -1571,8 +1567,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="HV-_MEASURE_POINT">
 <contactref element="R30" pad="1"/>
-<contactref element="U$4" pad="P$1"/>
-<wire x1="-5.08" y1="-113.03" x2="-2.22" y2="-134.62" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

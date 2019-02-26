@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18892,112 +18892,26 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <sheets>
 <sheet>
 <plain>
-<wire x1="5.08" y1="58.42" x2="5.08" y2="111.76" width="0.254" layer="94"/>
-<wire x1="5.08" y1="111.76" x2="124.46" y2="111.76" width="0.254" layer="94"/>
-<wire x1="124.46" y1="111.76" x2="124.46" y2="58.42" width="0.254" layer="94"/>
-<wire x1="124.46" y1="58.42" x2="5.08" y2="58.42" width="0.254" layer="94"/>
-<wire x1="5.08" y1="167.64" x2="5.08" y2="215.9" width="0.254" layer="94"/>
-<wire x1="5.08" y1="215.9" x2="5.08" y2="220.98" width="0.254" layer="94"/>
-<wire x1="5.08" y1="220.98" x2="43.18" y2="220.98" width="0.254" layer="94"/>
-<wire x1="43.18" y1="220.98" x2="124.46" y2="220.98" width="0.254" layer="94"/>
-<wire x1="124.46" y1="220.98" x2="124.46" y2="167.64" width="0.254" layer="94"/>
-<wire x1="124.46" y1="167.64" x2="5.08" y2="167.64" width="0.254" layer="94"/>
-<wire x1="129.54" y1="5.08" x2="129.54" y2="55.88" width="0.254" layer="94"/>
-<wire x1="129.54" y1="55.88" x2="274.32" y2="55.88" width="0.254" layer="94"/>
-<wire x1="274.32" y1="55.88" x2="274.32" y2="5.08" width="0.254" layer="94"/>
-<wire x1="274.32" y1="5.08" x2="129.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="165.1" x2="5.08" y2="114.3" width="0.254" layer="94"/>
-<wire x1="5.08" y1="114.3" x2="124.46" y2="114.3" width="0.254" layer="94"/>
-<wire x1="124.46" y1="114.3" x2="124.46" y2="165.1" width="0.254" layer="94"/>
-<wire x1="124.46" y1="165.1" x2="5.08" y2="165.1" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="55.88" width="0.254" layer="94"/>
-<wire x1="5.08" y1="55.88" x2="124.46" y2="55.88" width="0.254" layer="94"/>
-<wire x1="124.46" y1="55.88" x2="124.46" y2="5.08" width="0.254" layer="94"/>
-<wire x1="124.46" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="314.96" y="266.7" size="5.08" layer="100">Iowa</text>
-<text x="330.2" y="266.7" size="5.08" layer="98">Formula</text>
-<text x="306.832" y="242.824" size="2.1844" layer="96">12/31/18</text>
-<text x="339.852" y="250.444" size="3.81" layer="96">10 of 10</text>
-<text x="358.14" y="266.7" size="3.81" layer="96">- proj.Mercury</text>
-<text x="35.56" y="271.78" size="8.89" layer="94">User Input (USER) Board</text>
-<text x="35.56" y="261.62" size="6.35" layer="91">Function:</text>
-<text x="35.56" y="231.14" size="4.572" layer="96">USER board accepts and preconditions all user-controlled sensor inputs
+<text x="396.24" y="292.1" size="5.08" layer="100">Iowa</text>
+<text x="411.48" y="292.1" size="5.08" layer="98">Formula</text>
+<text x="388.112" y="268.224" size="2.1844" layer="96">12/31/18</text>
+<text x="421.132" y="275.844" size="3.81" layer="96">10 of 10</text>
+<text x="439.42" y="292.1" size="3.81" layer="96">- proj.Mercury</text>
+<text x="22.86" y="314.96" size="8.89" layer="94">User Input (USER) Board</text>
+<text x="22.86" y="304.8" size="6.35" layer="91">Function:</text>
+<text x="22.86" y="274.32" size="4.572" layer="96">USER board accepts and preconditions all user-controlled sensor inputs
 (not otherwise accounted for) to occur within a a fixed range 0.5-4.5V range.
 By preconditing these inputs, direct shorts to ground and power supply rails may
 be detected and appropriate safety control systems/mitigating factors activated.</text>
-<wire x1="129.54" y1="58.42" x2="129.54" y2="111.76" width="0.254" layer="94"/>
-<wire x1="129.54" y1="111.76" x2="274.32" y2="111.76" width="0.254" layer="94"/>
-<wire x1="274.32" y1="111.76" x2="274.32" y2="58.42" width="0.254" layer="94"/>
-<wire x1="274.32" y1="58.42" x2="129.54" y2="58.42" width="0.254" layer="94"/>
-<wire x1="424.18" y1="5.08" x2="279.4" y2="5.08" width="0.254" layer="94"/>
-<wire x1="279.4" y1="5.08" x2="279.4" y2="55.88" width="0.254" layer="94"/>
-<wire x1="279.4" y1="55.88" x2="424.18" y2="55.88" width="0.254" layer="94"/>
-<wire x1="424.18" y1="55.88" x2="424.18" y2="5.08" width="0.254" layer="94"/>
-<wire x1="279.4" y1="170.18" x2="279.4" y2="220.98" width="0.254" layer="94"/>
-<wire x1="279.4" y1="220.98" x2="424.18" y2="220.98" width="0.254" layer="94"/>
-<wire x1="424.18" y1="220.98" x2="424.18" y2="170.18" width="0.254" layer="94"/>
-<wire x1="424.18" y1="170.18" x2="279.4" y2="170.18" width="0.254" layer="94"/>
-<wire x1="279.4" y1="111.76" x2="279.4" y2="58.42" width="0.254" layer="94"/>
-<wire x1="279.4" y1="58.42" x2="424.18" y2="58.42" width="0.254" layer="94"/>
-<wire x1="424.18" y1="58.42" x2="424.18" y2="111.76" width="0.254" layer="94"/>
-<wire x1="424.18" y1="111.76" x2="279.4" y2="111.76" width="0.254" layer="94"/>
-<wire x1="279.4" y1="114.3" x2="279.4" y2="167.64" width="0.254" layer="94"/>
-<wire x1="279.4" y1="167.64" x2="424.18" y2="167.64" width="0.254" layer="94"/>
-<wire x1="424.18" y1="167.64" x2="424.18" y2="114.3" width="0.254" layer="94"/>
-<wire x1="424.18" y1="114.3" x2="279.4" y2="114.3" width="0.254" layer="94"/>
-<wire x1="137.16" y1="121.92" x2="137.16" y2="200.66" width="0.254" layer="94"/>
-<wire x1="137.16" y1="200.66" x2="203.2" y2="200.66" width="0.254" layer="94"/>
-<wire x1="203.2" y1="200.66" x2="203.2" y2="121.92" width="0.254" layer="94"/>
-<wire x1="203.2" y1="121.92" x2="137.16" y2="121.92" width="0.254" layer="94"/>
-<wire x1="205.74" y1="121.92" x2="205.74" y2="200.66" width="0.254" layer="94"/>
-<wire x1="205.74" y1="200.66" x2="266.7" y2="200.66" width="0.254" layer="94"/>
-<wire x1="266.7" y1="200.66" x2="266.7" y2="121.92" width="0.254" layer="94"/>
-<wire x1="266.7" y1="121.92" x2="205.74" y2="121.92" width="0.254" layer="94"/>
-<frame x1="0" y1="0" x2="429.26" y2="297.18" columns="8" rows="5" layer="91"/>
-<wire x1="5.08" y1="215.9" x2="43.18" y2="215.9" width="0.254" layer="94"/>
-<wire x1="43.18" y1="215.9" x2="43.18" y2="220.98" width="0.254" layer="94"/>
-<text x="7.874" y="217.424" size="1.778" layer="94">1. Preconditioning - APPS1</text>
-<wire x1="5.08" y1="119.38" x2="43.18" y2="119.38" width="0.254" layer="94"/>
-<wire x1="43.18" y1="119.38" x2="43.18" y2="114.3" width="0.254" layer="94"/>
-<text x="7.874" y="117.856" size="1.778" layer="94" rot="MR180">1. Preconditioning - APPS2</text>
-<wire x1="5.08" y1="106.68" x2="43.18" y2="106.68" width="0.254" layer="94"/>
-<wire x1="43.18" y1="106.68" x2="43.18" y2="111.76" width="0.254" layer="94"/>
-<text x="7.366" y="108.458" size="1.778" layer="94">1. Preconditioning - BOTS</text>
-<wire x1="5.08" y1="10.16" x2="43.18" y2="10.16" width="0.254" layer="94"/>
-<wire x1="43.18" y1="10.16" x2="43.18" y2="5.08" width="0.254" layer="94"/>
-<text x="6.35" y="7.874" size="1.778" layer="94" rot="MR180">1. Preconditioning - INERTIA</text>
-<wire x1="129.54" y1="10.16" x2="167.64" y2="10.16" width="0.254" layer="94"/>
-<wire x1="167.64" y1="10.16" x2="167.64" y2="5.08" width="0.254" layer="94"/>
-<text x="130.81" y="8.128" size="1.778" layer="94" rot="MR180">1. Preconditioning - HVD</text>
-<wire x1="274.32" y1="106.68" x2="236.22" y2="106.68" width="0.254" layer="94"/>
 <wire x1="236.22" y1="106.68" x2="236.22" y2="111.76" width="0.254" layer="94"/>
-<text x="272.034" y="108.712" size="1.778" layer="94" rot="MR0">2. Plausibility - HVD</text>
-<wire x1="203.2" y1="195.58" x2="165.1" y2="195.58" width="0.254" layer="94"/>
-<wire x1="165.1" y1="195.58" x2="165.1" y2="200.66" width="0.254" layer="94"/>
-<text x="200.66" y="197.612" size="1.778" layer="94" rot="MR0">Voltage References</text>
-<wire x1="266.7" y1="195.58" x2="226.06" y2="195.58" width="0.254" layer="94"/>
-<wire x1="226.06" y1="195.58" x2="226.06" y2="200.66" width="0.254" layer="94"/>
-<text x="263.906" y="197.612" size="1.778" layer="94" rot="MR0">Plausibility Sensitivity Threshold</text>
-<wire x1="424.18" y1="175.26" x2="386.08" y2="175.26" width="0.254" layer="94"/>
-<wire x1="386.08" y1="175.26" x2="386.08" y2="170.18" width="0.254" layer="94"/>
-<text x="421.64" y="173.482" size="1.778" layer="94" rot="R180">2. Plausibility - APPS1</text>
-<wire x1="424.18" y1="119.38" x2="386.08" y2="119.38" width="0.254" layer="94"/>
-<wire x1="386.08" y1="119.38" x2="386.08" y2="114.3" width="0.254" layer="94"/>
-<text x="421.64" y="116.84" size="1.778" layer="94" rot="R180">2. Plausibility - APPS2</text>
-<wire x1="424.18" y1="106.68" x2="386.08" y2="106.68" width="0.254" layer="94"/>
-<wire x1="386.08" y1="106.68" x2="386.08" y2="111.76" width="0.254" layer="94"/>
-<text x="421.64" y="108.458" size="1.778" layer="94" rot="MR0">2. Plausibility - BOTS</text>
-<wire x1="424.18" y1="10.16" x2="386.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="386.08" y1="10.16" x2="386.08" y2="5.08" width="0.254" layer="94"/>
-<text x="421.64" y="8.128" size="1.778" layer="94" rot="R180">2. Plausibility - INERTIA</text>
-<text x="341.122" y="242.57" size="1.778" layer="94">Author: Michael Pass</text>
-<text x="388.112" y="247.904" size="3.81" layer="96">A</text>
+<text x="422.402" y="267.97" size="1.778" layer="94">Author: Michael Pass</text>
+<text x="469.392" y="273.304" size="3.81" layer="96">A</text>
 </plain>
 <instances>
-<instance part="IC5" gate="B" x="317.5" y="187.96" smashed="yes"/>
-<instance part="IC5" gate="C" x="360.68" y="208.28" smashed="yes"/>
-<instance part="IC5" gate="D" x="360.68" y="185.42" smashed="yes"/>
-<instance part="IC5" gate="A" x="317.5" y="210.82" smashed="yes"/>
+<instance part="IC5" gate="B" x="325.12" y="180.34" smashed="yes"/>
+<instance part="IC5" gate="C" x="368.3" y="200.66" smashed="yes"/>
+<instance part="IC5" gate="D" x="368.3" y="177.8" smashed="yes"/>
+<instance part="IC5" gate="A" x="325.12" y="203.2" smashed="yes"/>
 <instance part="R16" gate="G$1" x="238.76" y="162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="244.729" y="158.75" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="242.57" y="158.75" size="1.778" layer="96" rot="MR90"/>
@@ -19008,30 +18922,30 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <instance part="GND7" gate="1" x="238.76" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="241.3" y="149.86" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R17" gate="G$1" x="332.74" y="210.82" smashed="yes">
-<attribute name="NAME" x="328.93" y="212.3186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="328.93" y="207.518" size="1.778" layer="96"/>
+<instance part="R17" gate="G$1" x="340.36" y="203.2" smashed="yes">
+<attribute name="NAME" x="336.55" y="204.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="336.55" y="199.898" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="340.36" y="205.74" smashed="yes">
-<attribute name="NAME" x="341.884" y="206.121" size="1.778" layer="95"/>
-<attribute name="VALUE" x="341.884" y="201.041" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="347.98" y="198.12" smashed="yes">
+<attribute name="NAME" x="349.504" y="198.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.504" y="193.421" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="340.36" y="198.12" smashed="yes">
-<attribute name="VALUE" x="337.82" y="195.58" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="347.98" y="190.5" smashed="yes">
+<attribute name="VALUE" x="345.44" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="R18" gate="G$1" x="332.74" y="187.96" smashed="yes">
-<attribute name="NAME" x="328.93" y="189.4586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="328.93" y="184.658" size="1.778" layer="96"/>
+<instance part="R18" gate="G$1" x="340.36" y="180.34" smashed="yes">
+<attribute name="NAME" x="336.55" y="181.8386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="336.55" y="177.038" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="340.36" y="182.88" smashed="yes">
-<attribute name="NAME" x="341.884" y="183.261" size="1.778" layer="95"/>
-<attribute name="VALUE" x="341.884" y="178.181" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="347.98" y="175.26" smashed="yes">
+<attribute name="NAME" x="349.504" y="175.641" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.504" y="170.561" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="340.36" y="175.26" smashed="yes">
-<attribute name="VALUE" x="337.82" y="172.72" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="347.98" y="167.64" smashed="yes">
+<attribute name="VALUE" x="345.44" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="A" x="383.54" y="205.74" smashed="yes">
-<attribute name="NAME" x="381" y="211.455" size="1.778" layer="95"/>
+<instance part="IC10" gate="A" x="391.16" y="198.12" smashed="yes">
+<attribute name="NAME" x="388.62" y="203.835" size="1.778" layer="95"/>
 </instance>
 <instance part="R5" gate="G$1" x="167.64" y="170.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="170.942" y="166.37" size="1.778" layer="96" rot="R90"/>
@@ -19113,34 +19027,34 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <instance part="IC9" gate="A" x="383.54" y="93.98" smashed="yes">
 <attribute name="NAME" x="381" y="99.695" size="1.778" layer="95"/>
 </instance>
-<instance part="IC1" gate="B" x="317.5" y="134.62" smashed="yes"/>
-<instance part="IC1" gate="C" x="360.68" y="154.94" smashed="yes"/>
-<instance part="IC1" gate="D" x="360.68" y="132.08" smashed="yes"/>
-<instance part="IC1" gate="A" x="317.5" y="157.48" smashed="yes"/>
-<instance part="R3" gate="G$1" x="332.74" y="157.48" smashed="yes">
-<attribute name="NAME" x="328.93" y="158.9786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="328.93" y="154.178" size="1.778" layer="96"/>
+<instance part="IC1" gate="B" x="325.12" y="127" smashed="yes"/>
+<instance part="IC1" gate="C" x="368.3" y="147.32" smashed="yes"/>
+<instance part="IC1" gate="D" x="368.3" y="124.46" smashed="yes"/>
+<instance part="IC1" gate="A" x="325.12" y="149.86" smashed="yes"/>
+<instance part="R3" gate="G$1" x="340.36" y="149.86" smashed="yes">
+<attribute name="NAME" x="336.55" y="151.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="336.55" y="146.558" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="340.36" y="154.94" smashed="yes">
-<attribute name="NAME" x="341.884" y="155.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="341.884" y="150.241" size="1.778" layer="96"/>
+<instance part="C10" gate="G$1" x="347.98" y="147.32" smashed="yes">
+<attribute name="NAME" x="349.504" y="147.701" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.504" y="142.621" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="340.36" y="147.32" smashed="yes">
-<attribute name="VALUE" x="337.82" y="144.78" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="347.98" y="139.7" smashed="yes">
+<attribute name="VALUE" x="345.44" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="332.74" y="134.62" smashed="yes">
-<attribute name="NAME" x="328.93" y="136.1186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="328.93" y="131.318" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="340.36" y="127" smashed="yes">
+<attribute name="NAME" x="336.55" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="336.55" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="340.36" y="132.08" smashed="yes">
-<attribute name="NAME" x="341.884" y="132.461" size="1.778" layer="95"/>
-<attribute name="VALUE" x="341.884" y="127.381" size="1.778" layer="96"/>
+<instance part="C11" gate="G$1" x="347.98" y="124.46" smashed="yes">
+<attribute name="NAME" x="349.504" y="124.841" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.504" y="119.761" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="340.36" y="124.46" smashed="yes">
-<attribute name="VALUE" x="337.82" y="121.92" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="347.98" y="116.84" smashed="yes">
+<attribute name="VALUE" x="345.44" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="A" x="383.54" y="152.4" smashed="yes">
-<attribute name="NAME" x="381" y="158.115" size="1.778" layer="95"/>
+<instance part="IC6" gate="A" x="391.16" y="144.78" smashed="yes">
+<attribute name="NAME" x="388.62" y="150.495" size="1.778" layer="95"/>
 </instance>
 <instance part="IC8" gate="A" x="78.74" y="83.82" smashed="yes"/>
 <instance part="R7" gate="G$1" x="20.32" y="93.98" smashed="yes" rot="R90">
@@ -19281,9 +19195,7 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <instance part="R77" gate="G$1" x="88.9" y="185.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="85.598" y="189.23" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND29" gate="1" x="88.9" y="175.26" smashed="yes">
-<attribute name="VALUE" x="86.36" y="172.72" size="1.778" layer="96"/>
-</instance>
+<instance part="GND29" gate="1" x="88.9" y="175.26" smashed="yes"/>
 <instance part="IC19" gate="A" x="81.28" y="139.7" smashed="yes"/>
 <instance part="R78" gate="G$1" x="22.86" y="149.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="26.162" y="146.05" size="1.778" layer="96" rot="R90"/>
@@ -19340,9 +19252,9 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <instance part="GND33" gate="1" x="223.52" y="10.16" smashed="yes">
 <attribute name="VALUE" x="220.98" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="FRAME2" gate="G$2" x="294.64" y="241.3" smashed="yes">
-<attribute name="SHEET" x="381" y="242.57" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="312.42" y="260.35" size="2.54" layer="94"/>
+<instance part="FRAME2" gate="G$2" x="375.92" y="266.7" smashed="yes">
+<attribute name="SHEET" x="462.28" y="267.97" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="393.7" y="285.75" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -19351,8 +19263,8 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <net name="+4.5V" class="0">
 <segment>
 <pinref part="IC5" gate="A" pin="-IN"/>
-<wire x1="309.88" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
-<label x="307.34" y="208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
+<label x="314.96" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -19368,8 +19280,8 @@ be detected and appropriate safety control systems/mitigating factors activated.
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="309.88" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
-<label x="307.34" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
+<label x="314.96" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC13" gate="A" pin="-IN"/>
@@ -19385,8 +19297,8 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <net name="+0.5V" class="0">
 <segment>
 <pinref part="IC5" gate="B" pin="+IN"/>
-<wire x1="309.88" y1="190.5" x2="307.34" y2="190.5" width="0.1524" layer="91"/>
-<label x="307.34" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
+<label x="314.96" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -19402,8 +19314,8 @@ be detected and appropriate safety control systems/mitigating factors activated.
 </segment>
 <segment>
 <pinref part="IC1" gate="B" pin="+IN"/>
-<wire x1="309.88" y1="137.16" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
-<label x="307.34" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="129.54" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
+<label x="314.96" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC13" gate="B" pin="+IN"/>
@@ -19585,15 +19497,15 @@ be detected and appropriate safety control systems/mitigating factors activated.
 </net>
 <net name="TIMETHRESH" class="0">
 <segment>
-<wire x1="347.98" y1="195.58" x2="365.76" y2="195.58" width="0.1524" layer="91"/>
-<label x="350.52" y="195.58" size="1.778" layer="95"/>
+<wire x1="355.6" y1="187.96" x2="373.38" y2="187.96" width="0.1524" layer="91"/>
+<label x="358.14" y="187.96" size="1.778" layer="95"/>
 <pinref part="IC5" gate="C" pin="-IN"/>
 <pinref part="IC5" gate="D" pin="-IN"/>
-<wire x1="347.98" y1="182.88" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="205.74" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="195.58" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="205.74" x2="353.06" y2="205.74" width="0.1524" layer="91"/>
-<junction x="347.98" y="195.58"/>
+<wire x1="355.6" y1="175.26" x2="360.68" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="198.12" x2="355.6" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="187.96" x2="355.6" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="198.12" x2="360.68" y2="198.12" width="0.1524" layer="91"/>
+<junction x="355.6" y="187.96"/>
 </segment>
 <segment>
 <wire x1="347.98" y1="83.82" x2="365.76" y2="83.82" width="0.1524" layer="91"/>
@@ -19607,15 +19519,15 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <junction x="347.98" y="83.82"/>
 </segment>
 <segment>
-<wire x1="347.98" y1="142.24" x2="365.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="350.52" y="142.24" size="1.778" layer="95"/>
+<wire x1="355.6" y1="134.62" x2="373.38" y2="134.62" width="0.1524" layer="91"/>
+<label x="358.14" y="134.62" size="1.778" layer="95"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <pinref part="IC1" gate="D" pin="-IN"/>
-<wire x1="347.98" y1="129.54" x2="353.06" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="152.4" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="142.24" x2="347.98" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="152.4" x2="353.06" y2="152.4" width="0.1524" layer="91"/>
-<junction x="347.98" y="142.24"/>
+<wire x1="355.6" y1="121.92" x2="360.68" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="144.78" x2="355.6" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="134.62" x2="355.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="144.78" x2="360.68" y2="144.78" width="0.1524" layer="91"/>
+<junction x="355.6" y="134.62"/>
 </segment>
 <segment>
 <wire x1="353.06" y1="33.02" x2="370.84" y2="33.02" width="0.1524" layer="91"/>
@@ -19644,59 +19556,59 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <segment>
 <pinref part="IC5" gate="A" pin="OUT"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="210.82" x2="327.66" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="203.2" x2="335.28" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="210.82" x2="340.36" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="210.82" x2="340.36" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="203.2" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="C" pin="+IN"/>
-<wire x1="340.36" y1="210.82" x2="353.06" y2="210.82" width="0.1524" layer="91"/>
-<junction x="340.36" y="210.82"/>
+<wire x1="347.98" y1="203.2" x2="360.68" y2="203.2" width="0.1524" layer="91"/>
+<junction x="347.98" y="203.2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="187.96" x2="340.36" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="187.96" x2="340.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="180.34" x2="347.98" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="D" pin="+IN"/>
-<wire x1="340.36" y1="187.96" x2="353.06" y2="187.96" width="0.1524" layer="91"/>
-<junction x="340.36" y="187.96"/>
+<wire x1="347.98" y1="180.34" x2="360.68" y2="180.34" width="0.1524" layer="91"/>
+<junction x="347.98" y="180.34"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="IC5" gate="B" pin="OUT"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="180.34" x2="335.28" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="IC5" gate="C" pin="OUT"/>
 <pinref part="IC10" gate="A" pin="I0"/>
-<wire x1="368.3" y1="208.28" x2="378.46" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="200.66" x2="386.08" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC5" gate="D" pin="OUT"/>
-<wire x1="368.3" y1="185.42" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="185.42" x2="370.84" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="177.8" x2="378.46" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="177.8" x2="378.46" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="IC10" gate="A" pin="I1"/>
-<wire x1="370.84" y1="203.2" x2="378.46" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="195.58" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="APPS2PLAUS" class="0">
 <segment>
 <pinref part="IC6" gate="A" pin="O"/>
-<wire x1="388.62" y1="152.4" x2="398.78" y2="152.4" width="0.1524" layer="91"/>
-<label x="398.78" y="152.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="396.24" y1="144.78" x2="406.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="406.4" y="144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+1.0V" class="0">
@@ -19877,63 +19789,63 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <segment>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="157.48" x2="327.66" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="149.86" x2="335.28" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="157.48" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="149.86" x2="347.98" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="C" pin="+IN"/>
-<wire x1="340.36" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
-<junction x="340.36" y="157.48"/>
+<wire x1="347.98" y1="149.86" x2="360.68" y2="149.86" width="0.1524" layer="91"/>
+<junction x="347.98" y="149.86"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="127" x2="347.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="D" pin="+IN"/>
-<wire x1="340.36" y1="134.62" x2="353.06" y2="134.62" width="0.1524" layer="91"/>
-<junction x="340.36" y="134.62"/>
+<wire x1="347.98" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
+<junction x="347.98" y="127"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="134.62" x2="327.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="127" x2="335.28" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="IC1" gate="C" pin="OUT"/>
 <pinref part="IC6" gate="A" pin="I0"/>
-<wire x1="368.3" y1="154.94" x2="378.46" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="IC1" gate="D" pin="OUT"/>
-<wire x1="368.3" y1="132.08" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="132.08" x2="370.84" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="124.46" x2="378.46" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="124.46" x2="378.46" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="A" pin="I1"/>
-<wire x1="370.84" y1="149.86" x2="378.46" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="142.24" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="APPS1_P" class="0">
 <segment>
 <pinref part="IC5" gate="A" pin="+IN"/>
-<wire x1="309.88" y1="213.36" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
-<label x="297.18" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="205.74" x2="304.8" y2="205.74" width="0.1524" layer="91"/>
+<label x="304.8" y="205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="B" pin="-IN"/>
-<wire x1="309.88" y1="185.42" x2="307.34" y2="185.42" width="0.1524" layer="91"/>
-<label x="297.18" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="297.18" y1="185.42" x2="309.88" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="177.8" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
+<label x="304.8" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="304.8" y1="177.8" x2="317.5" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="A" pin="OUT"/>
@@ -19946,21 +19858,21 @@ be detected and appropriate safety control systems/mitigating factors activated.
 <net name="APPS1PLAUS" class="0">
 <segment>
 <pinref part="IC10" gate="A" pin="O"/>
-<wire x1="388.62" y1="205.74" x2="398.78" y2="205.74" width="0.1524" layer="91"/>
-<label x="398.78" y="205.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="396.24" y1="198.12" x2="406.4" y2="198.12" width="0.1524" layer="91"/>
+<label x="406.4" y="198.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="APPS2_P" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="309.88" y1="160.02" x2="297.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="297.18" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+<label x="304.8" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="B" pin="-IN"/>
-<wire x1="309.88" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
-<label x="297.18" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="297.18" y1="132.08" x2="309.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="124.46" x2="314.96" y2="124.46" width="0.1524" layer="91"/>
+<label x="304.8" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="304.8" y1="124.46" x2="317.5" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC19" gate="A" pin="OUT"/>

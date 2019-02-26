@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10712,49 +10712,20 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <sheets>
 <sheet>
 <plain>
-<text x="195.58" y="182.88" size="5.08" layer="100">Iowa</text>
-<text x="210.82" y="182.88" size="5.08" layer="98">Formula</text>
-<text x="197.612" y="156.464" size="2.1844" layer="96">12/31/18</text>
-<text x="233.172" y="164.084" size="3.81" layer="96">6 of 10</text>
-<text x="238.76" y="182.88" size="3.81" layer="96">- proj.Mercury</text>
-<text x="15.24" y="185.42" size="6.4516" layer="94">SCU Fault Signal Latching (LATCH)</text>
-<text x="15.24" y="175.26" size="5.08" layer="91">Function:</text>
-<text x="15.24" y="149.86" size="3.048" layer="96">LATCH board provides individual latching for each SCU fault signal
+<text x="195.58" y="198.12" size="5.08" layer="100">Iowa</text>
+<text x="210.82" y="198.12" size="5.08" layer="98">Formula</text>
+<text x="197.612" y="171.704" size="2.1844" layer="96">12/31/18</text>
+<text x="233.172" y="179.324" size="3.81" layer="96">6 of 10</text>
+<text x="238.76" y="198.12" size="3.81" layer="96">- proj.Mercury</text>
+<text x="15.24" y="200.66" size="6.4516" layer="94">SCU Fault Signal Latching (LATCH)</text>
+<text x="15.24" y="190.5" size="5.08" layer="91">Function:</text>
+<text x="15.24" y="165.1" size="3.048" layer="96">LATCH board provides individual latching for each SCU fault signal
 so that individual faults which open AIRs can be determined.
 These individual latching faults are used to activate
 red status LEDs to demonstrate whether 
 particular safety systems work as intended during tech inspection/debugging.</text>
-<text x="229.362" y="156.21" size="1.778" layer="94">Author: Michael Pass</text>
-<text x="276.352" y="161.544" size="3.81" layer="96">A</text>
-<frame x1="0" y1="0" x2="307.34" y2="205.74" columns="8" rows="5" layer="91"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="81.28" width="0.254" layer="94"/>
-<wire x1="5.08" y1="81.28" x2="83.82" y2="81.28" width="0.254" layer="94"/>
-<wire x1="83.82" y1="81.28" x2="83.82" y2="5.08" width="0.254" layer="94"/>
-<wire x1="83.82" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="86.36" y1="5.08" x2="86.36" y2="81.28" width="0.254" layer="94"/>
-<wire x1="86.36" y1="81.28" x2="147.32" y2="81.28" width="0.254" layer="94"/>
-<wire x1="147.32" y1="81.28" x2="147.32" y2="5.08" width="0.254" layer="94"/>
-<wire x1="147.32" y1="5.08" x2="86.36" y2="5.08" width="0.254" layer="94"/>
-<wire x1="149.86" y1="5.08" x2="149.86" y2="71.12" width="0.254" layer="94"/>
-<wire x1="149.86" y1="71.12" x2="218.44" y2="71.12" width="0.254" layer="94"/>
-<wire x1="218.44" y1="71.12" x2="218.44" y2="5.08" width="0.254" layer="94"/>
-<wire x1="218.44" y1="5.08" x2="149.86" y2="5.08" width="0.254" layer="94"/>
-<wire x1="220.98" y1="5.08" x2="220.98" y2="71.12" width="0.254" layer="94"/>
-<wire x1="220.98" y1="71.12" x2="302.26" y2="71.12" width="0.254" layer="94"/>
-<wire x1="302.26" y1="71.12" x2="302.26" y2="5.08" width="0.254" layer="94"/>
-<wire x1="302.26" y1="5.08" x2="220.98" y2="5.08" width="0.254" layer="94"/>
-<wire x1="149.86" y1="73.66" x2="149.86" y2="142.24" width="0.254" layer="94"/>
-<wire x1="149.86" y1="142.24" x2="243.84" y2="142.24" width="0.254" layer="94"/>
-<wire x1="243.84" y1="142.24" x2="243.84" y2="73.66" width="0.254" layer="94"/>
-<wire x1="243.84" y1="73.66" x2="149.86" y2="73.66" width="0.254" layer="94"/>
-<wire x1="246.38" y1="142.24" x2="246.38" y2="73.66" width="0.254" layer="94"/>
-<wire x1="246.38" y1="73.66" x2="299.72" y2="73.66" width="0.254" layer="94"/>
-<wire x1="299.72" y1="73.66" x2="299.72" y2="142.24" width="0.254" layer="94"/>
-<wire x1="299.72" y1="142.24" x2="246.38" y2="142.24" width="0.254" layer="94"/>
-<wire x1="86.36" y1="83.82" x2="86.36" y2="142.24" width="0.254" layer="94"/>
-<wire x1="86.36" y1="142.24" x2="147.32" y2="142.24" width="0.254" layer="94"/>
-<wire x1="147.32" y1="142.24" x2="147.32" y2="83.82" width="0.254" layer="94"/>
-<wire x1="147.32" y1="83.82" x2="86.36" y2="83.82" width="0.254" layer="94"/>
+<text x="229.362" y="171.45" size="1.778" layer="94">Author: Michael Pass</text>
+<text x="276.352" y="176.784" size="3.81" layer="96">A</text>
 </plain>
 <instances>
 <instance part="OR1" gate="A" x="40.64" y="71.12" smashed="yes">
@@ -10857,9 +10828,9 @@ particular safety systems work as intended during tech inspection/debugging.</te
 <instance part="NOT1" gate="G$1" x="233.68" y="43.18" smashed="yes">
 <attribute name="NAME" x="236.22" y="46.355" size="1.778" layer="95"/>
 </instance>
-<instance part="FRAME2" gate="G$2" x="182.88" y="154.94" smashed="yes">
-<attribute name="SHEET" x="269.24" y="156.21" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="200.66" y="173.99" size="2.54" layer="94"/>
+<instance part="FRAME2" gate="G$2" x="182.88" y="170.18" smashed="yes">
+<attribute name="SHEET" x="269.24" y="171.45" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="200.66" y="189.23" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>

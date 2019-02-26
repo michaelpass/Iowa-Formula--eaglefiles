@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17476,31 +17476,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <sheets>
 <sheet>
 <plain>
-<frame x1="7.62" y1="7.62" x2="109.22" y2="81.28" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<text x="10.16" y="10.16" size="2.54" layer="94">2. HV Threshold Sensing</text>
-<frame x1="7.62" y1="7.62" x2="71.12" y2="15.24" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="111.76" y1="7.62" x2="177.8" y2="81.28" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<text x="114.3" y="10.16" size="2.54" layer="94">3. HV-LV Logic Translation</text>
-<frame x1="111.76" y1="7.62" x2="177.8" y2="15.24" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="7.62" y1="93.98" x2="91.44" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="93.98" y1="104.14" x2="198.12" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="200.66" y1="104.14" x2="294.64" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="302.26" y1="83.82" x2="360.68" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="302.26" y1="7.62" x2="360.68" y2="81.28" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="185.42" y1="7.62" x2="294.64" y2="93.98" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="0" y1="0" x2="368.3" y2="251.46" columns="8" rows="5" layer="91"/>
-<frame x1="7.62" y1="160.02" x2="71.12" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="93.98" y1="160.02" x2="175.26" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="185.42" y1="7.62" x2="241.3" y2="15.24" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="302.26" y1="7.62" x2="360.68" y2="15.24" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="302.26" y1="160.02" x2="360.68" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="200.66" y1="160.02" x2="271.78" y2="167.64" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<text x="10.16" y="162.56" size="2.54" layer="94">1. HV Sense Wire / Voltage Divider</text>
-<text x="187.96" y="10.16" size="2.54" layer="94">4. Complementary Status Signals</text>
-<text x="96.52" y="162.56" size="2.54" layer="94">HV Monitor Power Supply / Reference Source</text>
-<text x="203.2" y="162.56" size="2.54" layer="94">5. Flashing Signal Driver</text>
-<text x="304.8" y="162.56" size="2.54" layer="94">Red Flash - HV Active</text>
-<text x="304.8" y="10.16" size="2.54" layer="94">Green Steady - HV Inactive</text>
 <text x="30.48" y="226.06" size="6.4516" layer="94">Tractive System Active Light Circuit (TSALC) Board</text>
 <text x="30.48" y="213.36" size="5.08" layer="91">Function:</text>
 <text x="269.24" y="223.52" size="5.08" layer="100">Iowa</text>

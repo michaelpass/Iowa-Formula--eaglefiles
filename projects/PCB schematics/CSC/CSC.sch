@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10308,14 +10308,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="7.62" size="1.778" layer="94">1. Input Multiplexing</text>
-<text x="55.88" y="7.62" size="1.778" layer="94">2. High-Frequency Noise Filtration</text>
-<text x="205.74" y="7.62" size="1.778" layer="94">4. Relay Signal</text>
-<text x="104.14" y="7.62" size="1.778" layer="94">3. Fault Latching</text>
-<text x="58.42" y="137.16" size="1.778" layer="94">1. Input Buffers</text>
-<text x="55.88" y="68.58" size="2.54" layer="94">τ = 0.05 s</text>
-<text x="248.92" y="137.16" size="1.778" layer="94">6. AIR Coil Control</text>
-<text x="129.54" y="137.16" size="1.778" layer="94">7. GLV inline switches</text>
 <text x="187.96" y="177.8" size="5.08" layer="100">Iowa</text>
 <text x="203.2" y="177.8" size="5.08" layer="98">Formula</text>
 <text x="179.832" y="153.924" size="2.1844" layer="96">12/31/18</text>
@@ -10327,72 +10319,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 offers emergency shutdown controls for HV pack while outside of vehicle
 and charging from AC adapter. CSCU directs similar safety mechanisms
 as SCU, but as an external module for charging which accompanies HV charge cart.</text>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="73.66" width="0.254" layer="94"/>
-<wire x1="5.08" y1="73.66" x2="50.8" y2="73.66" width="0.254" layer="94"/>
-<wire x1="50.8" y1="73.66" x2="50.8" y2="5.08" width="0.254" layer="94"/>
-<wire x1="50.8" y1="5.08" x2="33.02" y2="5.08" width="0.254" layer="94"/>
-<wire x1="33.02" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="53.34" y1="5.08" x2="53.34" y2="12.7" width="0.254" layer="94"/>
-<wire x1="53.34" y1="12.7" x2="53.34" y2="73.66" width="0.254" layer="94"/>
-<wire x1="53.34" y1="73.66" x2="99.06" y2="73.66" width="0.254" layer="94"/>
-<wire x1="99.06" y1="73.66" x2="99.06" y2="5.08" width="0.254" layer="94"/>
-<wire x1="99.06" y1="5.08" x2="93.98" y2="5.08" width="0.254" layer="94"/>
-<wire x1="93.98" y1="5.08" x2="53.34" y2="5.08" width="0.254" layer="94"/>
-<wire x1="55.88" y1="76.2" x2="55.88" y2="134.62" width="0.254" layer="94"/>
-<wire x1="55.88" y1="134.62" x2="55.88" y2="142.24" width="0.254" layer="94"/>
-<wire x1="55.88" y1="142.24" x2="76.2" y2="142.24" width="0.254" layer="94"/>
-<wire x1="76.2" y1="142.24" x2="121.92" y2="142.24" width="0.254" layer="94"/>
-<wire x1="121.92" y1="142.24" x2="121.92" y2="76.2" width="0.254" layer="94"/>
-<wire x1="121.92" y1="76.2" x2="55.88" y2="76.2" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="12.7" width="0.254" layer="94"/>
-<wire x1="101.6" y1="12.7" x2="101.6" y2="73.66" width="0.254" layer="94"/>
-<wire x1="101.6" y1="73.66" x2="175.26" y2="73.66" width="0.254" layer="94"/>
-<wire x1="175.26" y1="73.66" x2="175.26" y2="5.08" width="0.254" layer="94"/>
-<wire x1="175.26" y1="5.08" x2="124.46" y2="5.08" width="0.254" layer="94"/>
-<wire x1="124.46" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="177.8" y1="5.08" x2="177.8" y2="73.66" width="0.254" layer="94"/>
-<wire x1="177.8" y1="73.66" x2="223.52" y2="73.66" width="0.254" layer="94"/>
-<wire x1="223.52" y1="73.66" x2="223.52" y2="12.7" width="0.254" layer="94"/>
-<wire x1="223.52" y1="12.7" x2="223.52" y2="5.08" width="0.254" layer="94"/>
-<wire x1="223.52" y1="5.08" x2="203.2" y2="5.08" width="0.254" layer="94"/>
-<wire x1="203.2" y1="5.08" x2="177.8" y2="5.08" width="0.254" layer="94"/>
-<wire x1="226.06" y1="73.66" x2="226.06" y2="5.08" width="0.254" layer="94"/>
-<wire x1="226.06" y1="5.08" x2="231.14" y2="5.08" width="0.254" layer="94"/>
-<wire x1="231.14" y1="5.08" x2="271.78" y2="5.08" width="0.254" layer="94"/>
-<wire x1="271.78" y1="5.08" x2="271.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="271.78" y1="12.7" x2="271.78" y2="73.66" width="0.254" layer="94"/>
-<wire x1="271.78" y1="73.66" x2="226.06" y2="73.66" width="0.254" layer="94"/>
-<wire x1="182.88" y1="76.2" x2="182.88" y2="142.24" width="0.254" layer="94"/>
-<wire x1="182.88" y1="142.24" x2="246.38" y2="142.24" width="0.254" layer="94"/>
-<wire x1="246.38" y1="142.24" x2="271.78" y2="142.24" width="0.254" layer="94"/>
-<wire x1="271.78" y1="142.24" x2="271.78" y2="134.62" width="0.254" layer="94"/>
-<wire x1="271.78" y1="134.62" x2="271.78" y2="76.2" width="0.254" layer="94"/>
-<wire x1="271.78" y1="76.2" x2="182.88" y2="76.2" width="0.254" layer="94"/>
-<wire x1="180.34" y1="142.24" x2="180.34" y2="76.2" width="0.254" layer="94"/>
-<wire x1="180.34" y1="76.2" x2="127" y2="76.2" width="0.254" layer="94"/>
-<wire x1="127" y1="76.2" x2="127" y2="134.62" width="0.254" layer="94"/>
-<wire x1="127" y1="134.62" x2="127" y2="142.24" width="0.254" layer="94"/>
-<wire x1="127" y1="142.24" x2="154.94" y2="142.24" width="0.254" layer="94"/>
-<text x="233.68" y="7.62" size="1.778" layer="94">5. High-Frequency Noise Filtration</text>
-<wire x1="154.94" y1="142.24" x2="180.34" y2="142.24" width="0.254" layer="94"/>
-<wire x1="55.88" y1="134.62" x2="76.2" y2="134.62" width="0.254" layer="94"/>
-<wire x1="76.2" y1="134.62" x2="76.2" y2="142.24" width="0.254" layer="94"/>
-<wire x1="127" y1="134.62" x2="154.94" y2="134.62" width="0.254" layer="94"/>
-<wire x1="154.94" y1="134.62" x2="154.94" y2="142.24" width="0.254" layer="94"/>
-<wire x1="246.38" y1="142.24" x2="246.38" y2="134.62" width="0.254" layer="94"/>
-<wire x1="246.38" y1="134.62" x2="271.78" y2="134.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="33.02" y2="12.7" width="0.254" layer="94"/>
-<wire x1="33.02" y1="12.7" x2="33.02" y2="5.08" width="0.254" layer="94"/>
-<wire x1="53.34" y1="12.7" x2="93.98" y2="12.7" width="0.254" layer="94"/>
-<wire x1="93.98" y1="12.7" x2="93.98" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="12.7" x2="124.46" y2="12.7" width="0.254" layer="94"/>
-<wire x1="124.46" y1="12.7" x2="124.46" y2="5.08" width="0.254" layer="94"/>
-<wire x1="203.2" y1="5.08" x2="203.2" y2="12.7" width="0.254" layer="94"/>
-<wire x1="203.2" y1="12.7" x2="223.52" y2="12.7" width="0.254" layer="94"/>
-<wire x1="231.14" y1="5.08" x2="231.14" y2="12.7" width="0.254" layer="94"/>
-<wire x1="231.14" y1="12.7" x2="271.78" y2="12.7" width="0.254" layer="94"/>
-<frame x1="0" y1="0" x2="276.86" y2="198.12" columns="8" rows="5" layer="91"/>
 <text x="214.122" y="153.67" size="1.778" layer="94">Author: Michael Pass</text>
 <text x="261.112" y="159.004" size="3.81" layer="96">A</text>
 </plain>
@@ -10411,10 +10337,10 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <instance part="GND1" gate="1" x="71.12" y="33.02" smashed="yes">
 <attribute name="VALUE" x="68.58" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="BUF1" gate="D" x="88.9" y="96.52" smashed="yes"/>
-<instance part="BUF1" gate="E" x="88.9" y="121.92" smashed="yes"/>
-<instance part="BUF1" gate="F" x="88.9" y="109.22" smashed="yes"/>
-<instance part="BUF2" gate="A" x="88.9" y="83.82" smashed="yes"/>
+<instance part="BUF1" gate="D" x="40.64" y="114.3" smashed="yes"/>
+<instance part="BUF1" gate="E" x="40.64" y="139.7" smashed="yes"/>
+<instance part="BUF1" gate="F" x="40.64" y="127" smashed="yes"/>
+<instance part="BUF2" gate="A" x="40.64" y="101.6" smashed="yes"/>
 <instance part="BUF2" gate="E" x="86.36" y="50.8" smashed="yes">
 <attribute name="NAME" x="88.9" y="53.975" size="1.778" layer="95"/>
 </instance>
@@ -10665,8 +10591,8 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <net name="TEMPFAULT_B" class="0">
 <segment>
 <pinref part="BUF1" gate="D" pin="O"/>
-<wire x1="119.38" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<label x="101.6" y="96.52" size="1.778" layer="97"/>
+<wire x1="71.12" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<label x="53.34" y="114.3" size="1.778" layer="97"/>
 </segment>
 <segment>
 <pinref part="OR1" gate="A" pin="I2"/>
@@ -10677,29 +10603,29 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <net name="TEMPFAULT" class="0">
 <segment>
 <pinref part="BUF1" gate="D" pin="I"/>
-<wire x1="78.74" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="76.2" y="96.52" size="1.778" layer="97" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="27.94" y="114.3" size="1.778" layer="97" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BMSFAULT" class="0">
 <segment>
 <pinref part="BUF1" gate="E" pin="I"/>
-<label x="73.66" y="121.92" size="1.778" layer="97" rot="R180" xref="yes"/>
-<wire x1="78.74" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="25.4" y="139.7" size="1.778" layer="97" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IMDFAULT" class="0">
 <segment>
 <pinref part="BUF1" gate="F" pin="I"/>
-<label x="73.66" y="109.22" size="1.778" layer="97" rot="R180" xref="yes"/>
-<wire x1="78.74" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="25.4" y="127" size="1.778" layer="97" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="127" x2="25.4" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IMDFAULT_B" class="0">
 <segment>
 <pinref part="BUF1" gate="F" pin="O"/>
-<wire x1="119.38" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="101.6" y="109.22" size="1.778" layer="97"/>
+<wire x1="71.12" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<label x="53.34" y="127" size="1.778" layer="97"/>
 </segment>
 <segment>
 <pinref part="OR1" gate="A" pin="I1"/>
@@ -10710,8 +10636,8 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <net name="BMSFAULT_B" class="0">
 <segment>
 <pinref part="BUF1" gate="E" pin="O"/>
-<wire x1="119.38" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
-<label x="101.6" y="121.92" size="1.778" layer="97"/>
+<wire x1="71.12" y1="139.7" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
+<label x="53.34" y="139.7" size="1.778" layer="97"/>
 </segment>
 <segment>
 <pinref part="OR1" gate="A" pin="I0"/>
@@ -10722,8 +10648,8 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <net name="FUSEFAULT_B" class="0">
 <segment>
 <pinref part="BUF2" gate="A" pin="O"/>
-<wire x1="119.38" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
-<label x="101.6" y="83.82" size="1.778" layer="97"/>
+<wire x1="71.12" y1="101.6" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
+<label x="53.34" y="101.6" size="1.778" layer="97"/>
 </segment>
 <segment>
 <pinref part="OR1" gate="A" pin="I3"/>
@@ -10734,8 +10660,8 @@ as SCU, but as an external module for charging which accompanies HV charge cart.
 <net name="FUSEFAULT" class="0">
 <segment>
 <pinref part="BUF2" gate="A" pin="I"/>
-<wire x1="78.74" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.778" layer="97" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="27.94" y="101.6" size="1.778" layer="97" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">

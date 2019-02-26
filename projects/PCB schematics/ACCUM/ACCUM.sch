@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17047,13 +17047,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <sheets>
 <sheet>
 <plain>
-<text x="63.5" y="93.98" size="2.54" layer="94">2. +60V HV Threshold Sensing</text>
-<frame x1="193.04" y1="91.44" x2="274.32" y2="99.06" columns="8" rows="5" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<text x="10.16" y="91.44" size="2.54" layer="94">1. HV Sense Wire / 
-Voltage Divider</text>
-<text x="195.58" y="93.98" size="2.54" layer="94">HV Monitor Power Supply / Reference Source</text>
-<text x="142.24" y="91.44" size="2.54" layer="94">3. AIR HV Present
-Indicator Light</text>
 <text x="10.16" y="147.32" size="6.35" layer="94">Accumulator Indicator Light (ACCUM)</text>
 <text x="10.16" y="134.62" size="5.08" layer="91">Function:</text>
 <text x="185.42" y="144.78" size="5.08" layer="100">Iowa</text>
@@ -17061,38 +17054,11 @@ Indicator Light</text>
 <text x="177.292" y="120.904" size="2.1844" layer="96">11/30/18</text>
 <text x="210.312" y="128.524" size="3.81" layer="96">1 of 10</text>
 <text x="228.6" y="144.78" size="3.81" layer="96">- proj.Mercury</text>
-<text x="10.16" y="116.84" size="3.81" layer="96">ACCUM board monitors HV psot-AIR lines to alert
+<text x="10.16" y="116.84" size="3.81" layer="96">ACCUM board monitors HV post-AIR lines to alert
 those handlingbattery when high voltage is 
 present at HV battery terminals</text>
 <text x="211.582" y="120.65" size="1.778" layer="94">Author: Michael Pass</text>
 <text x="258.572" y="125.984" size="3.81" layer="96">A</text>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="88.9" width="0.254" layer="94"/>
-<wire x1="7.62" y1="88.9" x2="7.62" y2="99.06" width="0.254" layer="94"/>
-<wire x1="7.62" y1="99.06" x2="58.42" y2="99.06" width="0.254" layer="94"/>
-<wire x1="58.42" y1="99.06" x2="58.42" y2="88.9" width="0.254" layer="94"/>
-<wire x1="58.42" y1="88.9" x2="58.42" y2="5.08" width="0.254" layer="94"/>
-<wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="60.96" y1="88.9" x2="60.96" y2="5.08" width="0.254" layer="94"/>
-<wire x1="60.96" y1="5.08" x2="114.3" y2="5.08" width="0.254" layer="94"/>
-<wire x1="114.3" y1="5.08" x2="114.3" y2="88.9" width="0.254" layer="94"/>
-<wire x1="114.3" y1="88.9" x2="114.3" y2="99.06" width="0.254" layer="94"/>
-<wire x1="114.3" y1="99.06" x2="60.96" y2="99.06" width="0.254" layer="94"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="5.08" width="0.254" layer="94"/>
-<wire x1="116.84" y1="5.08" x2="172.72" y2="5.08" width="0.254" layer="94"/>
-<wire x1="172.72" y1="5.08" x2="172.72" y2="88.9" width="0.254" layer="94"/>
-<wire x1="172.72" y1="88.9" x2="172.72" y2="99.06" width="0.254" layer="94"/>
-<wire x1="172.72" y1="99.06" x2="139.7" y2="99.06" width="0.254" layer="94"/>
-<wire x1="139.7" y1="99.06" x2="116.84" y2="99.06" width="0.254" layer="94"/>
-<wire x1="175.26" y1="99.06" x2="175.26" y2="5.08" width="0.254" layer="94"/>
-<wire x1="175.26" y1="5.08" x2="274.32" y2="5.08" width="0.254" layer="94"/>
-<wire x1="274.32" y1="5.08" x2="274.32" y2="99.06" width="0.254" layer="94"/>
-<wire x1="274.32" y1="99.06" x2="175.26" y2="99.06" width="0.254" layer="94"/>
-<wire x1="60.96" y1="99.06" x2="60.96" y2="88.9" width="0.254" layer="94"/>
-<wire x1="60.96" y1="88.9" x2="114.3" y2="88.9" width="0.254" layer="94"/>
-<wire x1="58.42" y1="88.9" x2="7.62" y2="88.9" width="0.254" layer="94"/>
-<wire x1="139.7" y1="99.06" x2="139.7" y2="88.9" width="0.254" layer="94"/>
-<wire x1="139.7" y1="88.9" x2="172.72" y2="88.9" width="0.254" layer="94"/>
-<frame x1="0" y1="0" x2="279.4" y2="170.18" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
 <instance part="HV-OPA" gate="G$1" x="86.36" y="43.18" smashed="yes">
@@ -17129,7 +17095,6 @@ present at HV battery terminals</text>
 </instance>
 <instance part="C1" gate="G$1" x="185.42" y="48.26" smashed="yes">
 <attribute name="NAME" x="186.436" y="48.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="178.816" y="44.069" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="195.58" y="48.26" smashed="yes">
 <attribute name="NAME" x="197.104" y="48.641" size="1.778" layer="95"/>
