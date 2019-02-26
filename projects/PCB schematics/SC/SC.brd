@@ -103,11 +103,11 @@
 <text x="19.05" y="77.47" size="1.778" layer="27">INPUT</text>
 <text x="106.68" y="53.34" size="2.54" layer="25" font="vector">Iowa Formula</text>
 <text x="86.36" y="77.47" size="1.778" layer="27">OUTPUT</text>
-<text x="101.6" y="16.51" size="1.27" layer="25" font="vector">Shutdown Circuit (SC) Board
+<text x="102.87" y="19.05" size="1.27" layer="25" font="vector">Shutdown Circuit (SC) Board
 Rev A: 02/26/19</text>
-<text x="101.727" y="13.716" size="1.4224" layer="25" font="vector">Inputs:</text>
-<text x="114.3" y="13.843" size="1.4224" layer="25" font="vector">Outputs:</text>
-<text x="101.6" y="2.54" size="0.6096" layer="25">1. BSPDFAULT
+<text x="102.997" y="16.256" size="1.4224" layer="25" font="vector">Inputs:</text>
+<text x="115.57" y="16.383" size="1.4224" layer="25" font="vector">Outputs:</text>
+<text x="102.87" y="5.08" size="0.6096" layer="25">1. BSPDFAULT
 2. BSPDPLAUS1
 3. BSPDPLAUS2
 4. IMDFAULT
@@ -118,7 +118,7 @@ Rev A: 02/26/19</text>
 9. AUX2
 10. SCU control signal
 11. Reset main fault</text>
-<text x="114.3" y="2.54" size="0.6096" layer="25" font="vector">1. BSPDLED
+<text x="115.57" y="6.35" size="0.6096" layer="25" font="vector">1. BSPDLED
 2. BSPDPLAUS1LED
 3. BSPDPLAUS2LED
 4. IMDLED
