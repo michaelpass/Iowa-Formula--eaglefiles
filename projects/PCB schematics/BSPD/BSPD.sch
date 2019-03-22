@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -19938,13 +19938,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="AND1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*09" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" technology="ALS"/>
-<part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G04" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="AHC"/>
+<part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G04" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC" value="74AHC1G04DBV"/>
 <part name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="NE"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="085CS-1AW" package3d_urn="urn:adsk.eagle:package:23385/1" value="10uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15k"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -19956,10 +19955,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="AND2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*13" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" technology="HC"/>
 <part name="AND3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*13" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" technology="HC"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="OR3" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="AHC"/>
-<part name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="AHC"/>
-<part name="IC10" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="AHC"/>
+<part name="OR3" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC" value="74AHC1G32DBV"/>
+<part name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC" value="74AHC1G32DBV"/>
+<part name="IC10" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*1G32" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC" value="74AHC1G32DBV"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19978,17 +19978,32 @@ despite brake system override being engaged.</text>
 <text x="405.892" y="273.304" size="3.81" layer="96">A</text>
 </plain>
 <instances>
-<instance part="IC1" gate="A" x="162.56" y="96.52" smashed="yes"/>
-<instance part="IC2" gate="A" x="162.56" y="35.56" smashed="yes"/>
-<instance part="IC3" gate="A" x="127" y="190.5" smashed="yes"/>
-<instance part="IC3" gate="B" x="127" y="167.64" smashed="yes"/>
-<instance part="IC5" gate="B" x="269.24" y="170.18" smashed="yes"/>
+<instance part="IC1" gate="A" x="162.56" y="96.52" smashed="yes">
+<attribute name="NAME" x="165.1" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="IC2" gate="A" x="162.56" y="35.56" smashed="yes">
+<attribute name="NAME" x="165.1" y="41.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="30.48" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="A" x="127" y="190.5" smashed="yes">
+<attribute name="NAME" x="129.54" y="193.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="129.54" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="B" x="127" y="167.64" smashed="yes">
+<attribute name="NAME" x="129.54" y="170.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="129.54" y="162.56" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="B" x="269.24" y="170.18" smashed="yes">
+<attribute name="NAME" x="271.78" y="173.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="271.78" y="165.1" size="1.778" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="142.24" y="190.5" smashed="yes">
 <attribute name="NAME" x="138.43" y="191.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="187.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="142.24" y="167.64" smashed="yes">
-<attribute name="NAME" x="138.43" y="164.0586" size="1.778" layer="95"/>
+<attribute name="NAME" x="138.43" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="139.7" y="25.4" smashed="yes">
@@ -20003,38 +20018,60 @@ despite brake system override being engaged.</text>
 <attribute name="NAME" x="151.384" y="185.801" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="180.721" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="C" x="175.26" y="187.96" smashed="yes"/>
-<instance part="IC3" gate="D" x="175.26" y="165.1" smashed="yes"/>
-<instance part="IC5" gate="C" x="325.12" y="190.5" smashed="yes"/>
-<instance part="IC5" gate="D" x="325.12" y="167.64" smashed="yes"/>
+<instance part="IC3" gate="C" x="175.26" y="187.96" smashed="yes">
+<attribute name="NAME" x="177.8" y="191.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="182.88" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="D" x="175.26" y="165.1" smashed="yes">
+<attribute name="NAME" x="177.8" y="168.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="160.02" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="C" x="325.12" y="190.5" smashed="yes">
+<attribute name="NAME" x="327.66" y="193.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="327.66" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="D" x="325.12" y="167.64" smashed="yes">
+<attribute name="NAME" x="327.66" y="170.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="327.66" y="162.56" size="1.778" layer="96"/>
+</instance>
 <instance part="R5" gate="G$1" x="40.64" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.1414" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="186.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="40.64" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.1414" y="173.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="173.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R8" gate="G$1" x="40.64" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.1414" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="60.96" y="160.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.4586" y="163.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="57.658" y="163.83" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R10" gate="G$1" x="60.96" y="170.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.4586" y="173.99" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="57.658" y="173.99" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R11" gate="G$1" x="60.96" y="180.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.4586" y="184.15" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="57.658" y="184.15" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R12" gate="G$1" x="60.96" y="190.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.4586" y="194.31" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="57.658" y="194.31" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R13" gate="G$1" x="73.66" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.1614" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.962" y="186.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R14" gate="G$1" x="73.66" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.1614" y="173.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.962" y="173.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R15" gate="G$1" x="73.66" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.1614" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.962" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND1" gate="1" x="73.66" y="154.94" smashed="yes">
@@ -20050,7 +20087,7 @@ despite brake system override being engaged.</text>
 <attribute name="VALUE" x="137.16" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="139.7" y="86.36" smashed="yes">
-<attribute name="NAME" x="140.97" y="82.169" size="1.778" layer="95"/>
+<attribute name="NAME" x="133.731" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.89" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+3" gate="1" x="139.7" y="96.52" smashed="yes">
@@ -20075,12 +20112,15 @@ despite brake system override being engaged.</text>
 <attribute name="VALUE" x="16.256" y="191.389" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="149.86" y="175.26" smashed="yes">
-<attribute name="VALUE" x="144.018" y="176.022" size="1.778" layer="96"/>
+<attribute name="VALUE" x="147.32" y="172.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="149.86" y="152.4" smashed="yes">
-<attribute name="VALUE" x="144.018" y="153.416" size="1.778" layer="96"/>
+<attribute name="VALUE" x="147.32" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="A" x="269.24" y="193.04" smashed="yes"/>
+<instance part="IC5" gate="A" x="269.24" y="193.04" smashed="yes">
+<attribute name="NAME" x="271.78" y="196.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="271.78" y="187.96" size="1.778" layer="96"/>
+</instance>
 <instance part="R16" gate="G$1" x="421.64" y="187.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="427.609" y="184.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="425.45" y="184.15" size="1.778" layer="96" rot="MR90"/>
@@ -20089,7 +20129,7 @@ despite brake system override being engaged.</text>
 <attribute name="VALUE" x="424.18" y="193.04" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="GND7" gate="1" x="421.64" y="177.8" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="427.99" y="178.562" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="424.18" y="175.26" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R17" gate="G$1" x="289.56" y="193.04" smashed="yes">
 <attribute name="NAME" x="285.75" y="194.5386" size="1.778" layer="95"/>
@@ -20111,75 +20151,99 @@ despite brake system override being engaged.</text>
 <attribute name="VALUE" x="298.704" y="160.401" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="297.18" y="154.94" smashed="yes">
-<attribute name="VALUE" x="294.64" y="157.48" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="294.64" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="A" x="71.12" y="106.68" smashed="yes"/>
+<instance part="IC4" gate="A" x="71.12" y="106.68" smashed="yes">
+<attribute name="NAME" x="73.66" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="101.6" size="1.778" layer="96"/>
+</instance>
 <instance part="R19" gate="G$1" x="12.7" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="113.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="113.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R20" gate="G$1" x="12.7" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="100.33" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND10" gate="1" x="12.7" y="93.98" smashed="yes">
 <attribute name="VALUE" x="10.16" y="91.44" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="G$1" x="35.56" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="107.7214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="112.522" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R24" gate="G$1" x="35.56" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="102.6414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="107.442" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R25" gate="G$1" x="53.34" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="57.15" y="120.4214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="57.15" y="125.222" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R26" gate="G$1" x="68.58" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.39" y="120.4214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="125.222" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R27" gate="G$1" x="83.82" y="114.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="80.01" y="116.078" size="1.778" layer="96"/>
+<attribute name="NAME" x="85.3186" y="118.11" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="80.518" y="118.11" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND12" gate="1" x="83.82" y="93.98" smashed="yes">
 <attribute name="VALUE" x="81.28" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="A" x="71.12" y="45.72" smashed="yes"/>
+<instance part="IC6" gate="A" x="71.12" y="45.72" smashed="yes">
+<attribute name="NAME" x="73.66" y="48.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="40.64" size="1.778" layer="96"/>
+</instance>
 <instance part="R21" gate="G$1" x="12.7" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R22" gate="G$1" x="12.7" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="39.37" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="39.37" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND11" gate="1" x="12.7" y="33.02" smashed="yes">
 <attribute name="VALUE" x="7.62" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="R28" gate="G$1" x="35.56" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="46.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="51.562" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R29" gate="G$1" x="35.56" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="41.6814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="46.482" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R30" gate="G$1" x="53.34" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="57.15" y="59.4614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="57.15" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R31" gate="G$1" x="68.58" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.39" y="59.4614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R32" gate="G$1" x="83.82" y="53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="85.09" y="56.642" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="85.3186" y="57.15" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="80.518" y="57.15" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND13" gate="1" x="83.82" y="33.02" smashed="yes">
 <attribute name="VALUE" x="81.28" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="AND1" gate="A" x="182.88" y="68.58" smashed="yes">
-<attribute name="NAME" x="180.34" y="61.595" size="1.778" layer="95"/>
+<attribute name="NAME" x="185.42" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="185.42" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="AND1" gate="B" x="261.62" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="74.295" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="AND1" gate="C" x="261.62" y="30.48" smashed="yes">
 <attribute name="NAME" x="264.16" y="33.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="NOT1" gate="A" x="226.06" y="33.02" smashed="yes">
 <attribute name="NAME" x="228.6" y="36.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="IC9" gate="A" x="251.46" y="114.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="259.08" y="127.127" size="1.778" layer="96" rot="R180"/>
@@ -20187,26 +20251,23 @@ despite brake system override being engaged.</text>
 <instance part="GND14" gate="1" x="279.4" y="124.46" smashed="yes">
 <attribute name="VALUE" x="276.86" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="233.68" y="111.76" smashed="yes">
-<attribute name="NAME" x="234.696" y="112.395" size="1.778" layer="95"/>
-<attribute name="VALUE" x="227.076" y="107.569" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="220.98" y="111.76" smashed="yes">
+<attribute name="NAME" x="221.996" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="214.376" y="107.569" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="271.78" y="124.46" smashed="yes">
 <attribute name="NAME" x="273.304" y="124.841" size="1.778" layer="95"/>
-<attribute name="VALUE" x="263.144" y="119.761" size="1.778" layer="96"/>
+<attribute name="VALUE" x="273.304" y="119.761" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="233.68" y="101.6" smashed="yes">
-<attribute name="VALUE" x="231.14" y="99.06" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="220.98" y="101.6" smashed="yes">
+<attribute name="VALUE" x="218.44" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="264.16" y="99.06" smashed="yes" rot="R90">
-<attribute name="VALUE" x="267.462" y="95.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R33" gate="G$1" x="231.14" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="229.6414" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="234.442" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R33" gate="G$1" x="236.22" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.7214" y="120.65" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="239.522" y="120.65" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+5" gate="1" x="241.3" y="137.16" smashed="yes">
-<attribute name="VALUE" x="238.76" y="132.08" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="238.76" y="137.16" smashed="yes">
+<attribute name="VALUE" x="233.68" y="132.08" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+6" gate="1" x="276.86" y="116.84" smashed="yes">
 <attribute name="VALUE" x="274.32" y="111.76" size="1.778" layer="96" rot="R90"/>
@@ -20221,40 +20282,53 @@ despite brake system override being engaged.</text>
 </instance>
 <instance part="OR1" gate="A" x="375.92" y="38.1" smashed="yes">
 <attribute name="NAME" x="379.73" y="43.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="379.73" y="31.115" size="1.778" layer="96"/>
 </instance>
 <instance part="OR1" gate="B" x="375.92" y="20.32" smashed="yes">
 <attribute name="NAME" x="379.73" y="25.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="379.73" y="13.335" size="1.778" layer="96"/>
 </instance>
 <instance part="OR2" gate="A" x="408.94" y="30.48" smashed="yes">
 <attribute name="NAME" x="412.75" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="412.75" y="23.495" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="398.78" y="20.32" smashed="yes">
 <attribute name="VALUE" x="396.24" y="17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="AND2" gate="A" x="375.92" y="129.54" smashed="yes">
 <attribute name="NAME" x="381" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="381" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="AND2" gate="B" x="375.92" y="111.76" smashed="yes">
 <attribute name="NAME" x="381" y="114.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="381" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="AND3" gate="A" x="408.94" y="88.9" smashed="yes">
 <attribute name="NAME" x="414.02" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="414.02" y="83.82" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="386.08" y="88.9" smashed="yes">
 <attribute name="VALUE" x="383.54" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="OR3" gate="A" x="429.26" y="86.36" smashed="yes">
 <attribute name="NAME" x="426.72" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="426.72" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="IC7" gate="A" x="198.12" y="167.64" smashed="yes">
 <attribute name="NAME" x="195.58" y="173.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="195.58" y="160.02" size="1.778" layer="96"/>
 </instance>
 <instance part="IC10" gate="A" x="360.68" y="187.96" smashed="yes">
 <attribute name="NAME" x="358.14" y="193.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="358.14" y="180.34" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME2" gate="G$2" x="312.42" y="266.7" smashed="yes">
 <attribute name="SHEET" x="398.78" y="267.97" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="330.2" y="285.75" size="2.54" layer="94"/>
+</instance>
+<instance part="R7" gate="G$1" x="231.14" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="229.6414" y="100.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="234.442" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -20397,20 +20471,21 @@ despite brake system override being engaged.</text>
 <wire x1="421.64" y1="195.58" x2="421.64" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="A" pin="R"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="261.62" y1="111.76" x2="276.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="111.76" x2="276.86" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="A" pin="R"/>
+<wire x1="261.62" y1="111.76" x2="276.86" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="A" pin="V+"/>
-<wire x1="241.3" y1="121.92" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="121.92" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="121.92" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="132.08" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="132.08" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="241.3" y1="134.62" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<junction x="241.3" y="132.08"/>
+<wire x1="238.76" y1="134.62" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+<junction x="238.76" y="132.08"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
@@ -20510,7 +20585,7 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="233.68" y1="106.68" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OR2" gate="A" pin="I3"/>
@@ -20796,12 +20871,7 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="IC9" gate="A" pin="Q"/>
 <wire x1="241.3" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="106.68" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="91.44" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="93.98" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="91.44" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<junction x="238.76" y="91.44"/>
+<wire x1="238.76" y1="106.68" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="AND1" gate="B" pin="I0"/>
 <wire x1="238.76" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="AND1" gate="C" pin="I1"/>
@@ -20821,22 +20891,21 @@ despite brake system override being engaged.</text>
 <net name="THR" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="TR"/>
-<wire x1="261.62" y1="106.68" x2="264.16" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="106.68" x2="264.16" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
 <label x="266.7" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="A" pin="THR"/>
-<wire x1="241.3" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="236.22" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="116.84" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
-<label x="231.14" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="119.38" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="116.84" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
+<label x="213.36" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="99.06" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="96.52" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <junction x="236.22" y="116.84"/>
 </segment>
 </net>
@@ -21175,6 +21244,17 @@ despite brake system override being engaged.</text>
 <pinref part="IC10" gate="A" pin="O"/>
 <wire x1="365.76" y1="187.96" x2="368.3" y2="187.96" width="0.1524" layer="91"/>
 <label x="368.3" y="187.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="IC9" gate="A" pin="DIS"/>
+<wire x1="241.3" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="111.76" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="119.38" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<junction x="231.14" y="111.76"/>
 </segment>
 </net>
 </nets>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9023,7 +9023,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="AND1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="LVC"/>
+<part name="AND1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="LVC" value="74LVC1G08DBV"/>
 <part name="NOR2" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
 <part name="NOR3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
 <part name="NOR4" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*02" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS"/>
@@ -9033,7 +9033,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="BUF4" library="IowaFormula" deviceset="74HC7014" device="" package3d_urn="urn:adsk.eagle:package:2917/1"/>
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-12" device="" package3d_urn="urn:adsk.eagle:package:8078578/1"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
-<part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G14" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="AUC"/>
+<part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G14" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AUC" value="74AUC1G14DBV"/>
 </parts>
 <sheets>
 <sheet>
@@ -9041,11 +9041,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="276.86" y="38.1" size="2.54" layer="94">τ = 0.05 s</text>
 <text x="309.88" y="325.12" size="5.08" layer="100">Iowa</text>
 <text x="325.12" y="325.12" size="5.08" layer="98">Formula</text>
-<text x="301.752" y="301.244" size="2.1844" layer="96">12/31/18</text>
+<text x="301.752" y="301.244" size="2.1844" layer="96">03/24/19</text>
 <text x="334.772" y="308.864" size="3.81" layer="96">7 of 10</text>
 <text x="353.06" y="325.12" size="3.81" layer="96">- proj.Mercury</text>
-<text x="336.042" y="300.99" size="1.778" layer="94">Author: Michael Pass</text>
-<text x="383.032" y="306.324" size="3.81" layer="96">A</text>
+<text x="320.802" y="300.99" size="1.778" layer="94">Author: github.com/michaelpass</text>
+<text x="383.032" y="306.324" size="3.81" layer="96">C</text>
 <text x="27.94" y="322.58" size="5.08" layer="91">Function:</text>
 <text x="27.94" y="299.72" size="3.81" layer="96">Shutdown Control Unit directs control of isolation relays and offers latching emergency
 shutdown of vehicle through opening of accumulator isolation relays (AIRs) and is triggered

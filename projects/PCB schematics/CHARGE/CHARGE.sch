@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16674,22 +16674,6 @@ Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
 <text x="-10.16" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-10.16" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="CT-SLIM" urn="urn:adsk.eagle:footprint:24133/1" library_version="4">
-<description>&lt;b&gt;ULTRA SMALL AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
-Slim 1c type &lt;br&gt;
-Source: http://www.mew-europe.com/.. en_ds_61205_0000.pdf</description>
-<wire x1="8.7" y1="5.27" x2="-8.5" y2="5.27" width="0.2032" layer="21"/>
-<wire x1="-8.5" y1="5.27" x2="-8.5" y2="-1.33" width="0.2032" layer="21"/>
-<wire x1="-8.5" y1="-1.33" x2="8.7" y2="-1.33" width="0.2032" layer="21"/>
-<wire x1="8.7" y1="-1.33" x2="8.7" y2="5.27" width="0.2032" layer="21"/>
-<pad name="2" x="-7.45" y="4.3" drill="1.1" rot="R180"/>
-<pad name="1" x="-7.45" y="0" drill="1.1" rot="R180"/>
-<pad name="C" x="7.55" y="0" drill="1.4" rot="R180"/>
-<pad name="NO" x="1.55" y="3.15" drill="1.4" rot="R180"/>
-<pad name="NC" x="-1.95" y="-0.65" drill="1.4" rot="R180"/>
-<text x="-7.62" y="5.57" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.62" y="-3.32" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="CB1" urn="urn:adsk.eagle:package:24437/1" type="box" library_version="1">
@@ -16697,14 +16681,6 @@ Source: http://www.mew-europe.com/.. en_ds_61205_0000.pdf</description>
 Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
 <packageinstances>
 <packageinstance name="CB1"/>
-</packageinstances>
-</package3d>
-<package3d name="CT-SLIM" urn="urn:adsk.eagle:package:24444/1" type="box" library_version="4">
-<description>ULTRA SMALL AUTOMOTIVE RELAY NAiS
-Slim 1c type 
-Source: http://www.mew-europe.com/.. en_ds_61205_0000.pdf</description>
-<packageinstances>
-<packageinstance name="CT-SLIM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -16734,17 +16710,6 @@ Source: http://www.mew-europe.com/.. en_ds_61205_0000.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="95" rot="R90">&gt;PART</text>
 <pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="U" urn="urn:adsk.eagle:symbol:23944/1" library_version="4">
-<wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="2.54" y2="5.715" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;PART</text>
-<pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16786,37 +16751,6 @@ Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
 <attribute name="OC_NEWARK" value="26H6273" constant="no"/>
 </technology>
 <technology name="1A-T-P-24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CT112" urn="urn:adsk.eagle:component:24703/1" prefix="K" library_version="4">
-<description>&lt;b&gt;ULTRA SMALL AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
-Slim 1c type &lt;br&gt;
-en_ds_61205_0000.pdf</description>
-<gates>
-<gate name="1" symbol="K" x="-10.16" y="0" addlevel="must"/>
-<gate name="2" symbol="U" x="7.62" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="CT-SLIM">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="2" pin="O" pad="NC"/>
-<connect gate="2" pin="P" pad="C"/>
-<connect gate="2" pin="S" pad="NO"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24444/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
@@ -17801,21 +17735,7 @@ NS Package M08A</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="HVD" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="MS243" device="" package3d_urn="urn:adsk.eagle:package:27683/1"/>
 <part name="BOTS" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="MS243" device="" package3d_urn="urn:adsk.eagle:package:27683/1"/>
-<part name="PRE-CHARGE_RELAY" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="CT112" device="" package3d_urn="urn:adsk.eagle:package:24444/1"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
-<part name="DISCHARGE_RELAY" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="CT112" device="" package3d_urn="urn:adsk.eagle:package:24444/1"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="NC1M6V0" device="" package3d_urn="urn:adsk.eagle:package:4584/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-060X050" package3d_urn="urn:adsk.eagle:package:23632/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-060X050" package3d_urn="urn:adsk.eagle:package:23632/1"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-060X050" package3d_urn="urn:adsk.eagle:package:23632/1"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-060X050" package3d_urn="urn:adsk.eagle:package:23632/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
-<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
@@ -17852,27 +17772,6 @@ NS Package M08A</description>
 <circle x="27.94" y="129.54" radius="0.254" width="0.0762" layer="91"/>
 <circle x="30.48" y="129.54" radius="0.254" width="0.0762" layer="91"/>
 <circle x="33.02" y="129.54" radius="0.254" width="0.0762" layer="91"/>
-<wire x1="206.502" y1="94.742" x2="204.978" y2="93.218" width="0.1524" layer="94"/>
-<wire x1="204.978" y1="94.742" x2="206.502" y2="93.218" width="0.1524" layer="94"/>
-<wire x1="203.962" y1="148.082" x2="202.438" y2="146.558" width="0.1524" layer="94"/>
-<wire x1="202.438" y1="148.082" x2="203.962" y2="146.558" width="0.1524" layer="94"/>
-<circle x="279.654" y="147.574" radius="0.254" width="0.1524" layer="91"/>
-<circle x="283.972" y="151.892" radius="0.254" width="0.1524" layer="91"/>
-<circle x="289.814" y="147.574" radius="0.254" width="0.1524" layer="91"/>
-<circle x="294.132" y="151.892" radius="0.254" width="0.1524" layer="91"/>
-<circle x="284.48" y="149.86" radius="0.254" width="0.0762" layer="91"/>
-<circle x="287.02" y="149.86" radius="0.254" width="0.0762" layer="91"/>
-<circle x="289.56" y="149.86" radius="0.254" width="0.0762" layer="91"/>
-<text x="232.156" y="130.048" size="1.9304" layer="92">Bamocar D3</text>
-<text x="233.68" y="139.7" size="1.9304" layer="92">  Motor 
-Controller</text>
-<circle x="279.654" y="124.714" radius="0.254" width="0.1524" layer="91"/>
-<circle x="283.972" y="129.032" radius="0.254" width="0.1524" layer="91"/>
-<circle x="289.814" y="124.714" radius="0.254" width="0.1524" layer="91"/>
-<circle x="294.132" y="129.032" radius="0.254" width="0.1524" layer="91"/>
-<circle x="284.48" y="127" radius="0.254" width="0.0762" layer="91"/>
-<circle x="287.02" y="127" radius="0.254" width="0.0762" layer="91"/>
-<circle x="289.56" y="127" radius="0.254" width="0.0762" layer="91"/>
 <text x="223.52" y="215.9" size="5.08" layer="100">Iowa</text>
 <text x="238.76" y="215.9" size="5.08" layer="98">Formula</text>
 <text x="215.392" y="192.024" size="2.1844" layer="96">11/30/18</text>
@@ -17887,7 +17786,6 @@ through a suitable bypass resistor avoids potential damage to motor controller I
 discharging allows high voltages to be safely dissapated when vehicle battery is not in use.  CHARGE board
 detects failure of pre-charging by monitoring for 80% voltage treshold of HV post-AIR lines.</text>
 <text x="12.7" y="218.44" size="6.4516" layer="94">Pre-charge/Discharge (CHARGE) Board</text>
-<text x="286.004" y="164.084" size="1.778" layer="94">2. Charge relay control</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="124.46" y="91.44" smashed="yes" rot="MR0">
@@ -17959,61 +17857,9 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <attribute name="NAME" x="24.13" y="147.955" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="26.67" y="147.955" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PRE-CHARGE_RELAY" gate="1" x="195.58" y="93.98" smashed="yes">
-<attribute name="VALUE" x="196.85" y="96.901" size="1.778" layer="96"/>
-<attribute name="PART" x="196.85" y="101.6" size="1.778" layer="95"/>
-</instance>
-<instance part="PRE-CHARGE_RELAY" gate="2" x="213.36" y="93.98" smashed="yes" rot="MR0"/>
-<instance part="D3" gate="1" x="185.42" y="93.98" smashed="yes" rot="MR90">
-<attribute name="NAME" x="186.944" y="91.9734" size="1.778" layer="95" rot="MR180"/>
-</instance>
-<instance part="DISCHARGE_RELAY" gate="1" x="193.04" y="147.32" smashed="yes">
-<attribute name="VALUE" x="194.31" y="150.241" size="1.778" layer="96"/>
-<attribute name="PART" x="194.31" y="154.94" size="1.778" layer="95"/>
-</instance>
-<instance part="DISCHARGE_RELAY" gate="2" x="210.82" y="147.32" smashed="yes"/>
-<instance part="D4" gate="1" x="182.88" y="147.32" smashed="yes" rot="MR90">
-<attribute name="NAME" x="184.404" y="145.3134" size="1.778" layer="95" rot="MR180"/>
-</instance>
 <instance part="G1" gate="1" x="30.48" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.305" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="35.56" y="72.39" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C1" gate="G$1" x="256.54" y="139.7" smashed="yes">
-<attribute name="NAME" x="258.064" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="258.064" y="135.001" size="1.778" layer="96"/>
-</instance>
-<instance part="C3" gate="G$1" x="264.16" y="139.7" smashed="yes">
-<attribute name="NAME" x="265.684" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="265.684" y="135.001" size="1.778" layer="96"/>
-</instance>
-<instance part="C4" gate="G$1" x="271.78" y="139.7" smashed="yes">
-<attribute name="NAME" x="273.304" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="273.304" y="135.001" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="297.18" y="139.7" smashed="yes">
-<attribute name="NAME" x="298.704" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="298.704" y="135.001" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="210.82" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="209.3214" y="133.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="214.122" y="133.35" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R2" gate="G$1" x="231.14" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="234.696" y="102.6414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="234.95" y="102.362" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="Q3" gate="G$1" x="190.5" y="132.08" smashed="yes">
-<attribute name="NAME" x="195.58" y="134.62" size="1.778" layer="95"/>
-</instance>
-<instance part="GND1" gate="1" x="193.04" y="121.92" smashed="yes">
-<attribute name="VALUE" x="190.5" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="Q4" gate="G$1" x="193.04" y="78.74" smashed="yes">
-<attribute name="NAME" x="198.12" y="81.28" size="1.778" layer="95"/>
-</instance>
-<instance part="GND2" gate="1" x="195.58" y="68.58" smashed="yes">
-<attribute name="VALUE" x="193.04" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="289.56" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.0614" y="67.31" size="1.778" layer="95" rot="R90"/>
@@ -18099,14 +17945,6 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 </instance>
 </instances>
 <busses>
-<bus name="+8V,+12V,&gt;90%CHARGE,AIR_CONTROL_SIGNAL,AIR_DELAY,GND,HV-,HV+,HV-_CONTROL,N$1,N$2,N$3,N$4,N$5,N$6,N$7,N$8,N$9,N$11,N$12,N$13,N$14,N$15,N$16,N$17,N$18,N$20,N$21,N$22,N$23,N$24,TEST,V+,VDIV_SIGNAL">
-<segment>
-<wire x1="228.6" y1="152.4" x2="228.6" y2="124.46" width="0.4064" layer="92"/>
-<wire x1="228.6" y1="124.46" x2="248.92" y2="124.46" width="0.4064" layer="92"/>
-<wire x1="248.92" y1="124.46" x2="248.92" y2="152.4" width="0.4064" layer="92"/>
-<wire x1="228.6" y1="152.4" x2="248.92" y2="152.4" width="0.4064" layer="92"/>
-</segment>
-</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
@@ -18136,16 +17974,6 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <wire x1="99.06" y1="86.36" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="193.04" y1="127" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="195.58" y1="73.66" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
@@ -18157,9 +17985,6 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <wire x1="30.48" y1="68.58" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 <junction x="132.08" y="63.5"/>
-<wire x1="132.08" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="PRE-CHARGE_RELAY" gate="2" pin="P"/>
-<wire x1="213.36" y1="63.5" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="30.48" y1="60.96" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <junction x="30.48" y="63.5"/>
@@ -18321,27 +18146,6 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <wire x1="114.3" y1="109.22" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 <junction x="121.92" y="114.3"/>
-<junction x="121.92" y="134.62"/>
-<wire x1="121.92" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="D4" gate="1" pin="C"/>
-<wire x1="175.26" y1="134.62" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="149.86" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="DISCHARGE_RELAY" gate="1" pin="1"/>
-<wire x1="193.04" y1="154.94" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="160.02" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
-<junction x="193.04" y="154.94"/>
-<wire x1="175.26" y1="134.62" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
-<junction x="175.26" y="134.62"/>
-<pinref part="D3" gate="1" pin="C"/>
-<wire x1="185.42" y1="96.52" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="PRE-CHARGE_RELAY" gate="1" pin="1"/>
-<wire x1="195.58" y1="101.6" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<junction x="195.58" y="101.6"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -18354,89 +18158,8 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <wire x1="32.258" y1="122.682" x2="28.448" y2="126.492" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="D3" gate="1" pin="A"/>
-<wire x1="185.42" y1="91.44" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="PRE-CHARGE_RELAY" gate="1" pin="2"/>
-<wire x1="195.58" y1="86.36" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="195.58" y1="83.82" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
-<junction x="195.58" y="86.36"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="PRE-CHARGE_RELAY" gate="2" pin="O"/>
-<wire x1="208.28" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="99.06" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="D4" gate="1" pin="A"/>
-<wire x1="182.88" y1="144.78" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="DISCHARGE_RELAY" gate="1" pin="2"/>
-<wire x1="193.04" y1="139.7" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="193.04" y1="139.7" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
-<junction x="193.04" y="139.7"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="205.74" y1="152.4" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="152.4" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="DISCHARGE_RELAY" gate="2" pin="S"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="293.878" y1="151.638" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="149.86" x2="290.068" y2="147.828" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="149.86" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="149.86" x2="297.18" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="DISCHARGE_RELAY" gate="2" pin="P"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="144.78" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="DISCHARGE_RELAY" gate="2" pin="O"/>
-<wire x1="238.76" y1="157.48" x2="276.86" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="157.48" x2="276.86" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="142.24" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="149.86" x2="276.86" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="142.24" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
-<junction x="264.16" y="149.86"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="142.24" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
-<junction x="271.78" y="149.86"/>
-<junction x="256.54" y="149.86"/>
-<junction x="276.86" y="149.86"/>
-<wire x1="283.718" y1="151.638" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="149.86" x2="279.908" y2="147.828" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="152.4" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="157.48" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
-<junction x="238.76" y="157.48"/>
-<pinref part="AIR+" gate="2" pin="S"/>
-<wire x1="88.9" y1="111.76" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="165.1" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="165.1" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="78.74" x2="289.56" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="78.74" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -18445,25 +18168,12 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <junction x="289.56" y="78.74"/>
 <wire x1="289.56" y1="91.44" x2="355.6" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="91.44" x2="355.6" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="157.48" x2="276.86" y2="157.48" width="0.1524" layer="91"/>
-<junction x="276.86" y="157.48"/>
-<wire x1="238.76" y1="157.48" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="PRE-CHARGE_RELAY" gate="2" pin="S"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="AND2" gate="A" pin="O"/>
 <wire x1="157.48" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="53.34" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="177.8" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDIV_SIGNAL" class="0">
@@ -18620,47 +18330,16 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <label x="320.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N$27" class="0">
 <segment>
-<wire x1="293.878" y1="128.778" x2="292.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="127" x2="290.068" y2="124.968" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="134.62" x2="297.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="AIR+" gate="2" pin="S"/>
+<wire x1="88.9" y1="111.76" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="N$31" class="0">
 <segment>
-<wire x1="283.718" y1="128.778" x2="281.94" y2="127" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="127" x2="279.908" y2="124.968" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="127" x2="281.94" y2="127" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="119.38" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="127" x2="256.54" y2="127" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="127" x2="256.54" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="134.62" x2="264.16" y2="127" width="0.1524" layer="91"/>
-<junction x="264.16" y="127"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="134.62" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<junction x="271.78" y="127"/>
-<junction x="256.54" y="127"/>
-<wire x1="276.86" y1="119.38" x2="276.86" y2="127" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="132.08" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
-<junction x="238.76" y="119.38"/>
 <pinref part="AIR-" gate="2" pin="S"/>
 <wire x1="132.08" y1="111.76" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="114.3" x2="238.76" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="114.3" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="99.06" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="99.06" x2="238.76" y2="114.3" width="0.1524" layer="91"/>
-<junction x="238.76" y="114.3"/>
-<wire x1="238.76" y1="119.38" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
