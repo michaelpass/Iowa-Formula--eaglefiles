@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17766,7 +17766,6 @@ NS Package M08A</description>
 <sheet>
 <plain>
 <circle x="28.194" y="136.906" radius="0.254" width="0.1524" layer="91"/>
-<circle x="32.512" y="132.588" radius="0.254" width="0.1524" layer="91"/>
 <circle x="28.194" y="126.746" radius="0.254" width="0.1524" layer="91"/>
 <circle x="32.512" y="122.428" radius="0.254" width="0.1524" layer="91"/>
 <circle x="27.94" y="129.54" radius="0.254" width="0.0762" layer="91"/>
@@ -18125,10 +18124,6 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="HVD" gate="1" pin="P"/>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="109.22" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="AIR+" gate="1" pin="1"/>
 <pinref part="D2" gate="1" pin="C"/>
@@ -18340,6 +18335,13 @@ detects failure of pre-charging by monitoring for 80% voltage treshold of HV pos
 <segment>
 <pinref part="AIR-" gate="2" pin="S"/>
 <wire x1="132.08" y1="111.76" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="HVD" gate="1" pin="P"/>
+<wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
