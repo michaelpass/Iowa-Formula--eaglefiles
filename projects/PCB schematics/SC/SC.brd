@@ -145,6 +145,7 @@ Rev C: 03/24/19</text>
 <hole x="128.27" y="5.08" drill="3"/>
 <text x="85.725" y="4.826" size="0.9144" layer="25">Author: github.com/michaelpass</text>
 <text x="54.61" y="74.93" size="1.778" layer="27">POWER</text>
+<dimension x1="3.5814" y1="77.47" x2="6.5786" y2="77.47" x3="5.08" y3="80.01" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
