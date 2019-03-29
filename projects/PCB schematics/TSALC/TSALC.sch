@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -17457,7 +17457,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="085CS-1AW" package3d_urn="urn:adsk.eagle:package:23385/1" value="10uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GREEN1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LZR184" device="" package3d_urn="urn:adsk.eagle:package:15790/1"/>
@@ -17767,6 +17767,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <wire x1="43.18" y1="142.24" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="40.64" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="43.18" y="142.24"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17842,6 +17843,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <wire x1="190.5" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
 <label x="195.58" y="58.42" size="1.6764" layer="95" xref="yes"/>
 <wire x1="190.5" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
+<junction x="190.5" y="58.42"/>
 </segment>
 </net>
 <net name="+8V" class="0">
@@ -17906,6 +17908,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="149.86" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <junction x="243.84" y="149.86"/>
+<junction x="248.92" y="149.86"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="R"/>
@@ -17968,6 +17971,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <wire x1="271.78" y1="124.46" x2="271.78" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="124.46" x2="274.32" y2="124.46" width="0.1524" layer="91"/>
 <label x="274.32" y="124.46" size="1.778" layer="95" xref="yes"/>
+<junction x="271.78" y="124.46"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="THR"/>
@@ -17980,6 +17984,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="137.16" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 <junction x="243.84" y="134.62"/>
+<junction x="241.3" y="134.62"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -17998,6 +18003,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <wire x1="231.14" y1="43.18" x2="314.96" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="43.18" x2="231.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<junction x="231.14" y="43.18"/>
 </segment>
 </net>
 <net name="HV-" class="0">
@@ -18067,6 +18073,25 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,55.88,33.02,GND,HV-,,,,"/>
+<approved hash="102,1,149.86,119.38,GND,HV-,,,,"/>
+<approved hash="201,1,55.88,33.02,GND,HV-\, GND,,,,"/>
+<approved hash="104,1,142.24,124.46,IC2,GND,HV-,,,"/>
+<approved hash="104,1,144.78,124.46,IC2,GND,HV-,,,"/>
+<approved hash="104,1,147.32,124.46,IC2,GND,HV-,,,"/>
+<approved hash="104,1,149.86,124.46,IC2,GND,HV-,,,"/>
+<approved hash="202,1,248.92,129.54,IC4,DIS,,,,"/>
+<approved hash="108,1,43.18,142.24,HV_POST_AIR,,,,,"/>
+<approved hash="108,1,190.5,58.42,+60VDANGER-FLASHRED,,,,,"/>
+<approved hash="108,1,248.92,149.86,VTIMER,,,,,"/>
+<approved hash="108,1,241.3,134.62,THR,,,,,"/>
+<approved hash="108,1,271.78,124.46,THR,,,,,"/>
+<approved hash="108,1,231.14,43.18,SAFESIGNAL-SOLIDGREEN,,,,,"/>
+<approved hash="113,1,41.5814,146.345,JP1,,,,,"/>
+<approved hash="113,1,318.95,99.06,R1,,,,,"/>
+<approved hash="113,1,299.499,215.679,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

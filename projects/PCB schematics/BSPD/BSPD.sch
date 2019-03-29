@@ -18929,7 +18929,6 @@ despite brake system override being engaged.</text>
 <label x="27.94" y="228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="35.56" y1="228.6" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
 <junction x="35.56" y="228.6"/>
-<wire x1="35.56" y1="233.68" x2="35.56" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="35.56" y1="228.6" x2="35.56" y2="231.14" width="0.1524" layer="91"/>
 </segment>
@@ -19357,6 +19356,7 @@ despite brake system override being engaged.</text>
 <wire x1="406.4" y1="190.5" x2="403.86" y2="190.5" width="0.1524" layer="91"/>
 <label x="393.7" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="393.7" y1="190.5" x2="406.4" y2="190.5" width="0.1524" layer="91"/>
+<junction x="406.4" y="190.5"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -19437,6 +19437,7 @@ despite brake system override being engaged.</text>
 <wire x1="355.6" y1="109.22" x2="355.6" y2="129.54" width="0.1524" layer="91"/>
 <junction x="355.6" y="129.54"/>
 <pinref part="C9" gate="G$1" pin="1"/>
+<junction x="340.36" y="129.54"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -19491,6 +19492,7 @@ despite brake system override being engaged.</text>
 <wire x1="396.24" y1="-22.86" x2="439.42" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="-22.86" x2="439.42" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="C" pin="O"/>
+<junction x="439.42" y="-22.86"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -19531,6 +19533,7 @@ despite brake system override being engaged.</text>
 <wire x1="142.24" y1="205.74" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="205.74" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
 <label x="147.32" y="205.74" size="1.778" layer="95" xref="yes"/>
+<junction x="142.24" y="205.74"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="-IN"/>
@@ -19550,6 +19553,7 @@ despite brake system override being engaged.</text>
 <wire x1="175.26" y1="193.04" x2="175.26" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="193.04" x2="180.34" y2="193.04" width="0.1524" layer="91"/>
 <label x="180.34" y="193.04" size="1.778" layer="95" xref="yes"/>
+<junction x="175.26" y="193.04"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="B" pin="+IN"/>
@@ -19678,6 +19682,7 @@ despite brake system override being engaged.</text>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="581.66" y1="210.82" x2="581.66" y2="208.28" width="0.1524" layer="91"/>
 <junction x="581.66" y="210.82"/>
+<junction x="457.2" y="226.06"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -19779,6 +19784,7 @@ despite brake system override being engaged.</text>
 <pinref part="IC12" gate="B" pin="I1"/>
 <wire x1="584.2" y1="-22.86" x2="581.66" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="571.5" y1="-22.86" x2="584.2" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="584.2" y="-22.86"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -20400,6 +20406,18 @@ despite brake system override being engaged.</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,508,88.9,GND,N$99,,,,"/>
+<approved hash="113,1,378.231,291.871,FRAME1,,,,,"/>
+<approved hash="113,1,486.7,-27.9823,JP4,,,,,"/>
+<approved hash="113,1,486.7,-45.7623,JP5,,,,,"/>
+<approved hash="113,1,486.7,-63.5423,JP6,,,,,"/>
+<approved hash="113,1,486.7,165.058,JP1,,,,,"/>
+<approved hash="113,1,486.7,147.278,JP2,,,,,"/>
+<approved hash="113,1,486.7,129.498,JP3,,,,,"/>
+<approved hash="113,1,486.7,111.718,JP8,,,,,"/>
+<approved hash="113,1,486.7,93.9377,JP7,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
