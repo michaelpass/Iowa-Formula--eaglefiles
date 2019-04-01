@@ -11115,6 +11115,64 @@ despite brake system override being engaged.</text>
 <wire x1="284.48" y1="144.78" x2="283.972" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="283.972" y1="144.78" x2="283.972" y2="141.732" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="129.54" x2="426.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="132.08" x2="436.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="436.88" y1="60.96" x2="436.88" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="111.76" x2="426.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="114.3" x2="439.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="60.96" x2="439.42" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP8" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="93.98" x2="426.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="96.52" x2="441.96" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="441.96" y1="96.52" x2="441.96" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="447.04" y1="76.2" x2="447.04" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="G$1" pin="3"/>
+<wire x1="447.04" y1="60.96" x2="447.04" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="76.2" x2="447.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="58.42" x2="426.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="60.96" x2="436.88" y2="60.96" width="0.1524" layer="91"/>
+<junction x="447.04" y="60.96"/>
+<wire x1="436.88" y1="60.96" x2="439.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="60.96" x2="441.96" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="441.96" y1="60.96" x2="447.04" y2="60.96" width="0.1524" layer="91"/>
+<junction x="441.96" y="60.96"/>
+<junction x="439.42" y="60.96"/>
+<junction x="436.88" y="60.96"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="266.7" x2="426.72" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="269.24" x2="436.88" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="436.88" y1="198.12" x2="436.88" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="248.92" x2="426.72" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="251.46" x2="439.42" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="198.12" x2="439.42" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="231.14" x2="426.72" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="233.68" x2="441.96" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="441.96" y1="233.68" x2="441.96" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="447.04" y1="213.36" x2="447.04" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="3"/>
+<wire x1="447.04" y1="198.12" x2="447.04" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="3"/>
+<wire x1="426.72" y1="213.36" x2="447.04" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="195.58" x2="426.72" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="198.12" x2="436.88" y2="198.12" width="0.1524" layer="91"/>
+<junction x="447.04" y="198.12"/>
+<wire x1="436.88" y1="198.12" x2="439.42" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="198.12" x2="441.96" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="441.96" y1="198.12" x2="447.04" y2="198.12" width="0.1524" layer="91"/>
+<junction x="441.96" y="198.12"/>
+<junction x="439.42" y="198.12"/>
+<junction x="436.88" y="198.12"/>
+</segment>
 </net>
 <net name="BSE_PROCESSED" class="0">
 <segment>
@@ -11976,66 +12034,6 @@ despite brake system override being engaged.</text>
 <pinref part="OR2" gate="B" pin="I0"/>
 </segment>
 </net>
-<net name="N$99" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="266.7" x2="426.72" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="269.24" x2="436.88" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="198.12" x2="436.88" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="248.92" x2="426.72" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="251.46" x2="439.42" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="198.12" x2="439.42" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="231.14" x2="426.72" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="233.68" x2="441.96" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="233.68" x2="441.96" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="447.04" y1="213.36" x2="447.04" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="447.04" y1="198.12" x2="447.04" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="213.36" x2="447.04" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="195.58" x2="426.72" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="198.12" x2="436.88" y2="198.12" width="0.1524" layer="91"/>
-<junction x="447.04" y="198.12"/>
-<wire x1="436.88" y1="198.12" x2="439.42" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="198.12" x2="441.96" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="198.12" x2="447.04" y2="198.12" width="0.1524" layer="91"/>
-<junction x="441.96" y="198.12"/>
-<junction x="439.42" y="198.12"/>
-<junction x="436.88" y="198.12"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="129.54" x2="426.72" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="132.08" x2="436.88" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="60.96" x2="436.88" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="111.76" x2="426.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="114.3" x2="439.42" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="60.96" x2="439.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="93.98" x2="426.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="96.52" x2="441.96" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="96.52" x2="441.96" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="447.04" y1="76.2" x2="447.04" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="G$1" pin="3"/>
-<wire x1="447.04" y1="60.96" x2="447.04" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="G$1" pin="3"/>
-<wire x1="426.72" y1="76.2" x2="447.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="58.42" x2="426.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="60.96" x2="436.88" y2="60.96" width="0.1524" layer="91"/>
-<junction x="447.04" y="60.96"/>
-<wire x1="436.88" y1="60.96" x2="439.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="60.96" x2="441.96" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="60.96" x2="447.04" y2="60.96" width="0.1524" layer="91"/>
-<junction x="441.96" y="60.96"/>
-<junction x="439.42" y="60.96"/>
-<junction x="436.88" y="60.96"/>
-</segment>
-</net>
 <net name="N$100" class="0">
 <segment>
 <pinref part="COUNT1" gate="A" pin="Q12"/>
@@ -12326,16 +12324,16 @@ despite brake system override being engaged.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,508,88.9,GND,N$99,,,,"/>
-<approved hash="113,1,378.231,291.871,FRAME1,,,,,"/>
-<approved hash="113,1,486.7,-27.9823,JP4,,,,,"/>
-<approved hash="113,1,486.7,-45.7623,JP5,,,,,"/>
-<approved hash="113,1,486.7,-63.5423,JP6,,,,,"/>
-<approved hash="113,1,486.7,165.058,JP1,,,,,"/>
-<approved hash="113,1,486.7,147.278,JP2,,,,,"/>
-<approved hash="113,1,486.7,129.498,JP3,,,,,"/>
-<approved hash="113,1,486.7,111.718,JP8,,,,,"/>
-<approved hash="113,1,486.7,93.9377,JP7,,,,,"/>
+<approved hash="113,1,425.74,264.118,JP1,,,,,"/>
+<approved hash="113,1,425.74,246.338,JP2,,,,,"/>
+<approved hash="113,1,425.74,228.558,JP3,,,,,"/>
+<approved hash="113,1,425.74,210.778,JP4,,,,,"/>
+<approved hash="113,1,425.74,192.998,JP5,,,,,"/>
+<approved hash="113,1,425.74,126.958,JP6,,,,,"/>
+<approved hash="113,1,425.74,109.178,JP7,,,,,"/>
+<approved hash="113,1,425.74,91.3977,JP8,,,,,"/>
+<approved hash="113,1,425.74,73.6177,JP9,,,,,"/>
+<approved hash="113,1,425.74,55.8377,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
