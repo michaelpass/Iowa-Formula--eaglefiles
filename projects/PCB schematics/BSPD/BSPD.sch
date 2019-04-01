@@ -9872,6 +9872,28 @@ Source: www.vishay.com/docs/31508/somc.pdf</description>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:8078582/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10422,6 +10444,99 @@ despite brake system override being engaged.</text>
 <attribute name="NAME" x="32.004" y="256.921" size="1.778" layer="95"/>
 <attribute name="VALUE" x="32.004" y="251.841" size="1.778" layer="96"/>
 </instance>
+<instance part="OP3" gate="P" x="220.98" y="147.32" smashed="yes"/>
+<instance part="P+10" gate="1" x="220.98" y="160.02" smashed="yes">
+<attribute name="VALUE" x="223.52" y="160.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND22" gate="1" x="220.98" y="134.62" smashed="yes">
+<attribute name="VALUE" x="218.44" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="OP1" gate="P" x="215.9" y="309.88" smashed="yes"/>
+<instance part="GND23" gate="1" x="215.9" y="297.18" smashed="yes">
+<attribute name="VALUE" x="213.36" y="294.64" size="1.778" layer="96"/>
+</instance>
+<instance part="P+11" gate="1" x="215.9" y="322.58" smashed="yes">
+<attribute name="VALUE" x="213.36" y="322.58" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="OR1" gate="P" x="251.46" y="289.56" smashed="yes">
+<attribute name="NAME" x="250.825" y="288.925" size="1.778" layer="95"/>
+</instance>
+<instance part="OP2" gate="P" x="353.06" y="314.96" smashed="yes"/>
+<instance part="P+12" gate="1" x="251.46" y="304.8" smashed="yes">
+<attribute name="VALUE" x="248.92" y="304.8" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND24" gate="1" x="251.46" y="274.32" smashed="yes">
+<attribute name="VALUE" x="248.92" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="P+13" gate="1" x="353.06" y="327.66" smashed="yes">
+<attribute name="VALUE" x="350.52" y="327.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND25" gate="1" x="353.06" y="302.26" smashed="yes">
+<attribute name="VALUE" x="346.71" y="303.53" size="1.778" layer="96"/>
+</instance>
+<instance part="AND1" gate="P" x="332.232" y="182.626" smashed="yes">
+<attribute name="NAME" x="331.597" y="181.991" size="1.778" layer="95"/>
+</instance>
+<instance part="COUNT2" gate="P" x="386.08" y="68.58" smashed="yes">
+<attribute name="NAME" x="384.81" y="67.945" size="1.778" layer="95"/>
+</instance>
+<instance part="COUNT1" gate="P" x="388.62" y="203.2" smashed="yes">
+<attribute name="NAME" x="387.35" y="202.565" size="1.778" layer="95"/>
+</instance>
+<instance part="OR2" gate="P" x="576.58" y="264.16" smashed="yes">
+<attribute name="NAME" x="575.945" y="263.525" size="1.778" layer="95"/>
+</instance>
+<instance part="OR3" gate="P" x="535.94" y="129.54" smashed="yes">
+<attribute name="NAME" x="535.305" y="128.905" size="1.778" layer="95"/>
+</instance>
+<instance part="OR4" gate="P" x="576.58" y="127" smashed="yes">
+<attribute name="NAME" x="575.945" y="126.365" size="1.778" layer="95"/>
+</instance>
+<instance part="P+14" gate="1" x="388.62" y="215.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="391.16" y="210.82" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P+15" gate="1" x="576.58" y="279.4" smashed="yes">
+<attribute name="VALUE" x="574.04" y="274.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+16" gate="1" x="535.94" y="144.78" smashed="yes">
+<attribute name="VALUE" x="533.4" y="139.7" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+17" gate="1" x="576.58" y="142.24" smashed="yes">
+<attribute name="VALUE" x="574.04" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+18" gate="1" x="386.08" y="81.28" smashed="yes">
+<attribute name="VALUE" x="383.54" y="76.2" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND26" gate="1" x="388.62" y="190.5" smashed="yes">
+<attribute name="VALUE" x="386.08" y="187.96" size="1.778" layer="96"/>
+</instance>
+<instance part="GND27" gate="1" x="332.232" y="164.592" smashed="yes">
+<attribute name="VALUE" x="329.692" y="162.052" size="1.778" layer="96"/>
+</instance>
+<instance part="GND28" gate="1" x="386.08" y="55.88" smashed="yes">
+<attribute name="VALUE" x="383.54" y="53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND29" gate="1" x="543.56" y="119.38" smashed="yes">
+<attribute name="VALUE" x="541.02" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND30" gate="1" x="576.58" y="111.76" smashed="yes">
+<attribute name="VALUE" x="574.04" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="P+19" gate="1" x="332.74" y="200.66" smashed="yes">
+<attribute name="VALUE" x="330.2" y="195.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND31" gate="1" x="576.58" y="248.92" smashed="yes">
+<attribute name="VALUE" x="574.04" y="246.38" size="1.778" layer="96"/>
+</instance>
+<instance part="NOT1" gate="P" x="284.48" y="152.4" smashed="yes">
+<attribute name="NAME" x="283.845" y="151.765" size="1.778" layer="95"/>
+</instance>
+<instance part="P+20" gate="1" x="284.48" y="165.1" smashed="yes">
+<attribute name="VALUE" x="281.94" y="160.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND32" gate="1" x="283.972" y="139.192" smashed="yes">
+<attribute name="VALUE" x="281.432" y="136.652" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10489,15 +10604,6 @@ despite brake system override being engaged.</text>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <wire x1="297.18" y1="246.38" x2="297.18" y2="243.84" width="0.1524" layer="91"/>
 <junction x="297.18" y="243.84"/>
-</segment>
-<segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="43.18" y1="327.66" x2="40.64" y2="327.66" width="0.1524" layer="91"/>
-<label x="33.02" y="327.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="40.64" y1="327.66" x2="33.02" y2="327.66" width="0.1524" layer="91"/>
-<junction x="40.64" y="327.66"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="40.64" y1="327.66" x2="40.64" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
@@ -10589,14 +10695,79 @@ despite brake system override being engaged.</text>
 <wire x1="604.52" y1="294.64" x2="601.98" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="332.74" x2="340.36" y2="330.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="OP3" gate="P" pin="V+"/>
+<wire x1="220.98" y1="157.48" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="330.2" x2="152.4" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+9" gate="1" pin="+5V"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="332.74" x2="340.36" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="43.18" y1="327.66" x2="40.64" y2="327.66" width="0.1524" layer="91"/>
+<label x="35.56" y="327.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="327.66" x2="35.56" y2="327.66" width="0.1524" layer="91"/>
+<junction x="40.64" y="327.66"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="40.64" y1="327.66" x2="40.64" y2="330.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+11" gate="1" pin="+5V"/>
+<pinref part="OP1" gate="P" pin="V+"/>
+<wire x1="215.9" y1="320.04" x2="215.9" y2="317.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<pinref part="OR1" gate="P" pin="VCC"/>
+<wire x1="251.46" y1="302.26" x2="251.46" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<pinref part="OP2" gate="P" pin="V+"/>
+<wire x1="353.06" y1="325.12" x2="353.06" y2="322.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+14" gate="1" pin="+5V"/>
+<pinref part="COUNT1" gate="P" pin="VDD"/>
+<wire x1="388.62" y1="213.36" x2="388.62" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+15" gate="1" pin="+5V"/>
+<pinref part="OR2" gate="P" pin="VCC"/>
+<wire x1="576.58" y1="276.86" x2="576.58" y2="274.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+16" gate="1" pin="+5V"/>
+<pinref part="OR3" gate="P" pin="VCC"/>
+<wire x1="535.94" y1="142.24" x2="535.94" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+17" gate="1" pin="+5V"/>
+<pinref part="OR4" gate="P" pin="VCC"/>
+<wire x1="576.58" y1="139.7" x2="576.58" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+18" gate="1" pin="+5V"/>
+<pinref part="COUNT2" gate="P" pin="VDD"/>
+<wire x1="386.08" y1="78.74" x2="386.08" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+19" gate="1" pin="+5V"/>
+<pinref part="AND1" gate="P" pin="VCC"/>
+<wire x1="332.74" y1="198.12" x2="332.74" y2="192.786" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="192.786" x2="332.232" y2="192.786" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+20" gate="1" pin="+5V"/>
+<pinref part="NOT1" gate="P" pin="VCC"/>
+<wire x1="284.48" y1="162.56" x2="284.48" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10630,9 +10801,9 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>
 <wire x1="43.18" y1="322.58" x2="40.64" y2="322.58" width="0.1524" layer="91"/>
-<label x="33.02" y="322.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="322.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="40.64" y1="322.58" x2="33.02" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="322.58" x2="35.56" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="320.04" x2="40.64" y2="322.58" width="0.1524" layer="91"/>
 <junction x="40.64" y="322.58"/>
 </segment>
@@ -10885,6 +11056,64 @@ despite brake system override being engaged.</text>
 <pinref part="R34" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="340.36" y1="276.86" x2="340.36" y2="274.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OP3" gate="P" pin="V-"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="220.98" y1="139.7" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OP1" gate="P" pin="V-"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="215.9" y1="302.26" x2="215.9" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OR1" gate="P" pin="GND"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="251.46" y1="279.4" x2="251.46" y2="276.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="OP2" gate="P" pin="V-"/>
+<wire x1="353.06" y1="304.8" x2="353.06" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND27" gate="1" pin="GND"/>
+<pinref part="AND1" gate="P" pin="GND"/>
+<wire x1="332.232" y1="167.132" x2="332.232" y2="172.466" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="COUNT1" gate="P" pin="VSS"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="388.62" y1="195.58" x2="388.62" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OR3" gate="P" pin="GND"/>
+<wire x1="535.94" y1="119.38" x2="538.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="538.48" y1="119.38" x2="538.48" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="538.48" y1="121.92" x2="543.56" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OR4" gate="P" pin="GND"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="576.58" y1="116.84" x2="576.58" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="COUNT2" gate="P" pin="VSS"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="386.08" y1="60.96" x2="386.08" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OR2" gate="P" pin="GND"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="576.58" y1="254" x2="576.58" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="NOT1" gate="P" pin="GND"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="284.48" y1="144.78" x2="283.972" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="283.972" y1="144.78" x2="283.972" y2="141.732" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BSE_PROCESSED" class="0">
@@ -12060,11 +12289,11 @@ despite brake system override being engaged.</text>
 <wire x1="586.74" y1="96.52" x2="594.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="609.6" y="96.52" size="1.778" layer="95" xref="yes"/>
 <wire x1="594.36" y1="96.52" x2="609.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="96.52" x2="594.36" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="594.36" y1="96.52" x2="594.36" y2="147.32" width="0.1524" layer="91"/>
 <junction x="594.36" y="96.52"/>
-<wire x1="594.36" y1="144.78" x2="373.38" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="594.36" y1="147.32" x2="373.38" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="COUNT1" gate="A" pin="RES"/>
-<wire x1="373.38" y1="144.78" x2="373.38" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="147.32" x2="373.38" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="226.06" x2="378.46" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
