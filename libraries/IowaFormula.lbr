@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -261,7 +261,7 @@
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="ZEVA">
+<package name="ZEVA_HEATSINK">
 <wire x1="0.029" y1="-0.048" x2="75.029" y2="-0.048" width="0.127" layer="21"/>
 <wire x1="0.029" y1="-0.048" x2="0.029" y2="69.332" width="0.127" layer="21"/>
 <wire x1="75.029" y1="-0.048" x2="75.029" y2="69.332" width="0.127" layer="21"/>
@@ -274,11 +274,11 @@
 <wire x1="7.211353125" y1="12.959646875" x2="9.911353125" y2="10.259646875" width="0.127" layer="21"/>
 <wire x1="9.911353125" y1="10.259646875" x2="65.146646875" y2="10.259646875" width="0.127" layer="21"/>
 <wire x1="65.146646875" y1="10.259646875" x2="67.846646875" y2="12.959646875" width="0.127" layer="21"/>
-<dimension x1="37.529" y1="5.242" x2="37.529" y2="63.259646875" x3="72.029" y3="34.250821875" textsize="1.27" layer="20" dtype="vertical"/>
+<dimension x1="37.529" y1="5.242" x2="37.529" y2="63.259646875" x3="72.029" y3="34.250821875" textsize="1.27" layer="27" dtype="vertical"/>
 <hole x="37.529" y="63.259646875" drill="5"/>
 <hole x="37.529" y="5.259646875" drill="5"/>
 <circle x="20.029" y="43.142" radius="1.4142125" width="0.127" layer="21"/>
-<dimension x1="10.146646875" y1="58.259646875" x2="9.929" y2="10.242" x3="4.029" y3="34.250821875" textsize="1.27" layer="20" dtype="vertical"/>
+<dimension x1="10.146646875" y1="58.259646875" x2="9.929" y2="10.242" x3="4.029" y3="34.250821875" textsize="1.27" layer="27" dtype="vertical"/>
 <wire x1="28.029" y1="58.242" x2="28.029" y2="62.142" width="0.127" layer="21"/>
 <wire x1="28.029" y1="62.142" x2="34.029" y2="68.142" width="0.127" layer="21"/>
 <wire x1="34.029" y1="68.142" x2="41.029" y2="68.142" width="0.127" layer="21"/>
@@ -304,9 +304,51 @@
 <wire x1="42.799" y1="38.862" x2="42.799" y2="31.242" width="0.254" layer="41"/>
 <wire x1="42.799" y1="31.242" x2="32.639" y2="31.242" width="0.254" layer="41"/>
 <wire x1="32.639" y1="31.242" x2="32.639" y2="38.862" width="0.254" layer="41"/>
-<dimension x1="0.029" y1="-0.048" x2="75.029" y2="-0.048" x3="37.529" y3="17.78" textsize="1.27" layer="20" dtype="horizontal"/>
-<dimension x1="0.029" y1="-0.048" x2="0.029" y2="69.332" x3="11.43" y3="34.642" textsize="1.27" layer="20" dtype="horizontal"/>
-<dimension x1="0.029" y1="-0.048" x2="37.529" y2="5.259646875" x3="18.779" y3="2.54" textsize="1.27" layer="20" dtype="horizontal"/>
+<dimension x1="0.029" y1="-0.048" x2="75.029" y2="-0.048" x3="37.529" y3="17.78" textsize="1.27" layer="27" dtype="horizontal"/>
+<dimension x1="0.029" y1="-0.048" x2="0.029" y2="69.332" x3="11.43" y3="34.642" textsize="1.27" layer="27" dtype="horizontal"/>
+<dimension x1="0.029" y1="-0.048" x2="37.529" y2="5.259646875" x3="18.779" y3="2.54" textsize="1.27" layer="27" dtype="horizontal"/>
+</package>
+<package name="ZEVA">
+<wire x1="0.029" y1="-0.048" x2="75.029" y2="-0.048" width="0.127" layer="21"/>
+<wire x1="0.029" y1="-0.048" x2="0.029" y2="69.332" width="0.127" layer="21"/>
+<wire x1="75.029" y1="-0.048" x2="75.029" y2="69.332" width="0.127" layer="21"/>
+<wire x1="0.029" y1="69.332" x2="75.029" y2="69.332" width="0.127" layer="21"/>
+<wire x1="67.846646875" y1="12.959646875" x2="67.846646875" y2="55.324353125" width="0.127" layer="21"/>
+<wire x1="67.846646875" y1="55.324353125" x2="64.911353125" y2="58.259646875" width="0.127" layer="21"/>
+<wire x1="64.911353125" y1="58.259646875" x2="10.146646875" y2="58.259646875" width="0.127" layer="21"/>
+<wire x1="10.146646875" y1="58.259646875" x2="7.211353125" y2="55.324353125" width="0.127" layer="21"/>
+<wire x1="7.211353125" y1="55.324353125" x2="7.211353125" y2="12.959646875" width="0.127" layer="21"/>
+<wire x1="7.211353125" y1="12.959646875" x2="9.911353125" y2="10.259646875" width="0.127" layer="21"/>
+<wire x1="9.911353125" y1="10.259646875" x2="65.146646875" y2="10.259646875" width="0.127" layer="21"/>
+<wire x1="65.146646875" y1="10.259646875" x2="67.846646875" y2="12.959646875" width="0.127" layer="21"/>
+<dimension x1="37.529" y1="5.242" x2="37.529" y2="63.259646875" x3="72.029" y3="34.250821875" textsize="1.27" layer="27" dtype="vertical"/>
+<hole x="37.529" y="63.259646875" drill="5"/>
+<hole x="37.529" y="5.259646875" drill="5"/>
+<circle x="20.029" y="43.142" radius="1.4142125" width="0.127" layer="21"/>
+<dimension x1="10.146646875" y1="58.259646875" x2="9.929" y2="10.242" x3="4.029" y3="34.250821875" textsize="1.27" layer="27" dtype="vertical"/>
+<wire x1="28.029" y1="58.242" x2="28.029" y2="62.142" width="0.127" layer="21"/>
+<wire x1="28.029" y1="62.142" x2="34.029" y2="68.142" width="0.127" layer="21"/>
+<wire x1="34.029" y1="68.142" x2="41.029" y2="68.142" width="0.127" layer="21"/>
+<wire x1="41.029" y1="68.142" x2="47.029" y2="62.142" width="0.127" layer="21"/>
+<wire x1="47.029" y1="62.142" x2="47.029" y2="58.242" width="0.127" layer="21"/>
+<wire x1="47.029" y1="58.242" x2="28.029" y2="58.242" width="0.127" layer="21"/>
+<wire x1="47.129" y1="10.142" x2="47.129" y2="6.242" width="0.127" layer="21"/>
+<wire x1="47.129" y1="6.242" x2="41.129" y2="0.242" width="0.127" layer="21"/>
+<wire x1="41.129" y1="0.242" x2="34.129" y2="0.242" width="0.127" layer="21"/>
+<wire x1="34.129" y1="0.242" x2="28.129" y2="6.242" width="0.127" layer="21"/>
+<wire x1="28.129" y1="6.242" x2="28.129" y2="10.142" width="0.127" layer="21"/>
+<circle x="37.629" y="5.259646875" radius="3" width="2.54" layer="41"/>
+<circle x="37.529" y="5.259646875" radius="4" width="2.54" layer="42"/>
+<circle x="37.529" y="5.259646875" radius="3" width="2.54" layer="43"/>
+<circle x="37.629" y="63.259646875" radius="3" width="2.54" layer="41"/>
+<circle x="37.529" y="63.259646875" radius="4" width="2.54" layer="42"/>
+<circle x="37.529" y="63.259646875" radius="3" width="2.54" layer="43"/>
+<rectangle x1="7.239" y1="10.922" x2="68.199" y2="57.912" layer="39"/>
+<rectangle x1="27.559" y1="57.912" x2="46.609" y2="68.072" layer="39"/>
+<rectangle x1="27.559" y1="0.762" x2="47.879" y2="10.922" layer="39"/>
+<dimension x1="0.029" y1="-0.048" x2="75.029" y2="-0.048" x3="37.529" y3="17.78" textsize="1.27" layer="27" dtype="horizontal"/>
+<dimension x1="0.029" y1="-0.048" x2="0.029" y2="69.332" x3="11.43" y3="34.642" textsize="1.27" layer="27" dtype="horizontal"/>
+<dimension x1="0.029" y1="-0.048" x2="37.529" y2="5.259646875" x3="18.779" y3="2.54" textsize="1.27" layer="27" dtype="horizontal"/>
 </package>
 </packages>
 <packages3d>
@@ -679,16 +721,28 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZEVA_SMART-PRECHARGE">
+<deviceset name="ZEVA_SMART-PRECHARGE_HEATSINK">
 <gates>
 <gate name="G$1" symbol="ZEVA" x="5.08" y="5.08"/>
 <gate name="G$2" symbol="HEATSINK" x="12.7" y="25.4"/>
 </gates>
 <devices>
-<device name="" package="ZEVA">
+<device name="" package="ZEVA_HEATSINK">
 <connects>
 <connect gate="G$2" pin="1" pad="P$1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZEVA_SMART-PRECHARGE">
+<gates>
+<gate name="G$1" symbol="ZEVA" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="ZEVA">
 <technologies>
 <technology name=""/>
 </technologies>
