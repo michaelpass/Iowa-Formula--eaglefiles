@@ -18,6 +18,9 @@ org.kde.konsole.desktop
 *.s$?
 *.l$?
 
+# ULP files
+*renumsch.scr
+
 # Eagle project file
 # It contains a serial number and references to the file structure
 # on your computer.
