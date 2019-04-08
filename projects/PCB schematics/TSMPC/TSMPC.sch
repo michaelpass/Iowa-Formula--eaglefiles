@@ -609,6 +609,9 @@ chassis ground/GLV grounding point must be provided for insulation testing on se
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,215.671,103.911,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
