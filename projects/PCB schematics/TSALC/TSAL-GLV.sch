@@ -8404,10 +8404,10 @@ Source: http://www.molex.com</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="NE555" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="NE"/>
-<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
-<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
+<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8415,19 +8415,21 @@ Source: http://www.molex.com</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="SH1" library="shorts" deviceset="SHORT" device="T5"/>
 <part name="+5V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="+5V"/>
 <part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G04" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC"/>
 <part name="BUF1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G17" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AUC"/>
 <part name="SH2" library="shorts" deviceset="SHORT" device="T5"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF"/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8451,7 +8453,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <attribute name="NAME" x="162.56" y="100.838" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="162.56" y="124.587" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="Q3" gate="G$1" x="83.82" y="78.74" smashed="yes">
+<instance part="Q1" gate="G$1" x="83.82" y="78.74" smashed="yes">
 <attribute name="NAME" x="91.44" y="81.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.44" y="78.74" size="1.778" layer="96"/>
 </instance>
@@ -8462,7 +8464,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <attribute name="NAME" x="176.784" y="122.301" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.784" y="117.221" size="1.4224" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="208.28" y="43.18" smashed="yes">
+<instance part="Q3" gate="G$1" x="208.28" y="43.18" smashed="yes">
 <attribute name="NAME" x="215.9" y="45.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="43.18" size="1.778" layer="96"/>
 </instance>
@@ -8489,7 +8491,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <attribute name="NAME" x="181.61" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.61" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="73.66" y="76.2" smashed="yes">
+<instance part="R2" gate="G$1" x="73.66" y="76.2" smashed="yes">
 <attribute name="NAME" x="69.85" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="72.898" size="1.778" layer="96"/>
 </instance>
@@ -8514,53 +8516,60 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <attribute name="NAME" x="120.904" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.856" y="121.539" size="1.4224" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-1" x="5.08" y="106.68" smashed="yes">
+<instance part="X2" gate="-1" x="5.08" y="106.68" smashed="yes">
 <attribute name="NAME" x="7.62" y="105.918" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="108.077" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="5.08" y="101.6" smashed="yes">
+<instance part="X2" gate="-2" x="5.08" y="101.6" smashed="yes">
 <attribute name="NAME" x="7.62" y="100.838" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="102.997" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="5.08" y="91.44" smashed="yes">
+<instance part="X3" gate="-1" x="5.08" y="91.44" smashed="yes">
 <attribute name="NAME" x="7.62" y="90.678" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="92.837" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="5.08" y="86.36" smashed="yes">
+<instance part="X3" gate="-2" x="5.08" y="86.36" smashed="yes">
 <attribute name="NAME" x="7.62" y="85.598" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="87.757" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-1" x="5.08" y="73.66" smashed="yes">
+<instance part="X1" gate="-1" x="5.08" y="73.66" smashed="yes">
 <attribute name="NAME" x="7.62" y="72.898" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="75.057" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="5.08" y="68.58" smashed="yes">
+<instance part="X1" gate="-2" x="5.08" y="68.58" smashed="yes">
 <attribute name="NAME" x="7.62" y="67.818" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="69.977" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="-1" x="55.88" y="109.22" smashed="yes">
+<instance part="X5" gate="-1" x="55.88" y="109.22" smashed="yes">
 <attribute name="NAME" x="58.42" y="108.458" size="1.524" layer="95"/>
 <attribute name="VALUE" x="55.118" y="110.617" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="-2" x="55.88" y="104.14" smashed="yes">
+<instance part="X5" gate="-2" x="55.88" y="104.14" smashed="yes">
 <attribute name="NAME" x="58.42" y="103.378" size="1.524" layer="95"/>
 <attribute name="VALUE" x="55.118" y="105.537" size="1.778" layer="96"/>
 </instance>
-<instance part="X5" gate="-1" x="55.88" y="93.98" smashed="yes">
+<instance part="X6" gate="-1" x="55.88" y="93.98" smashed="yes">
 <attribute name="NAME" x="58.42" y="93.218" size="1.524" layer="95"/>
 <attribute name="VALUE" x="55.118" y="95.377" size="1.778" layer="96"/>
 </instance>
-<instance part="X5" gate="-2" x="55.88" y="88.9" smashed="yes">
+<instance part="X6" gate="-2" x="55.88" y="88.9" smashed="yes">
 <attribute name="NAME" x="58.42" y="88.138" size="1.524" layer="95"/>
 <attribute name="VALUE" x="55.118" y="90.297" size="1.778" layer="96"/>
 </instance>
-<instance part="X6" gate="-1" x="5.08" y="60.96" smashed="yes">
+<instance part="X4" gate="-1" x="5.08" y="60.96" smashed="yes">
 <attribute name="NAME" x="7.62" y="60.198" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="62.357" size="1.778" layer="96"/>
 </instance>
-<instance part="X6" gate="-2" x="5.08" y="55.88" smashed="yes">
+<instance part="X4" gate="-2" x="5.08" y="55.88" smashed="yes">
 <attribute name="NAME" x="7.62" y="55.118" size="1.524" layer="95"/>
 <attribute name="VALUE" x="4.318" y="57.277" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="35.56" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.0586" y="36.83" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="32.258" y="36.83" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND1" gate="1" x="35.56" y="22.86" smashed="yes">
+<attribute name="VALUE" x="33.02" y="20.32" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8586,7 +8595,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="210.82" y1="38.1" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8595,14 +8604,19 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="X6" gate="-1" pin="S"/>
+<pinref part="X4" gate="-1" pin="S"/>
 <wire x1="2.54" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="0" y1="60.96" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="X6" gate="-2" pin="S"/>
+<pinref part="X4" gate="-2" pin="S"/>
 <wire x1="0" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="0" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="0" y="60.96"/>
 <label x="-33.02" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V-ISO" class="0">
@@ -8623,10 +8637,10 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <pinref part="SH2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="X1" gate="-1" pin="S"/>
 <wire x1="2.54" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="0" y1="73.66" x2="0" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="X1" gate="-2" pin="S"/>
 <wire x1="0" y1="68.58" x2="2.54" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="0" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
 <junction x="0" y="73.66"/>
@@ -8641,7 +8655,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <label x="68.58" y="55.88" size="1.6764" layer="95" xref="yes"/>
 <wire x1="63.5" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <junction x="63.5" y="55.88"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="NOT1" gate="A" pin="I"/>
 <pinref part="BUF1" gate="G$1" pin="O"/>
@@ -8663,7 +8677,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <wire x1="129.54" y1="127" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
 <junction x="134.62" y="129.54"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="96.52" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="71.12" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="71.12" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
@@ -8747,15 +8761,15 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="40.64" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="78.74" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8767,20 +8781,20 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <label x="228.6" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="X5" gate="-2" pin="S"/>
 <wire x1="53.34" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <label x="22.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GREEN_LED-" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="210.82" y1="48.26" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="53.34" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
 <label x="228.6" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X5" gate="-2" pin="S"/>
+<pinref part="X6" gate="-2" pin="S"/>
 <wire x1="53.34" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <label x="22.86" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -8792,7 +8806,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <label x="228.6" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-1" pin="S"/>
+<pinref part="X5" gate="-1" pin="S"/>
 <wire x1="53.34" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="22.86" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -8800,7 +8814,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <net name="VCC" class="0">
 <segment>
 <pinref part="+5V1" gate="1" pin="V+"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="86.36" y1="88.9" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <label x="81.28" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="86.36" y1="86.36" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
@@ -8808,10 +8822,10 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <junction x="86.36" y="86.36"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="X3" gate="-1" pin="S"/>
 <wire x1="2.54" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="0" y1="91.44" x2="0" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="X3" gate="-2" pin="S"/>
 <wire x1="0" y1="86.36" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="0" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
 <junction x="0" y="91.44"/>
@@ -8821,13 +8835,17 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <net name="TSAL_CONTROL_SIGNAL" class="0">
 <segment>
 <pinref part="BUF1" gate="G$1" pin="I"/>
-<wire x1="30.48" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <label x="30.48" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<junction x="35.56" y="40.64"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="X2" gate="-1" pin="S"/>
 <wire x1="2.54" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="X2" gate="-2" pin="S"/>
 <wire x1="0" y1="106.68" x2="-33.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="0" y1="106.68" x2="0" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="0" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
@@ -8842,7 +8860,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <label x="228.6" y="60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X5" gate="-1" pin="S"/>
+<pinref part="X6" gate="-1" pin="S"/>
 <wire x1="53.34" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <label x="22.86" y="93.98" size="1.778" layer="95"/>
 </segment>
