@@ -11100,7 +11100,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEU-FS1H221L.
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="PS1" library="M57184N-715B" deviceset="M57184N-715B" device=""/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="1mH"/>
 <part name="C4" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
@@ -11255,11 +11255,11 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <attribute name="NAME" x="25.4" y="72.898" size="1.524" layer="95"/>
 <attribute name="VALUE" x="22.098" y="75.057" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-1" x="78.74" y="78.74" smashed="yes">
+<instance part="X1" gate="-1" x="78.74" y="78.74" smashed="yes">
 <attribute name="NAME" x="81.28" y="77.978" size="1.524" layer="95"/>
 <attribute name="VALUE" x="77.978" y="80.137" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="78.74" y="73.66" smashed="yes">
+<instance part="X1" gate="-2" x="78.74" y="73.66" smashed="yes">
 <attribute name="NAME" x="81.28" y="72.898" size="1.524" layer="95"/>
 <attribute name="VALUE" x="77.978" y="75.057" size="1.778" layer="96"/>
 </instance>
@@ -11527,10 +11527,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </net>
 <net name="TSAL_CONTROL_SIGNAL" class="0">
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="X1" gate="-1" pin="S"/>
 <wire x1="76.2" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="78.74" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="X1" gate="-2" pin="S"/>
 <wire x1="73.66" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="73.66" y="78.74"/>
