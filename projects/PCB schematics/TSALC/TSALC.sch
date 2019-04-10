@@ -17455,23 +17455,23 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="085CS-1AW" package3d_urn="urn:adsk.eagle:package:23385/1" value="10uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="085CS-1AW" package3d_urn="urn:adsk.eagle:package:23385/1" value="2uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GREEN1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LZR184" device="" package3d_urn="urn:adsk.eagle:package:15790/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="085CS-1AW" package3d_urn="urn:adsk.eagle:package:23385/1" value="10uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="+5V" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="+5V"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 </parts>
 <sheets>
 <sheet>
@@ -17577,26 +17577,26 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <instance part="P+2" gate="1" x="320.04" y="134.62" smashed="yes">
 <attribute name="VALUE" x="317.5" y="129.54" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC4" gate="A" x="259.08" y="132.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="266.7" y="121.158" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="266.7" y="144.907" size="1.778" layer="96" rot="R180"/>
+<instance part="IC4" gate="A" x="264.16" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.78" y="121.158" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="271.78" y="144.907" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="Q3" gate="G$1" x="215.9" y="73.66" smashed="yes">
-<attribute name="NAME" x="223.52" y="76.2" size="1.778" layer="95"/>
+<instance part="Q3" gate="G$1" x="187.96" y="73.66" smashed="yes">
+<attribute name="NAME" x="195.58" y="76.2" size="1.778" layer="95"/>
 </instance>
-<instance part="P+4" gate="1" x="218.44" y="83.82" smashed="yes">
-<attribute name="VALUE" x="218.44" y="86.36" size="1.778" layer="96"/>
+<instance part="P+4" gate="1" x="190.5" y="83.82" smashed="yes">
+<attribute name="VALUE" x="190.5" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="287.02" y="142.24" smashed="yes">
-<attribute name="VALUE" x="287.782" y="143.002" size="1.4224" layer="96"/>
+<instance part="GND4" gate="1" x="292.1" y="142.24" smashed="yes">
+<attribute name="VALUE" x="292.862" y="143.002" size="1.4224" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="241.3" y="129.54" smashed="yes">
-<attribute name="NAME" x="242.316" y="130.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.696" y="125.349" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="218.44" y="144.78" smashed="yes">
+<attribute name="NAME" x="219.456" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="211.836" y="140.589" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="279.4" y="142.24" smashed="yes">
-<attribute name="NAME" x="280.924" y="142.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.924" y="137.541" size="1.4224" layer="96"/>
+<instance part="C5" gate="G$1" x="284.48" y="142.24" smashed="yes">
+<attribute name="NAME" x="286.004" y="142.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="286.004" y="137.541" size="1.4224" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="320.04" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="318.5414" y="95.25" size="1.778" layer="95" rot="R90"/>
@@ -17627,16 +17627,8 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <attribute name="NAME" x="318.5414" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="323.342" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="241.3" y="119.38" smashed="yes">
-<attribute name="VALUE" x="238.76" y="116.84" size="1.778" layer="96"/>
-</instance>
-<instance part="R3" gate="G$1" x="271.78" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="270.2814" y="113.03" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="275.082" y="113.03" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R5" gate="G$1" x="243.84" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="242.3414" y="138.43" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="247.142" y="138.43" size="1.778" layer="96" rot="R90"/>
+<instance part="GND5" gate="1" x="218.44" y="134.62" smashed="yes">
+<attribute name="VALUE" x="215.9" y="132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="149.86" y="116.84" smashed="yes">
 <attribute name="VALUE" x="147.955" y="113.665" size="1.778" layer="96"/>
@@ -17659,6 +17651,14 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 </instance>
 <instance part="+5V" gate="1" x="157.48" y="58.42" smashed="yes">
 <attribute name="VALUE" x="157.48" y="60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R3" gate="G$1" x="238.76" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="240.2586" y="128.27" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="235.458" y="128.27" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="G$1" x="238.76" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="240.2586" y="146.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="235.458" y="146.05" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -17719,15 +17719,15 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="GND"/>
-<wire x1="269.24" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="139.7" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="147.32" x2="287.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="139.7" x2="276.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="139.7" x2="276.86" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="147.32" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="147.32" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="147.32" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="147.32" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
-<junction x="279.4" y="147.32"/>
+<wire x1="284.48" y1="147.32" x2="284.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="284.48" y="147.32"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -17742,7 +17742,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="241.3" y1="124.46" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="139.7" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIGNAL_VDIV" class="0">
@@ -17750,6 +17750,14 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <pinref part="HV-OPA" gate="G$1" pin="IN+"/>
 <wire x1="50.8" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="35.56" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="129.54" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="58.42" y="129.54"/>
+<label x="66.04" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="HV_POST_AIR" class="0">
@@ -17806,7 +17814,7 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="218.44" y1="81.28" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GREEN1" gate="-1" pin="A"/>
@@ -17833,17 +17841,17 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="NOT" gate="G$1" pin="I"/>
-<wire x1="157.48" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
 <junction x="157.48" y="43.18"/>
-<wire x1="190.5" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="43.18" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
-<junction x="190.5" y="43.18"/>
+<wire x1="172.72" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="43.18" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<junction x="172.72" y="43.18"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="190.5" y1="58.42" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<label x="195.58" y="58.42" size="1.6764" layer="95" xref="yes"/>
-<wire x1="190.5" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
-<junction x="190.5" y="58.42"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
+<label x="177.8" y="58.42" size="1.6764" layer="95" xref="yes"/>
+<wire x1="172.72" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
+<junction x="172.72" y="58.42"/>
 </segment>
 </net>
 <net name="+8V" class="0">
@@ -17894,26 +17902,26 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 </net>
 <net name="VTIMER" class="0">
 <segment>
+<wire x1="243.84" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="157.48" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
+<label x="243.84" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="243.84" y="157.48"/>
+<wire x1="243.84" y1="157.48" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="V+"/>
-<wire x1="248.92" y1="139.7" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="149.86" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="147.32" x2="243.84" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="139.7" x2="254" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<junction x="243.84" y="147.32"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="218.44" y1="66.04" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="149.86" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="154.94" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
-<label x="246.38" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="149.86" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<junction x="243.84" y="149.86"/>
-<junction x="248.92" y="149.86"/>
+<wire x1="200.66" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="66.04" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="R"/>
-<wire x1="269.24" y1="129.54" x2="274.32" y2="129.54" width="0.1524" layer="91"/>
-<label x="274.32" y="129.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="274.32" y1="129.54" x2="279.4" y2="129.54" width="0.1524" layer="91"/>
+<label x="279.4" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -17945,46 +17953,41 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="Q"/>
-<wire x1="248.92" y1="124.46" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="124.46" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="109.22" x2="271.78" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="109.22" x2="314.96" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="254" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="124.46" x2="248.92" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="109.22" x2="314.96" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<junction x="271.78" y="109.22"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="111.76" x2="271.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="137.16" x2="279.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="137.16" x2="284.48" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="CV"/>
-<wire x1="279.4" y1="134.62" x2="269.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="134.62" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THR" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="TR"/>
-<wire x1="269.24" y1="124.46" x2="271.78" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="124.46" x2="271.78" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="124.46" x2="274.32" y2="124.46" width="0.1524" layer="91"/>
-<label x="274.32" y="124.46" size="1.778" layer="95" xref="yes"/>
-<junction x="271.78" y="124.46"/>
+<wire x1="274.32" y1="124.46" x2="279.4" y2="124.46" width="0.1524" layer="91"/>
+<label x="279.4" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="A" pin="THR"/>
-<wire x1="248.92" y1="134.62" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="119.38" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="243.84" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="134.62" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="134.62" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
-<label x="238.76" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="137.16" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
-<junction x="243.84" y="134.62"/>
-<junction x="241.3" y="134.62"/>
+<wire x1="218.44" y1="149.86" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<label x="215.9" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
+<junction x="218.44" y="149.86"/>
+</segment>
+<segment>
+<wire x1="254" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
+<label x="251.46" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC4" gate="A" pin="THR"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18060,14 +18063,14 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <wire x1="63.5" y1="35.56" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDIV_SIGNAL" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="129.54" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<junction x="58.42" y="129.54"/>
-<label x="66.04" y="129.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="A" pin="DIS"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="137.16" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
+<junction x="238.76" y="129.54"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -18076,21 +18079,18 @@ energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</te
 <errors>
 <approved hash="102,1,55.88,33.02,GND,HV-,,,,"/>
 <approved hash="102,1,149.86,119.38,GND,HV-,,,,"/>
+<approved hash="201,1,149.86,119.38,GND,HV-\, GND,,,,"/>
 <approved hash="201,1,55.88,33.02,GND,HV-\, GND,,,,"/>
 <approved hash="104,1,142.24,124.46,IC2,GND,HV-,,,"/>
 <approved hash="104,1,144.78,124.46,IC2,GND,HV-,,,"/>
 <approved hash="104,1,147.32,124.46,IC2,GND,HV-,,,"/>
 <approved hash="104,1,149.86,124.46,IC2,GND,HV-,,,"/>
-<approved hash="202,1,248.92,129.54,IC4,DIS,,,,"/>
-<approved hash="108,1,43.18,142.24,HV_POST_AIR,,,,,"/>
-<approved hash="108,1,190.5,58.42,+60VDANGER-FLASHRED,,,,,"/>
-<approved hash="108,1,248.92,149.86,VTIMER,,,,,"/>
-<approved hash="108,1,241.3,134.62,THR,,,,,"/>
-<approved hash="108,1,271.78,124.46,THR,,,,,"/>
-<approved hash="108,1,231.14,43.18,SAFESIGNAL-SOLIDGREEN,,,,,"/>
+<approved hash="205,1,218.44,43.4061,NOTG$2,VCC,,,,"/>
+<approved hash="104,1,254,139.7,IC4,V+,VTIMER,,,"/>
+<approved hash="208,1,160.02,139.7,+8V,sup,,,,"/>
+<approved hash="208,1,157.48,137.16,+8V,out,,,,"/>
 <approved hash="113,1,41.5814,146.345,JP1,,,,,"/>
-<approved hash="113,1,318.95,99.06,R1,,,,,"/>
-<approved hash="113,1,299.499,215.679,FRAME2,,,,,"/>
+<approved hash="113,1,299.491,215.671,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
