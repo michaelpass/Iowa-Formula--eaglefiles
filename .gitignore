@@ -21,6 +21,7 @@ projects/0-*/
 
 # ULP files
 *renumsch.scr
+*chnwidth.scr
 
 # Eagle project file
 # It contains a serial number and references to the file structure
