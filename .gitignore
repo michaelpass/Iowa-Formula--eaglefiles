@@ -1,8 +1,8 @@
 .DS_Store
 org.kde.konsole.desktop
 *.swp
-projects/r-*/*
-projects/0-*/*
+projects/r-*/
+projects/0-*/
 # -----------------------------
 
 # Created by https://www.gitignore.io/api/eagle
