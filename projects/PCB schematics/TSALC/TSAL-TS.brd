@@ -104,8 +104,8 @@ Rev A: April 10th, 2019</text>
 <text x="70.104" y="92.329" size="1.27" layer="25">HV-\</text>
 <text x="20.955" y="77.47" size="1.27" layer="25">HV+_POST_AIR+</text>
 <text x="44.958" y="77.724" size="1.27" layer="25">HV-_POST_AIR-</text>
-<text x="44.704" y="66.929" size="1.27" layer="25">+</text>
-<text x="44.704" y="55.499" size="1.27" layer="25">+</text>
+<text x="45.974" y="52.959" size="1.27" layer="25">+</text>
+<text x="44.704" y="63.119" size="1.27" layer="25">+</text>
 <text x="43.434" y="36.449" size="1.27" layer="25">+</text>
 <wire x1="15.2654" y1="73.1266" x2="15.2654" y2="59.9186" width="0.1524" layer="25"/>
 <wire x1="15.2654" y1="59.9186" x2="29.2354" y2="59.9186" width="0.1524" layer="25"/>
@@ -1569,6 +1569,23 @@ NS Package M08A</description>
 </package>
 </packages>
 </library>
+<library name="EKXF451ELL100MJ20S">
+<description>&lt;Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPPRD500W60D1025H2150">
+<description>&lt;b&gt;EKXF451ELL100MJ20S&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.2" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.8" diameter="1.2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="2.5" y="0" radius="5.625" width="0.05" layer="21"/>
+<circle x="2.5" y="0" radius="5.125" width="0.2" layer="25"/>
+<circle x="2.5" y="0" radius="5.125" width="0.1" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1848,28 +1865,6 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="" x="44.45" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="44.45" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C5" library="EEU-FS1H221L" package="CAPPRD350W65D800H2200" value="EEU-FS1H221L" x="44.45" y="66.04" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 50VDC 220uF 9000H 8x20mm" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="22mm" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEU-FS1H221L" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-EEU-FS1H221L" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-EEU-FS1H221L" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.91" y="64.77" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="44.45" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C9" library="EEU-FS1H221L" package="CAPPRD350W65D800H2200" value="EEU-FS1H221L" x="44.45" y="54.61" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 50VDC 220uF 9000H 8x20mm" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="22mm" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEU-FS1H221L" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-EEU-FS1H221L" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-EEU-FS1H221L" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.91" y="53.34" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="44.45" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C10" library="T491C106K020AT" package="CAPT6032N" value="T491C106K020AT" x="7.62" y="29.21" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="T491C106K020AT" x="7.62" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="5.6134" y="31.115" size="1.27" layer="25" ratio="6" rot="SR0"/>
@@ -1920,6 +1915,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.8" y="72.771" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="52.07" y="74.676" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="C1" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="41.91" y="64.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="21.5mm" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="64.77" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="41.91" y="64.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C5" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="46.99" y="52.07" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="21.5mm" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="46.99" y="52.07" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="46.99" y="52.07" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="HV-">
@@ -1936,7 +1953,6 @@ design rules under a new name.</description>
 <contactref element="OK1" pad="2"/>
 <contactref element="PS1" pad="4"/>
 <contactref element="C4" pad="2"/>
-<contactref element="C9" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="J4" pad="1"/>
@@ -1949,10 +1965,10 @@ design rules under a new name.</description>
 <wire x1="70.1802" y1="86.0298" x2="76.2" y2="80.01" width="0.6096" layer="1"/>
 <wire x1="76.2" y1="68.58" x2="72.39" y2="64.77" width="0.6096" layer="1"/>
 <wire x1="72.39" y1="64.77" x2="64.77" y2="64.77" width="0.6096" layer="1"/>
-<wire x1="52.07" y1="48.26" x2="52.07" y2="60.96" width="0.6096" layer="1"/>
-<wire x1="52.07" y1="48.26" x2="48.26" y2="44.45" width="0.6096" layer="1"/>
-<wire x1="48.26" y1="44.45" x2="44.45" y2="44.45" width="0.6096" layer="1"/>
-<wire x1="44.45" y1="44.45" x2="44.45" y2="41.6" width="0.6096" layer="1"/>
+<wire x1="52.07" y1="45.72" x2="52.07" y2="60.96" width="0.6096" layer="1"/>
+<wire x1="52.07" y1="45.72" x2="48.006" y2="41.656" width="0.6096" layer="1"/>
+<wire x1="48.006" y1="41.656" x2="44.45" y2="41.656" width="0.6096" layer="1"/>
+<wire x1="44.45" y1="41.656" x2="44.45" y2="41.6" width="0.6096" layer="1"/>
 <wire x1="7.8715" y1="33.782" x2="7.8715" y2="37.4015" width="0.6096" layer="1"/>
 <wire x1="7.8715" y1="37.4015" x2="7.935" y2="37.465" width="0.6096" layer="1"/>
 <wire x1="10.7270125" y1="29.97979375" x2="10.9502" y2="30.20298125" width="0.6096" layer="1"/>
@@ -1978,7 +1994,7 @@ design rules under a new name.</description>
 <wire x1="22.1555" y1="30.373" x2="16.9605" y2="30.373" width="0.4064" layer="1"/>
 <wire x1="16.4465" y1="30.887" x2="16.9605" y2="30.373" width="0.4064" layer="1"/>
 <wire x1="18.0975" y1="24.3775" x2="16.4465" y2="26.0285" width="0.4064" layer="1"/>
-<wire x1="23.5525" y1="39.39" x2="21.94625" y2="40.99625" width="0.4064" layer="1"/>
+<wire x1="23.5525" y1="39.39" x2="21.94625" y2="40.99625" width="0.6096" layer="1"/>
 <wire x1="8.255" y1="47.05" x2="8.255" y2="51.115" width="0.4064" layer="1"/>
 <wire x1="8.255" y1="51.115" x2="7.6175" y2="51.7525" width="0.4064" layer="1"/>
 <wire x1="16.4465" y1="26.0285" x2="16.4465" y2="30.48" width="0.508" layer="1"/>
@@ -1989,12 +2005,10 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="34.29" x2="9.55020625" y2="33.68020625" width="0.4064" layer="1"/>
 <wire x1="9.55020625" y1="33.68020625" x2="9.4570125" y2="33.68020625" width="0.4064" layer="1"/>
 <wire x1="13.563" y1="30.887" x2="10.16" y2="34.29" width="0.4064" layer="16"/>
-<wire x1="44.45" y1="44.45" x2="44.45" y2="50.8" width="0.6096" layer="1"/>
-<wire x1="44.45" y1="50.8" x2="44.45" y2="51.11" width="0.6096" layer="1"/>
-<wire x1="21.94625" y1="40.99625" x2="21.59" y2="40.99625" width="0.4064" layer="1"/>
-<wire x1="21.59" y1="40.99625" x2="13.05625" y2="40.99625" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="39.37" x2="8.316" y2="39.37" width="0.4064" layer="1"/>
-<wire x1="13.05625" y1="40.99625" x2="11.43" y2="39.37" width="0.4064" layer="1"/>
+<wire x1="21.94625" y1="40.99625" x2="21.59" y2="40.99625" width="0.6096" layer="1"/>
+<wire x1="21.59" y1="40.99625" x2="13.05625" y2="40.99625" width="0.6096" layer="1"/>
+<wire x1="11.43" y1="39.37" x2="8.316" y2="39.37" width="0.6096" layer="1"/>
+<wire x1="13.05625" y1="40.99625" x2="11.43" y2="39.37" width="0.6096" layer="1"/>
 <wire x1="52.07" y1="60.96" x2="55.88" y2="64.77" width="0.6096" layer="1"/>
 <wire x1="55.88" y1="64.77" x2="64.77" y2="64.77" width="0.6096" layer="1"/>
 <wire x1="76.2" y1="80.01" x2="76.2" y2="68.58" width="0.6096" layer="1"/>
@@ -2003,18 +2017,22 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="78.74" x2="58.42" y2="83.82" width="0.6096" layer="1"/>
 <wire x1="58.42" y1="83.82" x2="60.6298" y2="86.0298" width="0.6096" layer="1"/>
 <wire x1="60.6298" y1="86.0298" x2="66.04" y2="86.0298" width="0.6096" layer="1"/>
-<wire x1="21.59" y1="40.99625" x2="21.59" y2="43.18" width="0.4064" layer="1"/>
-<wire x1="21.59" y1="43.18" x2="24.13" y2="45.72" width="0.4064" layer="1"/>
+<wire x1="21.59" y1="40.99625" x2="21.59" y2="43.18" width="0.6096" layer="1"/>
+<wire x1="21.59" y1="43.18" x2="24.13" y2="45.72" width="0.6096" layer="1"/>
 <via x="24.13" y="45.72" extent="1-16" drill="0.508"/>
-<wire x1="24.13" y1="45.72" x2="36.83" y2="45.72" width="0.4064" layer="16"/>
+<wire x1="24.13" y1="45.72" x2="36.83" y2="45.72" width="0.6096" layer="16"/>
 <via x="36.83" y="45.72" extent="1-16" drill="0.508"/>
-<wire x1="36.83" y1="45.72" x2="38.862" y2="45.72" width="0.4064" layer="1"/>
-<wire x1="38.862" y1="45.72" x2="40.386" y2="47.244" width="0.4064" layer="1"/>
-<wire x1="40.386" y1="47.244" x2="40.386" y2="49.53" width="0.4064" layer="1"/>
-<wire x1="40.386" y1="49.53" x2="41.656" y2="50.8" width="0.4064" layer="1"/>
-<wire x1="41.656" y1="50.8" x2="44.45" y2="50.8" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="45.72" x2="38.862" y2="45.72" width="0.6096" layer="1"/>
+<wire x1="38.862" y1="45.72" x2="39.116" y2="45.974" width="0.6096" layer="1"/>
+<wire x1="39.116" y1="45.974" x2="40.386" y2="47.244" width="0.6096" layer="1"/>
+<wire x1="40.386" y1="47.244" x2="40.386" y2="50.8" width="0.6096" layer="1"/>
+<wire x1="41.656" y1="52.07" x2="40.386" y2="50.8" width="0.6096" layer="1"/>
 <wire x1="8.255" y1="47.05" x2="8.255" y2="41.85" width="0.4064" layer="1"/>
 <wire x1="6.985" y1="47.05" x2="6.985" y2="41.85" width="0.4064" layer="1"/>
+<contactref element="C5" pad="2"/>
+<wire x1="39.116" y1="45.974" x2="43.434" y2="41.656" width="0.6096" layer="1"/>
+<wire x1="43.434" y1="41.656" x2="44.45" y2="41.656" width="0.6096" layer="1"/>
+<wire x1="41.99" y1="52.07" x2="41.656" y2="52.07" width="0.6096" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="OK1" pad="4"/>
@@ -2032,16 +2050,17 @@ design rules under a new name.</description>
 <wire x1="34.4145" y1="83.947" x2="34.4145" y2="80.523" width="0.4064" layer="1"/>
 <wire x1="34.4145" y1="80.523" x2="34.8005" y2="80.137" width="0.4064" layer="1"/>
 <wire x1="34.8005" y1="80.137" x2="34.4195" y2="80.137" width="0.508" layer="1"/>
-<wire x1="34.4195" y1="80.137" x2="30.734" y2="76.4515" width="0.508" layer="1"/>
-<wire x1="30.734" y1="74.803" x2="30.734" y2="76.4515" width="0.508" layer="1"/>
-<via x="30.734" y="74.803" extent="1-16" drill="0.508"/>
-<wire x1="30.734" y1="74.803" x2="16.383" y2="60.452" width="0.508" layer="16"/>
-<wire x1="16.383" y1="60.452" x2="16.383" y2="36.83" width="0.508" layer="16"/>
-<wire x1="16.383" y1="36.83" x2="18.669" y2="34.544" width="0.508" layer="16"/>
+<wire x1="34.4195" y1="80.137" x2="30.099" y2="75.8165" width="0.508" layer="1"/>
+<wire x1="30.099" y1="73.406" x2="30.099" y2="75.8165" width="0.508" layer="1"/>
+<via x="30.099" y="73.406" extent="1-16" drill="0.508"/>
+<wire x1="30.099" y1="73.406" x2="16.383" y2="59.69" width="0.508" layer="16"/>
+<wire x1="16.383" y1="59.69" x2="16.383" y2="35.306" width="0.508" layer="16"/>
+<wire x1="17.145" y1="34.544" x2="18.669" y2="34.544" width="0.508" layer="16"/>
+<wire x1="17.145" y1="34.544" x2="16.383" y2="35.306" width="0.508" layer="16"/>
 <via x="18.669" y="34.544" extent="1-16" drill="0.508"/>
-<wire x1="22.118" y1="36.85" x2="23.5525" y2="36.85" width="0.508" layer="1"/>
-<wire x1="22.118" y1="36.85" x2="19.812" y2="34.544" width="0.508" layer="1"/>
-<wire x1="18.669" y1="34.544" x2="19.812" y2="34.544" width="0.508" layer="1"/>
+<wire x1="21.737" y1="36.85" x2="23.5525" y2="36.85" width="0.508" layer="1"/>
+<wire x1="21.737" y1="36.85" x2="19.431" y2="34.544" width="0.508" layer="1"/>
+<wire x1="18.669" y1="34.544" x2="19.431" y2="34.544" width="0.508" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="OK1" pad="1"/>
@@ -2110,18 +2129,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="HV+">
 <contactref element="PS1" pad="1"/>
-<contactref element="C5" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="2"/>
 <wire x1="13.97" y1="90.17" x2="13.97" y2="86.0298" width="1.27" layer="1"/>
 <wire x1="13.97" y1="86.0298" x2="18.1102" y2="86.0298" width="0.8128" layer="1"/>
 <wire x1="20.32" y1="83.82" x2="20.32" y2="76.581" width="0.8128" layer="1"/>
 <wire x1="18.1102" y1="86.0298" x2="20.32" y2="83.82" width="0.8128" layer="1"/>
-<wire x1="20.32" y1="76.581" x2="30.861" y2="66.04" width="0.8128" layer="1"/>
-<wire x1="30.861" y1="66.04" x2="44.45" y2="66.04" width="0.8128" layer="1"/>
-<wire x1="58.42" y1="72.39" x2="64.77" y2="72.39" width="0.8128" layer="1"/>
-<wire x1="44.45" y1="66.04" x2="52.07" y2="66.04" width="0.8128" layer="1"/>
-<wire x1="52.07" y1="66.04" x2="58.42" y2="72.39" width="0.8128" layer="1"/>
+<wire x1="64.77" y1="72.39" x2="58.42" y2="72.39" width="0.8128" layer="1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="32.131" y1="64.77" x2="41.91" y2="64.77" width="0.8128" layer="1"/>
+<wire x1="20.32" y1="76.581" x2="32.131" y2="64.77" width="0.8128" layer="1"/>
+<wire x1="58.42" y1="72.39" x2="55.88" y2="69.85" width="0.8128" layer="1"/>
+<wire x1="55.88" y1="69.85" x2="44.45" y2="69.85" width="0.8128" layer="1"/>
+<wire x1="44.45" y1="69.85" x2="41.91" y2="67.31" width="0.8128" layer="1"/>
+<wire x1="41.91" y1="67.31" x2="41.91" y2="64.77" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="L1" pad="2"/>
@@ -2170,11 +2191,6 @@ design rules under a new name.</description>
 <wire x1="6.35" y1="66.04" x2="4.2898" y2="63.9798" width="0.6096" layer="1"/>
 <wire x1="29.1525" y1="53.3975" x2="16.51" y2="66.04" width="0.6096" layer="1"/>
 </signal>
-<signal name="N$3">
-<contactref element="C5" pad="2"/>
-<contactref element="C9" pad="1"/>
-<wire x1="44.45" y1="54.61" x2="44.45" y2="62.54" width="0.6096" layer="1"/>
-</signal>
 <signal name="HV-_POST_AIR-">
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
@@ -2220,6 +2236,12 @@ design rules under a new name.</description>
 <vertex x="38.22093125" y="28.209346875"/>
 <vertex x="38.08056875" y="69.56421875"/>
 </polygon>
+</signal>
+<signal name="N$3">
+<contactref element="C1" pad="2"/>
+<contactref element="C5" pad="1"/>
+<wire x1="46.91" y1="64.77" x2="46.91" y2="52.15" width="0.8128" layer="1"/>
+<wire x1="46.91" y1="52.15" x2="46.99" y2="52.07" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -11069,6 +11069,74 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEU-FS1H221L.
 </deviceset>
 </devicesets>
 </library>
+<library name="EKXF451ELL100MJ20S">
+<description>&lt;Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPPRD500W60D1025H2150">
+<description>&lt;b&gt;EKXF451ELL100MJ20S&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.2" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.8" diameter="1.2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="2.5" y="0" radius="5.625" width="0.05" layer="21"/>
+<circle x="2.5" y="0" radius="5.125" width="0.2" layer="25"/>
+<circle x="2.5" y="0" radius="5.125" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="EKXF451ELL100MJ20S">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EKXF451ELL100MJ20S" prefix="C">
+<description>&lt;b&gt;Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511290.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="EKXF451ELL100MJ20S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPRD500W60D1025H2150">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" constant="no"/>
+<attribute name="HEIGHT" value="21.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11105,8 +11173,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEU-FS1H221L.
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="1mH"/>
 <part name="C4" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
-<part name="C5" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
-<part name="C9" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="C10" library="T491C106K020AT" deviceset="T491C106K020AT" device=""/>
 <part name="C11" library="T491C106K020AT" deviceset="T491C106K020AT" device=""/>
@@ -11119,6 +11185,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEU-FS1H221L.
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C1" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
+<part name="C5" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11146,7 +11214,7 @@ Voltage dividers must be selected such that when HV+_POST_AIR+ is greater than 6
 <text x="241.3" y="27.94" size="1.778" layer="97">NOTE: TSAL_CONTROL_SIGNAL requires pull-down resistor on accompanying GLV board.</text>
 <wire x1="218.44" y1="30.48" x2="220.98" y2="30.48" width="0.1524" layer="97"/>
 <wire x1="284.48" y1="71.12" x2="287.02" y2="71.12" width="0.1524" layer="97"/>
-<text x="38.1" y="33.02" size="1.778" layer="97">220uF</text>
+<text x="38.1" y="33.02" size="1.778" layer="97">220uF, 50VDC</text>
 <wire x1="30.48" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="255"/>
 <text x="142.24" y="99.06" size="1.778" layer="255">Voltage divider math:
@@ -11174,6 +11242,8 @@ This indicates that voltage must be referenced w/ respect to post AIR+ and post 
 
 However, to make the voltage levels in the comparator work, HV- and post AIR- must be tied.
 Assuming that current cannot flow between these points, I've added 5x10k resistors to separate these out.</text>
+<text x="-12.7" y="40.64" size="1.778" layer="96">10uF, 450VDC</text>
+<text x="-12.7" y="25.4" size="1.778" layer="96">10uF, 450VDC</text>
 </plain>
 <instances>
 <instance part="HV-OPA" gate="G$1" x="167.64" y="38.1" smashed="yes">
@@ -11278,12 +11348,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="SUPPLY8" gate="GND" x="33.02" y="15.24" smashed="yes">
 <attribute name="VALUE" x="31.115" y="12.065" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="7.62" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.27" y="41.91" size="1.778" layer="95" rot="R270" align="center-left"/>
-</instance>
-<instance part="C9" gate="G$1" x="7.62" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.27" y="26.67" size="1.778" layer="95" rot="R270" align="center-left"/>
-</instance>
 <instance part="SUPPLY9" gate="GND" x="7.62" y="12.7" smashed="yes">
 <attribute name="VALUE" x="5.715" y="9.525" size="1.778" layer="96"/>
 </instance>
@@ -11326,6 +11390,14 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="R7" gate="G$1" x="134.62" y="7.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="138.43" y="6.1214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="138.43" y="10.922" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C1" gate="G$1" x="7.62" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.97" y="39.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="11.43" y="39.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C5" gate="G$1" x="7.62" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.97" y="24.13" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="11.43" y="24.13" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -11462,8 +11534,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="7.62" y1="15.24" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -11547,8 +11619,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="PS1" gate="G$1" pin="VIN"/>
 <label x="33.02" y="50.8" size="1.778" layer="95"/>
 <wire x1="50.8" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
@@ -11623,9 +11695,9 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="-"/>
-<pinref part="C9" gate="G$1" pin="+"/>
 <wire x1="7.62" y1="35.56" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C5" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="HV-_POST_AIR-" class="0">
