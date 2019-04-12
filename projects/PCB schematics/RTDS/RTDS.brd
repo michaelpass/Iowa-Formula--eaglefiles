@@ -79,6 +79,51 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
+<library name="Arduino-clone">
+<description>Arduino Clone pinheaders
+By cl@xganon.com
+http://www.xganon.com</description>
+<packages>
+<package name="NANO">
+<pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
+<pad name="RX1" x="5.08" y="-6.35" drill="0.8" shape="long"/>
+<pad name="RST1" x="5.08" y="-3.81" drill="0.8" shape="long"/>
+<pad name="GND1" x="5.08" y="-1.27" drill="0.8" shape="long"/>
+<pad name="D2" x="5.08" y="1.27" drill="0.8" shape="long"/>
+<pad name="D3" x="5.08" y="3.81" drill="0.8" shape="long"/>
+<pad name="D4" x="5.08" y="6.35" drill="0.8" shape="long"/>
+<pad name="D5" x="5.08" y="8.89" drill="0.8" shape="long"/>
+<pad name="D6" x="5.08" y="11.43" drill="0.8" shape="long"/>
+<pad name="D7" x="5.08" y="13.97" drill="0.8" shape="long"/>
+<pad name="D8" x="5.08" y="16.51" drill="0.8" shape="long"/>
+<pad name="D9" x="5.08" y="19.05" drill="0.8" shape="long"/>
+<pad name="RAW" x="-10.16" y="-8.89" drill="0.8" shape="long"/>
+<pad name="GND" x="-10.16" y="-6.35" drill="0.8" shape="long"/>
+<pad name="RST" x="-10.16" y="-3.81" drill="0.8" shape="long"/>
+<pad name="A3" x="-10.16" y="11.43" drill="0.8" shape="long"/>
+<pad name="A2" x="-10.16" y="13.97" drill="0.8" shape="long"/>
+<pad name="A1" x="-10.16" y="16.51" drill="0.8" shape="long"/>
+<pad name="A0" x="-10.16" y="19.05" drill="0.8" shape="long"/>
+<pad name="D13" x="-10.16" y="26.67" drill="0.8" shape="long"/>
+<pad name="D12" x="5.08" y="26.67" drill="0.8" shape="long"/>
+<pad name="D11" x="5.08" y="24.13" drill="0.8" shape="long"/>
+<pad name="D10" x="5.08" y="21.59" drill="0.8" shape="long"/>
+<pad name="3.3V" x="-10.16" y="24.13" drill="0.8" shape="long" rot="R180"/>
+<pad name="AREF" x="-10.16" y="21.59" drill="0.8" shape="long" rot="R180"/>
+<pad name="5V" x="-10.16" y="-1.27" drill="0.8" shape="long"/>
+<pad name="ICSP2" x="-5.08" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="ICSP4" x="-2.54" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="ICSP6" x="0" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="A4" x="-10.16" y="8.89" drill="0.8" shape="long" rot="R180"/>
+<pad name="A5" x="-10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="A6" x="-10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="A7" x="-10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="ICSP1" x="-5.08" y="-10.16" drill="0.8" rot="R90"/>
+<pad name="ICSP3" x="-2.54" y="-10.16" drill="0.8" rot="R90"/>
+<pad name="ICSP5" x="0" y="-10.16" drill="0.8" rot="R90"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -272,6 +317,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="U$1" library="Arduino-clone" package="NANO" value="NANO" x="-7.62" y="11.43" smashed="yes"/>
 </elements>
 <signals>
 </signals>
