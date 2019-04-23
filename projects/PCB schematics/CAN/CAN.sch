@@ -5434,8 +5434,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
 </parts>
 <sheets>
 <sheet>
@@ -5505,11 +5505,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="R1" gate="G$1" x="20.32" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="24.13" y="52.2986" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="24.13" y="47.498" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="19.05" y="52.578" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R2" gate="G$1" x="20.32" y="33.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="24.13" y="34.5186" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="24.13" y="29.718" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="19.05" y="34.798" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
