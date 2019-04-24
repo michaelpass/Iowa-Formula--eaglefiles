@@ -10699,301 +10699,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEU-FS1H221L.
 </deviceset>
 </devicesets>
 </library>
-<library name="T491C106K020AT">
-<packages>
-<package name="CAPT6032N">
-<smd name="1" x="-2.022196875" y="0" dx="2.199996875" dy="2.260396875" layer="1" rot="R90"/>
-<smd name="2" x="2.022196875" y="0" dx="2.199996875" dy="2.260396875" layer="1" rot="R90"/>
-<wire x1="-3.4036" y1="-1.3462" x2="-3.4036" y2="1.3462" width="0.1524" layer="39"/>
-<wire x1="-3.4036" y1="1.3462" x2="-3.2512" y2="1.3462" width="0.1524" layer="39"/>
-<wire x1="3.2512" y1="1.3462" x2="3.4036" y2="1.3462" width="0.1524" layer="39"/>
-<wire x1="3.4036" y1="1.3462" x2="3.4036" y2="-1.3462" width="0.1524" layer="39"/>
-<wire x1="3.4036" y1="-1.3462" x2="3.2512" y2="-1.3462" width="0.1524" layer="39"/>
-<wire x1="-3.2512" y1="-1.3462" x2="-3.4036" y2="-1.3462" width="0.1524" layer="39"/>
-<wire x1="-3.2512" y1="-1.8542" x2="-3.2512" y2="-1.3462" width="0.1524" layer="39"/>
-<wire x1="-3.2512" y1="1.3462" x2="-3.2512" y2="1.8542" width="0.1524" layer="39"/>
-<wire x1="-3.2512" y1="1.8542" x2="3.2512" y2="1.8542" width="0.1524" layer="39"/>
-<wire x1="3.2512" y1="1.8542" x2="3.2512" y2="1.3462" width="0.1524" layer="39"/>
-<wire x1="3.2512" y1="-1.3462" x2="3.2512" y2="-1.8542" width="0.1524" layer="39"/>
-<wire x1="3.2512" y1="-1.8542" x2="-3.2512" y2="-1.8542" width="0.1524" layer="39"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-3.40639375" y="-1.353996875"/>
-<vertex x="-3.40639375" y="1.353996875"/>
-<vertex x="-3.25399375" y="1.353996875"/>
-<vertex x="-3.25399375" y="1.853996875"/>
-<vertex x="3.25399375" y="1.853996875"/>
-<vertex x="3.25399375" y="1.353996875"/>
-<vertex x="3.40639375" y="1.353996875"/>
-<vertex x="3.40639375" y="-1.353996875"/>
-<vertex x="3.25399375" y="-1.353996875"/>
-<vertex x="3.25399375" y="-1.853996875"/>
-<vertex x="-3.25399375" y="-1.853996875"/>
-<vertex x="-3.25399375" y="-1.353996875"/>
-</polygon>
-<wire x1="-4.0894" y1="0" x2="-4.8514" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.4704" y1="0.381" x2="-4.4704" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.7272" x2="3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="-1.7272" x2="3.1242" y2="-1.4224" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.7272" x2="-3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="1.7272" x2="-3.1242" y2="1.4224" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.4224" x2="-3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.4224" x2="3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-4.0894" y1="0" x2="-4.8514" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.4704" y1="0.381" x2="-4.4704" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-1.6002" x2="2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-1.6002" x2="2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="1.6002" x2="-2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="1.6002" x2="-2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
-<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="-1.150796875"/>
-<vertex x="-0.841196875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="-1.150796875"/>
-<vertex x="-0.841196875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="1.150796875"/>
-<vertex x="0.841196875" y="-1.150796875"/>
-<vertex x="-0.841196875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.150796875"/>
-<vertex x="-2.94919375" y="1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.549196875"/>
-<vertex x="-2.94919375" y="-1.549196875"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="CAPT6032N-M">
-<smd name="1" x="-1.933296875" y="0" dx="2.199996875" dy="2.641396875" layer="1" rot="R90"/>
-<smd name="2" x="1.933296875" y="0" dx="2.199996875" dy="2.641396875" layer="1" rot="R90"/>
-<wire x1="-3.7592" y1="-1.6002" x2="-3.7592" y2="1.6002" width="0.1524" layer="39"/>
-<wire x1="-3.7592" y1="1.6002" x2="-3.5052" y2="1.6002" width="0.1524" layer="39"/>
-<wire x1="3.5052" y1="1.6002" x2="3.7592" y2="1.6002" width="0.1524" layer="39"/>
-<wire x1="3.7592" y1="1.6002" x2="3.7592" y2="-1.6002" width="0.1524" layer="39"/>
-<wire x1="3.7592" y1="-1.6002" x2="3.5052" y2="-1.6002" width="0.1524" layer="39"/>
-<wire x1="-3.5052" y1="-1.6002" x2="-3.7592" y2="-1.6002" width="0.1524" layer="39"/>
-<wire x1="-3.5052" y1="-2.1082" x2="-3.5052" y2="-1.6002" width="0.1524" layer="39"/>
-<wire x1="-3.5052" y1="1.6002" x2="-3.5052" y2="2.1082" width="0.1524" layer="39"/>
-<wire x1="-3.5052" y1="2.1082" x2="3.5052" y2="2.1082" width="0.1524" layer="39"/>
-<wire x1="3.5052" y1="2.1082" x2="3.5052" y2="1.6002" width="0.1524" layer="39"/>
-<wire x1="3.5052" y1="-1.6002" x2="3.5052" y2="-2.1082" width="0.1524" layer="39"/>
-<wire x1="3.5052" y1="-2.1082" x2="-3.5052" y2="-2.1082" width="0.1524" layer="39"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-3.76199375" y="-1.607996875"/>
-<vertex x="-3.76199375" y="1.607996875"/>
-<vertex x="-3.50799375" y="1.607996875"/>
-<vertex x="-3.50799375" y="2.107996875"/>
-<vertex x="3.50799375" y="2.107996875"/>
-<vertex x="3.50799375" y="1.607996875"/>
-<vertex x="3.76199375" y="1.607996875"/>
-<vertex x="3.76199375" y="-1.607996875"/>
-<vertex x="3.50799375" y="-1.607996875"/>
-<vertex x="3.50799375" y="-2.107996875"/>
-<vertex x="-3.50799375" y="-2.107996875"/>
-<vertex x="-3.50799375" y="-1.607996875"/>
-</polygon>
-<wire x1="-4.5974" y1="0" x2="-5.3594" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.9784" y1="0.381" x2="-4.9784" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.7272" x2="3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="-1.7272" x2="3.1242" y2="-1.4224" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.7272" x2="-3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="1.7272" x2="-3.1242" y2="1.4224" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.4224" x2="-3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.4224" x2="3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-5.3594" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.9784" y1="0.381" x2="-4.9784" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-1.6002" x2="2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-1.6002" x2="2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="1.6002" x2="-2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="1.6002" x2="-2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
-<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="-1.150796875"/>
-<vertex x="-0.561796875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="-1.150796875"/>
-<vertex x="-0.561796875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="1.150796875"/>
-<vertex x="0.561796875" y="-1.150796875"/>
-<vertex x="-0.561796875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.150796875"/>
-<vertex x="-2.94919375" y="1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.549196875"/>
-<vertex x="-2.94919375" y="-1.549196875"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="CAPT6032N-L">
-<smd name="1" x="-2.136496875" y="0" dx="2.199996875" dy="1.879396875" layer="1" rot="R90"/>
-<smd name="2" x="2.136496875" y="0" dx="2.199996875" dy="1.879396875" layer="1" rot="R90"/>
-<wire x1="-3.175" y1="-1.1938" x2="-3.175" y2="1.1938" width="0.1524" layer="39"/>
-<wire x1="-3.175" y1="1.1938" x2="-3.0988" y2="1.1938" width="0.1524" layer="39"/>
-<wire x1="3.0988" y1="1.1938" x2="3.175" y2="1.1938" width="0.1524" layer="39"/>
-<wire x1="3.175" y1="1.1938" x2="3.175" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="3.175" y1="-1.1938" x2="3.0988" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="-3.0988" y1="-1.1938" x2="-3.175" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="-3.0988" y1="-1.7018" x2="-3.0988" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="-3.0988" y1="1.1938" x2="-3.0988" y2="1.7018" width="0.1524" layer="39"/>
-<wire x1="-3.0988" y1="1.7018" x2="3.0988" y2="1.7018" width="0.1524" layer="39"/>
-<wire x1="3.0988" y1="1.7018" x2="3.0988" y2="1.1938" width="0.1524" layer="39"/>
-<wire x1="3.0988" y1="-1.1938" x2="3.0988" y2="-1.7018" width="0.1524" layer="39"/>
-<wire x1="3.0988" y1="-1.7018" x2="-3.0988" y2="-1.7018" width="0.1524" layer="39"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-3.17779375" y="-1.201596875"/>
-<vertex x="-3.17779375" y="1.201596875"/>
-<vertex x="-3.10159375" y="1.201596875"/>
-<vertex x="-3.10159375" y="1.701596875"/>
-<vertex x="3.10159375" y="1.701596875"/>
-<vertex x="3.10159375" y="1.201596875"/>
-<vertex x="3.17779375" y="1.201596875"/>
-<vertex x="3.17779375" y="-1.201596875"/>
-<vertex x="3.10159375" y="-1.201596875"/>
-<vertex x="3.10159375" y="-1.701596875"/>
-<vertex x="-3.10159375" y="-1.701596875"/>
-<vertex x="-3.10159375" y="-1.201596875"/>
-</polygon>
-<wire x1="-3.7846" y1="0" x2="-4.5466" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.1656" y1="0.381" x2="-4.1656" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.7272" x2="3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="-1.7272" x2="3.1242" y2="-1.4224" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.7272" x2="-3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="1.7272" x2="-3.1242" y2="1.4224" width="0.1524" layer="21"/>
-<wire x1="-3.1242" y1="-1.4224" x2="-3.1242" y2="-1.7272" width="0.1524" layer="21"/>
-<wire x1="3.1242" y1="1.4224" x2="3.1242" y2="1.7272" width="0.1524" layer="21"/>
-<wire x1="-3.7846" y1="0" x2="-4.5466" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.1656" y1="0.381" x2="-4.1656" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-1.6002" x2="2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-1.6002" x2="2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="1.6002" x2="-2.9972" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="1.6002" x2="-2.9972" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
-<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="-1.150796875"/>
-<vertex x="-1.145996875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="-1.150796875"/>
-<vertex x="-1.145996875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="1.150796875"/>
-<vertex x="1.145996875" y="-1.150796875"/>
-<vertex x="-1.145996875" y="-1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.549196875"/>
-<vertex x="2.94919375" y="1.150796875"/>
-<vertex x="-2.94919375" y="1.150796875"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.150796875"/>
-<vertex x="2.94919375" y="-1.549196875"/>
-<vertex x="-2.94919375" y="-1.549196875"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PCAPH">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="2.2098" y1="0.635" x2="2.2098" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="1.5748" y1="1.27" x2="2.8448" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.7498" y1="-1.905" x2="4.7498" y2="1.905" width="0.1524" layer="94" curve="-74"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="T491C106K020AT" prefix="C">
-<gates>
-<gate name="A" symbol="PCAPH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPT6032N">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="T491C106K020AT" constant="no"/>
-<attribute name="VENDOR" value="Kemet" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAPT6032N-M" package="CAPT6032N-M">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="T491C106K020AT" constant="no"/>
-<attribute name="VENDOR" value="Kemet" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAPT6032N-L" package="CAPT6032N-L">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="T491C106K020AT" constant="no"/>
-<attribute name="VENDOR" value="Kemet" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-MATE-N-LOK">
 <packages>
 <package name="CON2_1X2_P163_VMNL-1MTG">
@@ -11137,6 +10842,70 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 </deviceset>
 </devicesets>
 </library>
+<library name="0885001.DR">
+<description>&lt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC10948X488N">
+<description>&lt;b&gt;0885001.DR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<smd name="2" x="4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.15" y1="2.705" x2="6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="2.705" x2="6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="-2.705" x2="-6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="-6.15" y1="-2.705" x2="-6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="-5.43" y1="2.39" x2="5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="2.39" x2="5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="-2.39" x2="-5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="-5.43" y1="-2.39" x2="-5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="0" y1="2.29" x2="0" y2="-2.29" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="0885001.DR">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0885001.DR" prefix="F">
+<description>&lt;b&gt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="0885001.DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSC10948X488N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" constant="no"/>
+<attribute name="HEIGHT" value="4.88mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11152,7 +10921,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k"/>
-<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="MOTORCONTROLLER-"/>
 <part name="OK1" library="iowaFormula" deviceset="PC817-S" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+15V-NONISO"/>
@@ -11174,8 +10943,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <part name="C4" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
-<part name="C10" library="T491C106K020AT" deviceset="T491C106K020AT" device=""/>
-<part name="C11" library="T491C106K020AT" deviceset="T491C106K020AT" device=""/>
 <part name="J1" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
 <part name="J2" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
 <part name="J3" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
@@ -11187,22 +10954,23 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="C1" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
 <part name="C5" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
+<part name="F1" library="0885001.DR" deviceset="0885001.DR" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="15.24" y="193.04" size="6.4516" layer="94">Tractive System Active Light Circuit (TSALC) Board</text>
-<text x="15.24" y="180.34" size="5.08" layer="91">Function:</text>
-<text x="254" y="190.5" size="5.08" layer="100">Iowa</text>
-<text x="269.24" y="190.5" size="5.08" layer="98">Formula</text>
-<text x="245.872" y="166.624" size="2.1844" layer="96">11/30/18</text>
-<text x="278.892" y="174.244" size="3.81" layer="96">8 of 10</text>
-<text x="297.18" y="190.5" size="3.81" layer="96">- proj.Mercury</text>
-<text x="15.24" y="167.64" size="3.81" layer="96">TSAL board monitors HV post-AIR lines to visually alert driver and bystanders of 
+<text x="-27.94" y="205.74" size="6.4516" layer="94">Tractive System Active Light Circuit (TSALC) Board</text>
+<text x="-27.94" y="193.04" size="5.08" layer="91">Function:</text>
+<text x="210.82" y="203.2" size="5.08" layer="100">Iowa</text>
+<text x="226.06" y="203.2" size="5.08" layer="98">Formula</text>
+<text x="202.692" y="179.324" size="2.1844" layer="96">11/30/18</text>
+<text x="235.712" y="186.944" size="3.81" layer="96">8 of 10</text>
+<text x="254" y="203.2" size="3.81" layer="96">- proj.Mercury</text>
+<text x="-27.94" y="180.34" size="3.81" layer="96">TSAL board monitors HV post-AIR lines to visually alert driver and bystanders of 
 energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</text>
-<text x="280.162" y="166.37" size="1.778" layer="94">Author: Michael Pass</text>
-<text x="327.152" y="171.704" size="3.81" layer="96">A</text>
-<text x="15.24" y="142.24" size="1.778" layer="97">Note:
+<text x="236.982" y="179.07" size="1.778" layer="94">Author: Michael Pass</text>
+<text x="283.972" y="184.404" size="3.81" layer="96">A</text>
+<text x="-27.94" y="154.94" size="1.778" layer="97">Note:
 HV+_POST_AIR+ is sampled from some point of the HV+ line after the AIR+ break. 
 This is the net that goes directly to the motor controller, AFTER the HV battery terminal.
 
@@ -11213,7 +10981,6 @@ Voltage dividers must be selected such that when HV+_POST_AIR+ is greater than 6
 <text x="236.22" y="22.86" size="1.778" layer="105">GLV</text>
 <text x="241.3" y="27.94" size="1.778" layer="97">NOTE: TSAL_CONTROL_SIGNAL requires pull-down resistor on accompanying GLV board.</text>
 <wire x1="218.44" y1="30.48" x2="220.98" y2="30.48" width="0.1524" layer="97"/>
-<wire x1="284.48" y1="71.12" x2="287.02" y2="71.12" width="0.1524" layer="97"/>
 <text x="38.1" y="33.02" size="1.778" layer="97">220uF, 50VDC</text>
 <wire x1="30.48" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="255"/>
@@ -11302,9 +11069,9 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <attribute name="NAME" x="262.636" y="81.661" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="270.256" y="76.581" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="FRAME2" gate="G$2" x="233.68" y="165.1" smashed="yes">
-<attribute name="SHEET" x="320.04" y="166.37" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="251.46" y="184.15" size="2.54" layer="94"/>
+<instance part="FRAME2" gate="G$2" x="190.5" y="177.8" smashed="yes">
+<attribute name="SHEET" x="276.86" y="179.07" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="208.28" y="196.85" size="2.54" layer="94"/>
 </instance>
 <instance part="+5V" gate="1" x="246.38" y="48.26" smashed="yes">
 <attribute name="VALUE" x="246.38" y="50.8" size="1.778" layer="96" rot="R180"/>
@@ -11351,25 +11118,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="SUPPLY9" gate="GND" x="7.62" y="12.7" smashed="yes">
 <attribute name="VALUE" x="5.715" y="9.525" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="A" x="284.48" y="81.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="287.4772" y="78.6638" size="1.778" layer="95" ratio="10" rot="MR180"/>
-<attribute name="NAME" x="287.4772" y="82.2706" size="1.778" layer="95" ratio="10" rot="MR180"/>
+<instance part="J1" gate="A" x="-27.94" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-32.1056" y="127.2286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="C11" gate="A" x="208.28" y="83.82" smashed="yes" rot="R270">
-<attribute name="VALUE" x="206.1972" y="81.2038" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="NAME" x="210.3628" y="82.8294" size="1.778" layer="95" ratio="10" rot="MR180"/>
+<instance part="J2" gate="A" x="-27.94" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-32.1056" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J1" gate="A" x="15.24" y="109.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="11.0744" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="J3" gate="A" x="27.94" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="23.7744" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J2" gate="A" x="15.24" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="11.0744" y="129.7686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
-</instance>
-<instance part="J3" gate="A" x="71.12" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="66.9544" y="129.7686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
-</instance>
-<instance part="J4" gate="A" x="71.12" y="109.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="66.9544" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="J4" gate="A" x="27.94" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="23.7744" y="127.2286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="121.92" y="15.24" smashed="yes">
 <attribute name="NAME" x="118.11" y="16.7386" size="1.778" layer="95"/>
@@ -11398,6 +11157,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="C5" gate="G$1" x="7.62" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.97" y="24.13" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="11.43" y="24.13" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="F1" gate="G$1" x="109.22" y="104.14" smashed="yes">
+<attribute name="NAME" x="125.73" y="111.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="125.73" y="109.22" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -11434,11 +11197,9 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <label x="142.24" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="86.36" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="86.36" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="86.36" x2="274.32" y2="83.82" width="0.1524" layer="91"/>
-<junction x="274.32" y="86.36"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="86.36" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
 <junction x="264.16" y="86.36"/>
@@ -11448,8 +11209,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="261.62" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="86.36" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="261.62" y="86.36"/>
-<pinref part="C10" gate="A" pin="1"/>
-<wire x1="284.48" y1="81.28" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HV-" class="0">
@@ -11461,8 +11220,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="274.32" y1="76.2" x2="274.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="71.12" x2="264.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="264.16" y="71.12"/>
-<wire x1="284.48" y1="71.12" x2="274.32" y2="71.12" width="0.1524" layer="91"/>
-<junction x="274.32" y="71.12"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="76.2" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
@@ -11485,15 +11242,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="218.44" y1="76.2" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <junction x="228.6" y="71.12"/>
-<wire x1="208.28" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<junction x="218.44" y="71.12"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="251.46" y1="71.12" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
-<label x="287.02" y="71.12" size="1.778" layer="95" xref="yes"/>
-<pinref part="C11" gate="A" pin="2"/>
-<wire x1="208.28" y1="76.2" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C10" gate="A" pin="2"/>
-<wire x1="284.48" y1="73.66" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="279.4" y="71.12" size="1.778" layer="95" xref="yes"/>
+<wire x1="274.32" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="HV-OPA" gate="G$1" pin="-VS"/>
@@ -11505,12 +11257,12 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="170.18" y1="25.4" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="109.22" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<junction x="73.66" y="109.22"/>
-<label x="78.74" y="109.22" size="1.778" layer="95" xref="yes"/>
+<wire x1="27.94" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="121.92" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
+<junction x="30.48" y="121.92"/>
+<label x="35.56" y="121.92" size="1.778" layer="95" xref="yes"/>
 <pinref part="J4" gate="A" pin="1"/>
 <pinref part="J4" gate="A" pin="2"/>
 </segment>
@@ -11605,12 +11357,12 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="C1" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="109.22" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
-<junction x="17.78" y="109.22"/>
-<label x="22.86" y="109.22" size="1.778" layer="95" xref="yes"/>
+<wire x1="-27.94" y1="121.92" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="121.92" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="119.38" x2="-27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-25.4" y="121.92"/>
+<label x="-20.32" y="121.92" size="1.778" layer="95" xref="yes"/>
 <pinref part="J1" gate="A" pin="1"/>
 <pinref part="J1" gate="A" pin="2"/>
 </segment>
@@ -11651,21 +11403,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="8VREG" gate="G$1" pin="VIN"/>
 <wire x1="233.68" y1="91.44" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
 <junction x="233.68" y="86.36"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="86.36" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="218.44" y="86.36"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="86.36" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
 <junction x="228.6" y="86.36"/>
 <label x="231.14" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="231.14" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
 <junction x="233.68" y="91.44"/>
-<pinref part="C11" gate="A" pin="1"/>
-<wire x1="208.28" y1="83.82" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="VO-1"/>
@@ -11722,30 +11470,29 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </net>
 <net name="MOTORCONTROLLER+" class="0">
 <segment>
-<wire x1="15.24" y1="124.46" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="124.46" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<junction x="17.78" y="124.46"/>
-<label x="22.86" y="124.46" size="1.778" layer="95" xref="yes"/>
+<wire x1="-27.94" y1="137.16" x2="-25.4" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="137.16" x2="-25.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="134.62" x2="-27.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="137.16" x2="-20.32" y2="137.16" width="0.1524" layer="91"/>
+<junction x="-25.4" y="137.16"/>
+<label x="-20.32" y="137.16" size="1.778" layer="95" xref="yes"/>
 <pinref part="J2" gate="A" pin="1"/>
 <pinref part="J2" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="127" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<label x="127" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="F1" gate="G$1" pin="1"/>
+<label x="81.28" y="104.14" size="1.778" layer="95"/>
+<wire x1="109.22" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTORCONTROLLER-" class="0">
 <segment>
-<wire x1="71.12" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
-<junction x="73.66" y="124.46"/>
-<label x="78.74" y="124.46" size="1.778" layer="95" xref="yes"/>
+<wire x1="27.94" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="137.16" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<junction x="30.48" y="137.16"/>
+<label x="35.56" y="137.16" size="1.778" layer="95" xref="yes"/>
 <pinref part="J3" gate="A" pin="1"/>
 <pinref part="J3" gate="A" pin="2"/>
 </segment>
@@ -11766,24 +11513,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <label x="86.36" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="MOTORCONTROLLER+_POST_FUSE" class="0">
+<segment>
+<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="102,1,55.88,33.02,GND,HV-,,,,"/>
-<approved hash="102,1,149.86,119.38,GND,HV-,,,,"/>
-<approved hash="201,1,149.86,119.38,GND,HV-\, GND,,,,"/>
-<approved hash="201,1,55.88,33.02,GND,HV-\, GND,,,,"/>
-<approved hash="104,1,142.24,124.46,IC2,GND,HV-,,,"/>
-<approved hash="104,1,144.78,124.46,IC2,GND,HV-,,,"/>
-<approved hash="104,1,147.32,124.46,IC2,GND,HV-,,,"/>
-<approved hash="104,1,149.86,124.46,IC2,GND,HV-,,,"/>
-<approved hash="205,1,218.44,43.4061,NOTG$2,VCC,,,,"/>
-<approved hash="104,1,254,139.7,IC4,V+,VTIMER,,,"/>
-<approved hash="208,1,160.02,139.7,+8V,sup,,,,"/>
-<approved hash="208,1,157.48,137.16,+8V,out,,,,"/>
-<approved hash="113,1,299.491,215.671,FRAME2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
