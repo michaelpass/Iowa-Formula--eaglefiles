@@ -11365,11 +11365,11 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="J2" gate="A" x="15.24" y="124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11.0744" y="129.7686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J3" gate="A" x="66.04" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="61.8744" y="129.7686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="J3" gate="A" x="71.12" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.9544" y="129.7686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J4" gate="A" x="66.04" y="109.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="61.8744" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="J4" gate="A" x="71.12" y="109.22" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.9544" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="121.92" y="15.24" smashed="yes">
 <attribute name="NAME" x="118.11" y="16.7386" size="1.778" layer="95"/>
@@ -11505,12 +11505,12 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="170.18" y1="25.4" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="109.22" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
-<junction x="68.58" y="109.22"/>
-<label x="73.66" y="109.22" size="1.778" layer="95" xref="yes"/>
+<wire x1="71.12" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="109.22" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<junction x="73.66" y="109.22"/>
+<label x="78.74" y="109.22" size="1.778" layer="95" xref="yes"/>
 <pinref part="J4" gate="A" pin="1"/>
 <pinref part="J4" gate="A" pin="2"/>
 </segment>
@@ -11577,24 +11577,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="HV-OPA" gate="G$1" pin="OUT"/>
 <wire x1="193.04" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="HV+_POST_AIR+" class="0">
-<segment>
-<wire x1="15.24" y1="124.46" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="124.46" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<junction x="17.78" y="124.46"/>
-<label x="22.86" y="124.46" size="1.778" layer="95" xref="yes"/>
-<pinref part="J2" gate="A" pin="1"/>
-<pinref part="J2" gate="A" pin="2"/>
-</segment>
-<segment>
-<wire x1="127" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<label x="127" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TSAL_CONTROL_SIGNAL" class="0">
@@ -11700,34 +11682,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="C5" gate="G$1" pin="+"/>
 </segment>
 </net>
-<net name="HV-_POST_AIR-" class="0">
-<segment>
-<wire x1="66.04" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<junction x="68.58" y="124.46"/>
-<label x="73.66" y="124.46" size="1.778" layer="95" xref="yes"/>
-<pinref part="J3" gate="A" pin="1"/>
-<pinref part="J3" gate="A" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="71.12" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="139.7" y="73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<junction x="132.08" y="73.66"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="15.24" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
-<label x="96.52" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -11764,6 +11718,52 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="167.64" y1="27.94" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="170.18" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOTORCONTROLLER+" class="0">
+<segment>
+<wire x1="15.24" y1="124.46" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="124.46" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
+<junction x="17.78" y="124.46"/>
+<label x="22.86" y="124.46" size="1.778" layer="95" xref="yes"/>
+<pinref part="J2" gate="A" pin="1"/>
+<pinref part="J2" gate="A" pin="2"/>
+</segment>
+<segment>
+<wire x1="127" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<label x="127" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTORCONTROLLER-" class="0">
+<segment>
+<wire x1="71.12" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
+<junction x="73.66" y="124.46"/>
+<label x="78.74" y="124.46" size="1.778" layer="95" xref="yes"/>
+<pinref part="J3" gate="A" pin="1"/>
+<pinref part="J3" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="71.12" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<label x="139.7" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<junction x="132.08" y="73.66"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="15.24" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="86.36" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
