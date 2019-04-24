@@ -9776,8 +9776,8 @@ Source: www.vishay.com/docs/31508/somc.pdf</description>
 <part name="OP1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OP11" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="OP2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OP11" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -9792,15 +9792,14 @@ Source: www.vishay.com/docs/31508/somc.pdf</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OR1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*32" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="LS">
 <attribute name="SPICEPREFIX" value="J"/>
@@ -9871,7 +9870,7 @@ Source: www.vishay.com/docs/31508/somc.pdf</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:8078582/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10041,62 +10040,58 @@ despite brake system override being engaged.</text>
 <attribute name="NAME" x="411.48" y="292.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="411.48" y="284.48" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="55.88" y="251.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.3814" y="247.65" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.182" y="247.65" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="55.88" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="250.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="250.19" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="55.88" y="238.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.3814" y="234.95" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.182" y="234.95" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="55.88" y="241.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="237.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="237.49" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="55.88" y="226.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.3814" y="222.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.182" y="222.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R13" gate="G$1" x="55.88" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="224.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="76.2" y="220.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.6986" y="224.79" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="72.898" y="224.79" size="1.778" layer="96" rot="R270"/>
+<instance part="R15" gate="G$1" x="76.2" y="223.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.6986" y="227.33" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.898" y="227.33" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R10" gate="G$1" x="76.2" y="231.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.6986" y="234.95" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="72.898" y="234.95" size="1.778" layer="96" rot="R270"/>
+<instance part="R10" gate="G$1" x="76.2" y="233.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.6986" y="237.49" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.898" y="237.49" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R7" gate="G$1" x="76.2" y="241.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.6986" y="245.11" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="72.898" y="245.11" size="1.778" layer="96" rot="R270"/>
+<instance part="R7" gate="G$1" x="76.2" y="243.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.6986" y="247.65" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.898" y="247.65" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="76.2" y="251.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.6986" y="255.27" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="72.898" y="255.27" size="1.778" layer="96" rot="R270"/>
+<instance part="R3" gate="G$1" x="76.2" y="254" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.6986" y="257.81" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.898" y="257.81" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="88.9" y="251.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.4014" y="247.65" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="247.65" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="88.9" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="250.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="250.19" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="88.9" y="238.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.4014" y="234.95" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="234.95" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="88.9" y="241.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="237.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="237.49" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R14" gate="G$1" x="88.9" y="226.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.4014" y="222.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="222.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="88.9" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="224.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND6" gate="1" x="88.9" y="215.9" smashed="yes">
-<attribute name="VALUE" x="86.36" y="213.36" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="88.9" y="218.44" smashed="yes">
+<attribute name="VALUE" x="86.36" y="215.9" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="38.1" y="266.7" smashed="yes">
-<attribute name="VALUE" x="35.56" y="266.7" size="1.778" layer="96" rot="R180"/>
+<instance part="P+2" gate="1" x="35.56" y="266.7" smashed="yes">
+<attribute name="VALUE" x="33.02" y="266.7" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND2" gate="1" x="45.72" y="246.38" smashed="yes">
-<attribute name="VALUE" x="43.18" y="243.84" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="35.56" y="243.84" smashed="yes">
+<attribute name="VALUE" x="33.02" y="241.3" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="45.72" y="256.54" smashed="yes">
-<attribute name="NAME" x="47.244" y="256.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="47.244" y="251.841" size="1.778" layer="96"/>
-</instance>
-<instance part="C2" gate="G$1" x="38.1" y="256.54" smashed="yes">
-<attribute name="NAME" x="39.624" y="256.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.624" y="251.841" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="40.64" y="256.54" smashed="yes">
+<attribute name="NAME" x="42.164" y="256.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.164" y="251.841" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="190.5" y="297.18" smashed="yes">
 <attribute name="VALUE" x="187.96" y="294.64" size="1.778" layer="96"/>
@@ -10545,10 +10540,10 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="243.84" x2="88.9" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
-<junction x="88.9" y="243.84"/>
-<label x="93.98" y="243.84" size="1.778" layer="95" xref="yes"/>
+<wire x1="88.9" y1="246.38" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="246.38" x2="93.98" y2="246.38" width="0.1524" layer="91"/>
+<junction x="88.9" y="246.38"/>
+<label x="93.98" y="246.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10607,20 +10602,19 @@ despite brake system override being engaged.</text>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="38.1" y1="264.16" x2="38.1" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="259.08" x2="30.48" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="261.62" x2="38.1" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="264.16" x2="35.56" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="259.08" x2="38.1" y2="261.62" width="0.1524" layer="91"/>
-<junction x="38.1" y="261.62"/>
-<wire x1="38.1" y1="261.62" x2="45.72" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="261.62" x2="45.72" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="261.62" x2="55.88" y2="261.62" width="0.1524" layer="91"/>
-<junction x="45.72" y="261.62"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="261.62" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="259.08" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="261.62" x2="35.56" y2="261.62" width="0.1524" layer="91"/>
+<junction x="35.56" y="261.62"/>
+<wire x1="30.48" y1="261.62" x2="35.56" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="259.08" x2="30.48" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="261.62" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="261.62" x2="55.88" y2="261.62" width="0.1524" layer="91"/>
+<junction x="40.64" y="261.62"/>
+<junction x="30.48" y="261.62"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
@@ -10810,21 +10804,7 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="88.9" y1="220.98" x2="88.9" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="45.72" y1="251.46" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="251.46" x2="38.1" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
-<junction x="45.72" y="248.92"/>
-<wire x1="30.48" y1="251.46" x2="30.48" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="248.92" x2="38.1" y2="248.92" width="0.1524" layer="91"/>
-<junction x="38.1" y="248.92"/>
-<junction x="30.48" y="248.92"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="223.52" x2="88.9" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -11173,6 +11153,19 @@ despite brake system override being engaged.</text>
 <junction x="439.42" y="198.12"/>
 <junction x="436.88" y="198.12"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="251.46" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="251.46" x2="30.48" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="248.92" x2="35.56" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="35.56" y1="248.92" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="248.92" x2="35.56" y2="246.38" width="0.1524" layer="91"/>
+<junction x="35.56" y="248.92"/>
+<junction x="40.64" y="248.92"/>
+<junction x="30.48" y="248.92"/>
+</segment>
 </net>
 <net name="BSE_PROCESSED" class="0">
 <segment>
@@ -11371,10 +11364,10 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="243.84" x2="55.88" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="243.84" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
-<label x="60.96" y="243.84" size="1.778" layer="95" xref="yes"/>
-<junction x="55.88" y="243.84"/>
+<wire x1="55.88" y1="246.38" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
+<label x="60.96" y="246.38" size="1.778" layer="95" xref="yes"/>
+<junction x="55.88" y="246.38"/>
 </segment>
 <segment>
 <pinref part="OP1" gate="A" pin="-IN"/>
@@ -11391,10 +11384,10 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="231.14" x2="88.9" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="231.14" x2="93.98" y2="231.14" width="0.1524" layer="91"/>
-<label x="93.98" y="231.14" size="1.778" layer="95" xref="yes"/>
-<junction x="88.9" y="231.14"/>
+<wire x1="88.9" y1="233.68" x2="88.9" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<label x="93.98" y="233.68" size="1.778" layer="95" xref="yes"/>
+<junction x="88.9" y="233.68"/>
 </segment>
 <segment>
 <pinref part="OP2" gate="B" pin="+IN"/>
@@ -11411,20 +11404,20 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="231.14" x2="55.88" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="231.14" x2="60.96" y2="231.14" width="0.1524" layer="91"/>
-<junction x="55.88" y="231.14"/>
-<label x="60.96" y="231.14" size="1.778" layer="95" xref="yes"/>
-<label x="60.96" y="231.14" size="1.778" layer="95" xref="yes"/>
+<wire x1="55.88" y1="233.68" x2="55.88" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="233.68" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
+<junction x="55.88" y="233.68"/>
+<label x="60.96" y="233.68" size="1.778" layer="95" xref="yes"/>
+<label x="60.96" y="233.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="215.9" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="213.36" x2="55.88" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="213.36" x2="55.88" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="218.44" x2="76.2" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="215.9" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="215.9" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11443,7 +11436,9 @@ despite brake system override being engaged.</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="256.54" x2="88.9" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="259.08" x2="76.2" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="261.62" x2="88.9" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="261.62" x2="88.9" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -12324,16 +12319,54 @@ despite brake system override being engaged.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,425.74,264.118,JP1,,,,,"/>
-<approved hash="113,1,425.74,246.338,JP2,,,,,"/>
-<approved hash="113,1,425.74,228.558,JP3,,,,,"/>
-<approved hash="113,1,425.74,210.778,JP4,,,,,"/>
-<approved hash="113,1,425.74,192.998,JP5,,,,,"/>
-<approved hash="113,1,425.74,126.958,JP6,,,,,"/>
-<approved hash="113,1,425.74,109.178,JP7,,,,,"/>
-<approved hash="113,1,425.74,91.3977,JP8,,,,,"/>
-<approved hash="113,1,425.74,73.6177,JP9,,,,,"/>
-<approved hash="113,1,425.74,55.8377,JP10,,,,,"/>
+<approved hash="101,1,88.9,281.94,X3-4,S,,,,"/>
+<approved hash="104,1,284.48,160.02,NOT1P,VCC,+5V,,,"/>
+<approved hash="104,1,299.72,233.68,NE555D,V+,+5V,,,"/>
+<approved hash="104,1,388.62,195.58,COUNT1P,VSS,GND,,,"/>
+<approved hash="104,1,388.62,210.82,COUNT1P,VDD,+5V,,,"/>
+<approved hash="114,1,246.38,180.371,AND1,D,I0,,,"/>
+<approved hash="114,1,246.38,180.371,AND1,D,I1,,,"/>
+<approved hash="104,1,332.232,192.786,AND1P,VCC,+5V,,,"/>
+<approved hash="104,1,215.9,317.5,OP1P,V+,+5V,,,"/>
+<approved hash="104,1,215.9,302.26,OP1P,V-,GND,,,"/>
+<approved hash="104,1,353.06,322.58,OP2P,V+,+5V,,,"/>
+<approved hash="104,1,353.06,307.34,OP2P,V-,GND,,,"/>
+<approved hash="104,1,251.46,299.72,OR1P,VCC,+5V,,,"/>
+<approved hash="114,1,220.98,208.311,OP3,C,-IN,,,"/>
+<approved hash="114,1,220.98,208.311,OP3,C,+IN,,,"/>
+<approved hash="114,1,220.98,208.311,OP3,D,-IN,,,"/>
+<approved hash="114,1,220.98,208.311,OP3,D,+IN,,,"/>
+<approved hash="104,1,220.98,154.94,OP3P,V+,+5V,,,"/>
+<approved hash="104,1,220.98,139.7,OP3P,V-,GND,,,"/>
+<approved hash="104,1,576.58,274.32,OR2P,VCC,+5V,,,"/>
+<approved hash="104,1,386.08,60.96,COUNT2P,VSS,GND,,,"/>
+<approved hash="104,1,386.08,76.2,COUNT2P,VDD,+5V,,,"/>
+<approved hash="104,1,535.94,139.7,OR3P,VCC,+5V,,,"/>
+<approved hash="114,1,571.5,127.031,OR4,C,I0,,,"/>
+<approved hash="114,1,571.5,127.031,OR4,C,I1,,,"/>
+<approved hash="114,1,571.5,127.031,OR4,D,I0,,,"/>
+<approved hash="114,1,571.5,127.031,OR4,D,I1,,,"/>
+<approved hash="104,1,576.58,137.16,OR4P,VCC,+5V,,,"/>
+<approved hash="113,1,370.611,385.851,FRAME1,,,,,"/>
+<approved hash="113,1,425.709,264.118,JP1,,,,,"/>
+<approved hash="113,1,425.709,246.338,JP2,,,,,"/>
+<approved hash="113,1,425.709,228.558,JP3,,,,,"/>
+<approved hash="113,1,157.48,200.824,RN1,,,,,"/>
+<approved hash="113,1,425.709,210.778,JP4,,,,,"/>
+<approved hash="113,1,134.62,199.649,SV1,,,,,"/>
+<approved hash="113,1,180.34,199.649,SV2,,,,,"/>
+<approved hash="113,1,154.94,132.244,RN2,,,,,"/>
+<approved hash="113,1,132.08,131.069,SV3,,,,,"/>
+<approved hash="113,1,177.8,131.069,SV4,,,,,"/>
+<approved hash="113,1,571.5,304.964,RN3,,,,,"/>
+<approved hash="113,1,594.36,303.789,SV5,,,,,"/>
+<approved hash="113,1,548.64,303.789,SV6,,,,,"/>
+<approved hash="113,1,425.709,192.998,JP5,,,,,"/>
+<approved hash="113,1,425.709,126.958,JP6,,,,,"/>
+<approved hash="113,1,425.709,109.178,JP7,,,,,"/>
+<approved hash="113,1,425.709,91.3977,JP8,,,,,"/>
+<approved hash="113,1,425.709,73.6177,JP9,,,,,"/>
+<approved hash="113,1,425.709,55.8377,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
