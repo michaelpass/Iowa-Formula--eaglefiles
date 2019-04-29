@@ -578,16 +578,6 @@ chassis ground/GLV grounding point must be provided for insulation testing on se
 <label x="109.22" y="58.42" size="1.778" layer="255"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<label x="7.62" y="60.96" size="1.778" layer="255"/>
-<pinref part="J1" gate="A" pin="2"/>
-<pinref part="J1" gate="A" pin="1"/>
-<wire x1="17.78" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="63.5" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<junction x="17.78" y="60.96"/>
-</segment>
 </net>
 <net name="HV-" class="0">
 <segment>
@@ -604,6 +594,18 @@ chassis ground/GLV grounding point must be provided for insulation testing on se
 <wire x1="20.32" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <junction x="17.78" y="45.72"/>
+</segment>
+</net>
+<net name="HV+_POST_AIR+" class="0">
+<segment>
+<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="7.62" y="60.96" size="1.778" layer="255"/>
+<pinref part="J1" gate="A" pin="2"/>
+<pinref part="J1" gate="A" pin="1"/>
+<wire x1="17.78" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<junction x="17.78" y="60.96"/>
 </segment>
 </net>
 </nets>

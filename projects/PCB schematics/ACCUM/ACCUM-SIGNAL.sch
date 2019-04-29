@@ -8343,7 +8343,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</descript
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k"/>
-<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -8411,9 +8410,6 @@ present at HV battery terminals</text>
 <instance part="R13" gate="G$1" x="127" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.302" y="80.01" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY11" gate="GND" x="127" y="71.12" smashed="yes">
-<attribute name="VALUE" x="125.095" y="67.945" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="96.52" y="27.94" smashed="yes">
 <attribute name="NAME" x="92.71" y="29.4386" size="1.778" layer="95"/>
@@ -8683,7 +8679,6 @@ present at HV battery terminals</text>
 <pinref part="J2" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <label x="134.62" y="76.2" size="1.778" layer="95" xref="yes"/>
