@@ -5504,6 +5504,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="101.6" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
 <label x="106.68" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="A" pin="RIN"/>
+<wire x1="139.7" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="129.54" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="129.54" y="43.18" size="1.778" layer="95"/>
+<pinref part="U$3" gate="A" pin="RIN"/>
+</segment>
 </net>
 <net name="LEFT" class="0">
 <segment>
@@ -5511,19 +5521,29 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="101.6" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
 <label x="106.68" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="A" pin="LIN"/>
+<wire x1="139.7" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="129.54" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="129.54" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$3" gate="A" pin="LIN"/>
+</segment>
 </net>
 <net name="AUDIO_GND" class="0">
 <segment>
 <label x="106.68" y="17.78" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="GND_3"/>
-<wire x1="101.6" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="17.78" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="127" y1="17.78" x2="127" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="A" pin="AGND"/>
-<wire x1="129.54" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="127" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="A" pin="AGND"/>
-<wire x1="129.54" y1="38.1" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
-<junction x="129.54" y="38.1"/>
+<wire x1="127" y1="38.1" x2="127" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="127" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<junction x="127" y="38.1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
