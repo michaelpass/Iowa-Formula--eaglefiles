@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -77,38 +77,6 @@
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="5566-6" urn="urn:adsk.eagle:footprint:8078207/1" library_version="3">
-<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 6 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281063_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-6.8" y1="4.5" x2="6.8" y2="4.5" width="0.254" layer="21"/>
-<wire x1="6.8" y1="4.5" x2="6.8" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-3.3" x2="6.8" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-4.9" x2="-6.8" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="-6.8" y1="-4.9" x2="-6.8" y2="4.5" width="0.254" layer="21"/>
-<wire x1="-10.3" y1="3.2" x2="-7.5" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
-<wire x1="-10.3" y1="1.4" x2="-7.5" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
-<wire x1="-10.3" y1="3.2" x2="-10.3" y2="1.4" width="0.254" layer="21"/>
-<wire x1="-7.6" y1="3.3" x2="-6.9" y2="3.3" width="0.254" layer="21"/>
-<wire x1="-7.6" y1="1.3" x2="-6.9" y2="1.3" width="0.254" layer="21"/>
-<wire x1="7.5" y1="1.4" x2="10.3" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
-<wire x1="7.5" y1="3.2" x2="10.3" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
-<wire x1="10.3" y1="1.4" x2="10.3" y2="3.2" width="0.254" layer="21"/>
-<wire x1="7.6" y1="1.3" x2="6.9" y2="1.3" width="0.254" layer="21"/>
-<wire x1="7.6" y1="3.3" x2="6.9" y2="3.3" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-2.2" x2="6.8" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
-<pad name="1" x="4.2" y="-2.75" drill="1.4" shape="square"/>
-<pad name="2" x="0" y="-2.75" drill="1.4" shape="square"/>
-<pad name="3" x="-4.2" y="-2.75" drill="1.4" shape="square"/>
-<pad name="6" x="-4.2" y="2.75" drill="1.4" shape="square"/>
-<pad name="5" x="0" y="2.75" drill="1.4" shape="square"/>
-<pad name="4" x="4.2" y="2.75" drill="1.4" shape="square"/>
-<text x="-1.27" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="8.9" y="2.29" drill="3"/>
-<hole x="-8.9" y="2.29" drill="3"/>
-</package>
 <package name="5566-2" urn="urn:adsk.eagle:footprint:8078209/1" library_version="3">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281023_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-2.6" y1="4.5" x2="2.6" y2="4.5" width="0.254" layer="21"/>
@@ -136,12 +104,6 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="5566-6" urn="urn:adsk.eagle:package:8078581/1" type="box" library_version="3">
-<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 6 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281063_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="5566-6"/>
-</packageinstances>
-</package3d>
 <package3d name="5566-2" urn="urn:adsk.eagle:package:8078583/1" type="box" library_version="3">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281023_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
@@ -156,48 +118,8 @@
 <text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="M" urn="urn:adsk.eagle:symbol:8078124/1" library_version="3">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="5566-6" urn="urn:adsk.eagle:component:8079094/1" prefix="X" library_version="3">
-<description>&lt;b&gt;Mini FIT connector 6 pol&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always"/>
-<gate name="-3" symbol="M" x="0" y="0" addlevel="always"/>
-<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always"/>
-<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always"/>
-<gate name="-6" symbol="M" x="0" y="-7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="5566-6">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078581/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="95566-61002" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="22K8620" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="5566-2" urn="urn:adsk.eagle:component:8079092/1" prefix="X" library_version="3">
 <description>&lt;b&gt;Mini FIT connector 2 pol&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
@@ -237,40 +159,103 @@ Source: http://www.molex.com</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-6" device="" package3d_urn="urn:adsk.eagle:package:8078581/1"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="TSMP-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS9" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS7" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="CHASSIS8" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="7.62" y="50.8" size="6.4516" layer="97">INPUT:</text>
+<text x="152.4" y="50.8" size="6.4516" layer="97">OUTPUT:</text>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="20.32" y="15.24" smashed="yes">
-<attribute name="NAME" x="22.86" y="14.478" size="1.524" layer="95"/>
-<attribute name="VALUE" x="19.558" y="16.637" size="1.778" layer="96"/>
+<instance part="TSMP-GND" gate="-1" x="167.64" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="165.1" y="36.322" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="168.402" y="34.163" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-2" x="20.32" y="12.7" smashed="yes">
-<attribute name="NAME" x="22.86" y="11.938" size="1.524" layer="95"/>
+<instance part="TSMP-GND" gate="-2" x="167.64" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="165.1" y="41.402" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="168.402" y="39.243" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-3" x="20.32" y="10.16" smashed="yes">
-<attribute name="NAME" x="22.86" y="9.398" size="1.524" layer="95"/>
+<instance part="CHASSIS1" gate="-1" x="27.94" y="40.64" smashed="yes">
+<attribute name="NAME" x="30.48" y="39.878" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="42.037" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-4" x="20.32" y="7.62" smashed="yes">
-<attribute name="NAME" x="22.86" y="6.858" size="1.524" layer="95"/>
+<instance part="CHASSIS1" gate="-2" x="27.94" y="35.56" smashed="yes">
+<attribute name="NAME" x="30.48" y="34.798" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="36.957" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-5" x="20.32" y="5.08" smashed="yes">
-<attribute name="NAME" x="22.86" y="4.318" size="1.524" layer="95"/>
+<instance part="CHASSIS2" gate="-1" x="27.94" y="30.48" smashed="yes">
+<attribute name="NAME" x="30.48" y="29.718" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="31.877" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-6" x="20.32" y="2.54" smashed="yes">
-<attribute name="NAME" x="22.86" y="1.778" size="1.524" layer="95"/>
+<instance part="CHASSIS2" gate="-2" x="27.94" y="25.4" smashed="yes">
+<attribute name="NAME" x="30.48" y="24.638" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="26.797" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="43.18" y="10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="10.922" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="43.942" y="8.763" size="1.778" layer="96" rot="R180"/>
+<instance part="CHASSIS3" gate="-1" x="27.94" y="20.32" smashed="yes">
+<attribute name="NAME" x="30.48" y="19.558" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="21.717" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="43.18" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="16.002" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="43.942" y="13.843" size="1.778" layer="96" rot="R180"/>
+<instance part="CHASSIS3" gate="-2" x="27.94" y="15.24" smashed="yes">
+<attribute name="NAME" x="30.48" y="14.478" size="1.524" layer="95"/>
+<attribute name="VALUE" x="27.178" y="16.637" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS4" gate="-1" x="71.12" y="40.64" smashed="yes">
+<attribute name="NAME" x="73.66" y="39.878" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="42.037" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS4" gate="-2" x="71.12" y="35.56" smashed="yes">
+<attribute name="NAME" x="73.66" y="34.798" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="36.957" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS5" gate="-1" x="71.12" y="30.48" smashed="yes">
+<attribute name="NAME" x="73.66" y="29.718" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="31.877" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS5" gate="-2" x="71.12" y="25.4" smashed="yes">
+<attribute name="NAME" x="73.66" y="24.638" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="26.797" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS6" gate="-1" x="71.12" y="20.32" smashed="yes">
+<attribute name="NAME" x="73.66" y="19.558" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="21.717" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS6" gate="-2" x="71.12" y="15.24" smashed="yes">
+<attribute name="NAME" x="73.66" y="14.478" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="16.637" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS9" gate="-1" x="111.76" y="20.32" smashed="yes">
+<attribute name="NAME" x="114.3" y="19.558" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="21.717" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS9" gate="-2" x="111.76" y="15.24" smashed="yes">
+<attribute name="NAME" x="114.3" y="14.478" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="16.637" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS7" gate="-1" x="111.76" y="40.64" smashed="yes">
+<attribute name="NAME" x="114.3" y="39.878" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="42.037" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS7" gate="-2" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="114.3" y="34.798" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="36.957" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS8" gate="-1" x="111.76" y="30.48" smashed="yes">
+<attribute name="NAME" x="114.3" y="29.718" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="31.877" size="1.778" layer="96"/>
+</instance>
+<instance part="CHASSIS8" gate="-2" x="111.76" y="25.4" smashed="yes">
+<attribute name="NAME" x="114.3" y="24.638" size="1.524" layer="95"/>
+<attribute name="VALUE" x="110.998" y="26.797" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -278,40 +263,104 @@ Source: http://www.molex.com</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="17.78" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="15.24" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<junction x="15.24" y="12.7"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
-<junction x="15.24" y="10.16"/>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="15.24" y1="7.62" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="7.62" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
-<junction x="15.24" y="7.62"/>
-<pinref part="X1" gate="-5" pin="S"/>
-<wire x1="15.24" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="5.08" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<junction x="15.24" y="5.08"/>
-<pinref part="X1" gate="-6" pin="S"/>
-<wire x1="15.24" y1="2.54" x2="17.78" y2="2.54" width="0.1524" layer="91"/>
-<junction x="15.24" y="15.24"/>
-<wire x1="15.24" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="2.54" y="15.24" size="1.778" layer="95"/>
+<pinref part="TSMP-GND" gate="-2" pin="S"/>
+<wire x1="170.18" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="40.64" x2="172.72" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="TSMP-GND" gate="-1" pin="S"/>
+<wire x1="172.72" y1="35.56" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
+<junction x="172.72" y="40.64"/>
+<label x="182.88" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-2" pin="S"/>
-<wire x1="45.72" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="15.24" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="48.26" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-<junction x="48.26" y="15.24"/>
-<label x="58.42" y="15.24" size="1.778" layer="95"/>
+<wire x1="25.4" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="40.64" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
+<junction x="22.86" y="40.64"/>
+<label x="12.7" y="40.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS1" gate="-1" pin="S"/>
+<pinref part="CHASSIS1" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
+<junction x="22.86" y="30.48"/>
+<label x="12.7" y="30.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS2" gate="-1" pin="S"/>
+<pinref part="CHASSIS2" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="20.32"/>
+<label x="12.7" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS3" gate="-1" pin="S"/>
+<pinref part="CHASSIS3" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="40.64"/>
+<label x="55.88" y="40.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS4" gate="-1" pin="S"/>
+<pinref part="CHASSIS4" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
+<junction x="66.04" y="30.48"/>
+<label x="55.88" y="30.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS5" gate="-1" pin="S"/>
+<pinref part="CHASSIS5" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
+<junction x="66.04" y="20.32"/>
+<label x="55.88" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS6" gate="-1" pin="S"/>
+<pinref part="CHASSIS6" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="20.32" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="15.24" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="20.32"/>
+<label x="96.52" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS9" gate="-1" pin="S"/>
+<pinref part="CHASSIS9" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="40.64" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="40.64"/>
+<label x="96.52" y="40.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS7" gate="-1" pin="S"/>
+<pinref part="CHASSIS7" gate="-2" pin="S"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="30.48" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="106.68" y="30.48"/>
+<label x="96.52" y="30.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CHASSIS8" gate="-1" pin="S"/>
+<pinref part="CHASSIS8" gate="-2" pin="S"/>
 </segment>
 </net>
 </nets>

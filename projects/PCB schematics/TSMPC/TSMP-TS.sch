@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -572,40 +572,38 @@ chassis ground/GLV grounding point must be provided for insulation testing on se
 <wire x1="66.04" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV+" class="0">
+<net name="HV+_POST_AIR+" class="0">
 <segment>
-<wire x1="121.92" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<label x="109.22" y="58.42" size="1.778" layer="255"/>
+<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="-7.62" y="60.96" size="1.778" layer="255"/>
+<pinref part="J1" gate="A" pin="2"/>
+<pinref part="J1" gate="A" pin="1"/>
+<wire x1="17.78" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<junction x="17.78" y="60.96"/>
+</segment>
+<segment>
+<wire x1="121.92" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="99.06" y="58.42" size="1.778" layer="255"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="HV-" class="0">
-<segment>
-<wire x1="121.92" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
-<label x="109.22" y="30.48" size="1.778" layer="255"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-</segment>
+<net name="HV-_POST_AIR-" class="0">
 <segment>
 <wire x1="20.32" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="7.62" y="45.72" size="1.778" layer="255"/>
+<label x="-7.62" y="45.72" size="1.778" layer="255"/>
 <pinref part="J2" gate="A" pin="2"/>
 <pinref part="J2" gate="A" pin="1"/>
-<wire x1="17.78" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <junction x="17.78" y="45.72"/>
 </segment>
-</net>
-<net name="HV+_POST_AIR+" class="0">
 <segment>
-<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<label x="7.62" y="60.96" size="1.778" layer="255"/>
-<pinref part="J1" gate="A" pin="2"/>
-<pinref part="J1" gate="A" pin="1"/>
-<wire x1="17.78" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="63.5" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<junction x="17.78" y="60.96"/>
+<wire x1="121.92" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="109.22" y="30.48" size="1.778" layer="255"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
