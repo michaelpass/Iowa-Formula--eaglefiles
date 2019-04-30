@@ -8353,100 +8353,6 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
-<library name="con-lstb" urn="urn:adsk.eagle:library:162">
-<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
-Naming:&lt;p&gt;
-MA = male&lt;p&gt;
-# contacts - # rows&lt;p&gt;
-W = angled&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="MA03-1" urn="urn:adsk.eagle:footprint:8281/1" library_version="1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="MA03-1" urn="urn:adsk.eagle:package:8339/1" type="box" library_version="1">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="MA03-1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MA03-1" urn="urn:adsk.eagle:symbol:8280/1" library_version="1">
-<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MA03-1" urn="urn:adsk.eagle:component:8376/1" prefix="SV" uservalue="yes" library_version="1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MA03-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MA03-1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8339/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -8908,6 +8814,100 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA03-1" urn="urn:adsk.eagle:footprint:8281/1" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MA03-1" urn="urn:adsk.eagle:package:8339/1" type="box" library_version="1">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA03-1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MA03-1" urn="urn:adsk.eagle:symbol:8280/1" library_version="1">
+<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA03-1" urn="urn:adsk.eagle:component:8376/1" prefix="SV" uservalue="yes" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA03-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA03-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8339/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8954,23 +8954,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TEMP" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="FUSE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="AUX1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="BMS" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="IMD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="BSPDPLAUS2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="BSPD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="BSPDPLAUS1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="AUX2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9034,6 +9025,15 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-12" device="" package3d_urn="urn:adsk.eagle:package:8078578/1"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
 <part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G14" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AUC" value="74AUC1G14DBV"/>
+<part name="TEMP" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="FUSE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="AUX1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="BMS" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="IMD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="BSPDPLAUS2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="BSPD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="BSPDPLAUS1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="AUX2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9235,14 +9235,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <instance part="GND2" gate="1" x="215.9" y="187.96" smashed="yes">
 <attribute name="VALUE" x="213.36" y="185.42" size="1.778" layer="96"/>
 </instance>
-<instance part="TEMP" gate="G$1" x="175.26" y="106.68" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="105.41" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="105.41" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="FUSE" gate="G$1" x="175.26" y="81.28" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="80.01" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="80.01" size="1.778" layer="95" rot="MR90"/>
-</instance>
 <instance part="OR2" gate="C" x="236.22" y="63.5" smashed="yes">
 <attribute name="NAME" x="228.6" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="55.88" size="1.778" layer="96"/>
@@ -9269,39 +9261,11 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <instance part="GND8" gate="1" x="215.9" y="7.62" smashed="yes">
 <attribute name="VALUE" x="213.36" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="AUX1" gate="G$1" x="175.26" y="48.26" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="46.99" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="46.99" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="BMS" gate="G$1" x="175.26" y="134.62" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="133.35" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="133.35" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="IMD" gate="G$1" x="175.26" y="165.1" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="163.83" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="163.83" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="BSPDPLAUS2" gate="G$1" x="175.26" y="195.58" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="194.31" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="171.45" y="192.278" size="1.778" layer="95" rot="MR180"/>
-</instance>
-<instance part="BSPD" gate="G$1" x="167.64" y="231.14" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="160.02" y="229.87" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="158.242" y="229.87" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="BSPDPLAUS1" gate="G$1" x="175.26" y="215.9" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="214.63" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.61" y="217.678" size="1.778" layer="95" rot="MR180"/>
-</instance>
 <instance part="R17" gate="G$1" x="256.54" y="22.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="259.842" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND16" gate="1" x="256.54" y="12.7" smashed="yes">
 <attribute name="VALUE" x="254" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="AUX2" gate="G$1" x="175.26" y="15.24" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="167.64" y="13.97" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="181.102" y="13.97" size="1.778" layer="95" rot="MR90"/>
 </instance>
 <instance part="X2" gate="-1" x="27.94" y="254" smashed="yes">
 <attribute name="NAME" x="30.48" y="253.238" size="1.524" layer="95"/>
@@ -9718,6 +9682,42 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <attribute name="NAME" x="422.91" y="20.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="422.91" y="12.7" size="1.778" layer="96"/>
 </instance>
+<instance part="TEMP" gate="G$1" x="363.22" y="-185.42" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-186.69" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-186.69" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="FUSE" gate="G$1" x="363.22" y="-210.82" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-212.09" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-212.09" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="AUX1" gate="G$1" x="363.22" y="-243.84" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-245.11" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-245.11" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="BMS" gate="G$1" x="363.22" y="-157.48" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-158.75" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-158.75" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="IMD" gate="G$1" x="363.22" y="-127" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-128.27" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-128.27" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="BSPDPLAUS2" gate="G$1" x="363.22" y="-96.52" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-97.79" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="359.41" y="-99.822" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="BSPD" gate="G$1" x="317.5" y="271.78" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="309.88" y="270.51" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="308.102" y="270.51" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="BSPDPLAUS1" gate="G$1" x="363.22" y="-76.2" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-77.47" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.57" y="-74.422" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="AUX2" gate="G$1" x="363.22" y="-276.86" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="355.6" y="-278.13" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="369.062" y="-278.13" size="1.778" layer="95" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9754,24 +9754,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="215.9" y1="106.68" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="104.14" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="116.84" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
-<junction x="215.9" y="104.14"/>
-<pinref part="TEMP" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="114.3" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="215.9" y1="81.28" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="78.74" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="91.44" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="78.74" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
-<junction x="215.9" y="78.74"/>
-<pinref part="FUSE" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="88.9" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -9779,35 +9767,20 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="256.54" y1="83.82" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="226.06" x2="210.82" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="210.82" y1="226.06" x2="210.82" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="223.52" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
 <junction x="210.82" y="226.06"/>
-<wire x1="177.8" y1="223.52" x2="185.42" y2="223.52" width="0.1524" layer="91"/>
-<junction x="210.82" y="223.52"/>
-<wire x1="185.42" y1="223.52" x2="210.82" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="241.3" x2="185.42" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="241.3" x2="185.42" y2="223.52" width="0.1524" layer="91"/>
-<junction x="185.42" y="223.52"/>
-<pinref part="BSPDPLAUS1" gate="G$1" pin="3"/>
-<pinref part="BSPD" gate="G$1" pin="3"/>
-<wire x1="170.18" y1="241.3" x2="170.18" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="226.06" x2="210.82" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="223.52" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="215.9" y1="134.62" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="132.08" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="144.78" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
-<junction x="215.9" y="132.08"/>
-<pinref part="BMS" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="142.24" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -9824,24 +9797,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="215.9" y1="165.1" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="162.56" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="175.26" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="162.56" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
-<junction x="215.9" y="162.56"/>
-<wire x1="177.8" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IMD" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="175.26" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="215.9" y1="195.58" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="193.04" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="205.74" x2="210.82" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="193.04" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
-<junction x="215.9" y="193.04"/>
-<pinref part="BSPDPLAUS2" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="203.2" x2="177.8" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="205.74" x2="210.82" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -9863,24 +9824,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="215.9" y1="48.26" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="45.72" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="58.42" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="58.42" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<junction x="215.9" y="45.72"/>
-<pinref part="AUX1" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="58.42" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="215.9" y1="15.24" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="12.7" x2="215.9" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="25.4" x2="210.82" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
-<junction x="215.9" y="12.7"/>
-<pinref part="AUX2" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="25.4" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -10059,15 +10008,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="431.8" y1="17.78" x2="452.12" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BSPDFAULT_B" class="0">
-<segment>
-<label x="139.7" y="241.3" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="A" pin="O"/>
-<wire x1="134.62" y1="241.3" x2="165.1" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="BSPD" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="241.3" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BSPDFAULT" class="0">
 <segment>
 <wire x1="5.08" y1="180.34" x2="27.94" y2="180.34" width="0.1524" layer="91"/>
@@ -10110,11 +10050,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="223.52" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="119.38" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<junction x="215.9" y="119.38"/>
-<label x="190.5" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="378.46" y="-172.72" size="1.778" layer="95"/>
 <pinref part="TEMP" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="114.3" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-177.8" x2="363.22" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-172.72" x2="403.86" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BSPDPLAUS2" class="0">
@@ -10139,42 +10080,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="464.82" y1="243.84" x2="447.04" y2="243.84" width="0.1524" layer="91"/>
 <label x="447.04" y="243.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IMDFAULT_B" class="0">
-<segment>
-<wire x1="172.72" y1="177.8" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
-<label x="139.7" y="177.8" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="D" pin="O"/>
-<pinref part="IMD" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="177.8" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BSPDPLAUS2_B" class="0">
-<segment>
-<label x="139.7" y="208.28" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="C" pin="O"/>
-<wire x1="134.62" y1="208.28" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="BSPDPLAUS2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="208.28" x2="172.72" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BSPDPLAUS1_B" class="0">
-<segment>
-<label x="139.7" y="226.06" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="B" pin="O"/>
-<wire x1="134.62" y1="226.06" x2="172.72" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="BSPDPLAUS1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="226.06" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="FUSEFAULT_B" class="0">
-<segment>
-<wire x1="172.72" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
-<label x="137.16" y="93.98" size="1.778" layer="97"/>
-<pinref part="BUF2" gate="A" pin="O"/>
-<pinref part="FUSE" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="93.98" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FUSEFAULT" class="0">
@@ -10270,11 +10175,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="223.52" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="91.44" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
-<junction x="215.9" y="93.98"/>
-<label x="190.5" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="378.46" y="-198.12" size="1.778" layer="95"/>
 <pinref part="FUSE" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="88.9" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-203.2" x2="363.22" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-198.12" x2="403.86" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10292,26 +10198,16 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="220.98" y1="66.04" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BMSFAULT_B" class="0">
-<segment>
-<label x="139.7" y="147.32" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="E" pin="O"/>
-<wire x1="134.62" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="BMS" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="147.32" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BSPDFAULT_O" class="0">
 <segment>
 <pinref part="OR1" gate="A" pin="I0"/>
 <wire x1="223.52" y1="243.84" x2="215.9" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="243.84" x2="215.9" y2="236.22" width="0.1524" layer="91"/>
-<junction x="215.9" y="243.84"/>
-<label x="190.5" y="243.84" size="1.778" layer="95"/>
-<wire x1="167.64" y1="243.84" x2="215.9" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="BSPD" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="243.84" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="284.48" x2="317.5" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BSPDPLAUS1_O" class="0">
@@ -10320,11 +10216,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="223.52" y1="238.76" x2="205.74" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="238.76" x2="205.74" y2="236.22" width="0.1524" layer="91"/>
-<junction x="205.74" y="238.76"/>
-<label x="190.5" y="238.76" size="1.778" layer="95"/>
-<wire x1="175.26" y1="238.76" x2="205.74" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="BSPDPLAUS1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="238.76" x2="175.26" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BSPDPLAUS2_O" class="0">
@@ -10333,11 +10224,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="223.52" y1="208.28" x2="215.9" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="205.74" x2="215.9" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="208.28" x2="175.26" y2="208.28" width="0.1524" layer="91"/>
-<junction x="215.9" y="208.28"/>
-<label x="190.5" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="403.86" y1="-83.82" x2="363.22" y2="-83.82" width="0.1524" layer="91"/>
+<label x="378.46" y="-83.82" size="1.778" layer="95"/>
 <pinref part="BSPDPLAUS2" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="203.2" x2="175.26" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-88.9" x2="363.22" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IMDFAULT_O" class="0">
@@ -10345,12 +10237,13 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="OR1" gate="C" pin="I1"/>
 <wire x1="223.52" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="177.8" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
-<junction x="215.9" y="177.8"/>
-<label x="190.5" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="403.86" y1="-114.3" x2="363.22" y2="-114.3" width="0.1524" layer="91"/>
+<label x="378.46" y="-114.3" size="1.778" layer="95"/>
 <pinref part="IMD" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="177.8" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-114.3" x2="363.22" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUX1_O" class="0">
@@ -10359,11 +10252,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="215.9" y1="58.42" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="OR2" gate="C" pin="I1"/>
 <wire x1="215.9" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
-<junction x="215.9" y="60.96"/>
-<label x="190.5" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="363.22" y1="-231.14" x2="403.86" y2="-231.14" width="0.1524" layer="91"/>
+<label x="378.46" y="-231.14" size="1.778" layer="95"/>
 <pinref part="AUX1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="60.96" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-231.14" x2="363.22" y2="-236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -10381,26 +10275,18 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="220.98" y1="33.02" x2="223.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX1_B" class="0">
-<segment>
-<pinref part="BUF2" gate="B" pin="O"/>
-<wire x1="134.62" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="60.96" size="1.778" layer="95"/>
-<pinref part="AUX1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="60.96" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="AUX2_O" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="25.4" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="OR2" gate="D" pin="I1"/>
 <wire x1="215.9" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
-<junction x="215.9" y="27.94"/>
-<label x="187.96" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="363.22" y1="-264.16" x2="403.86" y2="-264.16" width="0.1524" layer="91"/>
+<label x="375.92" y="-264.16" size="1.778" layer="95"/>
 <pinref part="AUX2" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="27.94" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-264.16" x2="363.22" y2="-269.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10436,15 +10322,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="635" y1="109.22" x2="614.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="614.68" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AUX2_B" class="0">
-<segment>
-<pinref part="BUF2" gate="C" pin="O"/>
-<wire x1="134.62" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="137.16" y="27.94" size="1.778" layer="95"/>
-<pinref part="AUX2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="27.94" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TEMPFAULT" class="0">
@@ -11027,11 +10904,12 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="223.52" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="147.32" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
-<junction x="215.9" y="147.32"/>
-<wire x1="175.26" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
-<label x="190.5" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="363.22" y1="-144.78" x2="403.86" y2="-144.78" width="0.1524" layer="91"/>
+<label x="378.46" y="-144.78" size="1.778" layer="95"/>
 <pinref part="BMS" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="142.24" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="-149.86" x2="363.22" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SET_BMSFAULT" class="0">
@@ -11177,15 +11055,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <label x="93.98" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TEMPFAULT_B" class="0">
-<segment>
-<wire x1="172.72" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="137.16" y="119.38" size="1.778" layer="97"/>
-<pinref part="BUF1" gate="F" pin="O"/>
-<pinref part="TEMP" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="119.38" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="X2" gate="-1" pin="S"/>
@@ -11208,6 +11077,112 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="BUF1" gate="E" pin="I"/>
 <wire x1="93.98" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
 <label x="93.98" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="TEMP" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-177.8" x2="365.76" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-175.26" x2="398.78" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FUSE" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-203.2" x2="365.76" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-200.66" x2="398.78" y2="-200.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BMS" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-149.86" x2="365.76" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-147.32" x2="398.78" y2="-147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="365.76" y1="-116.84" x2="398.78" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="IMD" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-116.84" x2="365.76" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BSPDPLAUS2" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-88.9" x2="365.76" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-86.36" x2="398.78" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="365.76" y1="-233.68" x2="398.78" y2="-233.68" width="0.1524" layer="91"/>
+<pinref part="AUX1" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-233.68" x2="365.76" y2="-236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="365.76" y1="-266.7" x2="398.78" y2="-266.7" width="0.1524" layer="91"/>
+<pinref part="AUX2" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="-266.7" x2="365.76" y2="-269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BSPDFAULT_B" class="0">
+<segment>
+<wire x1="284.48" y1="281.94" x2="314.96" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="BSPD" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="281.94" x2="314.96" y2="279.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IMDFAULT_B" class="0">
+<segment>
+<wire x1="360.68" y1="-114.3" x2="322.58" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="IMD" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-114.3" x2="360.68" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BSPDPLAUS2_B" class="0">
+<segment>
+<wire x1="322.58" y1="-83.82" x2="360.68" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="BSPDPLAUS2" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-83.82" x2="360.68" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BSPDPLAUS1_B" class="0">
+<segment>
+<wire x1="322.58" y1="-66.04" x2="360.68" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="BSPDPLAUS1" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-66.04" x2="360.68" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FUSEFAULT_B" class="0">
+<segment>
+<wire x1="360.68" y1="-198.12" x2="322.58" y2="-198.12" width="0.1524" layer="91"/>
+<pinref part="FUSE" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-198.12" x2="360.68" y2="-203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BMSFAULT_B" class="0">
+<segment>
+<wire x1="322.58" y1="-144.78" x2="360.68" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="BMS" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-144.78" x2="360.68" y2="-149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUX1_B" class="0">
+<segment>
+<wire x1="322.58" y1="-231.14" x2="360.68" y2="-231.14" width="0.1524" layer="91"/>
+<pinref part="AUX1" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-231.14" x2="360.68" y2="-236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUX2_B" class="0">
+<segment>
+<wire x1="322.58" y1="-264.16" x2="360.68" y2="-264.16" width="0.1524" layer="91"/>
+<pinref part="AUX2" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-264.16" x2="360.68" y2="-269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEMPFAULT_B" class="0">
+<segment>
+<wire x1="360.68" y1="-172.72" x2="322.58" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="TEMP" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-172.72" x2="360.68" y2="-177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="BSPD" gate="G$1" pin="3"/>
+<wire x1="320.04" y1="281.94" x2="320.04" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
