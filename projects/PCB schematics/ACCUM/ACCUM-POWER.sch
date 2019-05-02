@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4015,6 +4015,68 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC5141X125N">
+<description>&lt;b&gt;2016L030&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.325" y1="2.47" x2="3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="2.47" x2="3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="-2.47" x2="-3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="-3.325" y1="-2.47" x2="-3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="-2.54" y1="2.032" x2="2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="2.032" x2="2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="-2.032" x2="-2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="0" y1="1.932" x2="0" y2="-1.932" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2016L030DR">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2016L030DR" prefix="F">
+<description>&lt;b&gt;Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/2016L030DR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="2016L030DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSC5141X125N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc" constant="no"/>
+<attribute name="HEIGHT" value="1.25mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2016L030DR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-2016L030DR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-2016L030DR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4035,14 +4097,15 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <part name="J1" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
 <part name="J2" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
 <part name="J3" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="F1" library="SamacSys_Parts" deviceset="2016L030DR" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="71.12" y="40.64" size="1.778" layer="97">220uF, 50VDC</text>
 <wire x1="63.5" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="97"/>
-<text x="22.86" y="48.26" size="1.778" layer="96">10uF, 450VDC</text>
-<text x="22.86" y="33.02" size="1.778" layer="96">10uF, 450VDC</text>
+<text x="20.32" y="48.26" size="1.778" layer="96">10uF, 450VDC</text>
+<text x="20.32" y="33.02" size="1.778" layer="96">10uF, 450VDC</text>
 </plain>
 <instances>
 <instance part="PS1" gate="G$1" x="83.82" y="58.42" smashed="yes">
@@ -4060,16 +4123,16 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <instance part="SUPPLY16" gate="GND" x="66.04" y="22.86" smashed="yes">
 <attribute name="VALUE" x="64.135" y="19.685" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY17" gate="GND" x="43.18" y="20.32" smashed="yes">
-<attribute name="VALUE" x="41.275" y="17.145" size="1.778" layer="96"/>
+<instance part="SUPPLY17" gate="GND" x="40.64" y="20.32" smashed="yes">
+<attribute name="VALUE" x="38.735" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="43.18" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="52.07" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="11.43" y="46.99" size="1.778" layer="96" align="center-left"/>
+<instance part="C1" gate="G$1" x="40.64" y="55.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.83" y="52.07" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="8.89" y="46.99" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="43.18" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="36.83" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="11.43" y="31.75" size="1.778" layer="96" align="center-left"/>
+<instance part="C2" gate="G$1" x="40.64" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.83" y="36.83" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="8.89" y="31.75" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="J1" gate="A" x="20.32" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.1544" y="96.7486" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -4080,6 +4143,10 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <instance part="J3" gate="A" x="20.32" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.1544" y="78.9686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
+<instance part="F1" gate="G$1" x="48.26" y="58.42" smashed="yes">
+<attribute name="NAME" x="64.77" y="66.04" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="63.5" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4087,8 +4154,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 <net name="HV-" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="COMMON_1"/>
-<wire x1="83.82" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<label x="66.04" y="55.88" size="1.778" layer="95"/>
+<wire x1="83.82" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<label x="76.2" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
@@ -4098,7 +4165,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-<wire x1="43.18" y1="22.86" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -4114,11 +4181,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 </net>
 <net name="HV+" class="0">
 <segment>
-<pinref part="PS1" gate="G$1" pin="VIN"/>
-<label x="66.04" y="58.42" size="1.778" layer="95"/>
-<wire x1="83.82" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="58.42" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="40.64" y="58.42" size="1.778" layer="95"/>
+<wire x1="40.64" y1="58.42" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
@@ -4170,9 +4237,16 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/420/United-Chemi-Con-1511
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="43.18" y1="43.18" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="C2" gate="G$1" pin="+"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="PS1" gate="G$1" pin="VIN"/>
+<wire x1="68.58" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

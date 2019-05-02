@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1320,6 +1320,29 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC5141X125N">
+<description>&lt;b&gt;2016L030&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.325" y1="2.47" x2="3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="2.47" x2="3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="-2.47" x2="-3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="-3.325" y1="-2.47" x2="-3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="-2.54" y1="2.032" x2="2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="2.032" x2="2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="-2.032" x2="-2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="0" y1="1.932" x2="0" y2="-1.932" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1569,6 +1592,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.512" y="32.639" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TE Connectivity" x="23.876" y="49.784" size="1.778" layer="27" display="off"/>
 </element>
+<element name="F1" library="SamacSys_Parts" package="FUSC5141X125N" value="2016L030DR" x="63.5" y="21.59" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="59.69" y="21.59" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="67.31" y="20.32" size="1.27" layer="27" rot="R270" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="HV-">
@@ -1588,15 +1621,15 @@ design rules under a new name.</description>
 <wire x1="20.7518" y1="33.274" x2="24.892" y2="33.274" width="1.27" layer="1"/>
 </signal>
 <signal name="HV+">
-<contactref element="PS1" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="52.959" y1="24.638" x2="57.15" y2="20.447" width="0.8128" layer="16"/>
-<wire x1="57.15" y1="20.447" x2="57.15" y2="10.16" width="0.8128" layer="16"/>
 <wire x1="50.5714" y1="33.3248" x2="46.4312" y2="33.3248" width="1.27" layer="1"/>
 <wire x1="50.5714" y1="33.3248" x2="52.959" y2="30.9372" width="0.8128" layer="1"/>
 <wire x1="52.959" y1="30.9372" x2="52.959" y2="24.638" width="0.8128" layer="1"/>
+<contactref element="F1" pad="1"/>
+<wire x1="52.959" y1="24.638" x2="62.577" y2="24.638" width="0.8128" layer="1"/>
+<wire x1="62.577" y1="24.638" x2="63.5" y2="23.715" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="L1" pad="2"/>
@@ -1630,6 +1663,12 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="1"/>
 <wire x1="41.275" y1="24.638" x2="47.959" y2="24.638" width="0.8128" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="F1" pad="2"/>
+<contactref element="PS1" pad="1"/>
+<wire x1="63.5" y1="19.465" x2="63.5" y2="16.51" width="0.8128" layer="1"/>
+<wire x1="63.5" y1="16.51" x2="57.15" y2="10.16" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

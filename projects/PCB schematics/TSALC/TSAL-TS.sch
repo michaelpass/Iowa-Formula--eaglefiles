@@ -10906,6 +10906,68 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC5141X125N">
+<description>&lt;b&gt;2016L030&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="2.125" y="0" dx="4.44" dy="1.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.325" y1="2.47" x2="3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="2.47" x2="3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="3.325" y1="-2.47" x2="-3.325" y2="-2.47" width="0.05" layer="51"/>
+<wire x1="-3.325" y1="-2.47" x2="-3.325" y2="2.47" width="0.05" layer="51"/>
+<wire x1="-2.54" y1="2.032" x2="2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="2.032" x2="2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="2.54" y1="-2.032" x2="-2.54" y2="-2.032" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.54" y2="2.032" width="0.1" layer="51"/>
+<wire x1="0" y1="1.932" x2="0" y2="-1.932" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2016L030DR">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2016L030DR" prefix="F">
+<description>&lt;b&gt;Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/2016L030DR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="2016L030DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSC5141X125N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc" constant="no"/>
+<attribute name="HEIGHT" value="1.25mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2016L030DR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-2016L030DR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-2016L030DR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10955,6 +11017,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <part name="C1" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
 <part name="C5" library="EKXF451ELL100MJ20S" deviceset="EKXF451ELL100MJ20S" device=""/>
 <part name="F1" library="0885001.DR" deviceset="0885001.DR" device=""/>
+<part name="F2" library="SamacSys_Parts" deviceset="2016L030DR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11162,6 +11225,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <attribute name="NAME" x="125.73" y="111.76" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="125.73" y="109.22" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="F2" gate="G$1" x="22.86" y="50.8" smashed="yes">
+<attribute name="NAME" x="39.37" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="55.88" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11275,8 +11342,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="COMMON_1"/>
-<wire x1="50.8" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
-<label x="33.02" y="48.26" size="1.778" layer="95"/>
+<wire x1="50.8" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="40.64" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
@@ -11350,11 +11417,11 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </net>
 <net name="HV+" class="0">
 <segment>
-<pinref part="PS1" gate="G$1" pin="VIN"/>
-<label x="33.02" y="50.8" size="1.778" layer="95"/>
-<wire x1="50.8" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
+<label x="0" y="50.8" size="1.778" layer="95"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="F2" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-27.94" y1="121.92" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
@@ -11519,6 +11586,13 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="F2" gate="G$1" pin="2"/>
+<pinref part="PS1" gate="G$1" pin="VIN"/>
+<wire x1="43.18" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

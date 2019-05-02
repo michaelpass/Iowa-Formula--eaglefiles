@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8327,6 +8327,70 @@ Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</descript
 </deviceset>
 </devicesets>
 </library>
+<library name="0885001.DR">
+<description>&lt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC10948X488N">
+<description>&lt;b&gt;0885001.DR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<smd name="2" x="4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.15" y1="2.705" x2="6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="2.705" x2="6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="-2.705" x2="-6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="-6.15" y1="-2.705" x2="-6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="-5.43" y1="2.39" x2="5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="2.39" x2="5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="-2.39" x2="-5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="-5.43" y1="-2.39" x2="-5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="0" y1="2.29" x2="0" y2="-2.29" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="0885001.DR">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0885001.DR" prefix="F">
+<description>&lt;b&gt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="0885001.DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSC10948X488N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" constant="no"/>
+<attribute name="HEIGHT" value="4.88mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8368,6 +8432,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</descript
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5.6k"/>
+<part name="F1" library="0885001.DR" deviceset="0885001.DR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8403,13 +8468,13 @@ present at HV battery terminals</text>
 <instance part="SUPPLY10" gate="GND" x="180.34" y="20.32" smashed="yes">
 <attribute name="VALUE" x="178.435" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="127" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.5014" y="95.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="130.302" y="95.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="147.32" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="90.17" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="127" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.5014" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="130.302" y="80.01" size="1.778" layer="96" rot="R90"/>
+<instance part="R13" gate="G$1" x="147.32" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="96.52" y="27.94" smashed="yes">
 <attribute name="NAME" x="92.71" y="29.4386" size="1.778" layer="95"/>
@@ -8498,6 +8563,10 @@ present at HV battery terminals</text>
 <instance part="R4" gate="G$1" x="251.46" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="255.27" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="255.27" y="59.182" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="F1" gate="G$1" x="124.46" y="101.6" smashed="yes">
+<attribute name="NAME" x="140.97" y="109.22" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="140.97" y="106.68" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -8598,12 +8667,12 @@ present at HV battery terminals</text>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="127" y1="88.9" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<label x="134.62" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
+<label x="154.94" y="86.36" size="1.778" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="127" y1="91.44" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="127" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<junction x="127" y="91.44"/>
+<wire x1="147.32" y1="86.36" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
+<junction x="147.32" y="86.36"/>
 </segment>
 </net>
 <net name="HV+_POST_AIR+" class="0">
@@ -8618,10 +8687,9 @@ present at HV battery terminals</text>
 <pinref part="J1" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="127" y1="106.68" x2="127" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<label x="121.92" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<label x="119.38" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+15V-NONISO" class="0">
@@ -8680,11 +8748,9 @@ present at HV battery terminals</text>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<label x="134.62" y="76.2" size="1.778" layer="95" xref="yes"/>
-<wire x1="127" y1="76.2" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="127" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-<junction x="127" y="76.2"/>
+<label x="154.94" y="71.12" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="71.12" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -8781,6 +8847,14 @@ present at HV battery terminals</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="231.14" y1="38.1" x2="238.76" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="101.6" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
