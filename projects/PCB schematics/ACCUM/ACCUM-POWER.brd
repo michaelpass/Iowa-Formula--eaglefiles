@@ -85,43 +85,28 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0" layer="20"/>
-<wire x1="71.12" y1="0" x2="71.12" y2="48.26" width="0" layer="20"/>
-<wire x1="71.12" y1="48.26" x2="0" y2="48.26" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="78.74" y2="0" width="0" layer="20"/>
+<wire x1="78.74" y1="0" x2="78.74" y2="48.26" width="0" layer="20"/>
+<wire x1="78.74" y1="48.26" x2="0" y2="48.26" width="0" layer="20"/>
 <wire x1="0" y1="48.26" x2="0" y2="0" width="0" layer="20"/>
 <hole x="5.08" y="3.81" drill="3"/>
-<hole x="66.04" y="3.81" drill="3"/>
-<hole x="66.04" y="43.18" drill="3"/>
+<hole x="73.66" y="3.81" drill="3"/>
+<hole x="73.66" y="43.18" drill="3"/>
 <hole x="5.08" y="43.18" drill="3"/>
-<text x="52.3494" y="23.749" size="1.778" layer="25">+</text>
+<text x="54.8894" y="22.479" size="1.778" layer="25">+</text>
 <text x="40.6908" y="23.9522" size="1.778" layer="25">+</text>
 <text x="23.8506" y="19.2024" size="1.778" layer="25">+</text>
-<text x="2.9464" y="18.8468" size="1.016" layer="25" font="vector">Accumulator Indicator Light
+<text x="76.4032" y="18.1864" size="1.016" layer="25" font="vector" rot="R90">Accumulator Indicator Light
 Rev A: April 11th, 2019</text>
-<wire x1="2.8194" y1="35.687" x2="2.8194" y2="25.019" width="0.1524" layer="25"/>
-<wire x1="2.8194" y1="25.019" x2="13.1318" y2="25.019" width="0.1524" layer="25"/>
-<wire x1="13.1318" y1="25.019" x2="13.1318" y2="35.687" width="0.1524" layer="25"/>
-<wire x1="13.1318" y1="35.687" x2="2.8194" y2="35.687" width="0.1524" layer="25"/>
-<wire x1="6.7818" y1="34.671" x2="3.8862" y2="25.6794" width="0.1524" layer="25"/>
-<wire x1="3.8862" y1="25.6794" x2="5.1308" y2="25.6794" width="0.1524" layer="25"/>
-<wire x1="5.1308" y1="25.6794" x2="8.0772" y2="34.671" width="0.1524" layer="25"/>
-<wire x1="8.0772" y1="34.671" x2="6.7818" y2="34.671" width="0.1524" layer="25"/>
-<wire x1="8.636" y1="34.544" x2="5.9944" y2="25.654" width="0.1524" layer="25"/>
-<wire x1="5.9944" y1="25.654" x2="7.3914" y2="25.654" width="0.1524" layer="25"/>
-<wire x1="7.3914" y1="25.654" x2="8.7376" y2="29.7688" width="0.1524" layer="25"/>
-<wire x1="8.7376" y1="29.7688" x2="10.7188" y2="29.7688" width="0.1524" layer="25"/>
-<wire x1="10.7188" y1="29.7688" x2="10.9982" y2="30.7086" width="0.1524" layer="25"/>
-<wire x1="10.9982" y1="30.7086" x2="8.6614" y2="30.7086" width="0.1524" layer="25"/>
-<wire x1="8.6614" y1="30.7086" x2="9.5758" y2="33.5534" width="0.1524" layer="25"/>
-<wire x1="9.5758" y1="33.5534" x2="11.938" y2="33.5534" width="0.1524" layer="25"/>
-<wire x1="11.938" y1="33.5534" x2="12.192" y2="34.544" width="0.1524" layer="25"/>
-<wire x1="12.192" y1="34.544" x2="8.636" y2="34.544" width="0.1524" layer="25"/>
-<text x="56.261" y="29.2608" size="1.016" layer="25" font="vector">1. HV-
-2. +15V-NONISO
-3. HV+</text>
-<text x="56.515" y="34.2646" size="1.4224" layer="25" font="vector">Connections:</text>
-<wire x1="56.388" y1="33.7566" x2="67.6402" y2="33.7566" width="0.1524" layer="25"/>
-<text x="2.8956" y="22.8092" size="1.4224" layer="25" font="vector">Iowa Formula</text>
+<text x="1.651" y="13.1318" size="1.016" layer="25" font="vector">1. HV-_IMD
+2. HV-
+3. +15V-NONISO
+4. HV+ 
+5. HV+_IMD</text>
+<text x="1.905" y="21.9456" size="1.4224" layer="25" font="vector">Connections:</text>
+<wire x1="1.778" y1="21.4376" x2="13.0302" y2="21.4376" width="0.1524" layer="25"/>
+<text x="15.9004" y="4.8768" size="1.4224" layer="25" font="vector">Iowa Formula</text>
+<text x="15.875" y="2.8448" size="0.8128" layer="25" font="vector">Author: github.com/michaelpass</text>
 </plain>
 <libraries>
 <library name="M57184N-715B">
@@ -286,6 +271,29 @@ Rev A: April 11th, 2019</text>
 <wire x1="-3.3" y1="2.225" x2="3.3" y2="2.225" width="0.2" layer="21"/>
 <wire x1="3.3" y1="-2.225" x2="-3.3" y2="-2.225" width="0.2" layer="21"/>
 <circle x="-3.846" y="0.083" radius="0.056" width="0.2" layer="25"/>
+</package>
+</packages>
+</library>
+<library name="0885001.DR">
+<description>&lt;LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FUSC10948X488N">
+<description>&lt;b&gt;0885001.DR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<smd name="2" x="4.195" y="0" dx="4.91" dy="3.41" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.15" y1="2.705" x2="6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="2.705" x2="6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="6.15" y1="-2.705" x2="-6.15" y2="-2.705" width="0.05" layer="51"/>
+<wire x1="-6.15" y1="-2.705" x2="-6.15" y2="2.705" width="0.05" layer="51"/>
+<wire x1="-5.43" y1="2.39" x2="5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="2.39" x2="5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="5.43" y1="-2.39" x2="-5.43" y2="-2.39" width="0.1" layer="51"/>
+<wire x1="-5.43" y1="-2.39" x2="-5.43" y2="2.39" width="0.1" layer="51"/>
+<wire x1="0" y1="2.29" x2="0" y2="-2.29" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -475,16 +483,16 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PS1" library="M57184N-715B" package="M57184N715B" value="M57184N-715B" x="57.15" y="8.89" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="High Voltage Input DC-to-DC Converter" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="24.5mm" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="POWEREX" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M57184N-715B" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.4" y="7.39" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="67.31" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="PS1" library="M57184N-715B" package="M57184N715B" value="M57184N-715B" x="60.96" y="8.89" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="High Voltage Input DC-to-DC Converter" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="24.5mm" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="POWEREX" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M57184N-715B" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.21" y="7.39" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="EEU-FS1H221L" package="CAPPRD350W65D800H2200" value="EEU-FS1H221L" x="25.4" y="21.59" smashed="yes">
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 50VDC 220uF 9000H 8x20mm" x="-8.89" y="2.54" size="1.778" layer="27" display="off"/>
@@ -497,62 +505,92 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="" x="-8.89" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="-8.89" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="52.959" y="26.5938" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="21.5mm" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.419" y="22.6568" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="80.899" y="78.6638" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C1" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="55.499" y="25.7048" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="21.5mm" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="52.959" y="21.7678" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="83.439" y="77.7748" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="41.275" y="26.5938" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="21.5mm" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.735" y="22.6568" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="66.675" y="76.1238" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C2" library="EKXF451ELL100MJ20S" package="CAPPRD500W60D1025H2150" value="EKXF451ELL100MJ20S" x="42.5958" y="25.7048" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 10uF 20% 450V Long Life" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="21.5mm" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="United Chemi-Con (UCC)" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EKXF451ELL100MJ20S" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EKXF451ELL100MJ2" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="40.0558" y="21.7678" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="67.9958" y="75.2348" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J1" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="50.5714" y="34.5948" smashed="yes">
-<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="50.5714" y="34.5948" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.2374" y="33.9598" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="TE Connectivity" x="50.5714" y="34.5948" size="1.778" layer="27" display="off"/>
+<element name="HV+" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="54.3814" y="34.5948" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="54.3814" y="34.5948" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.0474" y="31.4198" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="54.3814" y="34.5948" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J2" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="24.892" y="34.544" smashed="yes">
-<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="24.892" y="34.544" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.558" y="33.909" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="TE Connectivity" x="24.892" y="34.544" size="1.778" layer="27" display="off"/>
+<element name="HV-" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="28.702" y="34.544" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="28.702" y="34.544" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="24.638" y="31.369" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="28.702" y="34.544" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="37.846" y="34.544" smashed="yes">
-<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="23.876" y="51.054" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.512" y="33.909" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="TE Connectivity" x="23.876" y="51.054" size="1.778" layer="27" display="off"/>
+<element name="+15V-NONISO" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="41.656" y="34.544" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="27.686" y="51.054" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.782" y="31.369" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="27.686" y="51.054" size="1.778" layer="27" display="off"/>
 </element>
-<element name="F1" library="SamacSys_Parts" package="FUSC5141X125N" value="2016L030DR" x="63.5" y="21.59" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="576-2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-2016L030DR" x="63.5" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.69" y="21.59" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="67.31" y="20.32" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="F1" library="SamacSys_Parts" package="FUSC5141X125N" value="2016L030DR" x="71.12" y="13.97" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Littelfuse 0.3A Surface Mount Resettable Fuse, 60 V dc" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2016L030DR" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-2016L030DR" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-2016L030DR" x="71.12" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="74.93" y="13.97" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="L1" library="SDE6603-102M" package="SDE6603" value="SDE6603-102M" x="41.9862" y="17.6784" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="SMD Power Inductor 1000uH 20% 250mA 6603 Bourns SDE6603 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 1000 uH Wire-Wound 70mA Idc" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SDE6603-102M" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-SDE6603-102M" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-SDE6603-102M" x="44.5262" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.33185" y="17.62676875" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="42.33185" y="17.62676875" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="L1" library="SDE6603-102M" package="SDE6603" value="SDE6603-102M" x="45.7962" y="17.6784" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="SMD Power Inductor 1000uH 20% 250mA 6603 Bourns SDE6603 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 1000 uH Wire-Wound 70mA Idc" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SDE6603-102M" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SDE6603-102M" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-SDE6603-102M" x="48.3362" y="17.6784" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="45.78625" y="20.85256875" size="1.27" layer="25" rot="R180" align="center"/>
+</element>
+<element name="HV+_IMD" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="67.183" y="34.6202" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="53.213" y="51.1302" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.579" y="31.4452" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="53.213" y="51.1302" size="1.778" layer="27" display="off"/>
+</element>
+<element name="HV-_IMD" library="con-MATE-N-LOK" package="CON2_1X2_P163_RAMNL" value="2P(90DEG)_1-770966-0" x="15.875" y="34.5186" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="17709660" x="1.905" y="51.0286" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.541" y="31.3436" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="1.905" y="51.0286" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F2" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="66.04" y="27.94" smashed="yes">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="66.04" y="24.13" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F3" library="0885001.DR" package="FUSC10948X488N" value="0885001.DR" x="16.51" y="27.94" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="LITTELFUSE - 0885001.DR - FUSE, AEC-Q200, 1A, 500VDC, 0402" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="4.88mm" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0885001.DR" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="576-0885001.DR" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-0885001.DR" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="16.51" y="24.13" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="16.51" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -560,68 +598,95 @@ design rules under a new name.</description>
 <contactref element="PS1" pad="4"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="J2" pad="1"/>
-<contactref element="J2" pad="2"/>
-<wire x1="24.892" y1="34.544" x2="28.9" y2="30.536" width="0.8128" layer="16"/>
-<wire x1="28.9" y1="30.536" x2="28.9" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="33.227" y1="23.5458" x2="30.8558" y2="23.5458" width="0.8128" layer="16"/>
-<wire x1="28.9" y1="21.59" x2="30.8558" y2="23.5458" width="0.8128" layer="16"/>
-<wire x1="33.227" y1="23.5458" x2="36.275" y2="26.5938" width="0.8128" layer="16"/>
-<wire x1="49.53" y1="8.89" x2="49.53" y2="10.8458" width="0.8128" layer="16"/>
-<wire x1="49.53" y1="10.8458" x2="37.6428" y2="22.733" width="0.8128" layer="16"/>
-<wire x1="37.6428" y1="22.733" x2="37.6428" y2="26.0388" width="0.8128" layer="16"/>
-<wire x1="37.6428" y1="26.0388" x2="37.0878" y2="26.5938" width="0.8128" layer="16"/>
-<wire x1="37.0878" y1="26.5938" x2="36.275" y2="26.5938" width="0.8128" layer="16"/>
-<wire x1="20.7518" y1="34.544" x2="24.892" y2="34.544" width="1.27" layer="1"/>
+<contactref element="HV-" pad="1"/>
+<contactref element="HV-" pad="2"/>
+<wire x1="28.702" y1="34.544" x2="28.9" y2="34.346" width="0.8128" layer="16"/>
+<wire x1="28.9" y1="34.346" x2="28.9" y2="21.59" width="0.8128" layer="16"/>
+<wire x1="28.9" y1="21.59" x2="29.408" y2="21.082" width="0.8128" layer="16"/>
+<wire x1="31.4744" y1="21.082" x2="29.408" y2="21.082" width="0.8128" layer="16"/>
+<wire x1="37.5958" y1="25.7048" x2="36.0972" y2="25.7048" width="0.8128" layer="16"/>
+<wire x1="36.0972" y1="25.7048" x2="31.4744" y2="21.082" width="0.8128" layer="16"/>
+<wire x1="53.34" y1="8.89" x2="53.34" y2="9.1478" width="0.8128" layer="16"/>
+<wire x1="53.34" y1="9.1478" x2="39.9072" y2="22.5806" width="0.8128" layer="16"/>
+<wire x1="39.9072" y1="23.3934" x2="39.9072" y2="22.5806" width="0.8128" layer="16"/>
+<wire x1="39.9072" y1="23.3934" x2="37.5958" y2="25.7048" width="0.8128" layer="16"/>
+<wire x1="24.5618" y1="34.544" x2="28.702" y2="34.544" width="1.27" layer="1"/>
+<contactref element="F3" pad="1"/>
+<wire x1="20.705" y1="27.94" x2="24.5618" y2="31.7968" width="1.27" layer="1"/>
+<wire x1="24.5618" y1="31.7968" x2="24.5618" y2="34.544" width="1.27" layer="1"/>
 </signal>
 <signal name="HV+">
 <contactref element="C1" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="2"/>
-<wire x1="50.5714" y1="34.5948" x2="46.4312" y2="34.5948" width="1.27" layer="1"/>
-<wire x1="50.5714" y1="34.5948" x2="52.959" y2="32.2072" width="0.8128" layer="1"/>
-<wire x1="52.959" y1="32.2072" x2="52.959" y2="26.5938" width="0.8128" layer="1"/>
+<contactref element="HV+" pad="1"/>
+<contactref element="HV+" pad="2"/>
+<wire x1="54.3814" y1="34.5948" x2="50.2412" y2="34.5948" width="1.27" layer="1"/>
+<wire x1="54.3814" y1="34.5948" x2="54.483" y2="34.4932" width="0.8128" layer="1"/>
+<wire x1="54.483" y1="34.4932" x2="54.483" y2="27.7368" width="1.27" layer="1"/>
+<wire x1="55.499" y1="25.7048" x2="55.499" y2="26.7208" width="1.27" layer="1"/>
+<wire x1="55.499" y1="26.7208" x2="54.483" y2="27.7368" width="1.27" layer="1"/>
 <contactref element="F1" pad="1"/>
-<wire x1="52.959" y1="26.5938" x2="60.6212" y2="26.5938" width="0.8128" layer="1"/>
-<wire x1="60.6212" y1="26.5938" x2="63.5" y2="23.715" width="0.8128" layer="1"/>
+<wire x1="55.499" y1="25.7048" x2="61.0616" y2="20.1422" width="1.27" layer="1"/>
+<wire x1="71.12" y1="16.095" x2="67.0728" y2="20.1422" width="1.27" layer="1"/>
+<wire x1="67.0728" y1="20.1422" x2="61.0616" y2="20.1422" width="1.27" layer="1"/>
+<contactref element="F2" pad="1"/>
+<wire x1="55.499" y1="25.7048" x2="57.7342" y2="27.94" width="1.27" layer="1"/>
+<wire x1="57.7342" y1="27.94" x2="61.845" y2="27.94" width="1.27" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="PS1" pad="8"/>
 <contactref element="L1" pad="2"/>
-<wire x1="39.37" y1="8.89" x2="39.2562" y2="9.0038" width="0.6096" layer="1"/>
-<wire x1="39.2562" y1="9.0038" x2="39.2562" y2="17.6784" width="0.6096" layer="1"/>
+<wire x1="43.18" y1="8.89" x2="43.0662" y2="9.0038" width="0.6096" layer="1"/>
+<wire x1="43.0662" y1="9.0038" x2="43.0662" y2="17.6784" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="PS1" pad="6"/>
 <contactref element="L1" pad="1"/>
-<wire x1="44.7162" y1="17.6784" x2="44.7162" y2="9.1562" width="0.6096" layer="1"/>
-<wire x1="44.7162" y1="9.1562" x2="44.45" y2="8.89" width="0.6096" layer="1"/>
+<wire x1="48.26" y1="8.89" x2="48.5262" y2="9.1562" width="0.6096" layer="1"/>
+<wire x1="48.5262" y1="17.6784" x2="48.5262" y2="9.1562" width="0.6096" layer="1"/>
 </signal>
 <signal name="+15V-NONISO">
 <contactref element="PS1" pad="10"/>
 <contactref element="C3" pad="1"/>
-<contactref element="J3" pad="1"/>
-<contactref element="J3" pad="2"/>
+<contactref element="+15V-NONISO" pad="1"/>
+<contactref element="+15V-NONISO" pad="2"/>
 <wire x1="25.4" y1="21.59" x2="25.4" y2="16.51" width="0.8128" layer="1"/>
-<wire x1="27.94" y1="13.97" x2="31.75" y2="13.97" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="13.97" x2="34.29" y2="11.43" width="0.8128" layer="1"/>
-<wire x1="34.29" y1="11.43" x2="34.29" y2="8.89" width="0.8128" layer="1"/>
+<wire x1="27.94" y1="13.97" x2="33.02" y2="13.97" width="0.8128" layer="1"/>
+<wire x1="33.02" y1="13.97" x2="38.1" y2="8.89" width="0.8128" layer="1"/>
 <wire x1="25.4" y1="16.51" x2="27.94" y2="13.97" width="0.8128" layer="1"/>
-<wire x1="33.7058" y1="34.544" x2="37.846" y2="34.544" width="1.27" layer="1"/>
-<wire x1="33.7058" y1="34.544" x2="33.7058" y2="34.2392" width="0.8128" layer="1"/>
-<wire x1="33.7058" y1="34.2392" x2="25.4" y2="25.9334" width="0.8128" layer="1"/>
-<wire x1="25.4" y1="25.9334" x2="25.4" y2="21.59" width="0.8128" layer="1"/>
+<wire x1="37.5158" y1="34.544" x2="41.656" y2="34.544" width="1.27" layer="1"/>
+<wire x1="25.4" y1="21.59" x2="25.4" y2="23.9014" width="0.8128" layer="1"/>
+<wire x1="37.5158" y1="34.544" x2="36.0426" y2="34.544" width="0.8128" layer="1"/>
+<wire x1="36.0426" y1="34.544" x2="25.4" y2="23.9014" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="1"/>
-<wire x1="41.275" y1="26.5938" x2="47.959" y2="26.5938" width="0.8128" layer="1"/>
+<wire x1="50.499" y1="25.7048" x2="42.5958" y2="25.7048" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="F1" pad="2"/>
 <contactref element="PS1" pad="1"/>
-<wire x1="63.5" y1="19.465" x2="63.5" y2="15.24" width="0.8128" layer="1"/>
-<wire x1="63.5" y1="15.24" x2="57.15" y2="8.89" width="0.8128" layer="1"/>
+<wire x1="71.12" y1="11.845" x2="71.12" y2="11.43" width="0.8128" layer="1"/>
+<wire x1="71.12" y1="11.43" x2="68.58" y2="8.89" width="1.27" layer="1"/>
+<wire x1="68.58" y1="8.89" x2="60.96" y2="8.89" width="1.27" layer="1"/>
+</signal>
+<signal name="HV+_IMD">
+<contactref element="HV+_IMD" pad="1"/>
+<contactref element="HV+_IMD" pad="2"/>
+<contactref element="F2" pad="2"/>
+<wire x1="63.0428" y1="34.6202" x2="67.183" y2="34.6202" width="1.27" layer="1"/>
+<wire x1="70.235" y1="33.2446" x2="68.8594" y2="34.6202" width="1.27" layer="1"/>
+<wire x1="67.183" y1="34.6202" x2="68.8594" y2="34.6202" width="1.27" layer="1"/>
+<wire x1="70.235" y1="33.2446" x2="70.235" y2="27.94" width="1.27" layer="1"/>
+</signal>
+<signal name="HV-_IMD">
+<contactref element="HV-_IMD" pad="1"/>
+<contactref element="HV-_IMD" pad="2"/>
+<contactref element="F3" pad="2"/>
+<wire x1="15.875" y1="34.5186" x2="11.7348" y2="34.5186" width="1.27" layer="1"/>
+<wire x1="11.7348" y1="34.5186" x2="11.3752" y2="34.159" width="1.27" layer="1"/>
+<wire x1="12.315" y1="27.94" x2="11.3752" y2="28.8798" width="1.27" layer="1"/>
+<wire x1="11.3752" y1="34.159" x2="11.3752" y2="28.8798" width="1.27" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

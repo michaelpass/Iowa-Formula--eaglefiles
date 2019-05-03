@@ -344,77 +344,77 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="33.02" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.61" y="35.56" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="CHASSIS1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="31.75" y="78.74" smashed="yes">
-<attribute name="MF" value="MOLEX" x="31.75" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="31.75" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.48" y="83.82" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="31.75" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="31.75" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="29.21" y="72.39" size="1.27" layer="27"/>
+<element name="CHASSIS1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="34.29" y="77.47" smashed="yes">
+<attribute name="MF" value="MOLEX" x="34.29" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="34.29" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.02" y="82.55" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="34.29" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="34.29" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="71.12" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="48.26" y="78.74" smashed="yes">
-<attribute name="MF" value="MOLEX" x="48.26" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="48.26" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.99" y="83.82" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="48.26" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="48.26" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.72" y="72.39" size="1.27" layer="27"/>
+<element name="CHASSIS2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="52.07" y="77.47" smashed="yes">
+<attribute name="MF" value="MOLEX" x="52.07" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="52.07" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.8" y="82.55" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="52.07" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="52.07" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.53" y="71.12" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="66.04" y="78.74" smashed="yes">
-<attribute name="MF" value="MOLEX" x="66.04" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="66.04" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="64.77" y="83.82" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="66.04" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="66.04" y="78.74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="63.5" y="72.39" size="1.27" layer="27"/>
+<element name="CHASSIS3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="69.85" y="77.47" smashed="yes">
+<attribute name="MF" value="MOLEX" x="69.85" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="68.58" y="82.55" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="69.85" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="69.85" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="71.12" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="31.75" y="63.5" smashed="yes">
-<attribute name="MF" value="MOLEX" x="31.75" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="31.75" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.48" y="68.58" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="31.75" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="31.75" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="29.21" y="57.15" size="1.27" layer="27"/>
+<element name="CHASSIS4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="34.29" y="62.23" smashed="yes">
+<attribute name="MF" value="MOLEX" x="34.29" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="34.29" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.02" y="67.31" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="34.29" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="34.29" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="55.88" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="48.26" y="63.5" smashed="yes">
-<attribute name="MF" value="MOLEX" x="48.26" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="48.26" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.99" y="68.58" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="48.26" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="48.26" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.72" y="57.15" size="1.27" layer="27"/>
+<element name="CHASSIS5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="52.07" y="62.23" smashed="yes">
+<attribute name="MF" value="MOLEX" x="52.07" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="52.07" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.8" y="67.31" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="52.07" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="52.07" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.53" y="55.88" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS6" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="66.04" y="63.5" smashed="yes">
-<attribute name="MF" value="MOLEX" x="66.04" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="66.04" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="64.77" y="68.58" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="66.04" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="66.04" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="63.5" y="57.15" size="1.27" layer="27"/>
+<element name="CHASSIS6" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="69.85" y="62.23" smashed="yes">
+<attribute name="MF" value="MOLEX" x="69.85" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="68.58" y="67.31" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="69.85" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="69.85" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="55.88" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS9" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="66.04" y="46.99" smashed="yes">
-<attribute name="MF" value="MOLEX" x="53.34" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="53.34" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="64.77" y="52.07" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="53.34" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="53.34" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="63.5" y="40.64" size="1.27" layer="27"/>
+<element name="CHASSIS9" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="69.85" y="45.72" smashed="yes">
+<attribute name="MF" value="MOLEX" x="57.15" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="57.15" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="68.58" y="50.8" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="57.15" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="57.15" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="39.37" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS7" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="31.75" y="46.99" smashed="yes">
-<attribute name="MF" value="MOLEX" x="19.05" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="19.05" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.48" y="52.07" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="19.05" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="19.05" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="29.21" y="40.64" size="1.27" layer="27"/>
+<element name="CHASSIS7" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="34.29" y="45.72" smashed="yes">
+<attribute name="MF" value="MOLEX" x="21.59" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="21.59" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.02" y="50.8" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="21.59" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="21.59" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="39.37" size="1.27" layer="27"/>
 </element>
-<element name="CHASSIS8" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="48.26" y="46.99" smashed="yes">
-<attribute name="MF" value="MOLEX" x="35.56" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.99" y="52.07" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1822072" x="35.56" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.72" y="40.64" size="1.27" layer="27"/>
+<element name="CHASSIS8" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" package3d_urn="urn:adsk.eagle:package:8078583/1" value="5566-2" x="52.07" y="45.72" smashed="yes">
+<attribute name="MF" value="MOLEX" x="39.37" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="39.37" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.8" y="50.8" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1822072" x="39.37" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="39.37" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.53" y="39.37" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -439,68 +439,66 @@ design rules under a new name.</description>
 <contactref element="CHASSIS7" pad="2"/>
 <contactref element="CHASSIS8" pad="1"/>
 <contactref element="CHASSIS8" pad="2"/>
-<wire x1="31.75" y1="81.49" x2="31.75" y2="75.99" width="1.27" layer="1"/>
-<wire x1="31.75" y1="75.99" x2="48.26" y2="75.99" width="1.27" layer="1"/>
-<wire x1="31.75" y1="81.49" x2="33.53144375" y2="81.49" width="1.27" layer="1"/>
-<wire x1="46.47855625" y1="81.49" x2="48.26" y2="81.49" width="1.27" layer="1"/>
-<wire x1="33.53144375" y1="81.49" x2="35.46044375" y2="83.419" width="1.27" layer="1"/>
-<wire x1="44.54955625" y1="83.419" x2="46.47855625" y2="81.49" width="1.27" layer="1"/>
-<wire x1="35.46044375" y1="83.419" x2="44.54955625" y2="83.419" width="1.27" layer="1"/>
-<wire x1="48.26" y1="75.99" x2="66.04" y2="75.99" width="1.27" layer="1"/>
-<wire x1="48.26" y1="81.49" x2="50.04144375" y2="81.49" width="1.27" layer="1"/>
-<wire x1="64.25855625" y1="81.49" x2="66.04" y2="81.49" width="1.27" layer="1"/>
-<wire x1="50.04144375" y1="81.49" x2="51.97044375" y2="83.419" width="1.27" layer="1"/>
-<wire x1="62.32955625" y1="83.419" x2="64.25855625" y2="81.49" width="1.27" layer="1"/>
-<wire x1="51.97044375" y1="83.419" x2="62.32955625" y2="83.419" width="1.27" layer="1"/>
-<wire x1="66.04" y1="81.49" x2="66.04" y2="75.99" width="1.27" layer="1"/>
-<wire x1="48.26" y1="81.49" x2="48.26" y2="75.99" width="1.27" layer="1"/>
-<wire x1="31.75" y1="75.99" x2="31.75" y2="66.25" width="1.27" layer="1"/>
-<wire x1="31.75" y1="66.25" x2="31.75" y2="60.75" width="1.27" layer="1"/>
-<wire x1="31.75" y1="60.75" x2="48.26" y2="60.75" width="1.27" layer="1"/>
-<wire x1="31.75" y1="66.25" x2="33.53144375" y2="66.25" width="1.27" layer="1"/>
-<wire x1="46.47855625" y1="66.25" x2="48.26" y2="66.25" width="1.27" layer="1"/>
-<wire x1="33.53144375" y1="66.25" x2="35.46044375" y2="68.179" width="1.27" layer="1"/>
-<wire x1="44.54955625" y1="68.179" x2="46.47855625" y2="66.25" width="1.27" layer="1"/>
-<wire x1="35.46044375" y1="68.179" x2="44.54955625" y2="68.179" width="1.27" layer="1"/>
-<wire x1="48.26" y1="66.25" x2="50.04144375" y2="66.25" width="1.27" layer="1"/>
-<wire x1="64.25855625" y1="66.25" x2="66.04" y2="66.25" width="1.27" layer="1"/>
-<wire x1="50.04144375" y1="66.25" x2="51.97044375" y2="68.179" width="1.27" layer="1"/>
-<wire x1="62.32955625" y1="68.179" x2="64.25855625" y2="66.25" width="1.27" layer="1"/>
-<wire x1="51.97044375" y1="68.179" x2="62.32955625" y2="68.179" width="1.27" layer="1"/>
-<wire x1="66.04" y1="66.25" x2="66.04" y2="75.99" width="1.27" layer="1"/>
-<wire x1="48.26" y1="66.25" x2="48.26" y2="75.99" width="1.27" layer="1"/>
-<wire x1="66.04" y1="66.25" x2="66.04" y2="60.75" width="1.27" layer="1"/>
-<wire x1="66.04" y1="60.75" x2="48.26" y2="60.75" width="1.27" layer="1"/>
-<wire x1="31.75" y1="60.75" x2="31.75" y2="49.74" width="1.27" layer="1"/>
-<wire x1="31.75" y1="49.53" x2="31.75" y2="49.74" width="1.27" layer="1"/>
-<wire x1="31.75" y1="49.74" x2="31.75" y2="44.24" width="1.27" layer="1"/>
-<wire x1="31.75" y1="44.24" x2="44.03" y2="31.96" width="1.27" layer="1"/>
-<wire x1="44.03" y1="31.96" x2="52.07" y2="31.96" width="1.27" layer="1"/>
+<wire x1="34.29" y1="80.22" x2="34.29" y2="74.72" width="1.27" layer="1"/>
+<wire x1="34.29" y1="74.72" x2="52.07" y2="74.72" width="1.27" layer="1"/>
+<wire x1="34.29" y1="80.22" x2="36.07144375" y2="80.22" width="1.27" layer="1"/>
+<wire x1="50.28855625" y1="80.22" x2="52.07" y2="80.22" width="1.27" layer="1"/>
+<wire x1="36.07144375" y1="80.22" x2="38.00044375" y2="82.149" width="1.27" layer="1"/>
+<wire x1="48.35955625" y1="82.149" x2="50.28855625" y2="80.22" width="1.27" layer="1"/>
+<wire x1="38.00044375" y1="82.149" x2="48.35955625" y2="82.149" width="1.27" layer="1"/>
+<wire x1="52.07" y1="74.72" x2="69.85" y2="74.72" width="1.27" layer="1"/>
+<wire x1="52.07" y1="80.22" x2="53.85144375" y2="80.22" width="1.27" layer="1"/>
+<wire x1="68.06855625" y1="80.22" x2="69.85" y2="80.22" width="1.27" layer="1"/>
+<wire x1="53.85144375" y1="80.22" x2="55.78044375" y2="82.149" width="1.27" layer="1"/>
+<wire x1="66.13955625" y1="82.149" x2="68.06855625" y2="80.22" width="1.27" layer="1"/>
+<wire x1="55.78044375" y1="82.149" x2="66.13955625" y2="82.149" width="1.27" layer="1"/>
+<wire x1="69.85" y1="80.22" x2="69.85" y2="74.72" width="1.27" layer="1"/>
+<wire x1="52.07" y1="80.22" x2="52.07" y2="74.72" width="1.27" layer="1"/>
+<wire x1="34.29" y1="74.72" x2="34.29" y2="64.98" width="1.27" layer="1"/>
+<wire x1="34.29" y1="64.98" x2="34.29" y2="59.48" width="1.27" layer="1"/>
+<wire x1="34.29" y1="59.48" x2="52.07" y2="59.48" width="1.27" layer="1"/>
+<wire x1="34.29" y1="64.98" x2="36.07144375" y2="64.98" width="1.27" layer="1"/>
+<wire x1="50.28855625" y1="64.98" x2="52.07" y2="64.98" width="1.27" layer="1"/>
+<wire x1="36.07144375" y1="64.98" x2="38.00044375" y2="66.909" width="1.27" layer="1"/>
+<wire x1="48.35955625" y1="66.909" x2="50.28855625" y2="64.98" width="1.27" layer="1"/>
+<wire x1="38.00044375" y1="66.909" x2="48.35955625" y2="66.909" width="1.27" layer="1"/>
+<wire x1="52.07" y1="64.98" x2="53.85144375" y2="64.98" width="1.27" layer="1"/>
+<wire x1="68.06855625" y1="64.98" x2="69.85" y2="64.98" width="1.27" layer="1"/>
+<wire x1="53.85144375" y1="64.98" x2="55.78044375" y2="66.909" width="1.27" layer="1"/>
+<wire x1="66.13955625" y1="66.909" x2="68.06855625" y2="64.98" width="1.27" layer="1"/>
+<wire x1="55.78044375" y1="66.909" x2="66.13955625" y2="66.909" width="1.27" layer="1"/>
+<wire x1="69.85" y1="64.98" x2="69.85" y2="74.72" width="1.27" layer="1"/>
+<wire x1="52.07" y1="64.98" x2="52.07" y2="74.72" width="1.27" layer="1"/>
+<wire x1="69.85" y1="64.98" x2="69.85" y2="59.48" width="1.27" layer="1"/>
+<wire x1="69.85" y1="59.48" x2="52.07" y2="59.48" width="1.27" layer="1"/>
+<wire x1="34.29" y1="59.48" x2="34.29" y2="48.47" width="1.27" layer="1"/>
+<wire x1="34.29" y1="48.26" x2="34.29" y2="48.47" width="1.27" layer="1"/>
+<wire x1="34.29" y1="48.47" x2="34.29" y2="42.97" width="1.27" layer="1"/>
+<wire x1="34.29" y1="42.97" x2="45.3" y2="31.96" width="1.27" layer="1"/>
+<wire x1="45.3" y1="31.96" x2="52.07" y2="31.96" width="1.27" layer="1"/>
 <wire x1="52.07" y1="31.96" x2="52.07" y2="26.46" width="1.27" layer="1"/>
-<wire x1="52.07" y1="31.96" x2="48.26" y2="35.77" width="1.27" layer="1"/>
-<wire x1="48.26" y1="35.77" x2="48.26" y2="44.24" width="1.27" layer="1"/>
 <wire x1="52.07" y1="31.96" x2="64.1418" y2="31.96" width="1.27" layer="1"/>
-<wire x1="64.1418" y1="31.96" x2="66.1162" y2="33.9344" width="1.27" layer="1"/>
-<wire x1="66.1162" y1="33.9344" x2="66.1162" y2="43.18" width="1.27" layer="1"/>
-<wire x1="66.1162" y1="43.18" x2="66.1162" y2="44.1638" width="1.27" layer="1"/>
-<wire x1="66.1162" y1="44.1638" x2="66.04" y2="44.24" width="1.27" layer="1"/>
-<wire x1="48.26" y1="44.24" x2="65.0562" y2="44.24" width="1.27" layer="1"/>
-<wire x1="65.0562" y1="44.24" x2="66.1162" y2="43.18" width="1.27" layer="1"/>
-<wire x1="48.26" y1="44.24" x2="31.75" y2="44.24" width="1.27" layer="1"/>
-<wire x1="48.26" y1="44.24" x2="48.26" y2="49.74" width="1.27" layer="1"/>
-<wire x1="48.26" y1="49.74" x2="48.26" y2="60.75" width="1.27" layer="1"/>
-<wire x1="66.04" y1="44.24" x2="66.04" y2="49.74" width="1.27" layer="1"/>
-<wire x1="66.04" y1="49.74" x2="66.04" y2="60.75" width="1.27" layer="1"/>
-<wire x1="48.26" y1="49.74" x2="50.04144375" y2="49.74" width="1.27" layer="1"/>
-<wire x1="64.25855625" y1="49.74" x2="66.04" y2="49.74" width="1.27" layer="1"/>
-<wire x1="50.04144375" y1="49.74" x2="51.97044375" y2="51.669" width="1.27" layer="1"/>
-<wire x1="62.32955625" y1="51.669" x2="64.25855625" y2="49.74" width="1.27" layer="1"/>
-<wire x1="51.97044375" y1="51.669" x2="62.32955625" y2="51.669" width="1.27" layer="1"/>
-<wire x1="48.26" y1="49.74" x2="46.47855625" y2="49.74" width="1.27" layer="1"/>
-<wire x1="33.53144375" y1="49.74" x2="31.75" y2="49.74" width="1.27" layer="1"/>
-<wire x1="46.47855625" y1="49.74" x2="44.54955625" y2="51.669" width="1.27" layer="1"/>
-<wire x1="35.46044375" y1="51.669" x2="33.53144375" y2="49.74" width="1.27" layer="1"/>
-<wire x1="44.54955625" y1="51.669" x2="35.46044375" y2="51.669" width="1.27" layer="1"/>
+<wire x1="64.1418" y1="31.96" x2="69.9262" y2="37.7444" width="1.27" layer="1"/>
+<wire x1="69.9262" y1="37.7444" x2="69.9262" y2="41.91" width="1.27" layer="1"/>
+<wire x1="69.9262" y1="41.91" x2="69.9262" y2="42.8938" width="1.27" layer="1"/>
+<wire x1="69.9262" y1="42.8938" x2="69.85" y2="42.97" width="1.27" layer="1"/>
+<wire x1="52.07" y1="42.97" x2="68.8662" y2="42.97" width="1.27" layer="1"/>
+<wire x1="68.8662" y1="42.97" x2="69.9262" y2="41.91" width="1.27" layer="1"/>
+<wire x1="52.07" y1="42.97" x2="34.29" y2="42.97" width="1.27" layer="1"/>
+<wire x1="52.07" y1="42.97" x2="52.07" y2="48.47" width="1.27" layer="1"/>
+<wire x1="52.07" y1="48.47" x2="52.07" y2="59.48" width="1.27" layer="1"/>
+<wire x1="69.85" y1="42.97" x2="69.85" y2="48.47" width="1.27" layer="1"/>
+<wire x1="69.85" y1="48.47" x2="69.85" y2="59.48" width="1.27" layer="1"/>
+<wire x1="52.07" y1="48.47" x2="53.85144375" y2="48.47" width="1.27" layer="1"/>
+<wire x1="68.06855625" y1="48.47" x2="69.85" y2="48.47" width="1.27" layer="1"/>
+<wire x1="53.85144375" y1="48.47" x2="55.78044375" y2="50.399" width="1.27" layer="1"/>
+<wire x1="66.13955625" y1="50.399" x2="68.06855625" y2="48.47" width="1.27" layer="1"/>
+<wire x1="55.78044375" y1="50.399" x2="66.13955625" y2="50.399" width="1.27" layer="1"/>
+<wire x1="52.07" y1="48.47" x2="50.28855625" y2="48.47" width="1.27" layer="1"/>
+<wire x1="36.07144375" y1="48.47" x2="34.29" y2="48.47" width="1.27" layer="1"/>
+<wire x1="50.28855625" y1="48.47" x2="48.35955625" y2="50.399" width="1.27" layer="1"/>
+<wire x1="38.00044375" y1="50.399" x2="36.07144375" y2="48.47" width="1.27" layer="1"/>
+<wire x1="48.35955625" y1="50.399" x2="38.00044375" y2="50.399" width="1.27" layer="1"/>
 <polygon width="1.27" layer="1">
 <vertex x="24.13" y="85.09"/>
 <vertex x="24.13" y="25.4"/>
@@ -510,6 +508,9 @@ design rules under a new name.</description>
 <vertex x="72.39" y="86.36"/>
 <vertex x="25.4" y="86.36"/>
 </polygon>
+<wire x1="52.07" y1="74.72" x2="34.29" y2="74.72" width="0" layer="19"/>
+<wire x1="52.07" y1="59.48" x2="34.29" y2="59.48" width="0" layer="19"/>
+<wire x1="34.29" y1="42.97" x2="52.07" y2="42.97" width="0" layer="19"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

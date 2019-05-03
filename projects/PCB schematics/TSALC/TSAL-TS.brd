@@ -107,8 +107,7 @@ Rev A: April 10th, 2019</text>
 <text x="56.134" y="52.959" size="1.27" layer="25">+</text>
 <text x="51.054" y="62.738" size="1.27" layer="25">+</text>
 <text x="53.594" y="36.449" size="1.27" layer="25">+</text>
-<text x="64.9986" y="18.5166" size="1.016" layer="25" font="vector">Authors: github.com/michaelpass
-            github.com/anshuman2601             </text>
+<text x="64.9986" y="18.5166" size="1.016" layer="25" font="vector">Author: github.com/michaelpass</text>
 <text x="57.912" y="8.001" size="1.4224" layer="25" font="vector">GLV:</text>
 <text x="57.658" y="3.81" size="0.9144" layer="25" font="vector">1. TSAL_CONTROL_SIGNAL (OUTPUT) - X1
 2. VCC, +5V (INPUT) - X2</text>
