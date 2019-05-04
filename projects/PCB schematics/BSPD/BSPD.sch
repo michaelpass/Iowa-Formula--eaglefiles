@@ -12348,25 +12348,25 @@ despite brake system override being engaged.</text>
 <approved hash="114,1,571.5,127.031,OR4,D,I1,,,"/>
 <approved hash="104,1,576.58,137.16,OR4P,VCC,+5V,,,"/>
 <approved hash="113,1,370.611,385.851,FRAME1,,,,,"/>
-<approved hash="113,1,425.709,264.118,JP1,,,,,"/>
-<approved hash="113,1,425.709,246.338,JP2,,,,,"/>
-<approved hash="113,1,425.709,228.558,JP3,,,,,"/>
-<approved hash="113,1,157.48,200.824,RN1,,,,,"/>
-<approved hash="113,1,425.709,210.778,JP4,,,,,"/>
-<approved hash="113,1,134.62,199.649,SV1,,,,,"/>
-<approved hash="113,1,180.34,199.649,SV2,,,,,"/>
-<approved hash="113,1,154.94,132.244,RN2,,,,,"/>
-<approved hash="113,1,132.08,131.069,SV3,,,,,"/>
-<approved hash="113,1,177.8,131.069,SV4,,,,,"/>
-<approved hash="113,1,571.5,304.964,RN3,,,,,"/>
-<approved hash="113,1,594.36,303.789,SV5,,,,,"/>
-<approved hash="113,1,548.64,303.789,SV6,,,,,"/>
-<approved hash="113,1,425.709,192.998,JP5,,,,,"/>
-<approved hash="113,1,425.709,126.958,JP6,,,,,"/>
-<approved hash="113,1,425.709,109.178,JP7,,,,,"/>
-<approved hash="113,1,425.709,91.3977,JP8,,,,,"/>
-<approved hash="113,1,425.709,73.6177,JP9,,,,,"/>
-<approved hash="113,1,425.709,55.8377,JP10,,,,,"/>
+<approved hash="113,1,425.74,264.118,JP1,,,,,"/>
+<approved hash="113,1,425.74,246.338,JP2,,,,,"/>
+<approved hash="113,1,425.74,228.558,JP3,,,,,"/>
+<approved hash="113,1,157.48,200.855,RN1,,,,,"/>
+<approved hash="113,1,425.74,210.778,JP4,,,,,"/>
+<approved hash="113,1,134.62,199.68,SV1,,,,,"/>
+<approved hash="113,1,180.34,199.68,SV2,,,,,"/>
+<approved hash="113,1,154.94,132.275,RN2,,,,,"/>
+<approved hash="113,1,132.08,131.1,SV3,,,,,"/>
+<approved hash="113,1,177.8,131.1,SV4,,,,,"/>
+<approved hash="113,1,571.5,304.995,RN3,,,,,"/>
+<approved hash="113,1,594.36,303.82,SV5,,,,,"/>
+<approved hash="113,1,548.64,303.82,SV6,,,,,"/>
+<approved hash="113,1,425.74,192.998,JP5,,,,,"/>
+<approved hash="113,1,425.74,126.958,JP6,,,,,"/>
+<approved hash="113,1,425.74,109.178,JP7,,,,,"/>
+<approved hash="113,1,425.74,91.3977,JP8,,,,,"/>
+<approved hash="113,1,425.74,73.6177,JP9,,,,,"/>
+<approved hash="113,1,425.74,55.8377,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
