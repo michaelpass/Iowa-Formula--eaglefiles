@@ -867,7 +867,7 @@ Dual-Sided Heatsink</text>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="IowaFormula" deviceset="PWR221T-30-1R00F" device=""/>
 <part name="U$3" library="IowaFormula" deviceset="SRP1238A-4R7M" device=""/>
-<part name="C7" library="IowaFormula" deviceset="ECA-2WHG2R2" device=""/>
+<part name="C7" library="IowaFormula" deviceset="ECA-2WHG2R2" device="" value="2.2u"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="R2" library="IowaFormula" deviceset="PWR221T-30-1R00F" device=""/>
 <part name="C2" library="IowaFormula" deviceset="ECA-1VM102B" device=""/>
@@ -951,7 +951,7 @@ Dual-Sided Heatsink</text>
 <attribute name="VALUE" x="21.59" y="48.26" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="A" x="40.64" y="35.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="46.4058" y="25.9588" size="1.27" layer="96" ratio="10" rot="SR90"/>
+<attribute name="VALUE" x="36.1188" y="32.3342" size="1.27" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="42.7228" y="34.5694" size="1.27" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="40.64" y="20.32" smashed="yes"/>

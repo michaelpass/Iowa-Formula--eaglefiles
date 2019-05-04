@@ -416,6 +416,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R5" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R6" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="HV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
+<part name="J4" library="IowaFormula" deviceset="770966-1" device=""/>
+<part name="J3" library="IowaFormula" deviceset="770966-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -468,6 +470,12 @@ where they are then run into board for resistors.</text>
 <instance part="R4" gate="G$1" x="116.84" y="22.86" smashed="yes"/>
 <instance part="R5" gate="G$1" x="116.84" y="17.78" smashed="yes"/>
 <instance part="R6" gate="G$1" x="116.84" y="12.7" smashed="yes"/>
+<instance part="J4" gate="A" x="78.74" y="7.62" smashed="yes">
+<attribute name="NAME" x="82.9056" y="12.9286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+</instance>
+<instance part="J3" gate="A" x="78.74" y="38.1" smashed="yes">
+<attribute name="NAME" x="82.9056" y="43.4086" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -498,13 +506,12 @@ where they are then run into board for resistors.</text>
 <label x="73.66" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$2" pin="1"/>
-<wire x1="139.7" y1="48.26" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="50.8" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="HV-" gate="G$1" pin="GND1"/>
-<label x="149.86" y="50.8" size="1.778" layer="95" xref="yes"/>
-<wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J4" gate="A" pin="1"/>
+<wire x1="78.74" y1="7.62" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="7.62" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="J4" gate="A" pin="2"/>
+<wire x1="71.12" y1="5.08" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
+<label x="73.66" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -582,6 +589,25 @@ where they are then run into board for resistors.</text>
 <junction x="116.84" y="17.78"/>
 <wire x1="116.84" y1="33.02" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 <junction x="116.84" y="33.02"/>
+</segment>
+</net>
+<net name="POST_RESISTOR" class="0">
+<segment>
+<pinref part="R6" gate="G$2" pin="1"/>
+<wire x1="139.7" y1="48.26" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="50.8" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="HV-" gate="G$1" pin="GND1"/>
+<label x="149.86" y="50.8" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="A" pin="1"/>
+<wire x1="78.74" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="2"/>
+<wire x1="55.88" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<label x="55.88" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
