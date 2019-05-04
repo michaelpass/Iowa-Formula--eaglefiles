@@ -8792,7 +8792,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SDE6603-102M.
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k"/>
-<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="MOTORCONTROLLER-"/>
 <part name="OK1" library="iowaFormula" deviceset="PC817-S" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+15V-NONISO"/>
@@ -8902,9 +8901,6 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="R13" gate="G$1" x="132.08" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.5814" y="77.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.382" y="77.47" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY5" gate="GND" x="132.08" y="68.58" smashed="yes">
-<attribute name="VALUE" x="130.175" y="65.405" size="1.778" layer="96"/>
 </instance>
 <instance part="OK1" gate="A" x="233.68" y="35.56" smashed="yes">
 <attribute name="NAME" x="226.695" y="41.275" size="1.778" layer="95"/>
@@ -9121,6 +9117,7 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="251.46" y1="71.12" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
 <label x="279.4" y="71.12" size="1.778" layer="95" xref="yes"/>
 <wire x1="274.32" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="274.32" y="71.12"/>
 </segment>
 <segment>
 <pinref part="HV-OPA" gate="G$1" pin="-VS"/>
@@ -9372,20 +9369,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="J3" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="71.12" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="139.7" y="73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<junction x="132.08" y="73.66"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="15.24" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <label x="86.36" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<label x="139.7" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTORCONTROLLER+_POST_FUSE" class="0">
@@ -9406,6 +9400,27 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,162.56,55.88,V+,+15V-NONISO,,,,"/>
+<approved hash="102,1,162.56,22.86,GND,HV-,,,,"/>
+<approved hash="102,1,220.98,27.94,GND,HV-,,,,"/>
+<approved hash="102,1,233.68,96.52,V+,+15V-NONISO,,,,"/>
+<approved hash="102,1,251.46,68.58,GND,HV-,,,,"/>
+<approved hash="102,1,246.38,45.72,V+,VCC,,,,"/>
+<approved hash="102,1,33.02,17.78,GND,HV-,,,,"/>
+<approved hash="102,1,2.54,15.24,GND,HV-,,,,"/>
+<approved hash="201,1,246.38,45.72,V+,+15V-NONISO\, VCC,,,,"/>
+<approved hash="201,1,233.68,96.52,V+,+15V-NONISO\, VCC,,,,"/>
+<approved hash="201,1,162.56,55.88,V+,+15V-NONISO\, VCC,,,,"/>
+<approved hash="104,1,243.84,73.66,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,246.38,73.66,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,248.92,73.66,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,251.46,73.66,8VREG,GND,HV-,,,"/>
+<approved hash="208,1,261.62,88.9,+8V,sup,,,,"/>
+<approved hash="208,1,259.08,86.36,+8V,out,,,,"/>
+<approved hash="106,1,167.64,27.94,THERMAL,,,,,"/>
+<approved hash="113,1,241.071,195.351,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
