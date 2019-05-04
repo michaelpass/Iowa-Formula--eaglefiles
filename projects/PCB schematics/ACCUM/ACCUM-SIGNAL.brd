@@ -1872,9 +1872,8 @@ design rules under a new name.</description>
 <contactref element="J2" pad="2"/>
 <wire x1="14.0462" y1="44.577" x2="18.1864" y2="44.577" width="1.27" layer="1"/>
 <wire x1="14.3866" y1="35.2298" x2="17.1856" y2="35.2552" width="0.8128" layer="1"/>
-<wire x1="18.4556" y1="44.3078" x2="18.4556" y2="36.5252" width="0.8128" layer="1"/>
-<wire x1="18.4556" y1="36.5252" x2="17.1856" y2="35.2552" width="0.8128" layer="1"/>
-<wire x1="18.4556" y1="44.3078" x2="18.1864" y2="44.577" width="0.8128" layer="1"/>
+<wire x1="18.1864" y1="44.577" x2="17.1856" y2="43.5762" width="0.8128" layer="1"/>
+<wire x1="17.1856" y1="43.5762" x2="17.1856" y2="35.2552" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R6" pad="2"/>
