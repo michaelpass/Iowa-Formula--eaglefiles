@@ -8790,7 +8790,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SDE6603-102M.
 <part name="HV-OPA" library="OPA454" deviceset="OPA454" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+15BUCK(NONISO)"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="39k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k"/>
 <part name="OK1" library="iowaFormula" deviceset="PC817-S" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
@@ -8826,6 +8826,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SDE6603-102M.
 <part name="F1" library="0885001.DR" deviceset="0885001.DR" device=""/>
 <part name="F2" library="SamacSys_Parts" deviceset="2016L030DR" device=""/>
 <part name="L2" library="SDE6603-102M" deviceset="SDE6603-102M" device=""/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180k"/>
 </parts>
 <sheets>
 <sheet>
@@ -8841,7 +8845,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SDE6603-102M.
 energized HV lines running through vehicle via 5 Hz flashing rollhoop light.</text>
 <text x="236.982" y="179.07" size="1.778" layer="94">Author: Michael Pass</text>
 <text x="283.972" y="184.404" size="3.81" layer="96">A</text>
-<text x="-27.94" y="154.94" size="1.778" layer="97">Note:
+<text x="-27.94" y="162.56" size="1.778" layer="97">Note:
 HV+_POST_AIR+ is sampled from some point of the HV+ line after the AIR+ break. 
 This is the net that goes directly to the motor controller, AFTER the HV battery terminal.
 
@@ -8894,13 +8898,13 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="SUPPLY4" gate="GND" x="162.56" y="20.32" smashed="yes">
 <attribute name="VALUE" x="160.655" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="132.08" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="92.71" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="132.08" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="87.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="87.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="132.08" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="77.47" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="77.47" size="1.778" layer="96" rot="R90"/>
+<instance part="R13" gate="G$1" x="132.08" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="72.39" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="OK1" gate="A" x="233.68" y="35.56" smashed="yes">
 <attribute name="NAME" x="226.695" y="41.275" size="1.778" layer="95"/>
@@ -9021,9 +9025,9 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <attribute name="NAME" x="8.89" y="24.13" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="-29.21" y="44.45" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="F1" gate="G$1" x="109.22" y="104.14" smashed="yes">
-<attribute name="NAME" x="125.73" y="111.76" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="125.73" y="109.22" size="1.778" layer="96" align="center-left"/>
+<instance part="F1" gate="G$1" x="101.6" y="149.86" smashed="yes">
+<attribute name="NAME" x="118.11" y="157.48" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="118.11" y="154.94" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="F2" gate="G$1" x="17.78" y="50.8" smashed="yes">
 <attribute name="NAME" x="34.29" y="58.42" size="1.778" layer="95" align="center-left"/>
@@ -9032,6 +9036,22 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="L2" gate="G$1" x="15.24" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.05" y="26.67" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="21.59" y="39.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R8" gate="G$1" x="132.08" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="100.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="100.33" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R9" gate="G$1" x="132.08" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R10" gate="G$1" x="132.08" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="125.73" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="125.73" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R12" gate="G$1" x="132.08" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.5814" y="138.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="138.43" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9045,12 +9065,12 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="86.36" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="139.7" y="88.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<label x="139.7" y="83.82" size="1.778" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="88.9" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<junction x="132.08" y="88.9"/>
+<wire x1="132.08" y1="83.82" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<junction x="132.08" y="83.82"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -9353,8 +9373,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<label x="81.28" y="104.14" size="1.778" layer="95"/>
-<wire x1="109.22" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
+<label x="73.66" y="149.86" size="1.778" layer="95"/>
+<wire x1="101.6" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTORCONTROLLER-" class="0">
@@ -9377,17 +9397,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<label x="139.7" y="73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="139.7" y="68.58" size="1.778" layer="95" xref="yes"/>
+<wire x1="132.08" y1="68.58" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTORCONTROLLER+_POST_FUSE" class="0">
 <segment>
-<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="149.86" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9395,6 +9415,34 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="PS1" gate="G$1" pin="VIN"/>
 <wire x1="38.1" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="137.16" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="124.46" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="111.76" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="99.06" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
