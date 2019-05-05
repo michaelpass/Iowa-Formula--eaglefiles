@@ -75,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
@@ -786,7 +787,7 @@ Dual-Sided Heatsink</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SRP1238A-4R7M">
+<deviceset name="SRP1238A-1R0M">
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
 </gates>
@@ -866,7 +867,7 @@ Dual-Sided Heatsink</text>
 <part name="HEATSINK" library="IowaFormula" deviceset="DCMHEATSINK" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="IowaFormula" deviceset="PWR221T-30-1R00F" device=""/>
-<part name="U$3" library="IowaFormula" deviceset="SRP1238A-4R7M" device=""/>
+<part name="U$3" library="IowaFormula" deviceset="SRP1238A-1R0M" device=""/>
 <part name="C7" library="IowaFormula" deviceset="ECA-2WHG2R2" device="" value="2.2u"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="R2" library="IowaFormula" deviceset="PWR221T-30-1R00F" device=""/>
@@ -874,7 +875,7 @@ Dual-Sided Heatsink</text>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="IowaFormula" deviceset="ECA-1VM102B" device=""/>
 <part name="C14" library="IowaFormula" deviceset="ECA-2WHG2R2" device=""/>
-<part name="U$4" library="IowaFormula" deviceset="SRP1238A-4R7M" device=""/>
+<part name="U$4" library="IowaFormula" deviceset="SRP1238A-1R0M" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="IowaFormula" deviceset="ECA-2WHG2R2" device=""/>
 <part name="C4" library="IowaFormula" deviceset="ECA-2WHG2R2" device=""/>
@@ -1021,6 +1022,7 @@ Dual-Sided Heatsink</text>
 <junction x="50.8" y="25.4"/>
 <pinref part="C4" gate="A" pin="2"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<junction x="55.88" y="25.4"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
@@ -1106,6 +1108,7 @@ Dual-Sided Heatsink</text>
 <pinref part="C3" gate="A" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="63.5" y1="7.62" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
+<junction x="68.58" y="7.62"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -1116,6 +1119,7 @@ Dual-Sided Heatsink</text>
 <wire x1="121.92" y1="10.16" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
 <junction x="114.3" y="7.62"/>
+<junction x="121.92" y="7.62"/>
 </segment>
 </net>
 <net name="HV+" class="0">
@@ -1160,6 +1164,7 @@ Dual-Sided Heatsink</text>
 <junction x="81.28" y="22.86"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
+<junction x="68.58" y="20.32"/>
 </segment>
 </net>
 <net name="HV+_POSTFUSE" class="0">
@@ -1195,11 +1200,19 @@ Dual-Sided Heatsink</text>
 <junction x="50.8" y="45.72"/>
 <pinref part="C4" gate="A" pin="1"/>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="55.88" y="45.72"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,12.7,83.82,V+,HV+,,,,"/>
+<approved hash="102,1,12.7,63.5,AGND,HV-,,,,"/>
+<approved hash="102,1,0,48.26,V+,HV+,,,,"/>
+<approved hash="102,1,40.64,22.86,AGND,HV-,,,,"/>
+<approved hash="102,1,111.76,35.56,AGND,HV-,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

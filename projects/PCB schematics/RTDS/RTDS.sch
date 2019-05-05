@@ -5421,6 +5421,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="124.46" y1="12.7" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
 <junction x="124.46" y="12.7"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="A" pin="GND"/>
+<wire x1="139.7" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
+<label x="132.08" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -5447,6 +5452,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <label x="20.32" y="58.42" size="1.778" layer="95"/>
+<junction x="20.32" y="58.42"/>
 </segment>
 </net>
 <net name="RTDS_SIGNAL" class="0">
@@ -5546,15 +5552,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="127" y="38.1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="GND"/>
-<wire x1="139.7" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,45.72,17.78,GND_0,GND,,,,"/>
+<approved hash="102,1,101.6,40.64,GND_1,GND,,,,"/>
+<approved hash="102,1,101.6,17.78,GND_3,AUDIO_GND,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -85,7 +85,7 @@
 <hole x="5.08" y="5.08" drill="3"/>
 <hole x="93.98" y="5.08" drill="3"/>
 <text x="9.271" y="3.429" size="1.778" layer="25" font="vector">Brake System Plausibility Device (BSPD) Board
-Rev A: 04/01/19</text>
+Rev A: 05/05/19</text>
 <text x="66.802" y="14.732" size="1.4224" layer="25" font="vector">Inputs:</text>
 <text x="66.802" y="8.382" size="1.4224" layer="25" font="vector">Outputs:</text>
 <text x="66.6242" y="11.2014" size="0.9144" layer="25">1. BSE_PROCESSED
@@ -2064,7 +2064,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.992" y="52.959" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="64.262" y="51.816" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="AND1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" package="SO14" package3d_urn="urn:adsk.eagle:package:2917/1" value="74ALS09D" x="64.77" y="35.56" smashed="yes" rot="R270">
+<element name="AND1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" package="SO14" package3d_urn="urn:adsk.eagle:package:2917/1" value="74ALS08D" x="64.77" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.992" y="40.259" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="64.262" y="39.116" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -2467,8 +2467,6 @@ design rules under a new name.</description>
 <via x="36.1188" y="20.8788" extent="1-16" drill="0.508"/>
 <wire x1="36.1188" y1="20.8788" x2="31.1912" y2="20.8788" width="0.2032" layer="16"/>
 <wire x1="31.1912" y1="20.8788" x2="30.48" y2="21.59" width="0.2032" layer="16"/>
-<wire x1="61.7728" y1="31.9024" x2="61.6966" y2="31.75" width="0.2032" layer="1"/>
-<wire x1="61.7728" y1="31.9024" x2="61.70931875" y2="31.7627" width="0.2032" layer="1"/>
 <via x="60.0964" y="13.3604" extent="1-16" drill="0.508"/>
 <via x="54.4576" y="13.8684" extent="1-16" drill="0.508"/>
 <wire x1="54.4576" y1="13.8684" x2="54.9656" y2="13.3604" width="0.2032" layer="16"/>

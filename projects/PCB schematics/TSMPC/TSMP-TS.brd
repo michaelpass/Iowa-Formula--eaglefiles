@@ -101,7 +101,7 @@
 <wire x1="22.4028" y1="61.8236" x2="18.2118" y2="61.8236" width="0.1524" layer="25"/>
 <text x="10.5156" y="46.7614" size="1.651" layer="25" font="vector">Iowa Formula</text>
 <text x="10.3124" y="41.5544" size="1.397" layer="25" font="vector">Tractive System Measuring Points (TSMP-TS) Circuit
-Rev A: April 30th, 2019</text>
+Rev A: May 5th, 2019</text>
 <text x="75.0824" y="52.4764" size="1.016" layer="25" font="vector" rot="R180">Authors: github.com/michaelpass
             github.com/anshuman2601
             github.com/rgoedken

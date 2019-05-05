@@ -113,7 +113,7 @@
 <wire x1="31.4198" y1="68.1736" x2="27.2288" y2="68.1736" width="0.1524" layer="25"/>
 <text x="19.1516" y="52.9844" size="1.4224" layer="25" font="vector">Iowa Formula</text>
 <text x="13.9446" y="47.3456" size="1.27" layer="25" font="vector">Tractive System Active Light (TSAL-GLV) Board
-Rev A: April 10th, 2019</text>
+Rev A: May 5th, 2019</text>
 <text x="88.3666" y="30.734" size="1.016" layer="25" font="vector" rot="R90">Authors: github.com/michaelpass
             github.com/anshuman2601             </text>
 <text x="36.322" y="68.072" size="1.4224" layer="25" font="vector">Inputs:</text>
@@ -1724,8 +1724,6 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="NOT1" pad="3"/>
-<contactref element="BUF1" pad="3"/>
 <contactref element="NE555" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="Q2" pad="S"/>
@@ -1744,10 +1742,10 @@ design rules under a new name.</description>
 <wire x1="65.2272" y1="42.799" x2="65.2018" y2="42.7736" width="0.3048" layer="16"/>
 <wire x1="65.2018" y1="42.7736" x2="65.2018" y2="35.4076" width="0.3048" layer="16"/>
 <contactref element="R1" pad="2"/>
+<contactref element="BUF1" pad="3"/>
+<contactref element="NOT1" pad="3"/>
 </signal>
 <signal name="VCC">
-<contactref element="NOT1" pad="5"/>
-<contactref element="BUF1" pad="5"/>
 <contactref element="Q1" pad="D"/>
 <contactref element="VCC.1" pad="1"/>
 <contactref element="VCC.1" pad="2"/>
@@ -1762,12 +1760,15 @@ design rules under a new name.</description>
 <wire x1="59.69" y1="73.3806" x2="49.6062" y2="63.2968" width="0.8128" layer="16"/>
 <wire x1="49.6062" y1="63.2968" x2="49.6062" y2="58.2168" width="0.8128" layer="16"/>
 <via x="49.6062" y="58.2168" extent="1-16" drill="0.508"/>
-<wire x1="49.6062" y1="58.2168" x2="49.6062" y2="56.0832" width="0.508" layer="1"/>
-<wire x1="49.85" y1="55.8394" x2="49.85" y2="54.64" width="0.508" layer="1"/>
-<wire x1="49.6062" y1="56.0832" x2="49.85" y2="55.8394" width="0.508" layer="1"/>
+<wire x1="49.85" y1="54.64" x2="49.8602" y2="54.6502" width="0.508" layer="1"/>
+<wire x1="49.6062" y1="58.2168" x2="49.8602" y2="57.9628" width="0.508" layer="1"/>
+<wire x1="49.8602" y1="57.9628" x2="49.8602" y2="54.6502" width="0.508" layer="1"/>
 <via x="43.6372" y="58.2168" extent="1-16" drill="0.508"/>
-<wire x1="43.6372" y1="58.2168" x2="43.5" y2="58.0796" width="0.508" layer="1"/>
-<wire x1="43.5" y1="58.0796" x2="43.5" y2="54.64" width="0.508" layer="1"/>
+<contactref element="BUF1" pad="5"/>
+<wire x1="43.6372" y1="58.2168" x2="43.5102" y2="58.0898" width="0.508" layer="1"/>
+<wire x1="43.5102" y1="58.0898" x2="43.5102" y2="54.6502" width="0.508" layer="1"/>
+<wire x1="43.5102" y1="54.6502" x2="43.5" y2="54.64" width="0.508" layer="1"/>
+<contactref element="NOT1" pad="5"/>
 </signal>
 <signal name="+12V-ISO">
 <contactref element="SH1" pad="1"/>
@@ -1949,8 +1950,8 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,8e99fb5b036176a3"/>
-<approved hash="19,1,f6cad2082a110ed3"/>
+<approved hash="19,1,bbd29e60667f43cd"/>
+<approved hash="19,1,96a2e4101c2e6e9c"/>
 </errors>
 </board>
 </drawing>

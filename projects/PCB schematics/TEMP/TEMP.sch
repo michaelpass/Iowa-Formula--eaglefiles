@@ -7172,11 +7172,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,162.56,129.54,MUX1P,VEE,GND,,,"/>
-<approved hash="104,1,162.56,63.5,MUX2P,VEE,GND,,,"/>
-<approved hash="104,1,228.6,129.54,MUX3P,VEE,GND,,,"/>
-<approved hash="104,1,228.6,60.96,MUX4P,VEE,GND,,,"/>
-<approved hash="104,1,292.1,129.54,MUX5P,VEE,GND,,,"/>
+<approved hash="104,1,233.68,127,MUX1P,VEE,GND,,,"/>
+<approved hash="104,1,233.68,60.96,MUX2P,VEE,GND,,,"/>
+<approved hash="104,1,299.72,127,MUX3P,VEE,GND,,,"/>
+<approved hash="104,1,299.72,58.42,MUX4P,VEE,GND,,,"/>
+<approved hash="104,1,363.22,127,MUX5P,VEE,GND,,,"/>
 </errors>
 </schematic>
 </drawing>

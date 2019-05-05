@@ -573,6 +573,10 @@ where they are then run into board for resistors.</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,38.1,35.56,DISCHARGE_COIL+,,,,,"/>
+<approved hash="106,1,38.1,30.48,DISCHARGE_COIL-,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

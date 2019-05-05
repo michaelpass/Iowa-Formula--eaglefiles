@@ -8571,6 +8571,12 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <instance part="GND1" gate="1" x="104.14" y="17.78" smashed="yes">
 <attribute name="VALUE" x="101.6" y="15.24" size="1.778" layer="96"/>
 </instance>
+<instance part="BUF1" gate="G$2" x="119.38" y="35.56" smashed="yes">
+<attribute name="NAME" x="118.745" y="34.925" size="1.778" layer="95"/>
+</instance>
+<instance part="NOT1" gate="P" x="177.8" y="35.56" smashed="yes">
+<attribute name="NAME" x="177.165" y="34.925" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8618,6 +8624,17 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="104.14" y1="22.86" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="BUF1" gate="G$2" pin="GND"/>
+<wire x1="119.38" y1="27.94" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<label x="121.92" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="NOT1" gate="P" pin="GND"/>
+<wire x1="177.8" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="170.18" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+12V-ISO" class="0">
 <segment>
@@ -8627,6 +8644,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <pinref part="SH1" gate="G$1" pin="P$1"/>
 <label x="276.86" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="276.86" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<junction x="279.4" y="104.14"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
@@ -8635,6 +8653,7 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <label x="276.86" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="279.4" y1="55.88" x2="276.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SH2" gate="G$1" pin="P$1"/>
+<junction x="279.4" y="55.88"/>
 </segment>
 <segment>
 <pinref part="+12V-ISO.1" gate="-1" pin="S"/>
@@ -8831,6 +8850,17 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 <junction x="43.18" y="86.36"/>
 <label x="10.16" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BUF1" gate="G$2" pin="VCC"/>
+<wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<label x="114.3" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="NOT1" gate="P" pin="VCC"/>
+<wire x1="177.8" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
+<label x="172.72" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TSAL_CONTROL_SIGNAL" class="0">
 <segment>
@@ -8868,6 +8898,12 @@ b. Flash continuously with a frequency between 2 Hz and 5 Hz</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,279.4,111.76,+12V,+12V-ISO,,,,"/>
+<approved hash="102,1,279.4,60.96,+12V,+12V-ISO,,,,"/>
+<approved hash="102,1,154.94,83.82,V+,VCC,,,,"/>
+<approved hash="104,1,213.36,114.3,NE555,V+,VTIMER,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -103,7 +103,7 @@
 <wire x1="45.72" y1="13.9954" x2="45.974" y2="14.986" width="0.1524" layer="25"/>
 <wire x1="45.974" y1="14.986" x2="42.418" y2="14.986" width="0.1524" layer="25"/>
 <text x="48.4124" y="13.6144" size="1.016" layer="25" font="vector">TSMP-GLV
-Rev A: April 30, 2019</text>
+Rev A: May 5th, 2019</text>
 <text x="47.9298" y="5.4102" size="1.016" layer="25" font="vector">Author: github.com/michaelpass</text>
 <text x="48.9458" y="11.4554" size="1.016" layer="25" font="vector">I/O:</text>
 <text x="48.3616" y="8.0264" size="0.9144" layer="25" font="vector">1. CHASSIS (X1)
@@ -472,7 +472,6 @@ design rules under a new name.</description>
 <wire x1="69.85" y1="64.98" x2="69.85" y2="59.48" width="1.27" layer="1"/>
 <wire x1="69.85" y1="59.48" x2="52.07" y2="59.48" width="1.27" layer="1"/>
 <wire x1="34.29" y1="59.48" x2="34.29" y2="48.47" width="1.27" layer="1"/>
-<wire x1="34.29" y1="48.26" x2="34.29" y2="48.47" width="1.27" layer="1"/>
 <wire x1="34.29" y1="48.47" x2="34.29" y2="42.97" width="1.27" layer="1"/>
 <wire x1="34.29" y1="42.97" x2="45.3" y2="31.96" width="1.27" layer="1"/>
 <wire x1="45.3" y1="31.96" x2="52.07" y2="31.96" width="1.27" layer="1"/>
@@ -484,7 +483,6 @@ design rules under a new name.</description>
 <wire x1="69.9262" y1="42.8938" x2="69.85" y2="42.97" width="1.27" layer="1"/>
 <wire x1="52.07" y1="42.97" x2="68.8662" y2="42.97" width="1.27" layer="1"/>
 <wire x1="68.8662" y1="42.97" x2="69.9262" y2="41.91" width="1.27" layer="1"/>
-<wire x1="52.07" y1="42.97" x2="34.29" y2="42.97" width="1.27" layer="1"/>
 <wire x1="52.07" y1="42.97" x2="52.07" y2="48.47" width="1.27" layer="1"/>
 <wire x1="52.07" y1="48.47" x2="52.07" y2="59.48" width="1.27" layer="1"/>
 <wire x1="69.85" y1="42.97" x2="69.85" y2="48.47" width="1.27" layer="1"/>
@@ -508,9 +506,7 @@ design rules under a new name.</description>
 <vertex x="72.39" y="86.36"/>
 <vertex x="25.4" y="86.36"/>
 </polygon>
-<wire x1="52.07" y1="74.72" x2="34.29" y2="74.72" width="0" layer="19"/>
-<wire x1="52.07" y1="59.48" x2="34.29" y2="59.48" width="0" layer="19"/>
-<wire x1="34.29" y1="42.97" x2="52.07" y2="42.97" width="0" layer="19"/>
+<wire x1="34.29" y1="42.97" x2="52.07" y2="42.97" width="1.27" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

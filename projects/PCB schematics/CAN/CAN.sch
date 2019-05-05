@@ -5713,6 +5713,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,27.94,27.94,N$2,,,,,"/>
+<approved hash="106,1,27.94,45.72,N$6,,,,,"/>
+<approved hash="113,1,67.2275,80.2629,BAMOCAR_D3,,,,,"/>
+<approved hash="113,1,66.04,44.7029,ECU,,,,,"/>
+<approved hash="113,1,66.04,11.6829,SCU,,,,,"/>
+<approved hash="113,1,111.76,80.2629,BMS_1,,,,,"/>
+<approved hash="113,1,111.76,44.7029,BMS_2,,,,,"/>
+<approved hash="113,1,111.76,11.6829,CSCU,,,,,"/>
+<approved hash="113,1,30.5223,46.7004,120Ω.1,,,,,"/>
+<approved hash="113,1,30.5223,28.9204,120Ω.2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

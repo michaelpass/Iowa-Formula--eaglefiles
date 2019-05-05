@@ -10418,13 +10418,6 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <junction x="520.7" y="121.92"/>
 </segment>
 </net>
-<net name="AUX2" class="0">
-<segment>
-<wire x1="2.54" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
-<label x="0" y="86.36" size="1.778" layer="95"/>
-<pinref part="INPUT" gate="-9" pin="S"/>
-</segment>
-</net>
 <net name="TEMPFAULT" class="0">
 <segment>
 <wire x1="0" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
@@ -10868,6 +10861,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="269.24" x2="721.36" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="698.5" y1="269.24" x2="721.36" y2="269.24" width="0.1524" layer="91"/>
 <label x="698.5" y="269.24" size="1.778" layer="95"/>
+<junction x="721.36" y="269.24"/>
 </segment>
 </net>
 <net name="BSPDPLAUS2_LED" class="0">
@@ -10888,6 +10882,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="231.14" x2="721.36" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="701.04" y1="233.68" x2="721.36" y2="233.68" width="0.1524" layer="91"/>
 <label x="701.04" y="233.68" size="1.778" layer="95"/>
+<junction x="721.36" y="233.68"/>
 </segment>
 </net>
 <net name="SET_IMDFAULT" class="0">
@@ -10921,6 +10916,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="203.2" x2="721.36" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="701.04" y1="203.2" x2="721.36" y2="203.2" width="0.1524" layer="91"/>
 <label x="701.04" y="203.2" size="1.778" layer="95"/>
+<junction x="721.36" y="203.2"/>
 </segment>
 </net>
 <net name="SET_BMSFAULT" class="0">
@@ -10967,6 +10963,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="144.78" x2="721.36" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="701.04" y1="144.78" x2="721.36" y2="144.78" width="0.1524" layer="91"/>
 <label x="701.04" y="144.78" size="1.778" layer="95"/>
+<junction x="721.36" y="144.78"/>
 </segment>
 </net>
 <net name="SET_FUSEFAULT" class="0">
@@ -11000,6 +10997,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="116.84" x2="721.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="701.04" y1="119.38" x2="721.36" y2="119.38" width="0.1524" layer="91"/>
 <label x="701.04" y="119.38" size="1.778" layer="95"/>
+<junction x="721.36" y="119.38"/>
 </segment>
 </net>
 <net name="SET_AUX1" class="0">
@@ -11033,6 +11031,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="86.36" x2="728.98" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="721.36" y1="86.36" x2="701.04" y2="86.36" width="0.1524" layer="91"/>
 <label x="701.04" y="86.36" size="1.778" layer="95"/>
+<junction x="721.36" y="86.36"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11100,6 +11099,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <wire x1="721.36" y1="172.72" x2="721.36" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="701.04" y1="172.72" x2="721.36" y2="172.72" width="0.1524" layer="91"/>
 <label x="701.04" y="172.72" size="1.778" layer="95"/>
+<junction x="721.36" y="172.72"/>
 </segment>
 </net>
 <net name="BSPDFAULT_B" class="0">
@@ -11217,19 +11217,26 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,27.94,152.4,X4-12,S,,,,"/>
-<approved hash="114,1,741.68,170.211,BUF4,E,I,,,"/>
-<approved hash="114,1,741.68,170.211,BUF4,F,I,,,"/>
-<approved hash="113,1,340.131,317.271,FRAME1,,,,,"/>
-<approved hash="113,1,176.82,111.718,TEMP,,,,,"/>
-<approved hash="113,1,176.82,86.3177,FUSE,,,,,"/>
-<approved hash="113,1,176.82,53.2977,AUX1,,,,,"/>
-<approved hash="113,1,176.82,139.658,BMS,,,,,"/>
-<approved hash="113,1,176.82,170.138,IMD,,,,,"/>
-<approved hash="113,1,179.351,198.618,BSPDPLAUS2,,,,,"/>
-<approved hash="113,1,165.286,236.178,BSPD,,,,,"/>
-<approved hash="113,1,184.431,218.592,BSPDPLAUS1,,,,,"/>
-<approved hash="113,1,176.82,20.2777,AUX2,,,,,"/>
+<approved hash="101,1,22.86,86.36,INPUT-9,S,,,,"/>
+<approved hash="101,1,22.86,78.74,INPUT-12,S,,,,"/>
+<approved hash="101,1,66.04,86.36,OUTPUT-9,S,,,,"/>
+<approved hash="114,1,741.68,147.351,OR2,D,I0,,,"/>
+<approved hash="114,1,741.68,147.351,OR2,D,I1,,,"/>
+<approved hash="114,1,868.68,76.2313,NOR5,A,I0,,,"/>
+<approved hash="114,1,868.68,76.2313,NOR5,A,I1,,,"/>
+<approved hash="114,1,868.68,76.2313,NOR5,B,I0,,,"/>
+<approved hash="114,1,868.68,76.2313,NOR5,B,I1,,,"/>
+<approved hash="114,1,551.18,190.531,BUF2,C,I,,,"/>
+<approved hash="114,1,464.82,185.451,BUF3,F,I,,,"/>
+<approved hash="113,1,309.651,269.011,FRAME1,,,,,"/>
+<approved hash="113,1,391.6,53.4924,TEMP,,,,,"/>
+<approved hash="113,1,592.26,185.572,FUSE,,,,,"/>
+<approved hash="113,1,589.72,116.992,AUX1,,,,,"/>
+<approved hash="113,1,392.87,116.992,BMS,,,,,"/>
+<approved hash="113,1,392.87,185.572,IMD,,,,,"/>
+<approved hash="113,1,171.89,53.4924,BSPDPLAUS2,,,,,"/>
+<approved hash="113,1,175.7,185.572,BSPD,,,,,"/>
+<approved hash="113,1,171.89,119.532,BSPDPLAUS1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -8641,6 +8641,7 @@ present at HV battery terminals</text>
 <wire x1="220.98" y1="76.2" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="236.22" y="76.2" size="1.778" layer="95" xref="yes"/>
 <wire x1="233.68" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
+<junction x="233.68" y="76.2"/>
 </segment>
 <segment>
 <pinref part="HV-OPA" gate="G$1" pin="E/DCOM1"/>
@@ -8860,6 +8861,22 @@ present at HV battery terminals</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,180.34,55.88,V+,+15V-NONISO,,,,"/>
+<approved hash="102,1,180.34,22.86,GND,HV-,,,,"/>
+<approved hash="102,1,203.2,101.6,V+,+15V-NONISO,,,,"/>
+<approved hash="102,1,220.98,73.66,GND,HV-,,,,"/>
+<approved hash="102,1,243.84,63.5,V+,+15V-NONISO,,,,"/>
+<approved hash="102,1,243.84,22.86,GND,HV-,,,,"/>
+<approved hash="102,1,213.36,22.86,GND,HV-,,,,"/>
+<approved hash="104,1,213.36,78.74,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,215.9,78.74,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,218.44,78.74,8VREG,GND,HV-,,,"/>
+<approved hash="104,1,220.98,78.74,8VREG,GND,HV-,,,"/>
+<approved hash="208,1,231.14,93.98,+8V,sup,,,,"/>
+<approved hash="208,1,228.6,91.44,+8V,out,,,,"/>
+<approved hash="113,1,215.671,152.171,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -153,7 +153,7 @@
 <text x="35.9156" y="67.2084" size="1.778" layer="25">Off</text>
 <text x="16.6116" y="3.4544" size="1.778" layer="25" font="vector">Iowa Formula</text>
 <text x="42.0624" y="3.0734" size="1.397" layer="25">Shutdown Fault Staging Board (SC-STAGE)
-Rev A: May 2nd, 2019</text>
+Rev A: May 5th, 2019</text>
 <text x="63.8048" y="2.2606" size="1.016" layer="25" font="vector">Authors: github.com/michaelpass</text>
 <text x="68.58" y="60.96" size="0.8128" layer="21">INPUT:
 1. BSPDFAULT_LED
@@ -1795,7 +1795,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.78" y="50.673" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="17.907" y="53.34" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="33.02" y="74.93" smashed="yes" rot="R90">
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="33.02" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="74.295" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="33.02" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="35.56" y="74.295" size="1.27" layer="27" rot="R90"/>
@@ -1809,7 +1809,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150080VS75000" x="12.192" y="36.8808" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.4206" y="38.9128" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="7.1628" y="36.8808" smashed="yes">
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="82" x="7.1628" y="36.8808" smashed="yes">
 <attribute name="NAME" x="6.5278" y="38.1508" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="7.1628" y="36.8808" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.5278" y="34.3408" size="1.27" layer="27"/>
@@ -1832,7 +1832,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.91" y="50.673" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="42.037" y="53.34" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="49.53" y="74.93" smashed="yes" rot="R90">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="49.53" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="74.295" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="39.37" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="52.07" y="74.295" size="1.27" layer="27" rot="R90"/>
@@ -1846,7 +1846,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150080VS75000" x="15.24" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.7378" y="38.989" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="30.48" y="36.83" smashed="yes">
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="82" x="30.48" y="36.83" smashed="yes">
 <attribute name="NAME" x="29.845" y="38.1" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="15.24" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.845" y="34.29" size="1.27" layer="27"/>
@@ -1869,7 +1869,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="90.17" y="50.673" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="90.297" y="53.34" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="74.93" y="74.93" smashed="yes" rot="R90">
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="74.93" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="74.295" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="64.77" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="77.47" y="74.295" size="1.27" layer="27" rot="R90"/>
@@ -1883,7 +1883,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150080VS75000" x="62.23" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="83.8454" y="38.7858" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="78.74" y="36.83" smashed="yes">
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="82" x="78.74" y="36.83" smashed="yes">
 <attribute name="NAME" x="78.105" y="38.1" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="63.5" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="78.105" y="34.29" size="1.27" layer="27"/>
@@ -1906,7 +1906,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="64.77" y="50.673" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.897" y="53.34" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="62.23" y="74.93" smashed="yes" rot="R90">
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="62.23" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.96" y="74.295" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="52.07" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.77" y="74.295" size="1.27" layer="27" rot="R90"/>
@@ -1920,7 +1920,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150080VS75000" x="36.83" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.4454" y="38.8112" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="53.34" y="36.83" smashed="yes">
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="82" x="53.34" y="36.83" smashed="yes">
 <attribute name="NAME" x="52.705" y="38.1" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="38.1" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.705" y="34.29" size="1.27" layer="27"/>
@@ -2057,7 +2057,7 @@ design rules under a new name.</description>
 <wire x1="35.0774" y1="32.0802" x2="35.0774" y2="26.6192" width="0.8128" layer="16"/>
 <wire x1="36.2966" y1="33.2994" x2="35.0774" y2="32.0802" width="0.8128" layer="16"/>
 <wire x1="42.037" y1="33.2994" x2="36.2966" y2="33.2994" width="0.8128" layer="16"/>
-<wire x1="42.037" y1="33.2994" x2="44.0182" y2="31.3182" width="0.8128" layer="16"/>
+<wire x1="42.037" y1="33.2994" x2="44.0944" y2="31.242" width="0.8128" layer="16"/>
 <contactref element="U3" pad="5"/>
 <wire x1="66.9544" y1="28.1178" x2="66.9544" y2="29.8704" width="0.8128" layer="16"/>
 <wire x1="66.9544" y1="29.8704" x2="63.6778" y2="33.147" width="0.8128" layer="16"/>
@@ -2065,15 +2065,12 @@ design rules under a new name.</description>
 <wire x1="57.9374" y1="31.75" x2="59.3344" y2="33.147" width="0.8128" layer="16"/>
 <wire x1="57.9374" y1="26.4922" x2="57.9374" y2="31.75" width="0.8128" layer="16"/>
 <wire x1="56.5658" y1="25.1206" x2="57.9374" y2="26.4922" width="0.8128" layer="16"/>
-<wire x1="47.117" y1="25.1206" x2="49.53" y2="25.1206" width="0.8128" layer="16"/>
 <wire x1="49.53" y1="25.1206" x2="56.5658" y2="25.1206" width="0.8128" layer="16"/>
-<wire x1="44.1198" y1="28.1178" x2="47.117" y2="25.1206" width="0.8128" layer="16"/>
 <contactref element="U4" pad="5"/>
 <wire x1="73.7362" y1="28.1178" x2="77.216" y2="24.638" width="0.8128" layer="16"/>
 <wire x1="87.503" y1="24.638" x2="77.216" y2="24.638" width="0.8128" layer="16"/>
 <wire x1="90.9828" y1="28.1178" x2="87.503" y2="24.638" width="0.8128" layer="16"/>
 <wire x1="90.9828" y1="28.1178" x2="91.0844" y2="28.1178" width="0.254" layer="16"/>
-<wire x1="44.0182" y1="31.3182" x2="44.0944" y2="31.242" width="0.8128" layer="16"/>
 <wire x1="44.0944" y1="31.242" x2="44.0944" y2="28.1178" width="0.8128" layer="16"/>
 <wire x1="66.9544" y1="28.1178" x2="73.7362" y2="28.1178" width="0.8128" layer="16"/>
 <via x="49.53" y="64.1858" extent="1-16" drill="0.35"/>
@@ -2084,7 +2081,8 @@ design rules under a new name.</description>
 <wire x1="78.74" y1="86.9628" x2="76.5624" y2="84.7852" width="0.8128" layer="1"/>
 <wire x1="78.74" y1="86.9628" x2="78.74" y2="88.69" width="0.8128" layer="1"/>
 <wire x1="50.0888" y1="84.7852" x2="76.5624" y2="84.7852" width="0.8128" layer="1"/>
-<wire x1="44.0944" y1="28.1178" x2="44.1198" y2="28.1178" width="0" layer="19" extent="16-16"/>
+<wire x1="44.0944" y1="28.1178" x2="47.0916" y2="25.1206" width="0.8128" layer="16"/>
+<wire x1="47.0916" y1="25.1206" x2="49.53" y2="25.1206" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R7" pad="2"/>

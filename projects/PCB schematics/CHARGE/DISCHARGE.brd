@@ -150,8 +150,8 @@
 <hole x="93.98" y="93.98" drill="3"/>
 <hole x="5.08" y="93.98" drill="3"/>
 <text x="46.5074" y="90.3478" size="1.778" layer="25" font="vector">DISCHARGE Board
-Rev A: April 30th, 2019</text>
-<text x="62.865" y="-11.684" size="0.9144" layer="25">Author: github.com/michaelpass</text>
+Rev A: May 5th, 2019</text>
+<text x="66.675" y="3.556" size="0.9144" layer="25">Author: github.com/michaelpass</text>
 <wire x1="82.5754" y1="89.6366" x2="82.5754" y2="76.4286" width="0.1524" layer="25"/>
 <wire x1="82.5754" y1="76.4286" x2="96.5454" y2="76.4286" width="0.1524" layer="25"/>
 <wire x1="96.5454" y1="76.4286" x2="96.5454" y2="89.6366" width="0.1524" layer="25"/>
@@ -527,9 +527,10 @@ design rules under a new name.</description>
 <contactref element="HV-.2" pad="2"/>
 <wire x1="87.63" y1="54.61" x2="91.7702" y2="54.61" width="1.27" layer="1"/>
 <wire x1="91.44" y1="45.72" x2="87.2998" y2="45.72" width="1.27" layer="1"/>
-<wire x1="91.7702" y1="54.61" x2="91.7702" y2="45.72" width="1.27" layer="1"/>
 <wire x1="87.63" y1="54.61" x2="87.63" y2="46.0502" width="1.27" layer="1"/>
 <wire x1="87.63" y1="46.0502" x2="87.2998" y2="45.72" width="1.27" layer="1"/>
+<wire x1="91.7702" y1="54.61" x2="91.7702" y2="46.0502" width="1.27" layer="1"/>
+<wire x1="91.7702" y1="46.0502" x2="91.44" y2="45.72" width="1.27" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R6" pad="2"/>
@@ -600,16 +601,24 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,c4e5c7d261546263"/>
-<approved hash="4,1,25a432f394758322"/>
-<approved hash="4,1,25fc1293b415837a"/>
-<approved hash="4,1,2422235285d482a4"/>
-<approved hash="4,1,18241573b3f5bea2"/>
-<approved hash="4,1,3c7a368290049afc"/>
-<approved hash="4,16,18241573b3f5bea2"/>
-<approved hash="4,16,3c7a368290049afc"/>
-<approved hash="4,16,c4e5c7d261546263"/>
-<approved hash="4,16,25a432f394758322"/>
+<approved hash="4,1,dbfcece34765707a"/>
+<approved hash="4,1,da22dd2276a471a4"/>
+<approved hash="4,1,e624eb0340854da2"/>
+<approved hash="4,1,c27ac8f2637469fc"/>
+<approved hash="4,1,3ae539a292249163"/>
+<approved hash="4,1,dba4cc8367057022"/>
+<approved hash="4,16,e624eb0340854da2"/>
+<approved hash="4,16,c27ac8f2637469fc"/>
+<approved hash="4,16,3ae539a292249163"/>
+<approved hash="4,16,dba4cc8367057022"/>
+<approved hash="4,16,dbfcece34765707a"/>
+<approved hash="4,16,da22dd2276a471a4"/>
+<approved hash="2,20,84338c9964e36c49"/>
+<approved hash="2,20,84e9b16959136c93"/>
+<approved hash="2,20,841d92a57adf6c67"/>
+<approved hash="2,20,7a3c63e48b9e9246"/>
+<approved hash="2,20,901b96517e2b7861"/>
+<approved hash="2,20,b81db4a55cdf5067"/>
 </errors>
 </board>
 </drawing>

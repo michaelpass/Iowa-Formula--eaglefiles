@@ -150,7 +150,7 @@
 <hole x="2.54" y="95.25" drill="3"/>
 <hole x="91.44" y="95.25" drill="3"/>
 <text x="84.201" y="15.621" size="1.778" layer="25" font="vector" rot="R90">Rready-To-Drive Sound (RTDS) Board
-Rev A: 04/30/19</text>
+Rev A: May 5th, 2019</text>
 <wire x1="64.3128" y1="29.5402" x2="77.5208" y2="29.5402" width="0.1524" layer="25"/>
 <wire x1="77.5208" y1="29.5402" x2="77.5208" y2="43.5102" width="0.1524" layer="25"/>
 <wire x1="77.5208" y1="43.5102" x2="64.3128" y2="43.5102" width="0.1524" layer="25"/>
@@ -1970,7 +1970,7 @@ design rules under a new name.</description>
 <contactref element="GND.1" pad="1"/>
 <contactref element="GND.1" pad="2"/>
 <contactref element="U$2" pad="11"/>
-<polygon width="0.6096" layer="1" isolate="0.3048">
+<polygon width="0.6096" layer="1" isolate="0.4064">
 <vertex x="1.27" y="97.79"/>
 <vertex x="93.98" y="97.79"/>
 <vertex x="93.98" y="10.16"/>
@@ -1979,6 +1979,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="21"/>
 <contactref element="U$2" pad="15"/>
 <contactref element="U$3" pad="GND"/>
+<contactref element="U$1" pad="GND"/>
 </signal>
 <signal name="VCC">
 <contactref element="VCC.1" pad="1"/>
@@ -2089,9 +2090,6 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="81.28" x2="87.63" y2="85.09" width="0.6096" layer="1"/>
 <wire x1="87.63" y1="85.09" x2="87.63" y2="90.17" width="0.6096" layer="1"/>
 <wire x1="49.53" y1="81.28" x2="83.82" y2="81.28" width="0.6096" layer="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$1" pad="GND"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

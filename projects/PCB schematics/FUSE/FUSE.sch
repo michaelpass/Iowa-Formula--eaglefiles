@@ -435,7 +435,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 </segment>
 <segment>
 <label x="20.32" y="91.44" size="1.778" layer="95"/>
-<wire x1="27.7876" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="30.5816" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="HV-BATTERY" gate="A" pin="1"/>
 </segment>
 </net>
@@ -665,11 +665,6 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <wire x1="190.5" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <label x="193.04" y="73.66" size="1.778" layer="95"/>
 <pinref part="BMS" gate="A" pin="8"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<wire x1="30.48" y1="91.44" x2="28.0924" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT2" class="0">

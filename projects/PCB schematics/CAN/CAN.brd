@@ -90,7 +90,7 @@
 <wire x1="99.06" y1="99.06" x2="0" y2="99.06" width="0" layer="20"/>
 <wire x1="0" y1="99.06" x2="0" y2="0" width="0" layer="20"/>
 <text x="21.1074" y="9.0678" size="1.778" layer="25" font="vector">Controller Area Network (CAN) Connection Board
-Rev A: 04/08/19</text>
+Rev A: 05/05/19</text>
 <text x="67.3354" y="17.0434" size="0.9144" layer="25">Author: github.com/michaelpass</text>
 <wire x1="65.8114" y1="82.169" x2="65.8114" y2="71.501" width="0.1524" layer="25"/>
 <wire x1="65.8114" y1="71.501" x2="76.1238" y2="71.501" width="0.1524" layer="25"/>

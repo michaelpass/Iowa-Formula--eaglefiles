@@ -9186,9 +9186,9 @@ To determine resistor:
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,81.28,8.89,X4-8,S,,,,"/>
+<approved hash="101,1,81.28,8.89,CHRGCTRL-8,S,,,,"/>
 <approved hash="102,1,22.86,55.88,+5V,VCC,,,,"/>
-<approved hash="102,1,58.42,58.42,+12V,+12V-ISO,,,,"/>
+<approved hash="102,1,58.42,55.88,+12V,+12V-ISO,,,,"/>
 <approved hash="102,1,190.5,33.02,+5V,VCC,,,,"/>
 <approved hash="102,1,275.59,105.41,+12V,+12V-ISO,,,,"/>
 <approved hash="102,1,274.32,38.1,+12V,+12V-ISO,,,,"/>

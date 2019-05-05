@@ -89,15 +89,15 @@
 <wire x1="83.82" y1="0" x2="83.82" y2="48.26" width="0" layer="20"/>
 <wire x1="83.82" y1="48.26" x2="0" y2="48.26" width="0" layer="20"/>
 <wire x1="0" y1="48.26" x2="0" y2="0" width="0" layer="20"/>
-<hole x="5.08" y="3.81" drill="3"/>
-<hole x="78.74" y="3.81" drill="3"/>
+<hole x="5.08" y="5.08" drill="3"/>
+<hole x="78.74" y="5.08" drill="3"/>
 <hole x="78.74" y="43.18" drill="3"/>
 <hole x="5.08" y="43.18" drill="3"/>
 <text x="57.4294" y="22.479" size="1.778" layer="25">+</text>
 <text x="43.2308" y="23.9522" size="1.778" layer="25">+</text>
 <text x="26.3906" y="19.2024" size="1.778" layer="25">+</text>
 <text x="81.4832" y="18.1864" size="1.016" layer="25" font="vector" rot="R90">Accumulator Indicator Light
-Rev A: April 11th, 2019</text>
+Rev A: May 5th, 2019</text>
 <text x="1.651" y="13.1318" size="1.016" layer="25" font="vector">1. HV-_IMD
 2. HV-
 3. +15V-NONISO

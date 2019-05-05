@@ -8631,16 +8631,16 @@ Based on the following sources:
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="7409" urn="urn:adsk.eagle:symbol:2706/1" library_version="2">
-<wire x1="2.54" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<symbol name="7408" urn="urn:adsk.eagle:symbol:2705/1" library_version="2">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
 <text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I0" x="-12.7" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="oc" rot="R180"/>
+<pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 <symbol name="PWRN" urn="urn:adsk.eagle:symbol:2522/1" library_version="2">
 <text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
@@ -8665,14 +8665,14 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*09" urn="urn:adsk.eagle:component:2989/2" prefix="IC" library_version="2">
-<description>Quad 2-input &lt;b&gt;AND&lt;/b&gt; gate, open collector</description>
+<deviceset name="74*08" urn="urn:adsk.eagle:component:2988/2" prefix="IC" library_version="2">
+<description>Quad 2-input &lt;b&gt;AND&lt;/b&gt; gate</description>
 <gates>
-<gate name="A" symbol="7409" x="15.24" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="7409" x="15.24" y="-7.62" swaplevel="1"/>
-<gate name="C" symbol="7409" x="45.72" y="7.62" swaplevel="1"/>
-<gate name="D" symbol="7409" x="45.72" y="-7.62" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+<gate name="A" symbol="7408" x="20.32" y="0" swaplevel="1"/>
+<gate name="B" symbol="7408" x="20.32" y="-12.7" swaplevel="1"/>
+<gate name="C" symbol="7408" x="50.8" y="0" swaplevel="1"/>
+<gate name="D" symbol="7408" x="50.8" y="-12.7" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="2.54" y="-7.62" addlevel="request"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
@@ -8697,6 +8697,7 @@ Based on the following sources:
 </package3dinstances>
 <technologies>
 <technology name="ALS"/>
+<technology name="AS"/>
 <technology name="LS"/>
 <technology name="S"/>
 </technologies>
@@ -8723,6 +8724,7 @@ Based on the following sources:
 </package3dinstances>
 <technologies>
 <technology name="ALS"/>
+<technology name="AS"/>
 <technology name="LS"/>
 <technology name="S"/>
 </technologies>
@@ -8748,7 +8750,10 @@ Based on the following sources:
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2919/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 </devices>
@@ -9782,7 +9787,7 @@ source  http://products.analog.com/products/info.asp?product=OP400</description>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="AND1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*09" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="ALS"/>
+<part name="AND1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*08" device="D" package3d_urn="urn:adsk.eagle:package:2917/1" technology="ALS"/>
 <part name="OP1" library="IowaFormula" deviceset="MCP6L04T-E/SL" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
