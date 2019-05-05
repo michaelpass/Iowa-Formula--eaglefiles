@@ -406,9 +406,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U$1" library="IowaFormula" deviceset="PNC113" device=""/>
-<part name="J1" library="IowaFormula" deviceset="770966-1" device=""/>
-<part name="J2" library="IowaFormula" deviceset="770966-1" device=""/>
+<part name="PNC113" library="IowaFormula" deviceset="PNC113" device=""/>
+<part name="MOTORCONTROLLER+" library="IowaFormula" deviceset="770966-1" device=""/>
+<part name="HV-.1" library="IowaFormula" deviceset="770966-1" device=""/>
 <part name="R1" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R2" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R3" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
@@ -416,8 +416,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R5" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R6" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="HV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
-<part name="J4" library="IowaFormula" deviceset="770966-1" device=""/>
-<part name="J3" library="IowaFormula" deviceset="770966-1" device=""/>
+<part name="HV-.2" library="IowaFormula" deviceset="770966-1" device=""/>
+<part name="POST_RESISTOR" library="IowaFormula" deviceset="770966-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -430,13 +430,13 @@ Another wire must be run to HV connectors J1 and J2,
 where they are then run into board for resistors.</text>
 </plain>
 <instances>
-<instance part="U$1" gate="A" x="43.18" y="33.02" smashed="yes">
+<instance part="PNC113" gate="A" x="43.18" y="33.02" smashed="yes">
 <attribute name="PART" x="47.625" y="30.48" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="J1" gate="A" x="78.74" y="55.88" smashed="yes">
+<instance part="MOTORCONTROLLER+" gate="A" x="78.74" y="55.88" smashed="yes">
 <attribute name="NAME" x="82.9056" y="61.1886" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
-<instance part="J2" gate="A" x="78.74" y="22.86" smashed="yes">
+<instance part="HV-.1" gate="A" x="78.74" y="22.86" smashed="yes">
 <attribute name="NAME" x="82.9056" y="28.1686" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 <instance part="R1" gate="G$2" x="132.08" y="43.18" smashed="yes" rot="R90">
@@ -470,10 +470,10 @@ where they are then run into board for resistors.</text>
 <instance part="R4" gate="G$1" x="116.84" y="22.86" smashed="yes"/>
 <instance part="R5" gate="G$1" x="116.84" y="17.78" smashed="yes"/>
 <instance part="R6" gate="G$1" x="116.84" y="12.7" smashed="yes"/>
-<instance part="J4" gate="A" x="78.74" y="7.62" smashed="yes">
+<instance part="HV-.2" gate="A" x="78.74" y="7.62" smashed="yes">
 <attribute name="NAME" x="82.9056" y="12.9286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
-<instance part="J3" gate="A" x="78.74" y="38.1" smashed="yes">
+<instance part="POST_RESISTOR" gate="A" x="78.74" y="38.1" smashed="yes">
 <attribute name="NAME" x="82.9056" y="43.4086" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
@@ -482,10 +482,10 @@ where they are then run into board for resistors.</text>
 <nets>
 <net name="MOTORCONTROLLER+" class="0">
 <segment>
-<pinref part="J1" gate="A" pin="1"/>
+<pinref part="MOTORCONTROLLER+" gate="A" pin="1"/>
 <wire x1="78.74" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="55.88" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="2"/>
+<pinref part="MOTORCONTROLLER+" gate="A" pin="2"/>
 <wire x1="50.8" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <label x="50.8" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -498,18 +498,18 @@ where they are then run into board for resistors.</text>
 </net>
 <net name="HV-" class="0">
 <segment>
-<pinref part="J2" gate="A" pin="1"/>
+<pinref part="HV-.1" gate="A" pin="1"/>
 <wire x1="78.74" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="22.86" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="2"/>
+<pinref part="HV-.1" gate="A" pin="2"/>
 <wire x1="71.12" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <label x="73.66" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="A" pin="1"/>
+<pinref part="HV-.2" gate="A" pin="1"/>
 <wire x1="78.74" y1="7.62" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="7.62" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J4" gate="A" pin="2"/>
+<pinref part="HV-.2" gate="A" pin="2"/>
 <wire x1="71.12" y1="5.08" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
 <label x="73.66" y="7.62" size="1.778" layer="95"/>
 </segment>
@@ -555,14 +555,14 @@ where they are then run into board for resistors.</text>
 <segment>
 <wire x1="38.1" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <label x="30.48" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="A" pin="X1"/>
+<pinref part="PNC113" gate="A" pin="X1"/>
 </segment>
 </net>
 <net name="DISCHARGE_COIL-" class="0">
 <segment>
 <wire x1="38.1" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="30.48" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="A" pin="X2"/>
+<pinref part="PNC113" gate="A" pin="X2"/>
 </segment>
 </net>
 <net name="HEATSINK" class="0">
@@ -602,10 +602,10 @@ where they are then run into board for resistors.</text>
 <wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="A" pin="1"/>
+<pinref part="POST_RESISTOR" gate="A" pin="1"/>
 <wire x1="78.74" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="J3" gate="A" pin="2"/>
+<pinref part="POST_RESISTOR" gate="A" pin="2"/>
 <wire x1="55.88" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <label x="55.88" y="38.1" size="1.778" layer="95"/>
 </segment>

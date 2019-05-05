@@ -9878,8 +9878,8 @@ source  http://products.analog.com/products/info.asp?product=OP400</description>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:8078582/1"/>
+<part name="INPUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="OUTPUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:8078582/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10424,25 +10424,25 @@ despite brake system override being engaged.</text>
 <instance part="GND21" gate="1" x="340.36" y="271.78" smashed="yes">
 <attribute name="VALUE" x="337.82" y="269.24" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="53.34" y="289.56" smashed="yes">
+<instance part="INPUT" gate="-1" x="53.34" y="289.56" smashed="yes">
 <attribute name="NAME" x="55.88" y="288.798" size="1.524" layer="95"/>
 <attribute name="VALUE" x="52.578" y="290.957" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="53.34" y="284.48" smashed="yes">
+<instance part="INPUT" gate="-2" x="53.34" y="284.48" smashed="yes">
 <attribute name="NAME" x="55.88" y="283.718" size="1.524" layer="95"/>
 <attribute name="VALUE" x="52.578" y="285.877" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-1" x="91.44" y="289.56" smashed="yes">
+<instance part="OUTPUT" gate="-1" x="91.44" y="289.56" smashed="yes">
 <attribute name="NAME" x="93.98" y="288.798" size="1.524" layer="95"/>
 <attribute name="VALUE" x="90.678" y="290.957" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="91.44" y="287.02" smashed="yes">
+<instance part="OUTPUT" gate="-2" x="91.44" y="287.02" smashed="yes">
 <attribute name="NAME" x="93.98" y="286.258" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-3" x="91.44" y="284.48" smashed="yes">
+<instance part="OUTPUT" gate="-3" x="91.44" y="284.48" smashed="yes">
 <attribute name="NAME" x="93.98" y="283.718" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-4" x="91.44" y="281.94" smashed="yes">
+<instance part="OUTPUT" gate="-4" x="91.44" y="281.94" smashed="yes">
 <attribute name="NAME" x="93.98" y="281.178" size="1.524" layer="95"/>
 </instance>
 <instance part="C1" gate="G$1" x="30.48" y="256.54" smashed="yes">
@@ -11204,7 +11204,7 @@ despite brake system override being engaged.</text>
 <junction x="152.4" y="287.02"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="INPUT" gate="-1" pin="S"/>
 <wire x1="50.8" y1="289.56" x2="22.86" y2="289.56" width="0.1524" layer="91"/>
 <label x="22.86" y="289.56" size="1.778" layer="95"/>
 </segment>
@@ -11238,7 +11238,7 @@ despite brake system override being engaged.</text>
 </segment>
 <segment>
 <wire x1="50.8" y1="284.48" x2="22.86" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="INPUT" gate="-2" pin="S"/>
 <label x="22.86" y="284.48" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11606,7 +11606,7 @@ despite brake system override being engaged.</text>
 <pinref part="OR1" gate="A" pin="O"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="OUTPUT" gate="-1" pin="S"/>
 <wire x1="88.9" y1="289.56" x2="68.58" y2="289.56" width="0.1524" layer="91"/>
 <label x="68.58" y="289.56" size="1.778" layer="95"/>
 </segment>
@@ -11618,7 +11618,7 @@ despite brake system override being engaged.</text>
 <pinref part="OR1" gate="B" pin="O"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="OUTPUT" gate="-2" pin="S"/>
 <wire x1="68.58" y1="287.02" x2="88.9" y2="287.02" width="0.1524" layer="91"/>
 <label x="68.58" y="287.02" size="1.778" layer="95"/>
 </segment>
@@ -12092,7 +12092,7 @@ despite brake system override being engaged.</text>
 <pinref part="OR2" gate="D" pin="O"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-3" pin="S"/>
+<pinref part="OUTPUT" gate="-3" pin="S"/>
 <wire x1="68.58" y1="284.48" x2="88.9" y2="284.48" width="0.1524" layer="91"/>
 <label x="68.58" y="284.48" size="1.778" layer="95"/>
 </segment>

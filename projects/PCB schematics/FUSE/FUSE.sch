@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -338,8 +338,8 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <part name="F18" library="0885001.DR" deviceset="0885001.DR" device=""/>
 <part name="F19" library="0885001.DR" deviceset="0885001.DR" device=""/>
 <part name="F20" library="0885001.DR" deviceset="0885001.DR" device=""/>
-<part name="J1" library="con-MATE-N-LOK" deviceset="24P(90DEG)_1-794108-0" device=""/>
-<part name="J2" library="con-MATE-N-LOK" deviceset="24P(90DEG)_1-794108-0" device=""/>
+<part name="HV-BATTERY" library="con-MATE-N-LOK" deviceset="24P(90DEG)_1-794108-0" device=""/>
+<part name="BMS" library="con-MATE-N-LOK" deviceset="24P(90DEG)_1-794108-0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -417,10 +417,10 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <attribute name="NAME" x="148.59" y="45.72" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="F20" gate="G$1" x="132.08" y="40.64" smashed="yes"/>
-<instance part="J1" gate="A" x="17.78" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="13.6144" y="96.7486" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="HV-BATTERY" gate="A" x="17.78" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="6.7056" y="98.8314" size="2.0828" layer="95" ratio="6" rot="SMR180"/>
 </instance>
-<instance part="J2" gate="A" x="208.28" y="91.44" smashed="yes">
+<instance part="BMS" gate="A" x="208.28" y="91.44" smashed="yes">
 <attribute name="NAME" x="212.4456" y="96.7486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
@@ -436,14 +436,14 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <label x="20.32" y="91.44" size="1.778" layer="95"/>
 <wire x1="27.7876" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="1"/>
+<pinref part="HV-BATTERY" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="INPUT22" class="0">
 <segment>
 <wire x1="30.48" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <label x="20.32" y="38.1" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="22"/>
+<pinref part="HV-BATTERY" gate="A" pin="22"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
@@ -455,7 +455,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="20.32" y="35.56" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="23"/>
+<pinref part="HV-BATTERY" gate="A" pin="23"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
@@ -467,7 +467,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 <label x="20.32" y="33.02" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="24"/>
+<pinref part="HV-BATTERY" gate="A" pin="24"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
@@ -479,7 +479,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="193.04" y="66.04" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="11"/>
+<pinref part="BMS" gate="A" pin="11"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
@@ -491,7 +491,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <label x="193.04" y="63.5" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="12"/>
+<pinref part="BMS" gate="A" pin="12"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
@@ -503,7 +503,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 <label x="193.04" y="60.96" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="13"/>
+<pinref part="BMS" gate="A" pin="13"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
@@ -515,7 +515,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <label x="193.04" y="58.42" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="14"/>
+<pinref part="BMS" gate="A" pin="14"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
@@ -527,7 +527,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 <label x="193.04" y="55.88" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="15"/>
+<pinref part="BMS" gate="A" pin="15"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
@@ -539,7 +539,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <label x="193.04" y="53.34" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="16"/>
+<pinref part="BMS" gate="A" pin="16"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
@@ -551,7 +551,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="50.8" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 <label x="193.04" y="50.8" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="17"/>
+<pinref part="BMS" gate="A" pin="17"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
@@ -563,7 +563,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 <label x="193.04" y="48.26" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="18"/>
+<pinref part="BMS" gate="A" pin="18"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
@@ -575,7 +575,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 <label x="193.04" y="45.72" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="19"/>
+<pinref part="BMS" gate="A" pin="19"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
@@ -587,7 +587,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
 <label x="193.04" y="43.18" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="20"/>
+<pinref part="BMS" gate="A" pin="20"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
@@ -604,7 +604,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="1"/>
+<pinref part="BMS" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="OUTPUT2" class="0">
@@ -616,7 +616,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="193.04" y="88.9" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="2"/>
+<pinref part="BMS" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="OUTPUT5" class="0">
@@ -628,7 +628,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 <label x="193.04" y="81.28" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="5"/>
+<pinref part="BMS" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="OUTPUT6" class="0">
@@ -640,7 +640,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
 <label x="193.04" y="78.74" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="6"/>
+<pinref part="BMS" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="OUTPUT7" class="0">
@@ -652,7 +652,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="193.04" y="76.2" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="7"/>
+<pinref part="BMS" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="OUTPUT8" class="0">
@@ -664,7 +664,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <label x="193.04" y="73.66" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="8"/>
+<pinref part="BMS" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -676,7 +676,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
 <label x="20.32" y="88.9" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="2"/>
+<pinref part="HV-BATTERY" gate="A" pin="2"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
@@ -688,7 +688,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="20.32" y="86.36" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="3"/>
+<pinref part="HV-BATTERY" gate="A" pin="3"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
@@ -700,7 +700,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
 <label x="20.32" y="83.82" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="4"/>
+<pinref part="HV-BATTERY" gate="A" pin="4"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
@@ -712,7 +712,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
 <label x="20.32" y="81.28" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="5"/>
+<pinref part="HV-BATTERY" gate="A" pin="5"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
@@ -724,7 +724,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 <label x="20.32" y="78.74" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="6"/>
+<pinref part="HV-BATTERY" gate="A" pin="6"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
@@ -736,7 +736,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
 <label x="20.32" y="76.2" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="7"/>
+<pinref part="HV-BATTERY" gate="A" pin="7"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
@@ -748,7 +748,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <label x="20.32" y="71.12" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="9"/>
+<pinref part="HV-BATTERY" gate="A" pin="9"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
@@ -760,7 +760,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="20.32" y="73.66" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="8"/>
+<pinref part="HV-BATTERY" gate="A" pin="8"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
@@ -772,7 +772,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="20.32" y="68.58" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="10"/>
+<pinref part="HV-BATTERY" gate="A" pin="10"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
@@ -784,7 +784,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="20.32" y="66.04" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="11"/>
+<pinref part="HV-BATTERY" gate="A" pin="11"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
@@ -796,7 +796,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="20.32" y="63.5" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="12"/>
+<pinref part="HV-BATTERY" gate="A" pin="12"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
@@ -808,7 +808,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="20.32" y="60.96" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="13"/>
+<pinref part="HV-BATTERY" gate="A" pin="13"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
@@ -820,7 +820,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="20.32" y="58.42" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="14"/>
+<pinref part="HV-BATTERY" gate="A" pin="14"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
@@ -832,7 +832,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="20.32" y="55.88" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="15"/>
+<pinref part="HV-BATTERY" gate="A" pin="15"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
@@ -844,7 +844,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="20.32" y="53.34" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="16"/>
+<pinref part="HV-BATTERY" gate="A" pin="16"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
@@ -856,7 +856,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <label x="20.32" y="50.8" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="17"/>
+<pinref part="HV-BATTERY" gate="A" pin="17"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
@@ -868,7 +868,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="20.32" y="48.26" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="18"/>
+<pinref part="HV-BATTERY" gate="A" pin="18"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
@@ -880,7 +880,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <label x="20.32" y="45.72" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="19"/>
+<pinref part="HV-BATTERY" gate="A" pin="19"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
@@ -892,7 +892,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="17.78" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="20.32" y="43.18" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="20"/>
+<pinref part="HV-BATTERY" gate="A" pin="20"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
@@ -904,7 +904,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="30.48" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="20.32" y="40.64" size="1.778" layer="95"/>
-<pinref part="J1" gate="A" pin="21"/>
+<pinref part="HV-BATTERY" gate="A" pin="21"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
@@ -921,7 +921,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 <label x="193.04" y="86.36" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="3"/>
+<pinref part="BMS" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="OUTPUT9" class="0">
@@ -933,7 +933,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 <label x="193.04" y="71.12" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="9"/>
+<pinref part="BMS" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="OUTPUT10" class="0">
@@ -945,14 +945,14 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 <label x="193.04" y="68.58" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="10"/>
+<pinref part="BMS" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="OUTPUT4" class="0">
 <segment>
 <wire x1="190.5" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
 <label x="193.04" y="83.82" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="4"/>
+<pinref part="BMS" gate="A" pin="4"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
@@ -964,7 +964,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
 <label x="193.04" y="40.64" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="21"/>
+<pinref part="BMS" gate="A" pin="21"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
@@ -976,7 +976,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="193.04" y="38.1" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="22"/>
+<pinref part="BMS" gate="A" pin="22"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="25.4" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
@@ -988,7 +988,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
 <label x="193.04" y="35.56" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="23"/>
+<pinref part="BMS" gate="A" pin="23"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="17.78" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
@@ -1000,7 +1000,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <segment>
 <wire x1="190.5" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
 <label x="193.04" y="33.02" size="1.778" layer="95"/>
-<pinref part="J2" gate="A" pin="24"/>
+<pinref part="BMS" gate="A" pin="24"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>

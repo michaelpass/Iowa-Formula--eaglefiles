@@ -5428,8 +5428,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="J2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="120Ω.1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="120Ω.2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5483,11 +5483,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND3" gate="1" x="10.16" y="66.04" smashed="yes">
 <attribute name="VALUE" x="7.62" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="35.56" y="48.26" smashed="yes" rot="R180">
+<instance part="120Ω.1" gate="G$1" x="35.56" y="48.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="36.83" y="55.88" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="36.83" y="42.418" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="35.56" y="30.48" smashed="yes" rot="R180">
+<instance part="120Ω.2" gate="G$1" x="35.56" y="30.48" smashed="yes" rot="R180">
 <attribute name="VALUE" x="36.83" y="38.1" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="36.83" y="24.638" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -5602,21 +5602,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="120Ω.2" gate="G$1" pin="3"/>
 <wire x1="27.94" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="120Ω.2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="120Ω.1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5664,18 +5664,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="120Ω.1" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="120Ω.2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 <label x="7.62" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="120Ω.1" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <label x="7.62" y="48.26" size="1.778" layer="95"/>
 </segment>

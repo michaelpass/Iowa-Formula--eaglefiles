@@ -8418,11 +8418,11 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+8V" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="J1" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
-<part name="J2" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
-<part name="J4" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
-<part name="J3" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
-<part name="J5" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="HV+_POST_AIR" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="HV-_POST_AIR" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="HV-" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="+15V-NONISO" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
+<part name="LED" library="con-MATE-N-LOK" deviceset="2P(90DEG)_1-770966-0" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1" value="IRFZ44Z"/>
@@ -8517,20 +8517,20 @@ present at HV battery terminals</text>
 <attribute name="NAME" x="232.156" y="86.741" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="235.204" y="81.661" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="A" x="25.4" y="91.44" smashed="yes" rot="MR0">
+<instance part="HV+_POST_AIR" gate="A" x="25.4" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="21.2344" y="96.7486" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J2" gate="A" x="76.2" y="91.44" smashed="yes" rot="MR0">
+<instance part="HV-_POST_AIR" gate="A" x="76.2" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="72.0344" y="96.7486" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J4" gate="A" x="76.2" y="76.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.0344" y="81.5086" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="HV-" gate="A" x="76.2" y="76.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="72.0344" y="78.9686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J3" gate="A" x="25.4" y="76.2" smashed="yes" rot="MR0">
+<instance part="+15V-NONISO" gate="A" x="25.4" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="21.2344" y="81.5086" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J5" gate="A" x="76.2" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.0344" y="68.8086" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="LED" gate="A" x="76.2" y="63.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="72.0344" y="66.2686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="213.36" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.8614" y="26.67" size="1.778" layer="95" rot="R90"/>
@@ -8607,8 +8607,8 @@ present at HV battery terminals</text>
 <wire x1="78.74" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <junction x="78.74" y="76.2"/>
 <label x="83.82" y="76.2" size="1.778" layer="95" xref="yes"/>
-<pinref part="J4" gate="A" pin="1"/>
-<pinref part="J4" gate="A" pin="2"/>
+<pinref part="HV-" gate="A" pin="1"/>
+<pinref part="HV-" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -8675,7 +8675,7 @@ present at HV battery terminals</text>
 <junction x="147.32" y="86.36"/>
 </segment>
 </net>
-<net name="HV+_POST_AIR+" class="0">
+<net name="HV+_POST_AIR" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="91.44" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
@@ -8683,8 +8683,8 @@ present at HV battery terminals</text>
 <wire x1="27.94" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
 <junction x="27.94" y="91.44"/>
 <label x="33.02" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="A" pin="1"/>
-<pinref part="J1" gate="A" pin="2"/>
+<pinref part="HV+_POST_AIR" gate="A" pin="1"/>
+<pinref part="HV+_POST_AIR" gate="A" pin="2"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
@@ -8725,8 +8725,8 @@ present at HV battery terminals</text>
 <wire x1="27.94" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <junction x="27.94" y="76.2"/>
 <label x="33.02" y="76.2" size="1.778" layer="95" xref="yes"/>
-<pinref part="J3" gate="A" pin="1"/>
-<pinref part="J3" gate="A" pin="2"/>
+<pinref part="+15V-NONISO" gate="A" pin="1"/>
+<pinref part="+15V-NONISO" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="1" pin="V+"/>
@@ -8735,7 +8735,7 @@ present at HV battery terminals</text>
 <pinref part="SH1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="HV-_POST_AIR-" class="0">
+<net name="HV-_POST_AIR" class="0">
 <segment>
 <wire x1="76.2" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="91.44" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
@@ -8743,8 +8743,8 @@ present at HV battery terminals</text>
 <wire x1="78.74" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <junction x="78.74" y="91.44"/>
 <label x="83.82" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="J2" gate="A" pin="1"/>
-<pinref part="J2" gate="A" pin="2"/>
+<pinref part="HV-_POST_AIR" gate="A" pin="1"/>
+<pinref part="HV-_POST_AIR" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -8803,7 +8803,7 @@ present at HV battery terminals</text>
 </net>
 <net name="LED+" class="0">
 <segment>
-<pinref part="J5" gate="A" pin="1"/>
+<pinref part="LED" gate="A" pin="1"/>
 <wire x1="76.2" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -8815,7 +8815,7 @@ present at HV battery terminals</text>
 </net>
 <net name="LED-" class="0">
 <segment>
-<pinref part="J5" gate="A" pin="2"/>
+<pinref part="LED" gate="A" pin="2"/>
 <wire x1="76.2" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <label x="83.82" y="60.96" size="1.778" layer="95"/>
 </segment>

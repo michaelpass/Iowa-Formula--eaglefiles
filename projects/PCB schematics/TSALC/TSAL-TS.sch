@@ -8806,16 +8806,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SDE6603-102M.
 <part name="+5V" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="+5V"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="VCC" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="TSAL_CONTROL_SIGNAL" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="PS1" library="M57184N-715B" deviceset="M57184N-715B" device=""/>
 <part name="C4" library="EEU-FS1H221L" deviceset="EEU-FS1H221L" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="HV-"/>
-<part name="J1" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
-<part name="J2" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
-<part name="J3" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
-<part name="J4" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
+<part name="HV+" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
+<part name="MOTORCONTROLLER+" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
+<part name="MOTORCONTROLLER-" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
+<part name="HV-" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -8952,19 +8952,19 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <attribute name="NAME" x="213.36" y="36.6014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="213.36" y="41.402" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X2" gate="-1" x="22.86" y="78.74" smashed="yes">
+<instance part="VCC" gate="-1" x="22.86" y="78.74" smashed="yes">
 <attribute name="NAME" x="25.4" y="77.978" size="1.524" layer="95"/>
 <attribute name="VALUE" x="22.098" y="80.137" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="22.86" y="73.66" smashed="yes">
+<instance part="VCC" gate="-2" x="22.86" y="73.66" smashed="yes">
 <attribute name="NAME" x="25.4" y="72.898" size="1.524" layer="95"/>
 <attribute name="VALUE" x="22.098" y="75.057" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="78.74" y="78.74" smashed="yes">
+<instance part="TSAL_CONTROL_SIGNAL" gate="-1" x="78.74" y="78.74" smashed="yes">
 <attribute name="NAME" x="81.28" y="77.978" size="1.524" layer="95"/>
 <attribute name="VALUE" x="77.978" y="80.137" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="78.74" y="73.66" smashed="yes">
+<instance part="TSAL_CONTROL_SIGNAL" gate="-2" x="78.74" y="73.66" smashed="yes">
 <attribute name="NAME" x="81.28" y="72.898" size="1.524" layer="95"/>
 <attribute name="VALUE" x="77.978" y="75.057" size="1.778" layer="96"/>
 </instance>
@@ -8982,17 +8982,17 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <instance part="SUPPLY9" gate="GND" x="2.54" y="12.7" smashed="yes">
 <attribute name="VALUE" x="0.635" y="9.525" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="A" x="-27.94" y="121.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-32.1056" y="127.2286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="HV+" gate="A" x="-27.94" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-34.6456" y="124.6886" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J2" gate="A" x="-27.94" y="137.16" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-32.1056" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="MOTORCONTROLLER+" gate="A" x="-27.94" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-32.1056" y="139.9286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J3" gate="A" x="27.94" y="137.16" smashed="yes" rot="MR0">
-<attribute name="NAME" x="23.7744" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="MOTORCONTROLLER-" gate="A" x="27.94" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="23.7744" y="139.9286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="J4" gate="A" x="27.94" y="121.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="23.7744" y="127.2286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+<instance part="HV-" gate="A" x="27.94" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="18.6944" y="124.6886" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="121.92" y="15.24" smashed="yes">
 <attribute name="NAME" x="118.11" y="16.7386" size="1.778" layer="95"/>
@@ -9135,8 +9135,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="30.48" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
 <junction x="30.48" y="121.92"/>
 <label x="35.56" y="121.92" size="1.778" layer="95" xref="yes"/>
-<pinref part="J4" gate="A" pin="1"/>
-<pinref part="J4" gate="A" pin="2"/>
+<pinref part="HV-" gate="A" pin="1"/>
+<pinref part="HV-" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="A" pin="C"/>
@@ -9179,10 +9179,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <junction x="246.38" y="43.18"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="VCC" gate="-1" pin="S"/>
 <wire x1="20.32" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="78.74" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="VCC" gate="-2" pin="S"/>
 <wire x1="17.78" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <junction x="17.78" y="78.74"/>
@@ -9205,10 +9205,10 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 </net>
 <net name="TSAL_CONTROL_SIGNAL" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="TSAL_CONTROL_SIGNAL" gate="-1" pin="S"/>
 <wire x1="76.2" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="78.74" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="TSAL_CONTROL_SIGNAL" gate="-2" pin="S"/>
 <wire x1="73.66" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="73.66" y="78.74"/>
@@ -9235,8 +9235,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="-25.4" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-25.4" y="121.92"/>
 <label x="-20.32" y="121.92" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="A" pin="1"/>
-<pinref part="J1" gate="A" pin="2"/>
+<pinref part="HV+" gate="A" pin="1"/>
+<pinref part="HV+" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9348,8 +9348,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="-25.4" y1="137.16" x2="-20.32" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-25.4" y="137.16"/>
 <label x="-20.32" y="137.16" size="1.778" layer="95" xref="yes"/>
-<pinref part="J2" gate="A" pin="1"/>
-<pinref part="J2" gate="A" pin="2"/>
+<pinref part="MOTORCONTROLLER+" gate="A" pin="1"/>
+<pinref part="MOTORCONTROLLER+" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
@@ -9365,8 +9365,8 @@ Assuming that current cannot flow between these points, I've added 5x10k resisto
 <wire x1="30.48" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <junction x="30.48" y="137.16"/>
 <label x="35.56" y="137.16" size="1.778" layer="95" xref="yes"/>
-<pinref part="J3" gate="A" pin="1"/>
-<pinref part="J3" gate="A" pin="2"/>
+<pinref part="MOTORCONTROLLER-" gate="A" pin="1"/>
+<pinref part="MOTORCONTROLLER-" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>

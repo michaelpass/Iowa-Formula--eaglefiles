@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8627,10 +8627,10 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLZ44Z" device="" package3d_urn="urn:adsk.eagle:package:29490/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="VCC.1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="VCC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="+12V-ISO.1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
@@ -8657,7 +8657,7 @@ Source: &lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/fuse
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device="" package3d_urn="urn:adsk.eagle:package:8078580/1"/>
+<part name="CHRGCTRL" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device="" package3d_urn="urn:adsk.eagle:package:8078580/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SH1" library="shorts" deviceset="SHORT" device="A5"/>
@@ -8727,33 +8727,31 @@ To determine resistor:
 <instance part="GND1" gate="1" x="274.32" y="12.7" smashed="yes">
 <attribute name="VALUE" x="271.78" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="27.94" y="53.34" smashed="yes">
+<instance part="VCC.1" gate="-1" x="27.94" y="53.34" smashed="yes">
 <attribute name="NAME" x="30.48" y="52.578" size="1.524" layer="95"/>
 <attribute name="VALUE" x="27.178" y="54.737" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="27.94" y="43.18" smashed="yes">
+<instance part="VCC.1" gate="-2" x="27.94" y="43.18" smashed="yes">
 <attribute name="NAME" x="30.48" y="42.418" size="1.524" layer="95"/>
 <attribute name="VALUE" x="27.178" y="44.577" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC" gate="1" x="22.86" y="58.42" smashed="yes">
-<attribute name="VALUE" x="20.32" y="58.42" size="1.778" layer="96" rot="R180"/>
-</instance>
+<instance part="VCC" gate="1" x="22.86" y="58.42" smashed="yes"/>
 <instance part="GND2" gate="1" x="22.86" y="38.1" smashed="yes">
 <attribute name="VALUE" x="20.32" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-1" x="63.5" y="53.34" smashed="yes">
-<attribute name="NAME" x="66.04" y="52.578" size="1.524" layer="95"/>
-<attribute name="VALUE" x="62.738" y="54.737" size="1.778" layer="96"/>
+<instance part="+12V-ISO.1" gate="-1" x="63.5" y="50.8" smashed="yes">
+<attribute name="NAME" x="66.04" y="50.038" size="1.524" layer="95"/>
+<attribute name="VALUE" x="62.738" y="52.197" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="63.5" y="48.26" smashed="yes">
-<attribute name="NAME" x="66.04" y="47.498" size="1.524" layer="95"/>
-<attribute name="VALUE" x="62.738" y="49.657" size="1.778" layer="96"/>
+<instance part="+12V-ISO.1" gate="-2" x="63.5" y="45.72" smashed="yes">
+<attribute name="NAME" x="66.04" y="44.958" size="1.524" layer="95"/>
+<attribute name="VALUE" x="62.738" y="47.117" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="58.42" y="60.96" smashed="yes">
-<attribute name="VALUE" x="55.88" y="60.96" size="1.778" layer="96" rot="R180"/>
+<instance part="P+2" gate="1" x="58.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="55.88" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND3" gate="1" x="58.42" y="43.18" smashed="yes">
-<attribute name="VALUE" x="55.88" y="40.64" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="58.42" y="40.64" smashed="yes">
+<attribute name="VALUE" x="55.88" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="182.88" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="186.69" y="21.3614" size="1.778" layer="95" rot="R180"/>
@@ -8841,29 +8839,29 @@ To determine resistor:
 <attribute name="NAME" x="255.27" y="94.2086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.27" y="89.408" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="-1" x="83.82" y="26.67" smashed="yes">
+<instance part="CHRGCTRL" gate="-1" x="83.82" y="26.67" smashed="yes">
 <attribute name="NAME" x="86.36" y="25.908" size="1.524" layer="95"/>
 <attribute name="VALUE" x="83.058" y="28.067" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="-2" x="83.82" y="24.13" smashed="yes">
+<instance part="CHRGCTRL" gate="-2" x="83.82" y="24.13" smashed="yes">
 <attribute name="NAME" x="86.36" y="23.368" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-3" x="83.82" y="21.59" smashed="yes">
+<instance part="CHRGCTRL" gate="-3" x="83.82" y="21.59" smashed="yes">
 <attribute name="NAME" x="86.36" y="20.828" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-4" x="83.82" y="19.05" smashed="yes">
+<instance part="CHRGCTRL" gate="-4" x="83.82" y="19.05" smashed="yes">
 <attribute name="NAME" x="86.36" y="18.288" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-5" x="83.82" y="16.51" smashed="yes">
+<instance part="CHRGCTRL" gate="-5" x="83.82" y="16.51" smashed="yes">
 <attribute name="NAME" x="86.36" y="15.748" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-6" x="83.82" y="13.97" smashed="yes">
+<instance part="CHRGCTRL" gate="-6" x="83.82" y="13.97" smashed="yes">
 <attribute name="NAME" x="86.36" y="13.208" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-7" x="83.82" y="11.43" smashed="yes">
+<instance part="CHRGCTRL" gate="-7" x="83.82" y="11.43" smashed="yes">
 <attribute name="NAME" x="86.36" y="10.668" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-8" x="83.82" y="8.89" smashed="yes">
+<instance part="CHRGCTRL" gate="-8" x="83.82" y="8.89" smashed="yes">
 <attribute name="NAME" x="86.36" y="8.128" size="1.524" layer="95"/>
 </instance>
 <instance part="GND8" gate="1" x="274.32" y="55.88" smashed="yes">
@@ -8889,7 +8887,7 @@ To determine resistor:
 <wire x1="274.32" y1="17.78" x2="274.32" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="VCC.1" gate="-2" pin="S"/>
 <wire x1="25.4" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <label x="8.89" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -8906,13 +8904,13 @@ To determine resistor:
 <junction x="20.32" y="43.18"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="60.96" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<junction x="58.42" y="48.26"/>
-<wire x1="58.42" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
-<label x="53.34" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="+12V-ISO.1" gate="-2" pin="S"/>
+<wire x1="60.96" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<junction x="58.42" y="45.72"/>
+<wire x1="58.42" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="53.34" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -8968,7 +8966,7 @@ To determine resistor:
 <segment>
 <wire x1="81.28" y1="26.67" x2="55.88" y2="26.67" width="0.1524" layer="91"/>
 <label x="55.88" y="26.67" size="1.778" layer="95"/>
-<pinref part="X4" gate="-1" pin="S"/>
+<pinref part="CHRGCTRL" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="PRECHARGE_KEY12V" class="0">
@@ -8980,18 +8978,18 @@ To determine resistor:
 <segment>
 <wire x1="81.28" y1="11.43" x2="55.88" y2="11.43" width="0.1524" layer="91"/>
 <label x="55.88" y="11.43" size="1.778" layer="95"/>
-<pinref part="X4" gate="-7" pin="S"/>
+<pinref part="CHRGCTRL" gate="-7" pin="S"/>
 </segment>
 </net>
 <net name="+12V-ISO" class="0">
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="60.96" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="+12V-ISO.1" gate="-1" pin="S"/>
+<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="58.42" y1="58.42" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<label x="53.34" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="53.34" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<junction x="58.42" y="53.34"/>
+<wire x1="58.42" y1="55.88" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="53.34" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<junction x="58.42" y="50.8"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -9028,7 +9026,7 @@ To determine resistor:
 <segment>
 <wire x1="81.28" y1="24.13" x2="55.88" y2="24.13" width="0.1524" layer="91"/>
 <label x="55.88" y="24.13" size="1.778" layer="95"/>
-<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="CHRGCTRL" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="TAB11" class="0">
@@ -9053,7 +9051,7 @@ To determine resistor:
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="VCC.1" gate="-1" pin="S"/>
 <wire x1="25.4" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 <label x="8.89" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="22.86" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
@@ -9102,7 +9100,7 @@ To determine resistor:
 <segment>
 <label x="55.88" y="16.51" size="1.778" layer="95"/>
 <wire x1="81.28" y1="16.51" x2="55.88" y2="16.51" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-5" pin="S"/>
+<pinref part="CHRGCTRL" gate="-5" pin="S"/>
 </segment>
 <segment>
 <pinref part="SH2" gate="G$1" pin="P$2"/>
@@ -9120,7 +9118,7 @@ To determine resistor:
 <segment>
 <wire x1="55.88" y1="13.97" x2="81.28" y2="13.97" width="0.1524" layer="91"/>
 <label x="55.88" y="13.97" size="1.778" layer="95"/>
-<pinref part="X4" gate="-6" pin="S"/>
+<pinref part="CHRGCTRL" gate="-6" pin="S"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9163,7 +9161,7 @@ To determine resistor:
 <segment>
 <wire x1="81.28" y1="21.59" x2="55.88" y2="21.59" width="0.1524" layer="91"/>
 <label x="55.88" y="21.59" size="1.778" layer="95"/>
-<pinref part="X4" gate="-3" pin="S"/>
+<pinref part="CHRGCTRL" gate="-3" pin="S"/>
 </segment>
 <segment>
 <pinref part="SH1" gate="G$1" pin="P$2"/>
@@ -9175,7 +9173,7 @@ To determine resistor:
 <segment>
 <wire x1="81.28" y1="19.05" x2="55.88" y2="19.05" width="0.1524" layer="91"/>
 <label x="55.88" y="19.05" size="1.778" layer="95"/>
-<pinref part="X4" gate="-4" pin="S"/>
+<pinref part="CHRGCTRL" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
