@@ -112,15 +112,15 @@
 <wire x1="67.8942" y1="43.3578" x2="66.2686" y2="38.9636" width="0.254" layer="25"/>
 <wire x1="66.2686" y1="38.9636" x2="63.373" y2="38.9636" width="0.254" layer="25"/>
 <text x="55.8546" y="32.3596" size="2.54" layer="25" font="vector">Iowa Formula</text>
-<text x="56.261" y="29.2354" size="1.4224" layer="25" font="vector">Inputs (X2):</text>
-<text x="56.1594" y="18.9992" size="0.9144" layer="25">1. AIR_CONTROL
+<text x="51.181" y="29.2354" size="1.4224" layer="25" font="vector">Inputs (CHRGCTRL):</text>
+<text x="51.0794" y="18.9992" size="0.9144" layer="25">1. AIR_CONTROL
 2. AIR+_COIL+ 
 3. AIR-_COIL+
 4. AIR-_COIL-
 5. DISCHARGE_COIL+
 6. DISCHARGE_COIL-
 7. PRECHARGE_KEY12V</text>
-<wire x1="56.1086" y1="28.8544" x2="67.9958" y2="28.8544" width="0.1524" layer="25"/>
+<wire x1="51.0286" y1="28.8544" x2="67.9958" y2="28.8544" width="0.1524" layer="25"/>
 <text x="24.9174" y="12.8778" size="1.778" layer="25" font="vector">Pre-charge Control (CHARGE) Board
 Rev A: 04/08/19</text>
 <text x="46.355" y="13.716" size="0.9144" layer="25">Author: github.com/michaelpass</text>

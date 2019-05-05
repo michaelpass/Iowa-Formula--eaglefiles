@@ -361,41 +361,6 @@ Reauthored: github.com/michaelpass (04/02/2019)&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2" urn="urn:adsk.eagle:library:372">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
-GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
-Please keep in mind, that these devices are necessary for the
-automatic wiring of the supply signals.&lt;p&gt;
-The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
-In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND1" urn="urn:adsk.eagle:symbol:26991/1" library_version="2">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.159" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND1" urn="urn:adsk.eagle:component:27039/1" prefix="SUPPLY" library_version="2">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="GND1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -415,7 +380,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R4" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R5" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
 <part name="R6" library="PF1262" deviceset="PF1262-HEATSINK" device="TO126" value="560"/>
-<part name="HV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 <part name="HV-.2" library="IowaFormula" deviceset="770966-1" device=""/>
 <part name="POST_RESISTOR" library="IowaFormula" deviceset="770966-1" device=""/>
 </parts>
@@ -463,7 +427,6 @@ where they are then run into board for resistors.</text>
 <attribute name="NAME" x="141.1986" y="46.99" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.398" y="46.99" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="HV-" gate="G$1" x="147.32" y="43.18" smashed="yes"/>
 <instance part="R1" gate="G$1" x="116.84" y="40.64" smashed="yes"/>
 <instance part="R2" gate="G$1" x="116.84" y="33.02" smashed="yes"/>
 <instance part="R3" gate="G$1" x="116.84" y="27.94" smashed="yes"/>
@@ -595,11 +558,8 @@ where they are then run into board for resistors.</text>
 <segment>
 <pinref part="R6" gate="G$2" pin="1"/>
 <wire x1="139.7" y1="48.26" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="50.8" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="HV-" gate="G$1" pin="GND1"/>
+<wire x1="139.7" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="149.86" y="50.8" size="1.778" layer="95" xref="yes"/>
-<wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POST_RESISTOR" gate="A" pin="1"/>
@@ -619,11 +579,6 @@ where they are then run into board for resistors.</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

@@ -9143,8 +9143,8 @@ W = angled&lt;p&gt;
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="AND1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="LVC" value="74LVC1G08DBV"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-12" device="" package3d_urn="urn:adsk.eagle:package:8078578/1"/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
+<part name="INPUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-12" device="" package3d_urn="urn:adsk.eagle:package:8078578/1"/>
+<part name="OUTPUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
 <part name="NOT1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G14" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AUC" value="74AUC1G14DBV"/>
 <part name="TEMP" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="FUSE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
@@ -9550,72 +9550,72 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <attribute name="NAME" x="960.12" y="59.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="960.12" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="25.4" y="106.68" smashed="yes">
+<instance part="INPUT" gate="-1" x="25.4" y="106.68" smashed="yes">
 <attribute name="NAME" x="27.94" y="105.918" size="1.524" layer="95"/>
 <attribute name="VALUE" x="24.638" y="108.077" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="25.4" y="104.14" smashed="yes">
+<instance part="INPUT" gate="-2" x="25.4" y="104.14" smashed="yes">
 <attribute name="NAME" x="27.94" y="103.378" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-3" x="25.4" y="101.6" smashed="yes">
+<instance part="INPUT" gate="-3" x="25.4" y="101.6" smashed="yes">
 <attribute name="NAME" x="27.94" y="100.838" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-4" x="25.4" y="99.06" smashed="yes">
+<instance part="INPUT" gate="-4" x="25.4" y="99.06" smashed="yes">
 <attribute name="NAME" x="27.94" y="98.298" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-5" x="25.4" y="96.52" smashed="yes">
+<instance part="INPUT" gate="-5" x="25.4" y="96.52" smashed="yes">
 <attribute name="NAME" x="27.94" y="95.758" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-6" x="25.4" y="93.98" smashed="yes">
+<instance part="INPUT" gate="-6" x="25.4" y="93.98" smashed="yes">
 <attribute name="NAME" x="27.94" y="93.218" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-7" x="25.4" y="91.44" smashed="yes">
+<instance part="INPUT" gate="-7" x="25.4" y="91.44" smashed="yes">
 <attribute name="NAME" x="27.94" y="90.678" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-8" x="25.4" y="88.9" smashed="yes">
+<instance part="INPUT" gate="-8" x="25.4" y="88.9" smashed="yes">
 <attribute name="NAME" x="27.94" y="88.138" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-9" x="25.4" y="86.36" smashed="yes">
+<instance part="INPUT" gate="-9" x="25.4" y="86.36" smashed="yes">
 <attribute name="NAME" x="27.94" y="85.598" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-10" x="25.4" y="83.82" smashed="yes">
+<instance part="INPUT" gate="-10" x="25.4" y="83.82" smashed="yes">
 <attribute name="NAME" x="27.94" y="83.058" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-11" x="25.4" y="81.28" smashed="yes">
+<instance part="INPUT" gate="-11" x="25.4" y="81.28" smashed="yes">
 <attribute name="NAME" x="27.94" y="80.518" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="-12" x="25.4" y="78.74" smashed="yes">
+<instance part="INPUT" gate="-12" x="25.4" y="78.74" smashed="yes">
 <attribute name="NAME" x="27.94" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-1" x="68.58" y="106.68" smashed="yes">
+<instance part="OUTPUT" gate="-1" x="68.58" y="106.68" smashed="yes">
 <attribute name="NAME" x="71.12" y="105.918" size="1.524" layer="95"/>
 <attribute name="VALUE" x="67.818" y="108.077" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="68.58" y="104.14" smashed="yes">
+<instance part="OUTPUT" gate="-2" x="68.58" y="104.14" smashed="yes">
 <attribute name="NAME" x="71.12" y="103.378" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-3" x="68.58" y="101.6" smashed="yes">
+<instance part="OUTPUT" gate="-3" x="68.58" y="101.6" smashed="yes">
 <attribute name="NAME" x="71.12" y="100.838" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-4" x="68.58" y="99.06" smashed="yes">
+<instance part="OUTPUT" gate="-4" x="68.58" y="99.06" smashed="yes">
 <attribute name="NAME" x="71.12" y="98.298" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-5" x="68.58" y="96.52" smashed="yes">
+<instance part="OUTPUT" gate="-5" x="68.58" y="96.52" smashed="yes">
 <attribute name="NAME" x="71.12" y="95.758" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-6" x="68.58" y="93.98" smashed="yes">
+<instance part="OUTPUT" gate="-6" x="68.58" y="93.98" smashed="yes">
 <attribute name="NAME" x="71.12" y="93.218" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-7" x="68.58" y="91.44" smashed="yes">
+<instance part="OUTPUT" gate="-7" x="68.58" y="91.44" smashed="yes">
 <attribute name="NAME" x="71.12" y="90.678" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-8" x="68.58" y="88.9" smashed="yes">
+<instance part="OUTPUT" gate="-8" x="68.58" y="88.9" smashed="yes">
 <attribute name="NAME" x="71.12" y="88.138" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-9" x="68.58" y="86.36" smashed="yes">
+<instance part="OUTPUT" gate="-9" x="68.58" y="86.36" smashed="yes">
 <attribute name="NAME" x="71.12" y="85.598" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate="-10" x="68.58" y="83.82" smashed="yes">
+<instance part="OUTPUT" gate="-10" x="68.58" y="83.82" smashed="yes">
 <attribute name="NAME" x="71.12" y="83.058" size="1.524" layer="95"/>
 </instance>
 <instance part="NOT1" gate="A" x="919.48" y="50.8" smashed="yes">
@@ -10181,7 +10181,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="AND1" gate="A" pin="I0"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-10" pin="S"/>
+<pinref part="INPUT" gate="-10" pin="S"/>
 <wire x1="22.86" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 <label x="0" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -10201,7 +10201,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <label x="0" y="106.68" size="1.778" layer="95"/>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="INPUT" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -10217,7 +10217,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <label x="0" y="104.14" size="1.778" layer="95"/>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="INPUT" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -10233,7 +10233,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="0" y="96.52" size="1.778" layer="95"/>
-<pinref part="X2" gate="-5" pin="S"/>
+<pinref part="INPUT" gate="-5" pin="S"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -10249,7 +10249,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 <label x="0" y="101.6" size="1.778" layer="95"/>
-<pinref part="X2" gate="-3" pin="S"/>
+<pinref part="INPUT" gate="-3" pin="S"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -10265,7 +10265,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <label x="0" y="99.06" size="1.778" layer="95"/>
-<pinref part="X2" gate="-4" pin="S"/>
+<pinref part="INPUT" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -10281,7 +10281,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="0" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="0" y="91.44" size="1.778" layer="95"/>
-<pinref part="X2" gate="-7" pin="S"/>
+<pinref part="INPUT" gate="-7" pin="S"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -10406,7 +10406,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 <label x="0" y="88.9" size="1.778" layer="95"/>
-<pinref part="X2" gate="-8" pin="S"/>
+<pinref part="INPUT" gate="-8" pin="S"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -10422,14 +10422,14 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="2.54" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <label x="0" y="86.36" size="1.778" layer="95"/>
-<pinref part="X2" gate="-9" pin="S"/>
+<pinref part="INPUT" gate="-9" pin="S"/>
 </segment>
 </net>
 <net name="TEMPFAULT" class="0">
 <segment>
 <wire x1="0" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <label x="0" y="93.98" size="1.778" layer="95"/>
-<pinref part="X2" gate="-6" pin="S"/>
+<pinref part="INPUT" gate="-6" pin="S"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -10450,7 +10450,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-10" pin="S"/>
+<pinref part="OUTPUT" gate="-10" pin="S"/>
 <label x="40.64" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -10520,7 +10520,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <pinref part="NOR4" gate="D" pin="I1"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-11" pin="S"/>
+<pinref part="INPUT" gate="-11" pin="S"/>
 <wire x1="22.86" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <label x="0" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -10571,7 +10571,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="OUTPUT" gate="-2" pin="S"/>
 <label x="40.64" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10859,7 +10859,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <segment>
 <wire x1="66.04" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="40.64" y="106.68" size="1.778" layer="95"/>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="OUTPUT" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="OR1" gate="A" pin="I0"/>
@@ -10878,7 +10878,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-3" pin="S"/>
+<pinref part="OUTPUT" gate="-3" pin="S"/>
 <label x="40.64" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10911,7 +10911,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-4" pin="S"/>
+<pinref part="OUTPUT" gate="-4" pin="S"/>
 <label x="40.64" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10957,7 +10957,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-6" pin="S"/>
+<pinref part="OUTPUT" gate="-6" pin="S"/>
 <label x="40.64" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10990,7 +10990,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-7" pin="S"/>
+<pinref part="OUTPUT" gate="-7" pin="S"/>
 <label x="40.64" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11023,7 +11023,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 </segment>
 <segment>
 <wire x1="40.64" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-8" pin="S"/>
+<pinref part="OUTPUT" gate="-8" pin="S"/>
 <label x="40.64" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11085,7 +11085,7 @@ coil current and responds direclty to both hardward and software fault codes.</t
 <net name="BMSFAULT_LED" class="0">
 <segment>
 <wire x1="40.64" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-5" pin="S"/>
+<pinref part="OUTPUT" gate="-5" pin="S"/>
 <label x="40.64" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>

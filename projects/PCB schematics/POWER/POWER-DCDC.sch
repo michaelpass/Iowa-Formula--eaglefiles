@@ -852,18 +852,18 @@ Dual-Sided Heatsink</text>
 </class>
 </classes>
 <parts>
-<part name="PS1" library="DCM4623" deviceset="DCM4623TD2K31E0M70" device=""/>
-<part name="+12V-ISO1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name="+12V-ISO2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="ISO-DCDC" library="DCM4623" deviceset="DCM4623TD2K31E0M70" device=""/>
+<part name="+12V-ISO.1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="+12V-ISO.2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="HV+" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
 <part name="HV-" library="con-MATE-N-LOK" deviceset="2P_1-770166-0" device=""/>
-<part name="&gt;GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
-<part name=".GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="GND.1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
+<part name="GND.2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device="" package3d_urn="urn:adsk.eagle:package:8078583/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="F1" library="IowaFormula" deviceset="0505030.MXEP" device=""/>
-<part name="U$1" library="IowaFormula" deviceset="DCMHEATSINK" device=""/>
+<part name="HEATSINK" library="IowaFormula" deviceset="DCMHEATSINK" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="IowaFormula" deviceset="PWR221T-30-1R00F" device=""/>
 <part name="U$3" library="IowaFormula" deviceset="SRP1238A-4R7M" device=""/>
@@ -889,23 +889,23 @@ Dual-Sided Heatsink</text>
 500VAC/VDC</text>
 </plain>
 <instances>
-<instance part="PS1" gate="G$1" x="71.12" y="45.72" smashed="yes">
+<instance part="ISO-DCDC" gate="G$1" x="71.12" y="45.72" smashed="yes">
 <attribute name="NAME" x="74.93" y="53.34" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="74.93" y="50.8" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="+12V-ISO1" gate="-1" x="50.8" y="81.28" smashed="yes">
+<instance part="+12V-ISO.1" gate="-1" x="50.8" y="81.28" smashed="yes">
 <attribute name="NAME" x="53.34" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="50.038" y="82.677" size="1.778" layer="96"/>
 </instance>
-<instance part="+12V-ISO1" gate="-2" x="50.8" y="76.2" smashed="yes">
+<instance part="+12V-ISO.1" gate="-2" x="50.8" y="76.2" smashed="yes">
 <attribute name="NAME" x="53.34" y="75.438" size="1.524" layer="95"/>
 <attribute name="VALUE" x="50.038" y="77.597" size="1.778" layer="96"/>
 </instance>
-<instance part="+12V-ISO2" gate="-1" x="50.8" y="68.58" smashed="yes">
+<instance part="+12V-ISO.2" gate="-1" x="50.8" y="68.58" smashed="yes">
 <attribute name="NAME" x="53.34" y="67.818" size="1.524" layer="95"/>
 <attribute name="VALUE" x="50.038" y="69.977" size="1.778" layer="96"/>
 </instance>
-<instance part="+12V-ISO2" gate="-2" x="50.8" y="63.5" smashed="yes">
+<instance part="+12V-ISO.2" gate="-2" x="50.8" y="63.5" smashed="yes">
 <attribute name="NAME" x="53.34" y="62.738" size="1.524" layer="95"/>
 <attribute name="VALUE" x="50.038" y="64.897" size="1.778" layer="96"/>
 </instance>
@@ -915,19 +915,19 @@ Dual-Sided Heatsink</text>
 <instance part="HV-" gate="A" x="15.24" y="68.58" smashed="yes">
 <attribute name="NAME" x="19.4056" y="71.3486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
-<instance part="&gt;GND" gate="-1" x="86.36" y="81.28" smashed="yes">
+<instance part="GND.1" gate="-1" x="86.36" y="81.28" smashed="yes">
 <attribute name="NAME" x="88.9" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="85.598" y="82.677" size="1.778" layer="96"/>
 </instance>
-<instance part="&gt;GND" gate="-2" x="86.36" y="76.2" smashed="yes">
+<instance part="GND.1" gate="-2" x="86.36" y="76.2" smashed="yes">
 <attribute name="NAME" x="88.9" y="75.438" size="1.524" layer="95"/>
 <attribute name="VALUE" x="85.598" y="77.597" size="1.778" layer="96"/>
 </instance>
-<instance part=".GND" gate="-1" x="86.36" y="68.58" smashed="yes">
+<instance part="GND.2" gate="-1" x="86.36" y="68.58" smashed="yes">
 <attribute name="NAME" x="88.9" y="67.818" size="1.524" layer="95"/>
 <attribute name="VALUE" x="85.598" y="69.977" size="1.778" layer="96"/>
 </instance>
-<instance part=".GND" gate="-2" x="86.36" y="63.5" smashed="yes">
+<instance part="GND.2" gate="-2" x="86.36" y="63.5" smashed="yes">
 <attribute name="NAME" x="88.9" y="62.738" size="1.524" layer="95"/>
 <attribute name="VALUE" x="85.598" y="64.897" size="1.778" layer="96"/>
 </instance>
@@ -938,7 +938,7 @@ Dual-Sided Heatsink</text>
 <attribute name="VALUE" x="-0.0762" y="42.3164" size="1.27" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="4.8006" y="47.1424" size="1.27" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="U$1" gate="A" x="132.08" y="45.72" smashed="yes"/>
+<instance part="HEATSINK" gate="A" x="132.08" y="45.72" smashed="yes"/>
 <instance part="GND2" gate="1" x="68.58" y="33.02" smashed="yes">
 <attribute name="VALUE" x="66.04" y="30.48" size="1.778" layer="96"/>
 </instance>
@@ -1025,7 +1025,7 @@ Dual-Sided Heatsink</text>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="PS1" gate="G$1" pin="-IN"/>
+<pinref part="ISO-DCDC" gate="G$1" pin="-IN"/>
 <wire x1="104.14" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="111.76" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -1038,8 +1038,8 @@ Dual-Sided Heatsink</text>
 <junction x="45.72" y="81.28"/>
 <wire x1="45.72" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <label x="33.02" y="81.28" size="1.778" layer="95"/>
-<pinref part="+12V-ISO1" gate="-1" pin="S"/>
-<pinref part="+12V-ISO1" gate="-2" pin="S"/>
+<pinref part="+12V-ISO.1" gate="-1" pin="S"/>
+<pinref part="+12V-ISO.1" gate="-2" pin="S"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
@@ -1048,8 +1048,8 @@ Dual-Sided Heatsink</text>
 <junction x="45.72" y="68.58"/>
 <wire x1="45.72" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <label x="33.02" y="68.58" size="1.778" layer="95"/>
-<pinref part="+12V-ISO2" gate="-1" pin="S"/>
-<pinref part="+12V-ISO2" gate="-2" pin="S"/>
+<pinref part="+12V-ISO.2" gate="-1" pin="S"/>
+<pinref part="+12V-ISO.2" gate="-2" pin="S"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="22.86" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
@@ -1078,8 +1078,8 @@ Dual-Sided Heatsink</text>
 <junction x="81.28" y="81.28"/>
 <wire x1="81.28" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="68.58" y="81.28" size="1.778" layer="95"/>
-<pinref part="&gt;GND" gate="-1" pin="S"/>
-<pinref part="&gt;GND" gate="-2" pin="S"/>
+<pinref part="GND.1" gate="-1" pin="S"/>
+<pinref part="GND.1" gate="-2" pin="S"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
@@ -1088,13 +1088,13 @@ Dual-Sided Heatsink</text>
 <junction x="81.28" y="68.58"/>
 <wire x1="81.28" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
 <label x="68.58" y="68.58" size="1.778" layer="95"/>
-<pinref part=".GND" gate="-1" pin="S"/>
-<pinref part=".GND" gate="-2" pin="S"/>
+<pinref part="GND.2" gate="-1" pin="S"/>
+<pinref part="GND.2" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="68.58" y1="35.56" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="PS1" gate="G$1" pin="-OUT_1"/>
+<pinref part="ISO-DCDC" gate="G$1" pin="-OUT_1"/>
 <wire x1="68.58" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1142,7 +1142,7 @@ Dual-Sided Heatsink</text>
 </net>
 <net name="+12V-OUT" class="0">
 <segment>
-<pinref part="PS1" gate="G$1" pin="+OUT_1"/>
+<pinref part="ISO-DCDC" gate="G$1" pin="+OUT_1"/>
 <wire x1="71.12" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
@@ -1185,7 +1185,7 @@ Dual-Sided Heatsink</text>
 <junction x="35.56" y="45.72"/>
 <pinref part="C7" gate="A" pin="1"/>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="PS1" gate="G$1" pin="+IN"/>
+<pinref part="ISO-DCDC" gate="G$1" pin="+IN"/>
 <wire x1="40.64" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <junction x="40.64" y="45.72"/>
 <pinref part="C1" gate="A" pin="1"/>
